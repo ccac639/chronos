@@ -5,6 +5,10 @@ import { LangProvider } from '@/lib/lang-context'
 export const metadata: Metadata = {
   title: '风尘录 Chronos',
   description: 'AI驱动的沉浸式历史模拟学习平台',
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo-icon.jpg',
+  },
 }
 
 export const viewport: Viewport = {

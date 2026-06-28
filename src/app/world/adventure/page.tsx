@@ -821,18 +821,23 @@ function AdventureContent() {
   const animatedScore = useCountUp(phase === 'SCORE_SCREEN' ? totalScore : 0);
   const animatedFragments = useCountUp(phase === 'SCORE_SCREEN' ? fragments.length : 0);
 
-  /* ── 加载中 ── */
+  /* ── 加载中 / 世界未找到 ── */
   if (phase === 'LOADING' || !world) {
     return (
       <div className="fixed inset-0 flex flex-col items-center justify-center"
         style={{ background: 'var(--ink-deepest)', color: 'var(--xuan)' }}>
         <div className="seal-stamp mb-6" style={{ fontSize: '1.25rem' }}>CHRONOS</div>
         <div className="animate-breathe" style={{ fontFamily: 'var(--font-serif)', fontSize: '1.125rem', opacity: 0.8 }}>
-          正在加载平行世界...
+          数据待更新
         </div>
-        <div className="progress-ink mt-6" style={{ width: '12rem' }}>
-          <div className="progress-ink-fill" style={{ width: '60%', animation: 'shimmer 1.5s linear infinite' }} />
-        </div>
+        <p className="text-xs mt-2 mb-6" style={{ color: 'var(--ink-light)', opacity: 0.5 }}>这个平行世界尚未生成，敬请期待</p>
+        <button
+          onClick={goBack}
+          className="px-5 py-2.5 rounded-full text-xs font-medium tap-bounce"
+          style={{ background: 'var(--azurite)', color: '#fff', boxShadow: '0 2px 12px rgba(46,134,193,0.3)' }}
+        >
+          返回世界列表
+        </button>
       </div>
     );
   }

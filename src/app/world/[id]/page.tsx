@@ -292,15 +292,20 @@ export default function WorldDetailPage() {
       <div className="min-h-screen flex flex-col items-center justify-center pb-20"
         style={{ backgroundColor: 'var(--xuan)' }}
       >
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-16 h-16 mb-4"
-          style={{ color: 'var(--ink-light)' }}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-16 h-16 mb-4 animate-breathe"
+          style={{ color: 'var(--gamboge)' }}
         >
           <circle cx="12" cy="12" r="10" />
-          <line x1="12" y1="8" x2="12" y2="12" />
-          <line x1="12" y1="16" x2="12.01" y2="16" />
+          <path d="M12 6v6l4 2" />
         </svg>
-        <p className="text-sm font-serif" style={{ color: 'var(--ink-medium)' }}>这个世界不存在</p>
-        <Link href="/world" className="text-xs mt-2 tap-bounce" style={{ color: 'var(--azurite)' }}>
+        <p className="text-sm font-serif font-bold mb-2" style={{ color: 'var(--ink-dark)' }}>数据待更新</p>
+        <p className="text-xs font-serif mb-4" style={{ color: 'var(--ink-medium)' }}>这个平行世界尚未生成，敬请期待</p>
+        <Link href="/world" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-medium tap-bounce"
+          style={{ background: 'var(--azurite)', color: '#fff', boxShadow: '0 2px 12px rgba(46,134,193,0.3)' }}
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5">
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
           返回世界列表
         </Link>
       </div>
@@ -868,6 +873,13 @@ export default function WorldDetailPage() {
           </div>
         </section>
       )}
+
+      {/* ===== AI Disclaimer ===== */}
+      <div className="px-4 py-3">
+        <p className="text-center text-[10px] font-serif" style={{ color: 'var(--ink-light)', opacity: 0.5 }}>
+          本世界所有数据（剧情、人物、地图、阵营等）均由 AI 生成，仅供娱乐参考，不构成真实历史记录
+        </p>
+      </div>
 
       {/* ===== Bottom Tab Bar ===== */}
       <BottomTabBar active="world" />
