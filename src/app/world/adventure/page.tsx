@@ -713,7 +713,7 @@ export default function AdventurePage() {
     const charSet = new Set<string>();
     world.characterArcs?.forEach(arc => charSet.add(arc.name));
     world.chapters.forEach(ch => ch.keyFigures.forEach(f => charSet.add(f.name)));
-    return [...charSet];
+    return Array.from(charSet);
   }, [world]);
 
   // 最大分数
