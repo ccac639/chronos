@@ -1,0 +1,654 @@
+{
+  "eraId": "primary-inventions",
+  "eraName": "四大发明",
+  "playerRole": "造纸学徒",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "入坊拜师",
+      "isKeyAct": true,
+      "sceneDescription": "天刚蒙蒙亮，你便已起身。来到造纸作坊，跟随蔡伦派系的工匠学习四周静谧无声，只有微风拂过树梢的沙沙声。你作为造纸学徒，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "师傅",
+          "text": "今日有新活计。",
+          "avatar": "师"
+        },
+        {
+          "speaker": "官员",
+          "text": "材料备齐了？",
+          "avatar": "吏"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-1-1",
+          "text": "反复观察琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "入坊拜师进展顺利",
+          "historicalNote": "蔡伦改进造纸术的历史背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-1-2",
+          "text": "大胆尝试新工艺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "入坊拜师遇到波折",
+          "historicalNote": "蔡伦改进造纸术的历史背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-1-3",
+          "text": "请教师傅前辈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "入坊拜师取得进展",
+          "historicalNote": "蔡伦改进造纸术的历史背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-1-4",
+          "text": "按部就班操作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "入坊拜师遭遇困境",
+          "historicalNote": "蔡伦改进造纸术的历史背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-1-5",
+          "text": "改良工具设备",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "入坊拜师获得突破",
+          "historicalNote": "蔡伦改进造纸术的历史背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-1-6",
+          "text": "精益求精打磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "入坊拜师平稳推进",
+          "historicalNote": "蔡伦改进造纸术的历史背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-2"
+    },
+    {
+      "id": "act-2",
+      "title": "选料浸泡",
+      "isKeyAct": false,
+      "sceneDescription": "你环顾四周，忽然被某物吸引了注意力。学习选取树皮、麻头、破布等原料这发现或许将改变很多事情。你作为造纸学徒，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "此法甚妙，是谁传授的？",
+          "avatar": "友"
+        },
+        {
+          "speaker": "书生",
+          "text": "自己摸索出来的。",
+          "avatar": "书"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-2-1",
+          "text": "仔细检查材料",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "选料浸泡进展顺利",
+          "historicalNote": "造纸原料的选择与处理工艺相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-2-2",
+          "text": "改进传统方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "选料浸泡遇到波折",
+          "historicalNote": "造纸原料的选择与处理工艺相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-2-3",
+          "text": "与同门探讨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "选料浸泡取得进展",
+          "historicalNote": "造纸原料的选择与处理工艺相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-2-4",
+          "text": "遵循既定流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "选料浸泡遭遇困境",
+          "historicalNote": "造纸原料的选择与处理工艺相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-2-5",
+          "text": "优化工艺流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "选料浸泡获得突破",
+          "historicalNote": "造纸原料的选择与处理工艺相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-2-6",
+          "text": "严格把关质量",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "选料浸泡平稳推进",
+          "historicalNote": "造纸原料的选择与处理工艺相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-3"
+    },
+    {
+      "id": "act-3",
+      "title": "蒸煮捣浆",
+      "isKeyAct": false,
+      "sceneDescription": "突然，危险悄然而至。将原料蒸煮后反复捣碎成纸浆你立刻警觉起来，心跳加速，必须迅速做出判断。你作为造纸学徒，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "官员",
+          "text": "窑要塌了！",
+          "avatar": "吏"
+        },
+        {
+          "speaker": "商人",
+          "text": "快撤！",
+          "avatar": "商"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-3-1",
+          "text": "研究问题根源",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "蒸煮捣浆进展顺利",
+          "historicalNote": "造纸术对中国文化传播的推动作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-3-2",
+          "text": "突破技术瓶颈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "蒸煮捣浆遇到波折",
+          "historicalNote": "造纸术对中国文化传播的推动作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-3-3",
+          "text": "查阅技艺典籍",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "蒸煮捣浆取得进展",
+          "historicalNote": "造纸术对中国文化传播的推动作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-3-4",
+          "text": "确保每步稳妥",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "蒸煮捣浆遭遇困境",
+          "historicalNote": "造纸术对中国文化传播的推动作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-3-5",
+          "text": "发明新技法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "蒸煮捣浆获得突破",
+          "historicalNote": "造纸术对中国文化传播的推动作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-3-6",
+          "text": "传承匠心精神",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "蒸煮捣浆平稳推进",
+          "historicalNote": "造纸术对中国文化传播的推动作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-4"
+    },
+    {
+      "id": "act-4",
+      "title": "抄纸成型",
+      "isKeyAct": true,
+      "sceneDescription": "所有的准备都是为了这一刻。用竹帘从浆池中抄出均匀的纸膜你深吸一口气，心中既紧张又充满期待。你作为造纸学徒，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "书生",
+          "text": "今日做了几件？",
+          "avatar": "书"
+        },
+        {
+          "speaker": "师傅",
+          "text": "三件，比昨日多一件。",
+          "avatar": "师"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-4-1",
+          "text": "反复观察琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "抄纸成型进展顺利",
+          "historicalNote": "造纸术后来传入世界的影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-4-2",
+          "text": "大胆尝试新工艺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "抄纸成型遇到波折",
+          "historicalNote": "造纸术后来传入世界的影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-4-3",
+          "text": "请教师傅前辈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "抄纸成型取得进展",
+          "historicalNote": "造纸术后来传入世界的影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-4-4",
+          "text": "按部就班操作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "抄纸成型遭遇困境",
+          "historicalNote": "造纸术后来传入世界的影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-4-5",
+          "text": "改良工具设备",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "抄纸成型获得突破",
+          "historicalNote": "造纸术后来传入世界的影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-4-6",
+          "text": "精益求精打磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "抄纸成型平稳推进",
+          "historicalNote": "造纸术后来传入世界的影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-5"
+    },
+    {
+      "id": "act-5",
+      "title": "干燥压光",
+      "isKeyAct": false,
+      "sceneDescription": "日子如流水般静静淌过。将湿纸贴于火墙烘干并压平在这平静之中，你思考着未来的方向与选择。你作为造纸学徒，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "商人",
+          "text": "这火候得再稳些。",
+          "avatar": "商"
+        },
+        {
+          "speaker": "同伴",
+          "text": "是，师傅。",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-5-1",
+          "text": "仔细检查材料",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "干燥压光进展顺利",
+          "historicalNote": "蔡伦改进造纸术的历史背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-5-2",
+          "text": "改进传统方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "干燥压光遇到波折",
+          "historicalNote": "蔡伦改进造纸术的历史背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-5-3",
+          "text": "与同门探讨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "干燥压光取得进展",
+          "historicalNote": "蔡伦改进造纸术的历史背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-5-4",
+          "text": "遵循既定流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "干燥压光遭遇困境",
+          "historicalNote": "蔡伦改进造纸术的历史背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-5-5",
+          "text": "优化工艺流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "干燥压光获得突破",
+          "historicalNote": "蔡伦改进造纸术的历史背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-5-6",
+          "text": "严格把关质量",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "干燥压光平稳推进",
+          "historicalNote": "蔡伦改进造纸术的历史背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-6"
+    },
+    {
+      "id": "act-6",
+      "title": "品质检验",
+      "isKeyAct": false,
+      "sceneDescription": "对立的情绪在空气中弥漫。检验纸张的厚度、韧性和吸墨性你感受到来自各方的压力，必须冷静思考化解之道。你作为造纸学徒，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "师傅",
+          "text": "偷工减料可不行！",
+          "avatar": "师"
+        },
+        {
+          "speaker": "官员",
+          "text": "就这一次，神不知鬼不觉。",
+          "avatar": "吏"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-6-1",
+          "text": "研究问题根源",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "品质检验进展顺利",
+          "historicalNote": "造纸原料的选择与处理工艺相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-6-2",
+          "text": "突破技术瓶颈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "品质检验遇到波折",
+          "historicalNote": "造纸原料的选择与处理工艺相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-6-3",
+          "text": "查阅技艺典籍",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "品质检验取得进展",
+          "historicalNote": "造纸原料的选择与处理工艺相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-6-4",
+          "text": "确保每步稳妥",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "品质检验遭遇困境",
+          "historicalNote": "造纸原料的选择与处理工艺相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-6-5",
+          "text": "发明新技法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "品质检验获得突破",
+          "historicalNote": "造纸原料的选择与处理工艺相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-6-6",
+          "text": "传承匠心精神",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "品质检验平稳推进",
+          "historicalNote": "造纸原料的选择与处理工艺相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-7"
+    },
+    {
+      "id": "act-7",
+      "title": "批量生产",
+      "isKeyAct": false,
+      "sceneDescription": "经历了这一切，你有了新的领悟。为朝廷批量制造书写用纸这些宝贵的经验将成为你继续前行的心灵支柱。你作为造纸学徒，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "手艺是门面，马虎不得。",
+          "avatar": "友"
+        },
+        {
+          "speaker": "书生",
+          "text": "师傅教训的是。",
+          "avatar": "书"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-7-1",
+          "text": "反复观察琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "批量生产进展顺利",
+          "historicalNote": "造纸术对中国文化传播的推动作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-7-2",
+          "text": "大胆尝试新工艺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "批量生产遇到波折",
+          "historicalNote": "造纸术对中国文化传播的推动作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-7-3",
+          "text": "请教师傅前辈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "批量生产取得进展",
+          "historicalNote": "造纸术对中国文化传播的推动作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-7-4",
+          "text": "按部就班操作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "批量生产遭遇困境",
+          "historicalNote": "造纸术对中国文化传播的推动作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-7-5",
+          "text": "改良工具设备",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "批量生产获得突破",
+          "historicalNote": "造纸术对中国文化传播的推动作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-7-6",
+          "text": "精益求精打磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "批量生产平稳推进",
+          "historicalNote": "造纸术对中国文化传播的推动作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-8"
+    },
+    {
+      "id": "act-8",
+      "title": "纸传天下",
+      "isKeyAct": true,
+      "sceneDescription": "故事接近尾声，而你的旅程仍在继续。看到自己的纸张被用于书写典籍这段经历将永远铭刻在你的记忆中，成为生命的一部分。你作为造纸学徒，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "官员",
+          "text": "今日做了几件？",
+          "avatar": "吏"
+        },
+        {
+          "speaker": "商人",
+          "text": "三件，比昨日多一件。",
+          "avatar": "商"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-8-1",
+          "text": "仔细检查材料",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "纸传天下进展顺利",
+          "historicalNote": "造纸术后来传入世界的影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-8-2",
+          "text": "改进传统方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "纸传天下遇到波折",
+          "historicalNote": "造纸术后来传入世界的影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-8-3",
+          "text": "与同门探讨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "纸传天下取得进展",
+          "historicalNote": "造纸术后来传入世界的影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-8-4",
+          "text": "遵循既定流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "纸传天下遭遇困境",
+          "historicalNote": "造纸术后来传入世界的影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-8-5",
+          "text": "优化工艺流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "纸传天下获得突破",
+          "historicalNote": "造纸术后来传入世界的影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-8-6",
+          "text": "严格把关质量",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "纸传天下平稳推进",
+          "historicalNote": "造纸术后来传入世界的影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ]
+    }
+  ]
+}

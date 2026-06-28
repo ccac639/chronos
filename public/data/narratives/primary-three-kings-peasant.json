@@ -1,0 +1,654 @@
+{
+  "eraId": "primary-three-kings",
+  "eraName": "三国故事",
+  "playerRole": "乱世农夫",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "战火蔓延",
+      "isKeyAct": true,
+      "sceneDescription": "清晨的第一缕阳光洒在脸上，你深吸一口气。战争波及家乡，农田被毁新的一天充满了未知与挑战。你作为乱世农夫，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "老兵",
+          "text": "今日出发得早，希望能有好收获。",
+          "avatar": "兵"
+        },
+        {
+          "speaker": "军官",
+          "text": "听闻东边的林子果子熟得正好。",
+          "avatar": "官"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-1-1",
+          "text": "仔细观察周围环境",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "战火蔓延进展顺利",
+          "historicalNote": "三国时期屯田制的实行与意义相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-1-2",
+          "text": "大胆深入探索",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "战火蔓延遇到波折",
+          "historicalNote": "三国时期屯田制的实行与意义相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-1-3",
+          "text": "召集同伴商议",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "战火蔓延取得进展",
+          "historicalNote": "三国时期屯田制的实行与意义相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-1-4",
+          "text": "保守行事，不冒进",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "战火蔓延遭遇困境",
+          "historicalNote": "三国时期屯田制的实行与意义相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-1-5",
+          "text": "尝试新方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "战火蔓延获得突破",
+          "historicalNote": "三国时期屯田制的实行与意义相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-1-6",
+          "text": "遵循传统经验",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "战火蔓延平稳推进",
+          "historicalNote": "三国时期屯田制的实行与意义相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-2"
+    },
+    {
+      "id": "act-2",
+      "title": "逃难求生",
+      "isKeyAct": false,
+      "sceneDescription": "眼前的景象让你眼前一亮。携家带口逃离战区寻找安全之地这显然是个不寻常的发现，值得深入探究。你作为乱世农夫，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "村民",
+          "text": "此处土地肥沃，定有好东西。",
+          "avatar": "村"
+        },
+        {
+          "speaker": "同伴",
+          "text": "小心些，先辨认清楚。",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-2-1",
+          "text": "先辨认清楚再行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "逃难求生进展顺利",
+          "historicalNote": "战乱对农业生产和百姓生活的破坏相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-2-2",
+          "text": "扩大搜索范围",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "逃难求生遇到波折",
+          "historicalNote": "战乱对农业生产和百姓生活的破坏相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-2-3",
+          "text": "寻求他人帮助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "逃难求生取得进展",
+          "historicalNote": "战乱对农业生产和百姓生活的破坏相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-2-4",
+          "text": "量力而行，稳妥为上",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "逃难求生遭遇困境",
+          "historicalNote": "战乱对农业生产和百姓生活的破坏相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-2-5",
+          "text": "改良现有工具",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "逃难求生获得突破",
+          "historicalNote": "战乱对农业生产和百姓生活的破坏相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-2-6",
+          "text": "按老规矩办事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "逃难求生平稳推进",
+          "historicalNote": "战乱对农业生产和百姓生活的破坏相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-3"
+    },
+    {
+      "id": "act-3",
+      "title": "开荒种田",
+      "isKeyAct": false,
+      "sceneDescription": "意外来得猝不及防。在新地方重新开垦荒地种植粮食四周形势突变，你紧握手中的工具，准备应对。你作为乱世农夫，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "军官",
+          "text": "有野兽！快拿火把！",
+          "avatar": "官"
+        },
+        {
+          "speaker": "铁匠",
+          "text": "莫慌，慢慢后退。",
+          "avatar": "匠"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-3-1",
+          "text": "留意可疑之处",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "开荒种田进展顺利",
+          "historicalNote": "曹操屯田制解决了军粮问题相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-3-2",
+          "text": "追踪线索前行",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "开荒种田遇到波折",
+          "historicalNote": "曹操屯田制解决了军粮问题相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-3-3",
+          "text": "与同伴分工合作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "开荒种田取得进展",
+          "historicalNote": "曹操屯田制解决了军粮问题相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-3-4",
+          "text": "先确保安全",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "开荒种田遭遇困境",
+          "historicalNote": "曹操屯田制解决了军粮问题相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-3-5",
+          "text": "总结经验创新",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "开荒种田获得突破",
+          "historicalNote": "曹操屯田制解决了军粮问题相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-3-6",
+          "text": "坚持稳妥做法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "开荒种田平稳推进",
+          "historicalNote": "曹操屯田制解决了军粮问题相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-4"
+    },
+    {
+      "id": "act-4",
+      "title": "曹操屯田",
+      "isKeyAct": true,
+      "sceneDescription": "这是一个将载入记忆的重要时刻。遇到屯田官员，被编入屯田体系你深知此次经历的重大意义，全神贯注地投入其中。你作为乱世农夫，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "天要变了，抓紧些。",
+          "avatar": "友"
+        },
+        {
+          "speaker": "老兵",
+          "text": "明日再来吧。",
+          "avatar": "兵"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-4-1",
+          "text": "仔细观察周围环境",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "曹操屯田进展顺利",
+          "historicalNote": "古代农民的生活与赋税负担相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-4-2",
+          "text": "大胆深入探索",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "曹操屯田遇到波折",
+          "historicalNote": "古代农民的生活与赋税负担相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-4-3",
+          "text": "召集同伴商议",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "曹操屯田取得进展",
+          "historicalNote": "古代农民的生活与赋税负担相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-4-4",
+          "text": "保守行事，不冒进",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "曹操屯田遭遇困境",
+          "historicalNote": "古代农民的生活与赋税负担相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-4-5",
+          "text": "尝试新方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "曹操屯田获得突破",
+          "historicalNote": "古代农民的生活与赋税负担相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-4-6",
+          "text": "遵循传统经验",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "曹操屯田平稳推进",
+          "historicalNote": "古代农民的生活与赋税负担相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-5"
+    },
+    {
+      "id": "act-5",
+      "title": "农忙时节",
+      "isKeyAct": false,
+      "sceneDescription": "日子如流水般静静淌过。春耕秋收的辛苦与希望在这平静之中，你思考着未来的方向与选择。你作为乱世农夫，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "铁匠",
+          "text": "今日收成不错。",
+          "avatar": "匠"
+        },
+        {
+          "speaker": "村民",
+          "text": "够吃几日了。",
+          "avatar": "村"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-5-1",
+          "text": "先辨认清楚再行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "农忙时节进展顺利",
+          "historicalNote": "三国时期屯田制的实行与意义相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-5-2",
+          "text": "扩大搜索范围",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "农忙时节遇到波折",
+          "historicalNote": "三国时期屯田制的实行与意义相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-5-3",
+          "text": "寻求他人帮助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "农忙时节取得进展",
+          "historicalNote": "三国时期屯田制的实行与意义相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-5-4",
+          "text": "量力而行，稳妥为上",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "农忙时节遭遇困境",
+          "historicalNote": "三国时期屯田制的实行与意义相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-5-5",
+          "text": "改良现有工具",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "农忙时节获得突破",
+          "historicalNote": "三国时期屯田制的实行与意义相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-5-6",
+          "text": "按老规矩办事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "农忙时节平稳推进",
+          "historicalNote": "三国时期屯田制的实行与意义相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-6"
+    },
+    {
+      "id": "act-6",
+      "title": "苛捐杂税",
+      "isKeyAct": false,
+      "sceneDescription": "矛盾与争执不可避免地爆发了。面对沉重的赋税与徭役双方各执一词，气氛剑拔弩张，你必须审慎应对。你作为乱世农夫，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "老兵",
+          "text": "各退一步，平分如何？",
+          "avatar": "兵"
+        },
+        {
+          "speaker": "军官",
+          "text": "再争下去，谁也得不到。",
+          "avatar": "官"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-6-1",
+          "text": "留意可疑之处",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "苛捐杂税进展顺利",
+          "historicalNote": "战乱对农业生产和百姓生活的破坏相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-6-2",
+          "text": "追踪线索前行",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "苛捐杂税遇到波折",
+          "historicalNote": "战乱对农业生产和百姓生活的破坏相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-6-3",
+          "text": "与同伴分工合作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "苛捐杂税取得进展",
+          "historicalNote": "战乱对农业生产和百姓生活的破坏相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-6-4",
+          "text": "先确保安全",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "苛捐杂税遭遇困境",
+          "historicalNote": "战乱对农业生产和百姓生活的破坏相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-6-5",
+          "text": "总结经验创新",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "苛捐杂税获得突破",
+          "historicalNote": "战乱对农业生产和百姓生活的破坏相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-6-6",
+          "text": "坚持稳妥做法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "苛捐杂税平稳推进",
+          "historicalNote": "战乱对农业生产和百姓生活的破坏相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-7"
+    },
+    {
+      "id": "act-7",
+      "title": "丰年余粮",
+      "isKeyAct": false,
+      "sceneDescription": "时光流转，季节更迭。好年景终于有了一些余粮你回顾这段时间的点点滴滴，心中充满了复杂的情感。你作为乱世农夫，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "村民",
+          "text": "你教的方法真好用。",
+          "avatar": "村"
+        },
+        {
+          "speaker": "同伴",
+          "text": "年轻人学得快，以后靠你们了。",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-7-1",
+          "text": "仔细观察周围环境",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "丰年余粮进展顺利",
+          "historicalNote": "曹操屯田制解决了军粮问题相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-7-2",
+          "text": "大胆深入探索",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "丰年余粮遇到波折",
+          "historicalNote": "曹操屯田制解决了军粮问题相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-7-3",
+          "text": "召集同伴商议",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "丰年余粮取得进展",
+          "historicalNote": "曹操屯田制解决了军粮问题相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-7-4",
+          "text": "保守行事，不冒进",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "丰年余粮遭遇困境",
+          "historicalNote": "曹操屯田制解决了军粮问题相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-7-5",
+          "text": "尝试新方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "丰年余粮获得突破",
+          "historicalNote": "曹操屯田制解决了军粮问题相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-7-6",
+          "text": "遵循传统经验",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "丰年余粮平稳推进",
+          "historicalNote": "曹操屯田制解决了军粮问题相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-8"
+    },
+    {
+      "id": "act-8",
+      "title": "期盼和平",
+      "isKeyAct": true,
+      "sceneDescription": "故事接近尾声，而你的旅程仍在继续。祈愿天下太平、不再流离失所这段经历将永远铭刻在你的记忆中，成为生命的一部分。你作为乱世农夫，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "军官",
+          "text": "天要变了，抓紧些。",
+          "avatar": "官"
+        },
+        {
+          "speaker": "铁匠",
+          "text": "明日再来吧。",
+          "avatar": "匠"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-8-1",
+          "text": "先辨认清楚再行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "期盼和平进展顺利",
+          "historicalNote": "古代农民的生活与赋税负担相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-8-2",
+          "text": "扩大搜索范围",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "期盼和平遇到波折",
+          "historicalNote": "古代农民的生活与赋税负担相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-8-3",
+          "text": "寻求他人帮助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "期盼和平取得进展",
+          "historicalNote": "古代农民的生活与赋税负担相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-8-4",
+          "text": "量力而行，稳妥为上",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "期盼和平遭遇困境",
+          "historicalNote": "古代农民的生活与赋税负担相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-8-5",
+          "text": "改良现有工具",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "期盼和平获得突破",
+          "historicalNote": "古代农民的生活与赋税负担相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-8-6",
+          "text": "按老规矩办事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "期盼和平平稳推进",
+          "historicalNote": "古代农民的生活与赋税负担相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "eraId": "sw-medieval-europe",
+  "eraName": "Medieval Europe",
+  "playerRole": "Narrator",
+  "acts": [
+    {
+      "id": "act1",
+      "title": "The Medieval World",
+      "isKeyAct": true,
+      "sceneDescription": "Following Rome's fall in 476 CE, Europe entered the Middle Ages. Feudalism organized society into kings, lords, and serfs. The Catholic Church wielded enormous spiritual and political power. Meanwhile, the Byzantine Empire preserved Roman heritage, and Kievan Rus laid the foundations for Russia.",
+      "npcDialogues": [
+        {
+          "speaker": "Historian",
+          "text": "The feudal system defined medieval Europe's social structure. Kings granted land to nobles in exchange for military service, while peasants worked the land in return for protection. This hierarchy persisted for centuries and shaped European political development.",
+          "avatar": "historian"
+        },
+        {
+          "speaker": "Archaeologist",
+          "text": "The Byzantine Empire, centered at Constantinople, preserved Roman law and Greek learning for over a thousand years. Justinian's legal code became the foundation of European law. Meanwhile, Charlemagne briefly united western Europe and revived scholarship.",
+          "avatar": "archaeologist"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act1_opt1",
+          "text": "(Narration) After Rome's fall, western Europe fragmented into many small kingdoms. The feudal system became the dominant social order: lords owned land and commanded armies, while peasants and serfs worked the fields. Castles were built for defense, and the Catholic Church provided spiritual unity across divided kingdoms.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 94,
+          "triggeredEvent": "Introduction to feudalism",
+          "historicalNote": "Feudalism emerged in the 9th century as a decentralized system of governance. Lords granted fiefs (land) to vassals in exchange for military service. At the bottom, serfs were bound to the land. This system dominated Europe until the rise of centralized monarchies in the late medieval period.",
+          "consequence": "Understanding the feudal hierarchy and its role in medieval society."
+        },
+        {
+          "id": "act1_opt2",
+          "text": "(Narration) The Byzantine Empire, the eastern half of the old Roman Empire, survived for over a thousand years after Rome's fall. Emperor Justinian (527-565 CE) reconquered former Roman territories, built the magnificent Hagia Sophia, and compiled Roman law into the Corpus Juris Civilis, which influenced European legal systems for centuries.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 91,
+          "triggeredEvent": "Introduction to the Byzantine Empire",
+          "historicalNote": "The Byzantine Empire (395-1453 CE) preserved Roman legal traditions and Greek culture. Justinian's Corpus Juris Civilis became the basis for civil law in medieval and modern Europe. The empire finally fell to the Ottoman Turks in 1453, ending the last remnant of ancient Rome.",
+          "consequence": "Understanding the Byzantine Empire's role in preserving Roman and Greek heritage."
+        },
+        {
+          "id": "act1_opt3",
+          "text": "(Narration) Charlemagne, king of the Franks, was crowned Holy Roman Emperor in 800 CE. He united much of western Europe, promoted education, and revived learning across his empire. His reign marked a brief cultural revival known as the Carolingian Renaissance that helped preserve classical knowledge.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 89,
+          "triggeredEvent": "Introduction to Charlemagne and the Carolingian Renaissance",
+          "historicalNote": "Charlemagne (742-814 CE) unified Frankish territories into the largest European state since Rome. He established schools, sponsored the copying of classical manuscripts, and was crowned emperor by Pope Leo III in 800 CE. His empire later fragmented but set a precedent for European unity.",
+          "consequence": "Understanding Charlemagne's role in uniting Europe and reviving classical learning."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+  "eraId": "primary-inventions",
+  "eraName": "四大发明",
+  "playerRole": "雕版工匠",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "刻坊入门",
+      "isKeyAct": true,
+      "sceneDescription": "晨曦微露，你整理好行装准备出发。进入雕版印刷作坊当学徒空气中弥漫着清新的气息，远处传来鸟鸣声。你作为雕版工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "师傅",
+          "text": "今日有新活计。",
+          "avatar": "师"
+        },
+        {
+          "speaker": "官员",
+          "text": "材料备齐了？",
+          "avatar": "吏"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-1-1",
+          "text": "反复观察琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "刻坊入门进展顺利",
+          "historicalNote": "雕版印刷术的发明与发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-1-2",
+          "text": "大胆尝试新工艺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "刻坊入门遇到波折",
+          "historicalNote": "雕版印刷术的发明与发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-1-3",
+          "text": "请教师傅前辈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "刻坊入门取得进展",
+          "historicalNote": "雕版印刷术的发明与发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-1-4",
+          "text": "按部就班操作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "刻坊入门遭遇困境",
+          "historicalNote": "雕版印刷术的发明与发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-1-5",
+          "text": "改良工具设备",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "刻坊入门获得突破",
+          "historicalNote": "雕版印刷术的发明与发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-1-6",
+          "text": "精益求精打磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "刻坊入门平稳推进",
+          "historicalNote": "雕版印刷术的发明与发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-2"
+    },
+    {
+      "id": "act-2",
+      "title": "选板磨光",
+      "isKeyAct": false,
+      "sceneDescription": "眼前的景象让你眼前一亮。学习挑选木板并将其打磨光滑这显然是个不寻常的发现，值得深入探究。你作为雕版工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "此法甚妙，是谁传授的？",
+          "avatar": "友"
+        },
+        {
+          "speaker": "书生",
+          "text": "自己摸索出来的。",
+          "avatar": "书"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-2-1",
+          "text": "仔细检查材料",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "选板磨光进展顺利",
+          "historicalNote": "毕昇活字印刷术的革命性突破相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-2-2",
+          "text": "改进传统方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "选板磨光遇到波折",
+          "historicalNote": "毕昇活字印刷术的革命性突破相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-2-3",
+          "text": "与同门探讨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "选板磨光取得进展",
+          "historicalNote": "毕昇活字印刷术的革命性突破相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-2-4",
+          "text": "遵循既定流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "选板磨光遭遇困境",
+          "historicalNote": "毕昇活字印刷术的革命性突破相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-2-5",
+          "text": "优化工艺流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "选板磨光获得突破",
+          "historicalNote": "毕昇活字印刷术的革命性突破相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-2-6",
+          "text": "严格把关质量",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "选板磨光平稳推进",
+          "historicalNote": "毕昇活字印刷术的革命性突破相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-3"
+    },
+    {
+      "id": "act-3",
+      "title": "反字书写",
+      "isKeyAct": false,
+      "sceneDescription": "意外来得猝不及防。师傅将文字反写在木板上准备雕刻四周形势突变，你紧握手中的工具，准备应对。你作为雕版工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "官员",
+          "text": "窑要塌了！",
+          "avatar": "吏"
+        },
+        {
+          "speaker": "商人",
+          "text": "快撤！",
+          "avatar": "商"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-3-1",
+          "text": "研究问题根源",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "反字书写进展顺利",
+          "historicalNote": "印刷术对知识传播的巨大影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-3-2",
+          "text": "突破技术瓶颈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "反字书写遇到波折",
+          "historicalNote": "印刷术对知识传播的巨大影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-3-3",
+          "text": "查阅技艺典籍",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "反字书写取得进展",
+          "historicalNote": "印刷术对知识传播的巨大影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-3-4",
+          "text": "确保每步稳妥",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "反字书写遭遇困境",
+          "historicalNote": "印刷术对知识传播的巨大影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-3-5",
+          "text": "发明新技法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "反字书写获得突破",
+          "historicalNote": "印刷术对知识传播的巨大影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-3-6",
+          "text": "传承匠心精神",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "反字书写平稳推进",
+          "historicalNote": "印刷术对知识传播的巨大影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-4"
+    },
+    {
+      "id": "act-4",
+      "title": "运刀雕刻",
+      "isKeyAct": true,
+      "sceneDescription": "这是一个将载入记忆的重要时刻。精细雕刻文字和图案于木板你深知此次经历的重大意义，全神贯注地投入其中。你作为雕版工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "书生",
+          "text": "今日做了几件？",
+          "avatar": "书"
+        },
+        {
+          "speaker": "师傅",
+          "text": "三件，比昨日多一件。",
+          "avatar": "师"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-4-1",
+          "text": "反复观察琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "运刀雕刻进展顺利",
+          "historicalNote": "宋代印刷业的繁荣景象相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-4-2",
+          "text": "大胆尝试新工艺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "运刀雕刻遇到波折",
+          "historicalNote": "宋代印刷业的繁荣景象相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-4-3",
+          "text": "请教师傅前辈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "运刀雕刻取得进展",
+          "historicalNote": "宋代印刷业的繁荣景象相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-4-4",
+          "text": "按部就班操作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "运刀雕刻遭遇困境",
+          "historicalNote": "宋代印刷业的繁荣景象相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-4-5",
+          "text": "改良工具设备",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "运刀雕刻获得突破",
+          "historicalNote": "宋代印刷业的繁荣景象相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-4-6",
+          "text": "精益求精打磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "运刀雕刻平稳推进",
+          "historicalNote": "宋代印刷业的繁荣景象相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-5"
+    },
+    {
+      "id": "act-5",
+      "title": "上墨拓印",
+      "isKeyAct": false,
+      "sceneDescription": "午后的阳光有些慵懒。将墨均匀涂于雕版上进行印刷你放下手中的活计，稍作歇息，思绪飘向远方。你作为雕版工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "商人",
+          "text": "这火候得再稳些。",
+          "avatar": "商"
+        },
+        {
+          "speaker": "同伴",
+          "text": "是，师傅。",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-5-1",
+          "text": "仔细检查材料",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "上墨拓印进展顺利",
+          "historicalNote": "雕版印刷术的发明与发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-5-2",
+          "text": "改进传统方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "上墨拓印遇到波折",
+          "historicalNote": "雕版印刷术的发明与发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-5-3",
+          "text": "与同门探讨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "上墨拓印取得进展",
+          "historicalNote": "雕版印刷术的发明与发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-5-4",
+          "text": "遵循既定流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "上墨拓印遭遇困境",
+          "historicalNote": "雕版印刷术的发明与发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-5-5",
+          "text": "优化工艺流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "上墨拓印获得突破",
+          "historicalNote": "雕版印刷术的发明与发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-5-6",
+          "text": "严格把关质量",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "上墨拓印平稳推进",
+          "historicalNote": "雕版印刷术的发明与发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-6"
+    },
+    {
+      "id": "act-6",
+      "title": "装订成册",
+      "isKeyAct": false,
+      "sceneDescription": "对立的情绪在空气中弥漫。将印刷好的书页装订成册你感受到来自各方的压力，必须冷静思考化解之道。你作为雕版工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "师傅",
+          "text": "偷工减料可不行！",
+          "avatar": "师"
+        },
+        {
+          "speaker": "官员",
+          "text": "就这一次，神不知鬼不觉。",
+          "avatar": "吏"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-6-1",
+          "text": "研究问题根源",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "装订成册进展顺利",
+          "historicalNote": "毕昇活字印刷术的革命性突破相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-6-2",
+          "text": "突破技术瓶颈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "装订成册遇到波折",
+          "historicalNote": "毕昇活字印刷术的革命性突破相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-6-3",
+          "text": "查阅技艺典籍",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "装订成册取得进展",
+          "historicalNote": "毕昇活字印刷术的革命性突破相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-6-4",
+          "text": "确保每步稳妥",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "装订成册遭遇困境",
+          "historicalNote": "毕昇活字印刷术的革命性突破相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-6-5",
+          "text": "发明新技法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "装订成册获得突破",
+          "historicalNote": "毕昇活字印刷术的革命性突破相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-6-6",
+          "text": "传承匠心精神",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "装订成册平稳推进",
+          "historicalNote": "毕昇活字印刷术的革命性突破相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-7"
+    },
+    {
+      "id": "act-7",
+      "title": "活字启蒙",
+      "isKeyAct": false,
+      "sceneDescription": "夜深人静，你独自沉思。听说毕昇发明了活字印刷术过往的得失在脑海中浮现，你从中汲取着智慧与力量。你作为雕版工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "手艺是门面，马虎不得。",
+          "avatar": "友"
+        },
+        {
+          "speaker": "书生",
+          "text": "师傅教训的是。",
+          "avatar": "书"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-7-1",
+          "text": "反复观察琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "活字启蒙进展顺利",
+          "historicalNote": "印刷术对知识传播的巨大影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-7-2",
+          "text": "大胆尝试新工艺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "活字启蒙遇到波折",
+          "historicalNote": "印刷术对知识传播的巨大影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-7-3",
+          "text": "请教师傅前辈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "活字启蒙取得进展",
+          "historicalNote": "印刷术对知识传播的巨大影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-7-4",
+          "text": "按部就班操作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "活字启蒙遭遇困境",
+          "historicalNote": "印刷术对知识传播的巨大影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-7-5",
+          "text": "改良工具设备",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "活字启蒙获得突破",
+          "historicalNote": "印刷术对知识传播的巨大影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-7-6",
+          "text": "精益求精打磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "活字启蒙平稳推进",
+          "historicalNote": "印刷术对知识传播的巨大影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-8"
+    },
+    {
+      "id": "act-8",
+      "title": "技艺革新",
+      "isKeyAct": true,
+      "sceneDescription": "回望这段历程，你心中充满感激。尝试用新方法提高印制效率那些人与事，那些欢笑与泪水，都已成为你生命中最珍贵的财富。你作为雕版工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "官员",
+          "text": "今日做了几件？",
+          "avatar": "吏"
+        },
+        {
+          "speaker": "商人",
+          "text": "三件，比昨日多一件。",
+          "avatar": "商"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-8-1",
+          "text": "仔细检查材料",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "技艺革新进展顺利",
+          "historicalNote": "宋代印刷业的繁荣景象相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-8-2",
+          "text": "改进传统方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "技艺革新遇到波折",
+          "historicalNote": "宋代印刷业的繁荣景象相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-8-3",
+          "text": "与同门探讨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "技艺革新取得进展",
+          "historicalNote": "宋代印刷业的繁荣景象相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-8-4",
+          "text": "遵循既定流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "技艺革新遭遇困境",
+          "historicalNote": "宋代印刷业的繁荣景象相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-8-5",
+          "text": "优化工艺流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "技艺革新获得突破",
+          "historicalNote": "宋代印刷业的繁荣景象相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-8-6",
+          "text": "严格把关质量",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "技艺革新平稳推进",
+          "historicalNote": "宋代印刷业的繁荣景象相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ]
+    }
+  ]
+}

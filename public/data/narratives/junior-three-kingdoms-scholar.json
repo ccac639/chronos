@@ -1,0 +1,654 @@
+{
+  "eraId": "junior-three-kingdoms-jin-nb",
+  "eraName": "三国两晋南北朝",
+  "playerRole": "乱世书生",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "避乱求学",
+      "isKeyAct": true,
+      "sceneDescription": "鸡鸣三声，你便要开始今日的行程。在战乱中坚持读书求学背上沉甸甸的行囊，心中既有期待也有忐忑。你作为乱世书生，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "今日拜访几位友人。",
+          "avatar": "友"
+        },
+        {
+          "speaker": "邻居",
+          "text": "备好了茶点。",
+          "avatar": "邻"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-1-1",
+          "text": "详查资料考究",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "避乱求学进展顺利",
+          "historicalNote": "与三国两晋南北朝相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-1-2",
+          "text": "大胆挥毫创作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "避乱求学遇到波折",
+          "historicalNote": "与三国两晋南北朝相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-1-3",
+          "text": "与友人切磋琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "避乱求学取得进展",
+          "historicalNote": "与三国两晋南北朝相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-1-4",
+          "text": "低调行事避险",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "避乱求学遭遇困境",
+          "historicalNote": "与三国两晋南北朝相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-1-5",
+          "text": "另辟蹊径创新",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "避乱求学获得突破",
+          "historicalNote": "与三国两晋南北朝相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-1-6",
+          "text": "坚守气节原则",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "避乱求学平稳推进",
+          "historicalNote": "与三国两晋南北朝相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-2"
+    },
+    {
+      "id": "act-2",
+      "title": "洛阳见闻",
+      "isKeyAct": false,
+      "sceneDescription": "阳光透过树叶的缝隙洒落下来，你注意到一处特别之处。游学洛阳，感受魏晋学术风气心中涌起一阵好奇与兴奋。你作为乱世书生，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "长者",
+          "text": "这批丝绸成色极好！",
+          "avatar": "长"
+        },
+        {
+          "speaker": "友人",
+          "text": "定然能卖个好价钱。",
+          "avatar": "人"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-2-1",
+          "text": "多方打听确认",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "洛阳见闻进展顺利",
+          "historicalNote": "乱世书生在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-2-2",
+          "text": "果断投资决策",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "洛阳见闻遇到波折",
+          "historicalNote": "乱世书生在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-2-3",
+          "text": "寻求师长指点",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "洛阳见闻取得进展",
+          "historicalNote": "乱世书生在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-2-4",
+          "text": "稳扎稳打经营",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "洛阳见闻遭遇困境",
+          "historicalNote": "乱世书生在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-2-5",
+          "text": "改良经营方式",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "洛阳见闻获得突破",
+          "historicalNote": "乱世书生在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-2-6",
+          "text": "诚信童叟无欺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "洛阳见闻平稳推进",
+          "historicalNote": "乱世书生在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-3"
+    },
+    {
+      "id": "act-3",
+      "title": "竹林之游",
+      "isKeyAct": false,
+      "sceneDescription": "意外来得猝不及防。与竹林七贤等名士交游论道四周形势突变，你紧握手中的工具，准备应对。你作为乱世书生，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "邻居",
+          "text": "有盗匪！",
+          "avatar": "邻"
+        },
+        {
+          "speaker": "同伴",
+          "text": "快走！保住货物要紧！",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-3-1",
+          "text": "审慎评估形势",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "竹林之游进展顺利",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-3-2",
+          "text": "勇敢开拓新路",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "竹林之游遇到波折",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-3-3",
+          "text": "联络同行合作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "竹林之游取得进展",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-3-4",
+          "text": "含蓄委婉表达",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "竹林之游遭遇困境",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-3-5",
+          "text": "开创独特风格",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "竹林之游获得突破",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-3-6",
+          "text": "不为利益所动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "竹林之游平稳推进",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-4"
+    },
+    {
+      "id": "act-4",
+      "title": "清谈玄学",
+      "isKeyAct": true,
+      "sceneDescription": "关键时刻终于到来。参与士人阶层的清谈与玄学讨论这不仅关乎你个人，更可能影响身边许多人，你倍感责任重大。你作为乱世书生，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "友人",
+          "text": "这首诗还得再斟酌斟酌。",
+          "avatar": "人"
+        },
+        {
+          "speaker": "长者",
+          "text": "腹稿都有了，就缺个好题目。",
+          "avatar": "长"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-4-1",
+          "text": "详查资料考究",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "清谈玄学进展顺利",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-4-2",
+          "text": "大胆挥毫创作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "清谈玄学遇到波折",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-4-3",
+          "text": "与友人切磋琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "清谈玄学取得进展",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-4-4",
+          "text": "低调行事避险",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "清谈玄学遭遇困境",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-4-5",
+          "text": "另辟蹊径创新",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "清谈玄学获得突破",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-4-6",
+          "text": "坚守气节原则",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "清谈玄学平稳推进",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-5"
+    },
+    {
+      "id": "act-5",
+      "title": "九品中正",
+      "isKeyAct": false,
+      "sceneDescription": "劳作继续进行着。亲历九品中正制下的仕途困境汗水浸湿了衣衫，但你知道这份辛苦终将有回报。你作为乱世书生，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "今日行情如何？",
+          "avatar": "友"
+        },
+        {
+          "speaker": "邻居",
+          "text": "比昨日涨了三成。",
+          "avatar": "邻"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-5-1",
+          "text": "多方打听确认",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "九品中正进展顺利",
+          "historicalNote": "与三国两晋南北朝相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-5-2",
+          "text": "果断投资决策",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "九品中正遇到波折",
+          "historicalNote": "与三国两晋南北朝相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-5-3",
+          "text": "寻求师长指点",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "九品中正取得进展",
+          "historicalNote": "与三国两晋南北朝相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-5-4",
+          "text": "稳扎稳打经营",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "九品中正遭遇困境",
+          "historicalNote": "与三国两晋南北朝相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-5-5",
+          "text": "改良经营方式",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "九品中正获得突破",
+          "historicalNote": "与三国两晋南北朝相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-5-6",
+          "text": "诚信童叟无欺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "九品中正平稳推进",
+          "historicalNote": "与三国两晋南北朝相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-6"
+    },
+    {
+      "id": "act-6",
+      "title": "南北流离",
+      "isKeyAct": false,
+      "sceneDescription": "言语之间，火花四溅。因战乱被迫南渡避难这场争执若不妥善处理，后果不堪设想。你作为乱世书生，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "长者",
+          "text": "此诗明明是我先作的！",
+          "avatar": "长"
+        },
+        {
+          "speaker": "友人",
+          "text": "有何凭证？",
+          "avatar": "人"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-6-1",
+          "text": "审慎评估形势",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "南北流离进展顺利",
+          "historicalNote": "乱世书生在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-6-2",
+          "text": "勇敢开拓新路",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "南北流离遇到波折",
+          "historicalNote": "乱世书生在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-6-3",
+          "text": "联络同行合作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "南北流离取得进展",
+          "historicalNote": "乱世书生在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-6-4",
+          "text": "含蓄委婉表达",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "南北流离遭遇困境",
+          "historicalNote": "乱世书生在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-6-5",
+          "text": "开创独特风格",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "南北流离获得突破",
+          "historicalNote": "乱世书生在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-6-6",
+          "text": "不为利益所动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "南北流离平稳推进",
+          "historicalNote": "乱世书生在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-7"
+    },
+    {
+      "id": "act-7",
+      "title": "江南定居",
+      "isKeyAct": false,
+      "sceneDescription": "时光流转，季节更迭。在南方融入新的文化环境你回顾这段时间的点点滴滴，心中充满了复杂的情感。你作为乱世书生，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "邻居",
+          "text": "读万卷书，行万里路。",
+          "avatar": "邻"
+        },
+        {
+          "speaker": "同伴",
+          "text": "你这人生，精彩得很。",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-7-1",
+          "text": "详查资料考究",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "江南定居进展顺利",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-7-2",
+          "text": "大胆挥毫创作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "江南定居遇到波折",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-7-3",
+          "text": "与友人切磋琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "江南定居取得进展",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-7-4",
+          "text": "低调行事避险",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "江南定居遭遇困境",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-7-5",
+          "text": "另辟蹊径创新",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "江南定居获得突破",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-7-6",
+          "text": "坚守气节原则",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "江南定居平稳推进",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-8"
+    },
+    {
+      "id": "act-8",
+      "title": "著书立说",
+      "isKeyAct": true,
+      "sceneDescription": "回望这段历程，你心中充满感激。将乱世见闻记录成书传世那些人与事，那些欢笑与泪水，都已成为你生命中最珍贵的财富。你作为乱世书生，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "友人",
+          "text": "这首诗还得再斟酌斟酌。",
+          "avatar": "人"
+        },
+        {
+          "speaker": "长者",
+          "text": "腹稿都有了，就缺个好题目。",
+          "avatar": "长"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-8-1",
+          "text": "多方打听确认",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "著书立说进展顺利",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-8-2",
+          "text": "果断投资决策",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "著书立说遇到波折",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-8-3",
+          "text": "寻求师长指点",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "著书立说取得进展",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-8-4",
+          "text": "稳扎稳打经营",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "著书立说遭遇困境",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-8-5",
+          "text": "改良经营方式",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "著书立说获得突破",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-8-6",
+          "text": "诚信童叟无欺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "著书立说平稳推进",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ]
+    }
+  ]
+}

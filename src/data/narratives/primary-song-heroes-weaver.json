@@ -1,0 +1,654 @@
+{
+  "eraId": "primary-song-heroes",
+  "eraName": "英雄故事",
+  "playerRole": "织布女",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "织机前的日常",
+      "isKeyAct": true,
+      "sceneDescription": "清晨的第一缕阳光洒在脸上，你深吸一口气。清晨坐在织机前开始一天的织布新的一天充满了未知与挑战。你作为织布女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "父亲",
+          "text": "今日有新活计。",
+          "avatar": "父"
+        },
+        {
+          "speaker": "师父",
+          "text": "材料备齐了？",
+          "avatar": "人"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-1-1",
+          "text": "反复观察琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "织机前的日常进展顺利",
+          "historicalNote": "古代纺织技术与织机的演进相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-1-2",
+          "text": "大胆尝试新工艺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "织机前的日常遇到波折",
+          "historicalNote": "古代纺织技术与织机的演进相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-1-3",
+          "text": "请教师傅前辈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "织机前的日常取得进展",
+          "historicalNote": "古代纺织技术与织机的演进相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-1-4",
+          "text": "按部就班操作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "织机前的日常遭遇困境",
+          "historicalNote": "古代纺织技术与织机的演进相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-1-5",
+          "text": "改良工具设备",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "织机前的日常获得突破",
+          "historicalNote": "古代纺织技术与织机的演进相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-1-6",
+          "text": "精益求精打磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "织机前的日常平稳推进",
+          "historicalNote": "古代纺织技术与织机的演进相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-2"
+    },
+    {
+      "id": "act-2",
+      "title": "织锦技法",
+      "isKeyAct": false,
+      "sceneDescription": "阳光透过树叶的缝隙洒落下来，你注意到一处特别之处。学习更复杂的提花织锦技艺心中涌起一阵好奇与兴奋。你作为织布女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "母亲",
+          "text": "此法甚妙，是谁传授的？",
+          "avatar": "母"
+        },
+        {
+          "speaker": "病人",
+          "text": "自己摸索出来的。",
+          "avatar": "病"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-2-1",
+          "text": "仔细检查材料",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "织锦技法进展顺利",
+          "historicalNote": "中国丝绸与棉布的悠久历史相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-2-2",
+          "text": "改进传统方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "织锦技法遇到波折",
+          "historicalNote": "中国丝绸与棉布的悠久历史相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-2-3",
+          "text": "与同门探讨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "织锦技法取得进展",
+          "historicalNote": "中国丝绸与棉布的悠久历史相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-2-4",
+          "text": "遵循既定流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "织锦技法遭遇困境",
+          "historicalNote": "中国丝绸与棉布的悠久历史相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-2-5",
+          "text": "优化工艺流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "织锦技法获得突破",
+          "historicalNote": "中国丝绸与棉布的悠久历史相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-2-6",
+          "text": "严格把关质量",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "织锦技法平稳推进",
+          "historicalNote": "中国丝绸与棉布的悠久历史相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-3"
+    },
+    {
+      "id": "act-3",
+      "title": "赶集卖布",
+      "isKeyAct": false,
+      "sceneDescription": "气氛骤然紧张起来。带着织好的布匹去集市交易危险迫在眉睫，容不得半点犹豫，你必须当机立断。你作为织布女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "师父",
+          "text": "窑要塌了！",
+          "avatar": "人"
+        },
+        {
+          "speaker": "邻居",
+          "text": "快撤！",
+          "avatar": "邻"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-3-1",
+          "text": "研究问题根源",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "赶集卖布进展顺利",
+          "historicalNote": "女性在家庭手工业中的重要角色相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-3-2",
+          "text": "突破技术瓶颈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "赶集卖布遇到波折",
+          "historicalNote": "女性在家庭手工业中的重要角色相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-3-3",
+          "text": "查阅技艺典籍",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "赶集卖布取得进展",
+          "historicalNote": "女性在家庭手工业中的重要角色相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-3-4",
+          "text": "确保每步稳妥",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "赶集卖布遭遇困境",
+          "historicalNote": "女性在家庭手工业中的重要角色相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-3-5",
+          "text": "发明新技法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "赶集卖布获得突破",
+          "historicalNote": "女性在家庭手工业中的重要角色相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-3-6",
+          "text": "传承匠心精神",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "赶集卖布平稳推进",
+          "historicalNote": "女性在家庭手工业中的重要角色相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-4"
+    },
+    {
+      "id": "act-4",
+      "title": "领主催逼",
+      "isKeyAct": true,
+      "sceneDescription": "所有的准备都是为了这一刻。当地官府加征布匹赋税你深吸一口气，心中既紧张又充满期待。你作为织布女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "病人",
+          "text": "今日做了几件？",
+          "avatar": "病"
+        },
+        {
+          "speaker": "父亲",
+          "text": "三件，比昨日多一件。",
+          "avatar": "父"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-4-1",
+          "text": "反复观察琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "领主催逼进展顺利",
+          "historicalNote": "中国古代赋税中的布匹征收相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-4-2",
+          "text": "大胆尝试新工艺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "领主催逼遇到波折",
+          "historicalNote": "中国古代赋税中的布匹征收相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-4-3",
+          "text": "请教师傅前辈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "领主催逼取得进展",
+          "historicalNote": "中国古代赋税中的布匹征收相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-4-4",
+          "text": "按部就班操作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "领主催逼遭遇困境",
+          "historicalNote": "中国古代赋税中的布匹征收相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-4-5",
+          "text": "改良工具设备",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "领主催逼获得突破",
+          "historicalNote": "中国古代赋税中的布匹征收相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-4-6",
+          "text": "精益求精打磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "领主催逼平稳推进",
+          "historicalNote": "中国古代赋税中的布匹征收相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-5"
+    },
+    {
+      "id": "act-5",
+      "title": "改进织法",
+      "isKeyAct": false,
+      "sceneDescription": "日复一日的生活中，这一天似乎有些不同。通过实践创新提高织布效率平凡中孕育着变化，你敏锐地察觉到了。你作为织布女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "邻居",
+          "text": "这火候得再稳些。",
+          "avatar": "邻"
+        },
+        {
+          "speaker": "母亲",
+          "text": "是，师傅。",
+          "avatar": "母"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-5-1",
+          "text": "仔细检查材料",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "改进织法进展顺利",
+          "historicalNote": "古代纺织技术与织机的演进相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-5-2",
+          "text": "改进传统方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "改进织法遇到波折",
+          "historicalNote": "古代纺织技术与织机的演进相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-5-3",
+          "text": "与同门探讨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "改进织法取得进展",
+          "historicalNote": "古代纺织技术与织机的演进相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-5-4",
+          "text": "遵循既定流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "改进织法遭遇困境",
+          "historicalNote": "古代纺织技术与织机的演进相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-5-5",
+          "text": "优化工艺流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "改进织法获得突破",
+          "historicalNote": "古代纺织技术与织机的演进相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-5-6",
+          "text": "严格把关质量",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "改进织法平稳推进",
+          "historicalNote": "古代纺织技术与织机的演进相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-6"
+    },
+    {
+      "id": "act-6",
+      "title": "帮助邻里",
+      "isKeyAct": false,
+      "sceneDescription": "矛盾与争执不可避免地爆发了。教授邻居女子织布手艺双方各执一词，气氛剑拔弩张，你必须审慎应对。你作为织布女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "父亲",
+          "text": "偷工减料可不行！",
+          "avatar": "父"
+        },
+        {
+          "speaker": "师父",
+          "text": "就这一次，神不知鬼不觉。",
+          "avatar": "人"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-6-1",
+          "text": "研究问题根源",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "帮助邻里进展顺利",
+          "historicalNote": "中国丝绸与棉布的悠久历史相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-6-2",
+          "text": "突破技术瓶颈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "帮助邻里遇到波折",
+          "historicalNote": "中国丝绸与棉布的悠久历史相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-6-3",
+          "text": "查阅技艺典籍",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "帮助邻里取得进展",
+          "historicalNote": "中国丝绸与棉布的悠久历史相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-6-4",
+          "text": "确保每步稳妥",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "帮助邻里遭遇困境",
+          "historicalNote": "中国丝绸与棉布的悠久历史相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-6-5",
+          "text": "发明新技法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "帮助邻里获得突破",
+          "historicalNote": "中国丝绸与棉布的悠久历史相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-6-6",
+          "text": "传承匠心精神",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "帮助邻里平稳推进",
+          "historicalNote": "中国丝绸与棉布的悠久历史相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-7"
+    },
+    {
+      "id": "act-7",
+      "title": "节日盛装",
+      "isKeyAct": false,
+      "sceneDescription": "回望来时的路，你心中感慨万千。为节日赶制精美的节日用布那些经历塑造了今天的你，也让你对未来有了更深的思考。你作为织布女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "母亲",
+          "text": "手艺是门面，马虎不得。",
+          "avatar": "母"
+        },
+        {
+          "speaker": "病人",
+          "text": "师傅教训的是。",
+          "avatar": "病"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-7-1",
+          "text": "反复观察琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "节日盛装进展顺利",
+          "historicalNote": "女性在家庭手工业中的重要角色相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-7-2",
+          "text": "大胆尝试新工艺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "节日盛装遇到波折",
+          "historicalNote": "女性在家庭手工业中的重要角色相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-7-3",
+          "text": "请教师傅前辈",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "节日盛装取得进展",
+          "historicalNote": "女性在家庭手工业中的重要角色相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-7-4",
+          "text": "按部就班操作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "节日盛装遭遇困境",
+          "historicalNote": "女性在家庭手工业中的重要角色相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-7-5",
+          "text": "改良工具设备",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "节日盛装获得突破",
+          "historicalNote": "女性在家庭手工业中的重要角色相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-7-6",
+          "text": "精益求精打磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "节日盛装平稳推进",
+          "historicalNote": "女性在家庭手工业中的重要角色相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-8"
+    },
+    {
+      "id": "act-8",
+      "title": "织女传承",
+      "isKeyAct": true,
+      "sceneDescription": "夕阳的余晖洒在大地上，为这一切镀上了金色的光芒。手艺传给女儿，延续纺织传统你带着收获与感悟，准备迎接新的篇章。你作为织布女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "师父",
+          "text": "今日做了几件？",
+          "avatar": "人"
+        },
+        {
+          "speaker": "邻居",
+          "text": "三件，比昨日多一件。",
+          "avatar": "邻"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-8-1",
+          "text": "仔细检查材料",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "织女传承进展顺利",
+          "historicalNote": "中国古代赋税中的布匹征收相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-8-2",
+          "text": "改进传统方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "织女传承遇到波折",
+          "historicalNote": "中国古代赋税中的布匹征收相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-8-3",
+          "text": "与同门探讨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "织女传承取得进展",
+          "historicalNote": "中国古代赋税中的布匹征收相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-8-4",
+          "text": "遵循既定流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "织女传承遭遇困境",
+          "historicalNote": "中国古代赋税中的布匹征收相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-8-5",
+          "text": "优化工艺流程",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "织女传承获得突破",
+          "historicalNote": "中国古代赋税中的布匹征收相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-8-6",
+          "text": "严格把关质量",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "织女传承平稳推进",
+          "historicalNote": "中国古代赋税中的布匹征收相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ]
+    }
+  ]
+}

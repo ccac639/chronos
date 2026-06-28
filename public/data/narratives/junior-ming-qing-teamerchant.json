@@ -1,0 +1,654 @@
+{
+  "eraId": "junior-ming-qing",
+  "eraName": "明清",
+  "playerRole": "茶商",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "茶山起步",
+      "isKeyAct": true,
+      "sceneDescription": "鸡鸣三声，你便要开始今日的行程。在武夷山区跟随茶农学习种茶制茶背上沉甸甸的行囊，心中既有期待也有忐忑。你作为茶商，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "今日拜访几位友人。",
+          "avatar": "友"
+        },
+        {
+          "speaker": "邻居",
+          "text": "备好了茶点。",
+          "avatar": "邻"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-1-1",
+          "text": "详查资料考究",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "茶山起步进展顺利",
+          "historicalNote": "与明清相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-1-2",
+          "text": "大胆挥毫创作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "茶山起步遇到波折",
+          "historicalNote": "与明清相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-1-3",
+          "text": "与友人切磋琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "茶山起步取得进展",
+          "historicalNote": "与明清相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-1-4",
+          "text": "低调行事避险",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "茶山起步遭遇困境",
+          "historicalNote": "与明清相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-1-5",
+          "text": "另辟蹊径创新",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "茶山起步获得突破",
+          "historicalNote": "与明清相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-1-6",
+          "text": "坚守气节原则",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "茶山起步平稳推进",
+          "historicalNote": "与明清相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-2"
+    },
+    {
+      "id": "act-2",
+      "title": "选茶采茶",
+      "isKeyAct": false,
+      "sceneDescription": "眼前的景象让你眼前一亮。掌握春茶采摘与制作的最佳时机这显然是个不寻常的发现，值得深入探究。你作为茶商，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "长者",
+          "text": "这批丝绸成色极好！",
+          "avatar": "长"
+        },
+        {
+          "speaker": "友人",
+          "text": "定然能卖个好价钱。",
+          "avatar": "人"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-2-1",
+          "text": "多方打听确认",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "选茶采茶进展顺利",
+          "historicalNote": "茶商在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-2-2",
+          "text": "果断投资决策",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "选茶采茶遇到波折",
+          "historicalNote": "茶商在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-2-3",
+          "text": "寻求师长指点",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "选茶采茶取得进展",
+          "historicalNote": "茶商在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-2-4",
+          "text": "稳扎稳打经营",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "选茶采茶遭遇困境",
+          "historicalNote": "茶商在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-2-5",
+          "text": "改良经营方式",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "选茶采茶获得突破",
+          "historicalNote": "茶商在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-2-6",
+          "text": "诚信童叟无欺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "选茶采茶平稳推进",
+          "historicalNote": "茶商在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-3"
+    },
+    {
+      "id": "act-3",
+      "title": "茶马古道",
+      "isKeyAct": false,
+      "sceneDescription": "气氛骤然紧张起来。跟着马帮走茶马古道运茶到西藏危险迫在眉睫，容不得半点犹豫，你必须当机立断。你作为茶商，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "邻居",
+          "text": "有盗匪！",
+          "avatar": "邻"
+        },
+        {
+          "speaker": "同伴",
+          "text": "快走！保住货物要紧！",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-3-1",
+          "text": "审慎评估形势",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "茶马古道进展顺利",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-3-2",
+          "text": "勇敢开拓新路",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "茶马古道遇到波折",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-3-3",
+          "text": "联络同行合作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "茶马古道取得进展",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-3-4",
+          "text": "含蓄委婉表达",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "茶马古道遭遇困境",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-3-5",
+          "text": "开创独特风格",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "茶马古道获得突破",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-3-6",
+          "text": "不为利益所动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "茶马古道平稳推进",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-4"
+    },
+    {
+      "id": "act-4",
+      "title": "边贸交易",
+      "isKeyAct": true,
+      "sceneDescription": "历史性的时刻就在眼前。在茶马互市上用茶叶交换马匹你整理思绪，准备迎接这个重要的转折点。你作为茶商，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "友人",
+          "text": "这首诗还得再斟酌斟酌。",
+          "avatar": "人"
+        },
+        {
+          "speaker": "长者",
+          "text": "腹稿都有了，就缺个好题目。",
+          "avatar": "长"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-4-1",
+          "text": "详查资料考究",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "边贸交易进展顺利",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-4-2",
+          "text": "大胆挥毫创作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "边贸交易遇到波折",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-4-3",
+          "text": "与友人切磋琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "边贸交易取得进展",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-4-4",
+          "text": "低调行事避险",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "边贸交易遭遇困境",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-4-5",
+          "text": "另辟蹊径创新",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "边贸交易获得突破",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-4-6",
+          "text": "坚守气节原则",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "边贸交易平稳推进",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-5"
+    },
+    {
+      "id": "act-5",
+      "title": "茶叶品质",
+      "isKeyAct": false,
+      "sceneDescription": "日复一日的生活中，这一天似乎有些不同。鉴别不同等级茶叶的品质差异平凡中孕育着变化，你敏锐地察觉到了。你作为茶商，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "今日行情如何？",
+          "avatar": "友"
+        },
+        {
+          "speaker": "邻居",
+          "text": "比昨日涨了三成。",
+          "avatar": "邻"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-5-1",
+          "text": "多方打听确认",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "茶叶品质进展顺利",
+          "historicalNote": "与明清相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-5-2",
+          "text": "果断投资决策",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "茶叶品质遇到波折",
+          "historicalNote": "与明清相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-5-3",
+          "text": "寻求师长指点",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "茶叶品质取得进展",
+          "historicalNote": "与明清相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-5-4",
+          "text": "稳扎稳打经营",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "茶叶品质遭遇困境",
+          "historicalNote": "与明清相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-5-5",
+          "text": "改良经营方式",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "茶叶品质获得突破",
+          "historicalNote": "与明清相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-5-6",
+          "text": "诚信童叟无欺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "茶叶品质平稳推进",
+          "historicalNote": "与明清相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-6"
+    },
+    {
+      "id": "act-6",
+      "title": "海上茶路",
+      "isKeyAct": false,
+      "sceneDescription": "利益的冲突让原本平和的局面变得紧张。尝试通过海路将茶叶出口到欧洲你站在中间，试图寻找一条两全之路。你作为茶商，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "长者",
+          "text": "此诗明明是我先作的！",
+          "avatar": "长"
+        },
+        {
+          "speaker": "友人",
+          "text": "有何凭证？",
+          "avatar": "人"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-6-1",
+          "text": "审慎评估形势",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "海上茶路进展顺利",
+          "historicalNote": "茶商在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-6-2",
+          "text": "勇敢开拓新路",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "海上茶路遇到波折",
+          "historicalNote": "茶商在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-6-3",
+          "text": "联络同行合作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "海上茶路取得进展",
+          "historicalNote": "茶商在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-6-4",
+          "text": "含蓄委婉表达",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "海上茶路遭遇困境",
+          "historicalNote": "茶商在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-6-5",
+          "text": "开创独特风格",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "海上茶路获得突破",
+          "historicalNote": "茶商在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-6-6",
+          "text": "不为利益所动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "海上茶路平稳推进",
+          "historicalNote": "茶商在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-7"
+    },
+    {
+      "id": "act-7",
+      "title": "品牌经营",
+      "isKeyAct": false,
+      "sceneDescription": "回望来时的路，你心中感慨万千。在各地建立茶叶品牌和销路那些经历塑造了今天的你，也让你对未来有了更深的思考。你作为茶商，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "邻居",
+          "text": "读万卷书，行万里路。",
+          "avatar": "邻"
+        },
+        {
+          "speaker": "同伴",
+          "text": "你这人生，精彩得很。",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-7-1",
+          "text": "详查资料考究",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "品牌经营进展顺利",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-7-2",
+          "text": "大胆挥毫创作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "品牌经营遇到波折",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-7-3",
+          "text": "与友人切磋琢磨",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "品牌经营取得进展",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-7-4",
+          "text": "低调行事避险",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "品牌经营遭遇困境",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-7-5",
+          "text": "另辟蹊径创新",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "品牌经营获得突破",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-7-6",
+          "text": "坚守气节原则",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "品牌经营平稳推进",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-8"
+    },
+    {
+      "id": "act-8",
+      "title": "茶道传承",
+      "isKeyAct": true,
+      "sceneDescription": "一切尘埃落定，而你已不再是当初的自己。将制茶技艺与茶文化发扬光大这段经历赋予了你成长与智慧，你将带着它们继续前行。你作为茶商，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "友人",
+          "text": "这首诗还得再斟酌斟酌。",
+          "avatar": "人"
+        },
+        {
+          "speaker": "长者",
+          "text": "腹稿都有了，就缺个好题目。",
+          "avatar": "长"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-8-1",
+          "text": "多方打听确认",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "茶道传承进展顺利",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-8-2",
+          "text": "果断投资决策",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "茶道传承遇到波折",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-8-3",
+          "text": "寻求师长指点",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "茶道传承取得进展",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-8-4",
+          "text": "稳扎稳打经营",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "茶道传承遭遇困境",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-8-5",
+          "text": "改良经营方式",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "茶道传承获得突破",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-8-6",
+          "text": "诚信童叟无欺",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "茶道传承平稳推进",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ]
+    }
+  ]
+}

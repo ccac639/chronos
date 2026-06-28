@@ -1,0 +1,57 @@
+{
+  "eraId": "sw-medieval-asia-africa",
+  "eraName": "Medieval Asia and Africa",
+  "playerRole": "Narrator",
+  "acts": [
+    {
+      "id": "act1",
+      "title": "Empires of the East",
+      "isKeyAct": true,
+      "sceneDescription": "While Europe experienced its medieval period, Asia and Africa witnessed the rise of powerful empires. The Islamic world expanded from the Arabian Peninsula across three continents. Japan developed samurai culture, Korea established the Joseon dynasty, and African kingdoms built wealthy trading states.",
+      "npcDialogues": [
+        {
+          "speaker": "Historian",
+          "text": "The rise of Islam in the 7th century was one of the most transformative events in world history. Within a century, the Arab Empire stretched from Spain to India, becoming a center of learning, trade, and scientific innovation during the Islamic Golden Age.",
+          "avatar": "historian"
+        },
+        {
+          "speaker": "Archaeologist",
+          "text": "In East Asia, Japan's samurai warrior class emerged under the Kamakura shogunate, while Korea's Joseon dynasty (1392-1897) promoted Confucian governance. In Africa, the Mali and Songhai empires controlled trans-Saharan gold and salt trade routes, building wealthy and culturally vibrant societies.",
+          "avatar": "archaeologist"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act1_opt1",
+          "text": "(Narration) In the 7th century, the Prophet Muhammad founded Islam in the Arabian Peninsula. After his death in 632 CE, Muslim armies rapidly conquered vast territories. The Umayyad and Abbasid caliphates created a vast Islamic empire that became a global center of science, medicine, mathematics, and philosophy during its Golden Age.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 95,
+          "triggeredEvent": "Introduction to the rise of Islam",
+          "historicalNote": "Islam was founded by Muhammad (570-632 CE) in Mecca. The Islamic Golden Age (8th-14th century) saw major advances in algebra, optics, medicine, and astronomy. Scholars preserved and expanded upon Greek and Indian knowledge, later transmitting it to medieval Europe.",
+          "consequence": "Understanding the origins of Islam and its rapid expansion into a civilization."
+        },
+        {
+          "id": "act1_opt2",
+          "text": "(Narration) In Japan, Minamoto no Yoritomo established the first shogunate in 1192, beginning 700 years of military rule. The samurai, Japan's warrior class, lived by the code of Bushido. Meanwhile, on the Korean peninsula, Taejo of Joseon founded a new dynasty in 1392 that adopted Confucianism as its guiding philosophy and lasted over 500 years.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 90,
+          "triggeredEvent": "Introduction to medieval Japan and Korea",
+          "historicalNote": "Japan's Kamakura shogunate (1192-1333) established samurai governance that lasted until 1868. Korea's Joseon dynasty (1392-1897) adopted Neo-Confucianism, invented Hangul script under King Sejong, and became a model Confucian state. Both shaped East Asian cultural and political identity for centuries.",
+          "consequence": "Understanding the samurai system in Japan and Confucian governance in Korea."
+        },
+        {
+          "id": "act1_opt3",
+          "text": "(Narration) In Africa, powerful kingdoms flourished during the medieval period. The Ghana, Mali, and Songhai empires dominated West Africa's trans-Saharan trade in gold, salt, and slaves. Mansa Musa of Mali, one of history's wealthiest rulers, made a famous pilgrimage to Mecca in 1324 that put West Africa on the world map.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 88,
+          "triggeredEvent": "Introduction to medieval African empires",
+          "historicalNote": "The Mali Empire (1235-1600 CE) controlled vast West African territories. Mansa Musa (ruled 1312-1337) is considered the wealthiest person in history. The Songhai Empire (1430-1591) later became the largest empire in African history, with the city of Timbuktu as a major center of Islamic scholarship.",
+          "consequence": "Understanding the wealth and cultural achievements of West African empires."
+        }
+      ]
+    }
+  ]
+}

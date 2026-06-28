@@ -1,0 +1,654 @@
+{
+  "eraId": "junior-qin-han",
+  "eraName": "秦汉",
+  "playerRole": "边疆士兵",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "征兵入伍",
+      "isKeyAct": true,
+      "sceneDescription": "天刚蒙蒙亮，你便已起身。被征入秦汉军队开始军旅生涯四周静谧无声，只有微风拂过树梢的沙沙声。你作为边疆士兵，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "集合！今日有任务。",
+          "avatar": "友"
+        },
+        {
+          "speaker": "邻居",
+          "text": "兵器都检查好了吗？",
+          "avatar": "邻"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-1-1",
+          "text": "先侦查敌情",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "征兵入伍进展顺利",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-1-2",
+          "text": "主动出击迎敌",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "征兵入伍遇到波折",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-1-3",
+          "text": "请求援军支援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "征兵入伍取得进展",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-1-4",
+          "text": "固守阵地待援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "征兵入伍遭遇困境",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-1-5",
+          "text": "采用奇谋妙计",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "征兵入伍获得突破",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-1-6",
+          "text": "严明军纪稳定",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "征兵入伍平稳推进",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-2"
+    },
+    {
+      "id": "act-2",
+      "title": "长城戍守",
+      "isKeyAct": false,
+      "sceneDescription": "行至半路，你忽然发现前方异常。被派往北方修筑和驻守长城防线这意外的发现让你停下了脚步，仔细观察起来。你作为边疆士兵，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "长者",
+          "text": "发现敌军粮道！",
+          "avatar": "长"
+        },
+        {
+          "speaker": "友人",
+          "text": "此乃天赐良机！",
+          "avatar": "人"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-2-1",
+          "text": "观察形势再定",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "长城戍守进展顺利",
+          "historicalNote": "边疆士兵在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-2-2",
+          "text": "率军正面冲锋",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "长城戍守遇到波折",
+          "historicalNote": "边疆士兵在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-2-3",
+          "text": "联络友军协同",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "长城戍守取得进展",
+          "historicalNote": "边疆士兵在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-2-4",
+          "text": "坚守不出消耗",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "长城戍守遭遇困境",
+          "historicalNote": "边疆士兵在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-2-5",
+          "text": "迂回包抄敌后",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "长城戍守获得突破",
+          "historicalNote": "边疆士兵在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-2-6",
+          "text": "犒赏三军鼓舞",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "长城戍守平稳推进",
+          "historicalNote": "边疆士兵在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-3"
+    },
+    {
+      "id": "act-3",
+      "title": "军营训练",
+      "isKeyAct": false,
+      "sceneDescription": "一阵不祥的预感袭来。在操场上反复操练阵法和兵器果然，危险已经逼近，你屏住呼吸，思索对策。你作为边疆士兵，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "邻居",
+          "text": "敌袭！列阵！",
+          "avatar": "邻"
+        },
+        {
+          "speaker": "同伴",
+          "text": "弓箭手准备！",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-3-1",
+          "text": "派出斥候打探",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "军营训练进展顺利",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-3-2",
+          "text": "果断发起进攻",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "军营训练遇到波折",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-3-3",
+          "text": "向上级报告求援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "军营训练取得进展",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-3-4",
+          "text": "加固防御工事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "军营训练遭遇困境",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-3-5",
+          "text": "设伏诱敌深入",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "军营训练获得突破",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-3-6",
+          "text": "安抚将士情绪",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "军营训练平稳推进",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-4"
+    },
+    {
+      "id": "act-4",
+      "title": "烽火传讯",
+      "isKeyAct": true,
+      "sceneDescription": "历史性的时刻就在眼前。学习烽火台传递军情的信号系统你整理思绪，准备迎接这个重要的转折点。你作为边疆士兵，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "友人",
+          "text": "粮草还能撑几日？",
+          "avatar": "人"
+        },
+        {
+          "speaker": "长者",
+          "text": "省着用，约莫半月。",
+          "avatar": "长"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-4-1",
+          "text": "先侦查敌情",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "烽火传讯进展顺利",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-4-2",
+          "text": "主动出击迎敌",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "烽火传讯遇到波折",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-4-3",
+          "text": "请求援军支援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "烽火传讯取得进展",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-4-4",
+          "text": "固守阵地待援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "烽火传讯遭遇困境",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-4-5",
+          "text": "采用奇谋妙计",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "烽火传讯获得突破",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-4-6",
+          "text": "严明军纪稳定",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "烽火传讯平稳推进",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-5"
+    },
+    {
+      "id": "act-5",
+      "title": "边境巡逻",
+      "isKeyAct": false,
+      "sceneDescription": "日子如流水般静静淌过。沿长城巡逻防范匈奴侵扰在这平静之中，你思考着未来的方向与选择。你作为边疆士兵，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "今日操练不可懈怠。",
+          "avatar": "友"
+        },
+        {
+          "speaker": "邻居",
+          "text": "是！",
+          "avatar": "邻"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-5-1",
+          "text": "观察形势再定",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "边境巡逻进展顺利",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-5-2",
+          "text": "率军正面冲锋",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "边境巡逻遇到波折",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-5-3",
+          "text": "联络友军协同",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "边境巡逻取得进展",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-5-4",
+          "text": "坚守不出消耗",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "边境巡逻遭遇困境",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-5-5",
+          "text": "迂回包抄敌后",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "边境巡逻获得突破",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-5-6",
+          "text": "犒赏三军鼓舞",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "边境巡逻平稳推进",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-6"
+    },
+    {
+      "id": "act-6",
+      "title": "攻防之战",
+      "isKeyAct": false,
+      "sceneDescription": "言语之间，火花四溅。参与一次对匈奴的军事行动这场争执若不妥善处理，后果不堪设想。你作为边疆士兵，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "长者",
+          "text": "军法如山，不得争执！",
+          "avatar": "长"
+        },
+        {
+          "speaker": "友人",
+          "text": "都冷静下来！",
+          "avatar": "人"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-6-1",
+          "text": "派出斥候打探",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "攻防之战进展顺利",
+          "historicalNote": "边疆士兵在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-6-2",
+          "text": "果断发起进攻",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "攻防之战遇到波折",
+          "historicalNote": "边疆士兵在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-6-3",
+          "text": "向上级报告求援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "攻防之战取得进展",
+          "historicalNote": "边疆士兵在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-6-4",
+          "text": "加固防御工事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "攻防之战遭遇困境",
+          "historicalNote": "边疆士兵在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-6-5",
+          "text": "设伏诱敌深入",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "攻防之战获得突破",
+          "historicalNote": "边疆士兵在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-6-6",
+          "text": "安抚将士情绪",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "攻防之战平稳推进",
+          "historicalNote": "边疆士兵在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-7"
+    },
+    {
+      "id": "act-7",
+      "title": "军功受赏",
+      "isKeyAct": false,
+      "sceneDescription": "夜深人静，你独自沉思。因战功获得爵位或土地赏赐过往的得失在脑海中浮现，你从中汲取着智慧与力量。你作为边疆士兵，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "邻居",
+          "text": "跟你打仗，心里踏实。",
+          "avatar": "邻"
+        },
+        {
+          "speaker": "同伴",
+          "text": "同生共死，何分彼此。",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-7-1",
+          "text": "先侦查敌情",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "军功受赏进展顺利",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-7-2",
+          "text": "主动出击迎敌",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "军功受赏遇到波折",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-7-3",
+          "text": "请求援军支援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "军功受赏取得进展",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-7-4",
+          "text": "固守阵地待援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "军功受赏遭遇困境",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-7-5",
+          "text": "采用奇谋妙计",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "军功受赏获得突破",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-7-6",
+          "text": "严明军纪稳定",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "军功受赏平稳推进",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-8"
+    },
+    {
+      "id": "act-8",
+      "title": "解甲归田",
+      "isKeyAct": true,
+      "sceneDescription": "一切尘埃落定，而你已不再是当初的自己。服役期满退役还乡重建生活这段经历赋予了你成长与智慧，你将带着它们继续前行。你作为边疆士兵，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "友人",
+          "text": "粮草还能撑几日？",
+          "avatar": "人"
+        },
+        {
+          "speaker": "长者",
+          "text": "省着用，约莫半月。",
+          "avatar": "长"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-8-1",
+          "text": "观察形势再定",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "解甲归田进展顺利",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-8-2",
+          "text": "率军正面冲锋",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "解甲归田遇到波折",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-8-3",
+          "text": "联络友军协同",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "解甲归田取得进展",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-8-4",
+          "text": "坚守不出消耗",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "解甲归田遭遇困境",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-8-5",
+          "text": "迂回包抄敌后",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "解甲归田获得突破",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-8-6",
+          "text": "犒赏三军鼓舞",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "解甲归田平稳推进",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ]
+    }
+  ]
+}

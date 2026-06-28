@@ -1,0 +1,654 @@
+{
+  "eraId": "junior-qin-han",
+  "eraName": "秦汉",
+  "playerRole": "张良",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "韩国覆亡",
+      "isKeyAct": true,
+      "sceneDescription": "鸡鸣三声，你便要开始今日的行程。目睹故国韩国被秦所灭，立誓复仇背上沉甸甸的行囊，心中既有期待也有忐忑。你作为张良，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "准备好了吗？",
+          "avatar": "友"
+        },
+        {
+          "speaker": "邻居",
+          "text": "随时可以出发。",
+          "avatar": "邻"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-1-1",
+          "text": "先观察再行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "韩国覆亡进展顺利",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-1-2",
+          "text": "果断采取行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "韩国覆亡遇到波折",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-1-3",
+          "text": "寻求他人帮助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "韩国覆亡取得进展",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-1-4",
+          "text": "稳妥保守应对",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "韩国覆亡遭遇困境",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-1-5",
+          "text": "尝试创新方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "韩国覆亡获得突破",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-1-6",
+          "text": "坚持原则立场",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "韩国覆亡平稳推进",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-2"
+    },
+    {
+      "id": "act-2",
+      "title": "博浪沙刺秦",
+      "isKeyAct": false,
+      "sceneDescription": "眼前的景象让你眼前一亮。在博浪沙雇力士投掷铁椎行刺秦始皇这显然是个不寻常的发现，值得深入探究。你作为张良，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "长者",
+          "text": "你发现了什么？",
+          "avatar": "长"
+        },
+        {
+          "speaker": "友人",
+          "text": "还需要再确认。",
+          "avatar": "人"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-2-1",
+          "text": "仔细了解情况",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "博浪沙刺秦进展顺利",
+          "historicalNote": "张良在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-2-2",
+          "text": "勇敢面对挑战",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "博浪沙刺秦遇到波折",
+          "historicalNote": "张良在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-2-3",
+          "text": "与众人商议",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "博浪沙刺秦取得进展",
+          "historicalNote": "张良在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-2-4",
+          "text": "避免冒进风险",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "博浪沙刺秦遭遇困境",
+          "historicalNote": "张良在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-2-5",
+          "text": "换个思路解决",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "博浪沙刺秦获得突破",
+          "historicalNote": "张良在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-2-6",
+          "text": "不为外力动摇",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "博浪沙刺秦平稳推进",
+          "historicalNote": "张良在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-3"
+    },
+    {
+      "id": "act-3",
+      "title": "下邳受书",
+      "isKeyAct": false,
+      "sceneDescription": "气氛骤然紧张起来。在桥上遇到黄石公，三赴约得授太公兵法危险迫在眉睫，容不得半点犹豫，你必须当机立断。你作为张良，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "邻居",
+          "text": "小心！",
+          "avatar": "邻"
+        },
+        {
+          "speaker": "同伴",
+          "text": "往后退！",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-3-1",
+          "text": "收集更多信息",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "下邳受书进展顺利",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-3-2",
+          "text": "主动承担责任",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "下邳受书遇到波折",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-3-3",
+          "text": "请求支援协助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "下邳受书取得进展",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-3-4",
+          "text": "谨慎小心行事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "下邳受书遭遇困境",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-3-5",
+          "text": "灵活变通处理",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "下邳受书获得突破",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-3-6",
+          "text": "坚守本心初衷",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "下邳受书平稳推进",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-4"
+    },
+    {
+      "id": "act-4",
+      "title": "沛县遇沛公",
+      "isKeyAct": true,
+      "sceneDescription": "历史性的时刻就在眼前。在沛县结识刘邦，开始辅佐之路你整理思绪，准备迎接这个重要的转折点。你作为张良，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "友人",
+          "text": "该歇息了。",
+          "avatar": "人"
+        },
+        {
+          "speaker": "长者",
+          "text": "再忙一会儿。",
+          "avatar": "长"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-4-1",
+          "text": "先观察再行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "沛县遇沛公进展顺利",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-4-2",
+          "text": "果断采取行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "沛县遇沛公遇到波折",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-4-3",
+          "text": "寻求他人帮助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "沛县遇沛公取得进展",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-4-4",
+          "text": "稳妥保守应对",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "沛县遇沛公遭遇困境",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-4-5",
+          "text": "尝试创新方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "沛县遇沛公获得突破",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-4-6",
+          "text": "坚持原则立场",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "沛县遇沛公平稳推进",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-5"
+    },
+    {
+      "id": "act-5",
+      "title": "鸿门宴",
+      "isKeyAct": false,
+      "sceneDescription": "日复一日的生活中，这一天似乎有些不同。在鸿门宴上用计保护刘邦脱险平凡中孕育着变化，你敏锐地察觉到了。你作为张良，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "今日如何？",
+          "avatar": "友"
+        },
+        {
+          "speaker": "邻居",
+          "text": "还算顺利。",
+          "avatar": "邻"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-5-1",
+          "text": "仔细了解情况",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "鸿门宴进展顺利",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-5-2",
+          "text": "勇敢面对挑战",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "鸿门宴遇到波折",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-5-3",
+          "text": "与众人商议",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "鸿门宴取得进展",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-5-4",
+          "text": "避免冒进风险",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "鸿门宴遭遇困境",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-5-5",
+          "text": "换个思路解决",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "鸿门宴获得突破",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-5-6",
+          "text": "不为外力动摇",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "鸿门宴平稳推进",
+          "historicalNote": "与秦汉相关的关键历史事件相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-6"
+    },
+    {
+      "id": "act-6",
+      "title": "运筹帷幄",
+      "isKeyAct": false,
+      "sceneDescription": "利益的冲突让原本平和的局面变得紧张。为刘邦制定入关灭秦的战略你站在中间，试图寻找一条两全之路。你作为张良，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "长者",
+          "text": "你太固执了！",
+          "avatar": "长"
+        },
+        {
+          "speaker": "友人",
+          "text": "原则问题，不能退让！",
+          "avatar": "人"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-6-1",
+          "text": "收集更多信息",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "运筹帷幄进展顺利",
+          "historicalNote": "张良在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-6-2",
+          "text": "主动承担责任",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "运筹帷幄遇到波折",
+          "historicalNote": "张良在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-6-3",
+          "text": "请求支援协助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "运筹帷幄取得进展",
+          "historicalNote": "张良在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-6-4",
+          "text": "谨慎小心行事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "运筹帷幄遭遇困境",
+          "historicalNote": "张良在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-6-5",
+          "text": "灵活变通处理",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "运筹帷幄获得突破",
+          "historicalNote": "张良在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-6-6",
+          "text": "坚守本心初衷",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "运筹帷幄平稳推进",
+          "historicalNote": "张良在这一时期的生活与经历相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-7"
+    },
+    {
+      "id": "act-7",
+      "title": "楚汉争霸",
+      "isKeyAct": false,
+      "sceneDescription": "回望来时的路，你心中感慨万千。在楚汉相争中用计策扭转战局那些经历塑造了今天的你，也让你对未来有了更深的思考。你作为张良，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "邻居",
+          "text": "回想起来，真不容易。",
+          "avatar": "邻"
+        },
+        {
+          "speaker": "同伴",
+          "text": "好在都过去了。",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-7-1",
+          "text": "先观察再行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "楚汉争霸进展顺利",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-7-2",
+          "text": "果断采取行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "楚汉争霸遇到波折",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-7-3",
+          "text": "寻求他人帮助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "楚汉争霸取得进展",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-7-4",
+          "text": "稳妥保守应对",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "楚汉争霸遭遇困境",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-7-5",
+          "text": "尝试创新方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "楚汉争霸获得突破",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-7-6",
+          "text": "坚持原则立场",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "楚汉争霸平稳推进",
+          "historicalNote": "该时代的政治、经济与文化背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-8"
+    },
+    {
+      "id": "act-8",
+      "title": "功成身退",
+      "isKeyAct": true,
+      "sceneDescription": "一切尘埃落定，而你已不再是当初的自己。天下初定后功成不居，隐退修道这段经历赋予了你成长与智慧，你将带着它们继续前行。你作为张良，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "友人",
+          "text": "该歇息了。",
+          "avatar": "人"
+        },
+        {
+          "speaker": "长者",
+          "text": "再忙一会儿。",
+          "avatar": "长"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-8-1",
+          "text": "仔细了解情况",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "功成身退进展顺利",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-8-2",
+          "text": "勇敢面对挑战",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "功成身退遇到波折",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-8-3",
+          "text": "与众人商议",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "功成身退取得进展",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-8-4",
+          "text": "避免冒进风险",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "功成身退遭遇困境",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-8-5",
+          "text": "换个思路解决",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "功成身退获得突破",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-8-6",
+          "text": "不为外力动摇",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "功成身退平稳推进",
+          "historicalNote": "历史对后世的深远影响相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+  "eraId": "primary-ancient-legends",
+  "eraName": "远古传说",
+  "playerRole": "采集妇女",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "黎明出发",
+      "isKeyAct": true,
+      "sceneDescription": "晨曦微露，你整理好行装准备出发。带领部落妇女外出采集野果与植物空气中弥漫着清新的气息，远处传来鸟鸣声。你作为采集妇女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "族长",
+          "text": "今日出发得早，希望能有好收获。",
+          "avatar": "族"
+        },
+        {
+          "speaker": "同伴",
+          "text": "听闻东边的林子果子熟得正好。",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-1-1",
+          "text": "仔细观察周围环境",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "黎明出发进展顺利",
+          "historicalNote": "旧石器时代采集经济是主要食物来源相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-1-2",
+          "text": "大胆深入探索",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "黎明出发遇到波折",
+          "historicalNote": "旧石器时代采集经济是主要食物来源相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-1-3",
+          "text": "召集同伴商议",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "黎明出发取得进展",
+          "historicalNote": "旧石器时代采集经济是主要食物来源相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-1-4",
+          "text": "保守行事，不冒进",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "黎明出发遭遇困境",
+          "historicalNote": "旧石器时代采集经济是主要食物来源相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-1-5",
+          "text": "尝试新方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "黎明出发获得突破",
+          "historicalNote": "旧石器时代采集经济是主要食物来源相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-1-6",
+          "text": "遵循传统经验",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "黎明出发平稳推进",
+          "historicalNote": "旧石器时代采集经济是主要食物来源相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-2"
+    },
+    {
+      "id": "act-2",
+      "title": "发现新食源",
+      "isKeyAct": false,
+      "sceneDescription": "行至半路，你忽然发现前方异常。在河边发现大片可食用块茎这意外的发现让你停下了脚步，仔细观察起来。你作为采集妇女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "邻居",
+          "text": "此处土地肥沃，定有好东西。",
+          "avatar": "邻"
+        },
+        {
+          "speaker": "首领",
+          "text": "小心些，先辨认清楚。",
+          "avatar": "首"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-2-1",
+          "text": "先辨认清楚再行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "发现新食源进展顺利",
+          "historicalNote": "人工取火是人类文明重大进步相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-2-2",
+          "text": "扩大搜索范围",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "发现新食源遇到波折",
+          "historicalNote": "人工取火是人类文明重大进步相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-2-3",
+          "text": "寻求他人帮助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "发现新食源取得进展",
+          "historicalNote": "人工取火是人类文明重大进步相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-2-4",
+          "text": "量力而行，稳妥为上",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "发现新食源遭遇困境",
+          "historicalNote": "人工取火是人类文明重大进步相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-2-5",
+          "text": "改良现有工具",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "发现新食源获得突破",
+          "historicalNote": "人工取火是人类文明重大进步相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-2-6",
+          "text": "按老规矩办事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "发现新食源平稳推进",
+          "historicalNote": "人工取火是人类文明重大进步相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-3"
+    },
+    {
+      "id": "act-3",
+      "title": "危险遭遇",
+      "isKeyAct": false,
+      "sceneDescription": "意外来得猝不及防。遇到野兽，需要做出应对四周形势突变，你紧握手中的工具，准备应对。你作为采集妇女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "有野兽！快拿火把！",
+          "avatar": "友"
+        },
+        {
+          "speaker": "孩子",
+          "text": "莫慌，慢慢后退。",
+          "avatar": "童"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-3-1",
+          "text": "留意可疑之处",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "危险遭遇进展顺利",
+          "historicalNote": "母系氏族社会中妇女有重要地位相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-3-2",
+          "text": "追踪线索前行",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "危险遭遇遇到波折",
+          "historicalNote": "母系氏族社会中妇女有重要地位相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-3-3",
+          "text": "与同伴分工合作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "危险遭遇取得进展",
+          "historicalNote": "母系氏族社会中妇女有重要地位相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-3-4",
+          "text": "先确保安全",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "危险遭遇遭遇困境",
+          "historicalNote": "母系氏族社会中妇女有重要地位相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-3-5",
+          "text": "总结经验创新",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "危险遭遇获得突破",
+          "historicalNote": "母系氏族社会中妇女有重要地位相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-3-6",
+          "text": "坚持稳妥做法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "危险遭遇平稳推进",
+          "historicalNote": "母系氏族社会中妇女有重要地位相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-4"
+    },
+    {
+      "id": "act-4",
+      "title": "火的使用",
+      "isKeyAct": true,
+      "sceneDescription": "关键时刻终于到来。学会用火烤制食物、驱赶野兽这不仅关乎你个人，更可能影响身边许多人，你倍感责任重大。你作为采集妇女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "首领",
+          "text": "天要变了，抓紧些。",
+          "avatar": "首"
+        },
+        {
+          "speaker": "老者",
+          "text": "明日再来吧。",
+          "avatar": "翁"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-4-1",
+          "text": "仔细观察周围环境",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "火的使用进展顺利",
+          "historicalNote": "远古人类对植物药用价值的初步认识相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-4-2",
+          "text": "大胆深入探索",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "火的使用遇到波折",
+          "historicalNote": "远古人类对植物药用价值的初步认识相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-4-3",
+          "text": "召集同伴商议",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "火的使用取得进展",
+          "historicalNote": "远古人类对植物药用价值的初步认识相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-4-4",
+          "text": "保守行事，不冒进",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "火的使用遭遇困境",
+          "historicalNote": "远古人类对植物药用价值的初步认识相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-4-5",
+          "text": "尝试新方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "火的使用获得突破",
+          "historicalNote": "远古人类对植物药用价值的初步认识相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-4-6",
+          "text": "遵循传统经验",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "火的使用平稳推进",
+          "historicalNote": "远古人类对植物药用价值的初步认识相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-5"
+    },
+    {
+      "id": "act-5",
+      "title": "部落分享",
+      "isKeyAct": false,
+      "sceneDescription": "劳作继续进行着。将新发现带回部落分享给族人汗水浸湿了衣衫，但你知道这份辛苦终将有回报。你作为采集妇女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "孩子",
+          "text": "今日收成不错。",
+          "avatar": "童"
+        },
+        {
+          "speaker": "族长",
+          "text": "够吃几日了。",
+          "avatar": "族"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-5-1",
+          "text": "先辨认清楚再行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "部落分享进展顺利",
+          "historicalNote": "旧石器时代采集经济是主要食物来源相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-5-2",
+          "text": "扩大搜索范围",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "部落分享遇到波折",
+          "historicalNote": "旧石器时代采集经济是主要食物来源相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-5-3",
+          "text": "寻求他人帮助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "部落分享取得进展",
+          "historicalNote": "旧石器时代采集经济是主要食物来源相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-5-4",
+          "text": "量力而行，稳妥为上",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "部落分享遭遇困境",
+          "historicalNote": "旧石器时代采集经济是主要食物来源相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-5-5",
+          "text": "改良现有工具",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "部落分享获得突破",
+          "historicalNote": "旧石器时代采集经济是主要食物来源相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-5-6",
+          "text": "按老规矩办事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "部落分享平稳推进",
+          "historicalNote": "旧石器时代采集经济是主要食物来源相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-6"
+    },
+    {
+      "id": "act-6",
+      "title": "季节变迁",
+      "isKeyAct": false,
+      "sceneDescription": "利益的冲突让原本平和的局面变得紧张。秋季丰收与食物储存你站在中间，试图寻找一条两全之路。你作为采集妇女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "老者",
+          "text": "各退一步，平分如何？",
+          "avatar": "翁"
+        },
+        {
+          "speaker": "邻居",
+          "text": "再争下去，谁也得不到。",
+          "avatar": "邻"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-6-1",
+          "text": "留意可疑之处",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "季节变迁进展顺利",
+          "historicalNote": "人工取火是人类文明重大进步相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-6-2",
+          "text": "追踪线索前行",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "季节变迁遇到波折",
+          "historicalNote": "人工取火是人类文明重大进步相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-6-3",
+          "text": "与同伴分工合作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "季节变迁取得进展",
+          "historicalNote": "人工取火是人类文明重大进步相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-6-4",
+          "text": "先确保安全",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "季节变迁遭遇困境",
+          "historicalNote": "人工取火是人类文明重大进步相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-6-5",
+          "text": "总结经验创新",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "季节变迁获得突破",
+          "historicalNote": "人工取火是人类文明重大进步相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-6-6",
+          "text": "坚持稳妥做法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "季节变迁平稳推进",
+          "historicalNote": "人工取火是人类文明重大进步相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-7"
+    },
+    {
+      "id": "act-7",
+      "title": "外来冲突",
+      "isKeyAct": false,
+      "sceneDescription": "回望来时的路，你心中感慨万千。与邻近部落因采集区域发生争执那些经历塑造了今天的你，也让你对未来有了更深的思考。你作为采集妇女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "族长",
+          "text": "你教的方法真好用。",
+          "avatar": "族"
+        },
+        {
+          "speaker": "同伴",
+          "text": "年轻人学得快，以后靠你们了。",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-7-1",
+          "text": "仔细观察周围环境",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "外来冲突进展顺利",
+          "historicalNote": "母系氏族社会中妇女有重要地位相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-7-2",
+          "text": "大胆深入探索",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "外来冲突遇到波折",
+          "historicalNote": "母系氏族社会中妇女有重要地位相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-7-3",
+          "text": "召集同伴商议",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "外来冲突取得进展",
+          "historicalNote": "母系氏族社会中妇女有重要地位相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-7-4",
+          "text": "保守行事，不冒进",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "外来冲突遭遇困境",
+          "historicalNote": "母系氏族社会中妇女有重要地位相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-7-5",
+          "text": "尝试新方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "外来冲突获得突破",
+          "historicalNote": "母系氏族社会中妇女有重要地位相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-7-6",
+          "text": "遵循传统经验",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "外来冲突平稳推进",
+          "historicalNote": "母系氏族社会中妇女有重要地位相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-8"
+    },
+    {
+      "id": "act-8",
+      "title": "传承技艺",
+      "isKeyAct": true,
+      "sceneDescription": "故事接近尾声，而你的旅程仍在继续。教导年轻一代辨认植物与采集技巧这段经历将永远铭刻在你的记忆中，成为生命的一部分。你作为采集妇女，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "邻居",
+          "text": "天要变了，抓紧些。",
+          "avatar": "邻"
+        },
+        {
+          "speaker": "首领",
+          "text": "明日再来吧。",
+          "avatar": "首"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-8-1",
+          "text": "先辨认清楚再行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "传承技艺进展顺利",
+          "historicalNote": "远古人类对植物药用价值的初步认识相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-8-2",
+          "text": "扩大搜索范围",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "传承技艺遇到波折",
+          "historicalNote": "远古人类对植物药用价值的初步认识相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-8-3",
+          "text": "寻求他人帮助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "传承技艺取得进展",
+          "historicalNote": "远古人类对植物药用价值的初步认识相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-8-4",
+          "text": "量力而行，稳妥为上",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "传承技艺遭遇困境",
+          "historicalNote": "远古人类对植物药用价值的初步认识相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-8-5",
+          "text": "改良现有工具",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "传承技艺获得突破",
+          "historicalNote": "远古人类对植物药用价值的初步认识相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-8-6",
+          "text": "按老规矩办事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "传承技艺平稳推进",
+          "historicalNote": "远古人类对植物药用价值的初步认识相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ]
+    }
+  ]
+}

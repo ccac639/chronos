@@ -1,0 +1,654 @@
+{
+  "eraId": "primary-song-heroes",
+  "eraName": "英雄故事",
+  "playerRole": "花木兰",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "织布叹息",
+      "isKeyAct": true,
+      "sceneDescription": "鸡鸣三声，你便要开始今日的行程。在织布机前叹息，忧虑征兵消息背上沉甸甸的行囊，心中既有期待也有忐忑。你作为花木兰，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "父亲",
+          "text": "准备好了吗？",
+          "avatar": "父"
+        },
+        {
+          "speaker": "师父",
+          "text": "随时可以出发。",
+          "avatar": "人"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-1-1",
+          "text": "先观察再行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "织布叹息进展顺利",
+          "historicalNote": "花木兰故事的民间传说背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-1-2",
+          "text": "果断采取行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "织布叹息遇到波折",
+          "historicalNote": "花木兰故事的民间传说背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-1-3",
+          "text": "寻求他人帮助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "织布叹息取得进展",
+          "historicalNote": "花木兰故事的民间传说背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-1-4",
+          "text": "稳妥保守应对",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "织布叹息遭遇困境",
+          "historicalNote": "花木兰故事的民间传说背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-1-5",
+          "text": "尝试创新方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "织布叹息获得突破",
+          "historicalNote": "花木兰故事的民间传说背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-1-6",
+          "text": "坚持原则立场",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "织布叹息平稳推进",
+          "historicalNote": "花木兰故事的民间传说背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-2"
+    },
+    {
+      "id": "act-2",
+      "title": "替父从军",
+      "isKeyAct": false,
+      "sceneDescription": "眼前的景象让你眼前一亮。决定女扮男装替年迈父亲应征这显然是个不寻常的发现，值得深入探究。你作为花木兰，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "母亲",
+          "text": "你发现了什么？",
+          "avatar": "母"
+        },
+        {
+          "speaker": "病人",
+          "text": "还需要再确认。",
+          "avatar": "病"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-2-1",
+          "text": "仔细了解情况",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "替父从军进展顺利",
+          "historicalNote": "北朝时期的征兵制度相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-2-2",
+          "text": "勇敢面对挑战",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "替父从军遇到波折",
+          "historicalNote": "北朝时期的征兵制度相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-2-3",
+          "text": "与众人商议",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "替父从军取得进展",
+          "historicalNote": "北朝时期的征兵制度相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-2-4",
+          "text": "避免冒进风险",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "替父从军遭遇困境",
+          "historicalNote": "北朝时期的征兵制度相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-2-5",
+          "text": "换个思路解决",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "替父从军获得突破",
+          "historicalNote": "北朝时期的征兵制度相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-2-6",
+          "text": "不为外力动摇",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "替父从军平稳推进",
+          "historicalNote": "北朝时期的征兵制度相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-3"
+    },
+    {
+      "id": "act-3",
+      "title": "东市买马",
+      "isKeyAct": false,
+      "sceneDescription": "突然，危险悄然而至。筹备行装、购买骏马与鞍鞯你立刻警觉起来，心跳加速，必须迅速做出判断。你作为花木兰，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "师父",
+          "text": "小心！",
+          "avatar": "人"
+        },
+        {
+          "speaker": "邻居",
+          "text": "往后退！",
+          "avatar": "邻"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-3-1",
+          "text": "收集更多信息",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "东市买马进展顺利",
+          "historicalNote": "古代女性的社会地位与局限相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-3-2",
+          "text": "主动承担责任",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "东市买马遇到波折",
+          "historicalNote": "古代女性的社会地位与局限相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-3-3",
+          "text": "请求支援协助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "东市买马取得进展",
+          "historicalNote": "古代女性的社会地位与局限相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-3-4",
+          "text": "谨慎小心行事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "东市买马遭遇困境",
+          "historicalNote": "古代女性的社会地位与局限相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-3-5",
+          "text": "灵活变通处理",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "东市买马获得突破",
+          "historicalNote": "古代女性的社会地位与局限相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-3-6",
+          "text": "坚守本心初衷",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "东市买马平稳推进",
+          "historicalNote": "古代女性的社会地位与局限相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-4"
+    },
+    {
+      "id": "act-4",
+      "title": "万里赴戎机",
+      "isKeyAct": true,
+      "sceneDescription": "关键时刻终于到来。随大军出征，行军万里这不仅关乎你个人，更可能影响身边许多人，你倍感责任重大。你作为花木兰，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "病人",
+          "text": "该歇息了。",
+          "avatar": "病"
+        },
+        {
+          "speaker": "父亲",
+          "text": "再忙一会儿。",
+          "avatar": "父"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-4-1",
+          "text": "先观察再行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "万里赴戎机进展顺利",
+          "historicalNote": "木兰辞的文学价值与精神内涵相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-4-2",
+          "text": "果断采取行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "万里赴戎机遇到波折",
+          "historicalNote": "木兰辞的文学价值与精神内涵相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-4-3",
+          "text": "寻求他人帮助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "万里赴戎机取得进展",
+          "historicalNote": "木兰辞的文学价值与精神内涵相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-4-4",
+          "text": "稳妥保守应对",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "万里赴戎机遭遇困境",
+          "historicalNote": "木兰辞的文学价值与精神内涵相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-4-5",
+          "text": "尝试创新方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "万里赴戎机获得突破",
+          "historicalNote": "木兰辞的文学价值与精神内涵相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-4-6",
+          "text": "坚持原则立场",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "万里赴戎机平稳推进",
+          "historicalNote": "木兰辞的文学价值与精神内涵相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-5"
+    },
+    {
+      "id": "act-5",
+      "title": "沙场征战",
+      "isKeyAct": false,
+      "sceneDescription": "午后的阳光有些慵懒。在战场上与敌军激烈交战你放下手中的活计，稍作歇息，思绪飘向远方。你作为花木兰，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "邻居",
+          "text": "今日如何？",
+          "avatar": "邻"
+        },
+        {
+          "speaker": "母亲",
+          "text": "还算顺利。",
+          "avatar": "母"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-5-1",
+          "text": "仔细了解情况",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "沙场征战进展顺利",
+          "historicalNote": "花木兰故事的民间传说背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-5-2",
+          "text": "勇敢面对挑战",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "沙场征战遇到波折",
+          "historicalNote": "花木兰故事的民间传说背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-5-3",
+          "text": "与众人商议",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "沙场征战取得进展",
+          "historicalNote": "花木兰故事的民间传说背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-5-4",
+          "text": "避免冒进风险",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "沙场征战遭遇困境",
+          "historicalNote": "花木兰故事的民间传说背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-5-5",
+          "text": "换个思路解决",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "沙场征战获得突破",
+          "historicalNote": "花木兰故事的民间传说背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-5-6",
+          "text": "不为外力动摇",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "沙场征战平稳推进",
+          "historicalNote": "花木兰故事的民间传说背景相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-6"
+    },
+    {
+      "id": "act-6",
+      "title": "寒夜戍守",
+      "isKeyAct": false,
+      "sceneDescription": "利益的冲突让原本平和的局面变得紧张。寒冬夜里在边关守卫营帐你站在中间，试图寻找一条两全之路。你作为花木兰，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "父亲",
+          "text": "你太固执了！",
+          "avatar": "父"
+        },
+        {
+          "speaker": "师父",
+          "text": "原则问题，不能退让！",
+          "avatar": "人"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-6-1",
+          "text": "收集更多信息",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "寒夜戍守进展顺利",
+          "historicalNote": "北朝时期的征兵制度相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-6-2",
+          "text": "主动承担责任",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "寒夜戍守遇到波折",
+          "historicalNote": "北朝时期的征兵制度相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-6-3",
+          "text": "请求支援协助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "寒夜戍守取得进展",
+          "historicalNote": "北朝时期的征兵制度相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-6-4",
+          "text": "谨慎小心行事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "寒夜戍守遭遇困境",
+          "historicalNote": "北朝时期的征兵制度相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-6-5",
+          "text": "灵活变通处理",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "寒夜戍守获得突破",
+          "historicalNote": "北朝时期的征兵制度相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-6-6",
+          "text": "坚守本心初衷",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "寒夜戍守平稳推进",
+          "historicalNote": "北朝时期的征兵制度相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-7"
+    },
+    {
+      "id": "act-7",
+      "title": "凯旋归来",
+      "isKeyAct": false,
+      "sceneDescription": "时光流转，季节更迭。大军获胜，班师回朝你回顾这段时间的点点滴滴，心中充满了复杂的情感。你作为花木兰，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "母亲",
+          "text": "回想起来，真不容易。",
+          "avatar": "母"
+        },
+        {
+          "speaker": "病人",
+          "text": "好在都过去了。",
+          "avatar": "病"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-7-1",
+          "text": "先观察再行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "凯旋归来进展顺利",
+          "historicalNote": "古代女性的社会地位与局限相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-7-2",
+          "text": "果断采取行动",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "凯旋归来遇到波折",
+          "historicalNote": "古代女性的社会地位与局限相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-7-3",
+          "text": "寻求他人帮助",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "凯旋归来取得进展",
+          "historicalNote": "古代女性的社会地位与局限相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-7-4",
+          "text": "稳妥保守应对",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "凯旋归来遭遇困境",
+          "historicalNote": "古代女性的社会地位与局限相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-7-5",
+          "text": "尝试创新方法",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "凯旋归来获得突破",
+          "historicalNote": "古代女性的社会地位与局限相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-7-6",
+          "text": "坚持原则立场",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "凯旋归来平稳推进",
+          "historicalNote": "古代女性的社会地位与局限相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-8"
+    },
+    {
+      "id": "act-8",
+      "title": "还乡团聚",
+      "isKeyAct": true,
+      "sceneDescription": "回望这段历程，你心中充满感激。脱下战袍恢复女儿身，与家人团聚那些人与事，那些欢笑与泪水，都已成为你生命中最珍贵的财富。你作为花木兰，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "师父",
+          "text": "该歇息了。",
+          "avatar": "人"
+        },
+        {
+          "speaker": "邻居",
+          "text": "再忙一会儿。",
+          "avatar": "邻"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-8-1",
+          "text": "仔细了解情况",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "还乡团聚进展顺利",
+          "historicalNote": "木兰辞的文学价值与精神内涵相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-8-2",
+          "text": "勇敢面对挑战",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "还乡团聚遇到波折",
+          "historicalNote": "木兰辞的文学价值与精神内涵相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-8-3",
+          "text": "与众人商议",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "还乡团聚取得进展",
+          "historicalNote": "木兰辞的文学价值与精神内涵相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-8-4",
+          "text": "避免冒进风险",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "还乡团聚遭遇困境",
+          "historicalNote": "木兰辞的文学价值与精神内涵相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-8-5",
+          "text": "换个思路解决",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "还乡团聚获得突破",
+          "historicalNote": "木兰辞的文学价值与精神内涵相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-8-6",
+          "text": "不为外力动摇",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "还乡团聚平稳推进",
+          "historicalNote": "木兰辞的文学价值与精神内涵相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ]
+    }
+  ]
+}

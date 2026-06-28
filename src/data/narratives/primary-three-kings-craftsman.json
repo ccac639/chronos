@@ -1,0 +1,654 @@
+{
+  "eraId": "primary-three-kings",
+  "eraName": "三国故事",
+  "playerRole": "军械工匠",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "拜师学艺",
+      "isKeyAct": true,
+      "sceneDescription": "清晨的第一缕阳光洒在脸上，你深吸一口气。进入官营作坊跟随老工匠学习锻造新的一天充满了未知与挑战。你作为军械工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "老兵",
+          "text": "集合！今日有任务。",
+          "avatar": "兵"
+        },
+        {
+          "speaker": "军官",
+          "text": "兵器都检查好了吗？",
+          "avatar": "官"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-1-1",
+          "text": "先侦查敌情",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "拜师学艺进展顺利",
+          "historicalNote": "诸葛连弩的发明与军事应用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-1-2",
+          "text": "主动出击迎敌",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "拜师学艺遇到波折",
+          "historicalNote": "诸葛连弩的发明与军事应用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-1-3",
+          "text": "请求援军支援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "拜师学艺取得进展",
+          "historicalNote": "诸葛连弩的发明与军事应用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-1-4",
+          "text": "固守阵地待援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "拜师学艺遭遇困境",
+          "historicalNote": "诸葛连弩的发明与军事应用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-1-5",
+          "text": "采用奇谋妙计",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "拜师学艺获得突破",
+          "historicalNote": "诸葛连弩的发明与军事应用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-1-6",
+          "text": "严明军纪稳定",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "拜师学艺平稳推进",
+          "historicalNote": "诸葛连弩的发明与军事应用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-2"
+    },
+    {
+      "id": "act-2",
+      "title": "打造兵器",
+      "isKeyAct": false,
+      "sceneDescription": "眼前的景象让你眼前一亮。反复锤炼，制作出合格的长枪这显然是个不寻常的发现，值得深入探究。你作为军械工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "村民",
+          "text": "发现敌军粮道！",
+          "avatar": "村"
+        },
+        {
+          "speaker": "同伴",
+          "text": "此乃天赐良机！",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-2-1",
+          "text": "观察形势再定",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "打造兵器进展顺利",
+          "historicalNote": "古代冶金与锻造技术的发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-2-2",
+          "text": "率军正面冲锋",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "打造兵器遇到波折",
+          "historicalNote": "古代冶金与锻造技术的发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-2-3",
+          "text": "联络友军协同",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "打造兵器取得进展",
+          "historicalNote": "古代冶金与锻造技术的发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-2-4",
+          "text": "坚守不出消耗",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "打造兵器遭遇困境",
+          "historicalNote": "古代冶金与锻造技术的发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-2-5",
+          "text": "迂回包抄敌后",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "打造兵器获得突破",
+          "historicalNote": "古代冶金与锻造技术的发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-2-6",
+          "text": "犒赏三军鼓舞",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "打造兵器平稳推进",
+          "historicalNote": "古代冶金与锻造技术的发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-3"
+    },
+    {
+      "id": "act-3",
+      "title": "技术革新",
+      "isKeyAct": false,
+      "sceneDescription": "气氛骤然紧张起来。改进淬火工艺，提高武器硬度危险迫在眉睫，容不得半点犹豫，你必须当机立断。你作为军械工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "军官",
+          "text": "敌袭！列阵！",
+          "avatar": "官"
+        },
+        {
+          "speaker": "铁匠",
+          "text": "弓箭手准备！",
+          "avatar": "匠"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-3-1",
+          "text": "派出斥候打探",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "技术革新进展顺利",
+          "historicalNote": "军械工匠在战争中的关键作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-3-2",
+          "text": "果断发起进攻",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "技术革新遇到波折",
+          "historicalNote": "军械工匠在战争中的关键作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-3-3",
+          "text": "向上级报告求援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "技术革新取得进展",
+          "historicalNote": "军械工匠在战争中的关键作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-3-4",
+          "text": "加固防御工事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "技术革新遭遇困境",
+          "historicalNote": "军械工匠在战争中的关键作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-3-5",
+          "text": "设伏诱敌深入",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "技术革新获得突破",
+          "historicalNote": "军械工匠在战争中的关键作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-3-6",
+          "text": "安抚将士情绪",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "技术革新平稳推进",
+          "historicalNote": "军械工匠在战争中的关键作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-4"
+    },
+    {
+      "id": "act-4",
+      "title": "攻城器械",
+      "isKeyAct": true,
+      "sceneDescription": "这是一个将载入记忆的重要时刻。参与制造投石车和云梯你深知此次经历的重大意义，全神贯注地投入其中。你作为军械工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "同伴",
+          "text": "粮草还能撑几日？",
+          "avatar": "友"
+        },
+        {
+          "speaker": "老兵",
+          "text": "省着用，约莫半月。",
+          "avatar": "兵"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-4-1",
+          "text": "先侦查敌情",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "攻城器械进展顺利",
+          "historicalNote": "官营手工业的管理与运作相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-4-2",
+          "text": "主动出击迎敌",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "攻城器械遇到波折",
+          "historicalNote": "官营手工业的管理与运作相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-4-3",
+          "text": "请求援军支援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "攻城器械取得进展",
+          "historicalNote": "官营手工业的管理与运作相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-4-4",
+          "text": "固守阵地待援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "攻城器械遭遇困境",
+          "historicalNote": "官营手工业的管理与运作相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-4-5",
+          "text": "采用奇谋妙计",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "攻城器械获得突破",
+          "historicalNote": "官营手工业的管理与运作相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-4-6",
+          "text": "严明军纪稳定",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "攻城器械平稳推进",
+          "historicalNote": "官营手工业的管理与运作相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-5"
+    },
+    {
+      "id": "act-5",
+      "title": "连弩制造",
+      "isKeyAct": false,
+      "sceneDescription": "日复一日的生活中，这一天似乎有些不同。学习诸葛亮发明的诸葛连弩原理平凡中孕育着变化，你敏锐地察觉到了。你作为军械工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "铁匠",
+          "text": "今日操练不可懈怠。",
+          "avatar": "匠"
+        },
+        {
+          "speaker": "村民",
+          "text": "是！",
+          "avatar": "村"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-5-1",
+          "text": "观察形势再定",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "连弩制造进展顺利",
+          "historicalNote": "诸葛连弩的发明与军事应用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-5-2",
+          "text": "率军正面冲锋",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "连弩制造遇到波折",
+          "historicalNote": "诸葛连弩的发明与军事应用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-5-3",
+          "text": "联络友军协同",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "连弩制造取得进展",
+          "historicalNote": "诸葛连弩的发明与军事应用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-5-4",
+          "text": "坚守不出消耗",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "连弩制造遭遇困境",
+          "historicalNote": "诸葛连弩的发明与军事应用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-5-5",
+          "text": "迂回包抄敌后",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "连弩制造获得突破",
+          "historicalNote": "诸葛连弩的发明与军事应用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-5-6",
+          "text": "犒赏三军鼓舞",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "连弩制造平稳推进",
+          "historicalNote": "诸葛连弩的发明与军事应用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-6"
+    },
+    {
+      "id": "act-6",
+      "title": "紧急任务",
+      "isKeyAct": false,
+      "sceneDescription": "利益的冲突让原本平和的局面变得紧张。军令如山，连夜赶制一批兵器你站在中间，试图寻找一条两全之路。你作为军械工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "老兵",
+          "text": "军法如山，不得争执！",
+          "avatar": "兵"
+        },
+        {
+          "speaker": "军官",
+          "text": "都冷静下来！",
+          "avatar": "官"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-6-1",
+          "text": "派出斥候打探",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "紧急任务进展顺利",
+          "historicalNote": "古代冶金与锻造技术的发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-6-2",
+          "text": "果断发起进攻",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "紧急任务遇到波折",
+          "historicalNote": "古代冶金与锻造技术的发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-6-3",
+          "text": "向上级报告求援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "紧急任务取得进展",
+          "historicalNote": "古代冶金与锻造技术的发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-6-4",
+          "text": "加固防御工事",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "紧急任务遭遇困境",
+          "historicalNote": "古代冶金与锻造技术的发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-6-5",
+          "text": "设伏诱敌深入",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "紧急任务获得突破",
+          "historicalNote": "古代冶金与锻造技术的发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-6-6",
+          "text": "安抚将士情绪",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "紧急任务平稳推进",
+          "historicalNote": "古代冶金与锻造技术的发展相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-7"
+    },
+    {
+      "id": "act-7",
+      "title": "匠人尊严",
+      "isKeyAct": false,
+      "sceneDescription": "经历了这一切，你有了新的领悟。拒绝偷工减料，坚持工艺品质这些宝贵的经验将成为你继续前行的心灵支柱。你作为军械工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "村民",
+          "text": "跟你打仗，心里踏实。",
+          "avatar": "村"
+        },
+        {
+          "speaker": "同伴",
+          "text": "同生共死，何分彼此。",
+          "avatar": "友"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-7-1",
+          "text": "先侦查敌情",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "匠人尊严进展顺利",
+          "historicalNote": "军械工匠在战争中的关键作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-7-2",
+          "text": "主动出击迎敌",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "匠人尊严遇到波折",
+          "historicalNote": "军械工匠在战争中的关键作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-7-3",
+          "text": "请求援军支援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "匠人尊严取得进展",
+          "historicalNote": "军械工匠在战争中的关键作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-7-4",
+          "text": "固守阵地待援",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "匠人尊严遭遇困境",
+          "historicalNote": "军械工匠在战争中的关键作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-7-5",
+          "text": "采用奇谋妙计",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "匠人尊严获得突破",
+          "historicalNote": "军械工匠在战争中的关键作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-7-6",
+          "text": "严明军纪稳定",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "匠人尊严平稳推进",
+          "historicalNote": "军械工匠在战争中的关键作用相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ],
+      "nextActId": "act-8"
+    },
+    {
+      "id": "act-8",
+      "title": "薪火相传",
+      "isKeyAct": true,
+      "sceneDescription": "故事接近尾声，而你的旅程仍在继续。将毕生手艺传授给新学徒这段经历将永远铭刻在你的记忆中，成为生命的一部分。你作为军械工匠，深知此刻的重要性，不由得打起十二分精神。",
+      "npcDialogues": [
+        {
+          "speaker": "军官",
+          "text": "粮草还能撑几日？",
+          "avatar": "官"
+        },
+        {
+          "speaker": "铁匠",
+          "text": "省着用，约莫半月。",
+          "avatar": "匠"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-8-1",
+          "text": "观察形势再定",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "薪火相传进展顺利",
+          "historicalNote": "官营手工业的管理与运作相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "事情发展顺利，达成了预期目标，获得了积极的成果"
+        },
+        {
+          "id": "d-8-2",
+          "text": "率军正面冲锋",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "薪火相传遇到波折",
+          "historicalNote": "官营手工业的管理与运作相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遇到了一些意料之外的困难，需要调整策略继续前进"
+        },
+        {
+          "id": "d-8-3",
+          "text": "联络友军协同",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "薪火相传取得进展",
+          "historicalNote": "官营手工业的管理与运作相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "取得了阶段性的进展，整体形势向好发展"
+        },
+        {
+          "id": "d-8-4",
+          "text": "坚守不出消耗",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "薪火相传遭遇困境",
+          "historicalNote": "官营手工业的管理与运作相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "遭遇了挫折，损失有限，仍有挽回的余地"
+        },
+        {
+          "id": "d-8-5",
+          "text": "迂回包抄敌后",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "薪火相传获得突破",
+          "historicalNote": "官营手工业的管理与运作相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "获得了超出预期的突破性进展，令人振奋"
+        },
+        {
+          "id": "d-8-6",
+          "text": "犒赏三军鼓舞",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "薪火相传平稳推进",
+          "historicalNote": "官营手工业的管理与运作相关的考古发现与文献记载为后人了解这一时期提供了宝贵的资料。",
+          "consequence": "稳步推进，虽无重大惊喜，但一切尽在掌握"
+        }
+      ]
+    }
+  ]
+}

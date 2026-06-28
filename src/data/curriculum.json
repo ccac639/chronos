@@ -1,0 +1,2667 @@
+{
+  "stages": [
+    {
+      "id": "primary",
+      "name": "小学",
+      "description": "小学品德与社会中的历史故事启蒙，以简单易懂的历史故事和传统文化为主",
+      "eras": [
+        {
+          "id": "primary-ancient-legends",
+          "name": "远古传说",
+          "period": "上古传说时代",
+          "description": "盘古开天、女娲补天、神农尝百草、大禹治水等远古传说故事",
+          "figures": [
+            "黄帝",
+            "炎帝",
+            "大禹"
+          ],
+          "nameEn": "Ancient Legends",
+          "periodEn": "Legendary Era of Antiquity",
+          "descriptionEn": "Legends of Pangu creating the heavens and earth, Nüwa patching the sky, Shennong tasting hundreds of herbs, and Yu the Great taming the floods",
+          "figuresEn": [
+            "Yellow Emperor",
+            "Yan Emperor",
+            "Yu the Great"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "盘古开天地",
+              "summary": "了解盘古开天辟地的传说"
+            },
+            {
+              "id": "ch2",
+              "title": "女娲造人与补天",
+              "summary": "认识女娲造人和补天的故事"
+            },
+            {
+              "id": "ch3",
+              "title": "神农尝百草",
+              "summary": "神农氏为百姓尝试各种草药的故事"
+            },
+            {
+              "id": "ch4",
+              "title": "大禹治水",
+              "summary": "大禹三过家门而不入，带领百姓治理洪水"
+            }
+          ]
+        },
+        {
+          "id": "primary-three-kings",
+          "name": "三国故事",
+          "period": "三国时期",
+          "description": "桃园三结义、草船借箭、三顾茅庐等经典三国故事",
+          "figures": [
+            "诸葛亮",
+            "曹操",
+            "刘备"
+          ],
+          "nameEn": "Three Kingdoms Stories",
+          "periodEn": "Three Kingdoms Period",
+          "descriptionEn": "Classic stories of the Three Kingdoms: the Oath of the Peach Garden, borrowing arrows with straw boats, and three visits to the thatched cottage",
+          "figuresEn": [
+            "Zhuge Liang",
+            "Cao Cao",
+            "Liu Bei"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "桃园三结义",
+              "summary": "刘关张桃园结义的故事"
+            },
+            {
+              "id": "ch2",
+              "title": "草船借箭",
+              "summary": "诸葛亮用草船借箭的智慧"
+            },
+            {
+              "id": "ch3",
+              "title": "空城计",
+              "summary": "诸葛亮面对司马懿的空城之计"
+            },
+            {
+              "id": "ch4",
+              "title": "三顾茅庐",
+              "summary": "刘备三次拜访诸葛亮请其出山"
+            }
+          ]
+        },
+        {
+          "id": "primary-tang-stories",
+          "name": "唐朝故事",
+          "period": "唐朝",
+          "description": "贞观之治、文成公主进藏、玄奘西行等唐朝经典故事",
+          "figures": [
+            "唐太宗",
+            "文成公主",
+            "玄奘"
+          ],
+          "nameEn": "Tang Dynasty Stories",
+          "periodEn": "Tang Dynasty",
+          "descriptionEn": "Classic Tang Dynasty stories including the Zhenguan Governance, Princess Wencheng's journey to Tibet, and Xuanzang's pilgrimage to the West",
+          "figuresEn": [
+            "Emperor Taizong of Tang",
+            "Princess Wencheng",
+            "Xuanzang"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "贞观之治",
+              "summary": "了解唐太宗李世民治理国家的故事"
+            },
+            {
+              "id": "ch2",
+              "title": "文成公主进藏",
+              "summary": "文成公主远嫁吐蕃促进民族友好"
+            },
+            {
+              "id": "ch3",
+              "title": "玄奘西行",
+              "summary": "玄奘历尽艰辛前往天竺取经的故事"
+            }
+          ]
+        },
+        {
+          "id": "primary-song-heroes",
+          "name": "英雄故事",
+          "period": "古代",
+          "description": "岳飞精忠报国、司马光砸缸、花木兰替父从军等传统英雄故事",
+          "figures": [
+            "岳飞",
+            "司马光",
+            "花木兰"
+          ],
+          "nameEn": "Heroic Stories",
+          "periodEn": "Ancient China",
+          "descriptionEn": "Traditional heroic stories including Yue Fei's loyalty, Sima Guang smashing the vat, and Hua Mulan joining the army in her father's place",
+          "figuresEn": [
+            "Yue Fei",
+            "Sima Guang",
+            "Hua Mulan"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "岳飞精忠报国",
+              "summary": "认识民族英雄岳飞的故事"
+            },
+            {
+              "id": "ch2",
+              "title": "司马光砸缸",
+              "summary": "少年司马光机智救人的故事"
+            },
+            {
+              "id": "ch3",
+              "title": "花木兰替父从军",
+              "summary": "花木兰女扮男装替父从军的传奇"
+            },
+            {
+              "id": "ch4",
+              "title": "包拯断案",
+              "summary": "铁面无私的包青天为民伸冤的故事"
+            }
+          ]
+        },
+        {
+          "id": "primary-inventions",
+          "name": "四大发明",
+          "period": "古代",
+          "description": "造纸术、印刷术、火药、指南针的发明故事",
+          "figures": [
+            "蔡伦",
+            "毕昇"
+          ],
+          "nameEn": "Four Great Inventions",
+          "periodEn": "Ancient China",
+          "descriptionEn": "The stories behind China's Four Great Inventions: papermaking, printing, gunpowder, and the compass",
+          "figuresEn": [
+            "Cai Lun",
+            "Bi Sheng"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "造纸术",
+              "summary": "蔡伦改进造纸术的故事"
+            },
+            {
+              "id": "ch2",
+              "title": "活字印刷术",
+              "summary": "毕昇发明活字印刷"
+            },
+            {
+              "id": "ch3",
+              "title": "指南针的发明",
+              "summary": "指南针从司南到航海罗盘的演变"
+            },
+            {
+              "id": "ch4",
+              "title": "火药的发明",
+              "summary": "炼丹术意外发现火药的故事"
+            }
+          ]
+        },
+        {
+          "id": "primary-festivals",
+          "name": "传统节日与习俗",
+          "period": "传统文化",
+          "description": "春节、端午节、中秋节等传统节日背后的历史故事与文化习俗",
+          "figures": [
+            "屈原",
+            "嫦娥",
+            "牛郎织女"
+          ],
+          "nameEn": "Traditional Festivals and Customs",
+          "periodEn": "Traditional Culture",
+          "descriptionEn": "Historical stories and cultural customs behind traditional festivals such as the Spring Festival, Dragon Boat Festival, and Mid-Autumn Festival",
+          "figuresEn": [
+            "Qu Yuan",
+            "Chang'e",
+            "Cowherd and Weaver Girl"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "春节的由来",
+              "summary": "年兽传说与春节习俗的起源"
+            },
+            {
+              "id": "ch2",
+              "title": "端午节与屈原",
+              "summary": "屈原投江与端午节赛龙舟的由来"
+            },
+            {
+              "id": "ch3",
+              "title": "中秋节的传说",
+              "summary": "嫦娥奔月与中秋赏月的故事"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "junior",
+      "name": "初中",
+      "description": "初中历史统编版教材，七年级中国古代史（史前-南北朝）、隋唐-明清，八年级中国近现代史，九年级世界史",
+      "eras": [
+        {
+          "id": "junior-prehistory",
+          "name": "史前时期",
+          "period": "原始社会",
+          "description": "远古人类活动、原始农业与史前社会、中华文明的起源（七年级上册第一单元）",
+          "figures": [
+            "北京人",
+            "神农氏",
+            "黄帝"
+          ],
+          "nameEn": "Prehistoric Period",
+          "periodEn": "Primitive Society",
+          "descriptionEn": "Ancient human activities, primitive agriculture and prehistoric society, origins of Chinese civilization (Grade 7 Volume 1, Unit 1)",
+          "figuresEn": [
+            "Peking Man",
+            "Shennong",
+            "Yellow Emperor"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "远古时期的人类活动",
+              "summary": "北京人、山顶洞人的发现及其生活状况"
+            },
+            {
+              "id": "ch2",
+              "title": "原始农业与史前社会",
+              "summary": "河姆渡与半坡遗址，原始农耕文明的出现"
+            },
+            {
+              "id": "ch3",
+              "title": "中华文明的起源",
+              "summary": "炎帝、黄帝与华夏族的形成，尧舜禹的传说"
+            }
+          ]
+        },
+        {
+          "id": "junior-xia-shang-zhou",
+          "name": "夏商周",
+          "period": "约前2070-前256年",
+          "description": "夏商西周王朝更替、春秋战国的社会变革、百家争鸣（七年级上册第二、三单元）",
+          "figures": [
+            "商汤",
+            "周武王",
+            "孔子",
+            "老子",
+            "孙武",
+            "商鞅"
+          ],
+          "nameEn": "Xia, Shang, and Western Zhou Dynasties",
+          "periodEn": "c. 2070-256 BCE",
+          "descriptionEn": "Dynastic succession of Xia, Shang, and Western Zhou; social changes of the Spring and Autumn and Warring States periods; the Contention of a Hundred Schools of Thought (Grade 7 Vol. 1, Units 2-3)",
+          "figuresEn": [
+            "King Tang of Shang",
+            "King Wu of Zhou",
+            "Confucius",
+            "Laozi",
+            "Sun Wu",
+            "Shang Yang"
+          ],
+          "chapters": [
+            {
+              "id": "ch4",
+              "title": "夏商西周王朝的更替",
+              "summary": "世袭制代替禅让制，分封制的建立与作用"
+            },
+            {
+              "id": "ch5",
+              "title": "动荡变化中的春秋时期",
+              "summary": "春秋五霸与王室衰微，诸侯争霸"
+            },
+            {
+              "id": "ch6",
+              "title": "战国时期的社会变革",
+              "summary": "商鞅变法与各国改革，从封建到郡县"
+            },
+            {
+              "id": "ch7",
+              "title": "百家争鸣",
+              "summary": "儒、道、法、墨等思想流派的产生与影响"
+            },
+            {
+              "id": "ch8",
+              "title": "夏商周时期的科技与文化",
+              "summary": "甲骨文、青铜器、天文历法成就"
+            }
+          ]
+        },
+        {
+          "id": "junior-qin-han",
+          "name": "秦汉",
+          "period": "前221-220年",
+          "description": "秦统一中国、秦末农民起义、西汉文景之治、大一统巩固、东汉兴衰、丝绸之路（七年级上册第三、四单元）",
+          "figures": [
+            "秦始皇",
+            "李斯",
+            "陈胜",
+            "刘邦",
+            "汉武帝",
+            "张骞",
+            "司马迁",
+            "蔡伦"
+          ],
+          "nameEn": "Qin and Han Dynasties",
+          "periodEn": "221 BCE - 220 CE",
+          "descriptionEn": "Qin unification of China, peasant uprisings at the end of Qin, Western Han's Rule of Wen and Jing, consolidation of the great unified empire, rise and fall of Eastern Han, and the Silk Road (Grade 7 Vol. 1, Units 3-4)",
+          "figuresEn": [
+            "Qin Shi Huang",
+            "Li Si",
+            "Chen Sheng",
+            "Liu Bang",
+            "Emperor Wu of Han",
+            "Zhang Qian",
+            "Sima Qian",
+            "Cai Lun"
+          ],
+          "chapters": [
+            {
+              "id": "ch9",
+              "title": "秦统一中国",
+              "summary": "秦始皇统一六国，书同文车同轨，统一度量衡"
+            },
+            {
+              "id": "ch10",
+              "title": "秦末农民大起义",
+              "summary": "陈胜吴广起义，秦朝灭亡"
+            },
+            {
+              "id": "ch11",
+              "title": "西汉建立与文景之治",
+              "summary": "刘邦建汉，休养生息政策与文景之治"
+            },
+            {
+              "id": "ch12",
+              "title": "大一统王朝的巩固",
+              "summary": "汉武帝加强中央集权，推恩令、独尊儒术"
+            },
+            {
+              "id": "ch13",
+              "title": "东汉的兴衰",
+              "summary": "光武中兴与东汉末年宦官外戚专权"
+            },
+            {
+              "id": "ch14",
+              "title": "丝绸之路的开通",
+              "summary": "张骞出使西域，丝绸之路的开辟与意义"
+            },
+            {
+              "id": "ch15",
+              "title": "秦汉时期的科技与文化",
+              "summary": "造纸术、太史公书、张衡地动仪、医学成就"
+            }
+          ]
+        },
+        {
+          "id": "junior-three-kingdoms-jin-nb",
+          "name": "三国两晋南北朝",
+          "period": "220-589年",
+          "description": "三国鼎立、西晋短暂统一、东晋南朝、北朝民族交融（七年级上册第四单元）",
+          "figures": [
+            "曹操",
+            "刘备",
+            "孙权",
+            "诸葛亮",
+            "北魏孝文帝"
+          ],
+          "nameEn": "Three Kingdoms, Western Jin, Eastern Jin, and Northern and Southern Dynasties",
+          "periodEn": "220-589 CE",
+          "descriptionEn": "The Three Kingdoms rivalry, brief unification under Western Jin, Eastern Jin and Southern Dynasties, and Northern Dynasties' ethnic integration (Grade 7 Vol. 1, Unit 4)",
+          "figuresEn": [
+            "Cao Cao",
+            "Liu Bei",
+            "Sun Quan",
+            "Zhuge Liang",
+            "Emperor Xiaowen of Northern Wei"
+          ],
+          "chapters": [
+            {
+              "id": "ch16",
+              "title": "三国鼎立",
+              "summary": "官渡之战、赤壁之战与三国鼎立局面"
+            },
+            {
+              "id": "ch17",
+              "title": "西晋短暂统一与北方内迁",
+              "summary": "西晋统一与五胡内迁"
+            },
+            {
+              "id": "ch18",
+              "title": "东晋南朝与江南开发",
+              "summary": "南朝政权更迭与江南经济开发"
+            },
+            {
+              "id": "ch19",
+              "title": "北朝政治与民族大交融",
+              "summary": "北魏孝文帝改革与民族融合"
+            },
+            {
+              "id": "ch20",
+              "title": "三国两晋南北朝的科技与文化",
+              "summary": "祖冲之圆周率、贾思勰齐民要术、书法艺术"
+            }
+          ]
+        },
+        {
+          "id": "junior-sui-tang",
+          "name": "隋唐",
+          "period": "581-907年",
+          "description": "隋朝统一与灭亡、唐朝的繁荣与盛衰（七年级下册第一单元）",
+          "figures": [
+            "隋文帝",
+            "隋炀帝",
+            "唐太宗",
+            "武则天",
+            "唐玄宗",
+            "李白",
+            "杜甫"
+          ],
+          "nameEn": "Sui and Tang Dynasties",
+          "periodEn": "581-907 CE",
+          "descriptionEn": "The unification and fall of the Sui Dynasty, and the prosperity and decline of the Tang Dynasty (Grade 7 Vol. 2, Unit 1)",
+          "figuresEn": [
+            "Emperor Wen of Sui",
+            "Emperor Yang of Sui",
+            "Emperor Taizong of Tang",
+            "Wu Zetian",
+            "Emperor Xuanzong of Tang",
+            "Li Bai",
+            "Du Fu"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "隋朝的统一与灭亡",
+              "summary": "大运河的开凿与科举制的创立"
+            },
+            {
+              "id": "ch2",
+              "title": "从贞观到开元盛世",
+              "summary": "唐太宗贞观之治到唐玄宗开元盛世"
+            },
+            {
+              "id": "ch3",
+              "title": "盛唐气象",
+              "summary": "经济繁荣、文教昌盛、民族关系与对外交往"
+            },
+            {
+              "id": "ch4",
+              "title": "唐朝的中衰与灭亡",
+              "summary": "安史之乱、黄巢起义与唐朝灭亡"
+            }
+          ]
+        },
+        {
+          "id": "junior-song-yuan",
+          "name": "宋元",
+          "period": "960-1368年",
+          "description": "两宋政治、辽夏金元统治、经济文化发展（七年级下册第二单元）",
+          "figures": [
+            "赵匡胤",
+            "王安石",
+            "成吉思汗",
+            "忽必烈"
+          ],
+          "nameEn": "Song and Yuan Dynasties",
+          "periodEn": "960-1368 CE",
+          "descriptionEn": "Politics of the Northern and Southern Song, rule of Liao, Western Xia, Jin, and Yuan dynasties, and economic and cultural development (Grade 7 Vol. 2, Unit 2)",
+          "figuresEn": [
+            "Zhao Kuangyin",
+            "Wang Anshi",
+            "Genghis Khan",
+            "Kublai Khan"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "北宋的政治",
+              "summary": "陈桥兵变、重文轻武政策与中央集权"
+            },
+            {
+              "id": "ch2",
+              "title": "辽西夏与北宋的并立",
+              "summary": "多民族政权并立与澶渊之盟"
+            },
+            {
+              "id": "ch3",
+              "title": "南宋与金的对峙",
+              "summary": "靖康之变、岳飞抗金与南宋偏安"
+            },
+            {
+              "id": "ch4",
+              "title": "蒙古族的兴起与元朝",
+              "summary": "成吉思汗统一蒙古与忽必烈建立元朝"
+            }
+          ]
+        },
+        {
+          "id": "junior-ming-qing",
+          "name": "明清",
+          "period": "1368-1912年",
+          "description": "明朝建立与统治、清朝统治、闭关锁国（七年级下册第三单元）",
+          "figures": [
+            "朱元璋",
+            "郑和",
+            "康熙",
+            "乾隆"
+          ],
+          "nameEn": "Ming and Qing Dynasties",
+          "periodEn": "1368-1912 CE",
+          "descriptionEn": "Establishment and rule of the Ming Dynasty, Qing Dynasty rule, and the closed-door policy (Grade 7 Vol. 2, Unit 3)",
+          "figuresEn": [
+            "Zhu Yuanzhang",
+            "Zheng He",
+            "Emperor Kangxi",
+            "Emperor Qianlong"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "明朝的建立与统治",
+              "summary": "朱元璋建明、废除丞相与强化皇权"
+            },
+            {
+              "id": "ch2",
+              "title": "郑和下西洋",
+              "summary": "郑和七次远航、世界航海史上的壮举"
+            },
+            {
+              "id": "ch3",
+              "title": "清朝的建立与鼎盛",
+              "summary": "清朝入关、康乾盛世与统一多民族国家的巩固"
+            },
+            {
+              "id": "ch4",
+              "title": "闭关锁国与近代前夜",
+              "summary": "清朝的闭关政策与社会危机"
+            }
+          ]
+        },
+        {
+          "id": "junior-modern-opium-war",
+          "name": "列强侵略与抗争",
+          "period": "1840-1901年",
+          "description": "两次鸦片战争、甲午战争、八国联军侵华（八年级上册第一、二单元）",
+          "figures": [
+            "林则徐",
+            "关天培",
+            "邓世昌"
+          ],
+          "nameEn": "Foreign Aggression and Resistance",
+          "periodEn": "1840-1901 CE",
+          "descriptionEn": "The two Opium Wars, the First Sino-Japanese War, and the Eight-Nation Alliance invasion (Grade 8 Vol. 1, Units 1-2)",
+          "figuresEn": [
+            "Lin Zexu",
+            "Guan Tianpei",
+            "Deng Shichang"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "鸦片战争",
+              "summary": "虎门销烟、《南京条约》与中国半殖民地化开始"
+            },
+            {
+              "id": "ch2",
+              "title": "第二次鸦片战争",
+              "summary": "英法联军侵华、火烧圆明园"
+            },
+            {
+              "id": "ch3",
+              "title": "太平天国运动",
+              "summary": "金田起义、天京事变与太平天国覆灭"
+            },
+            {
+              "id": "ch4",
+              "title": "甲午中日战争",
+              "summary": "黄海海战、《马关条约》与民族危机加深"
+            },
+            {
+              "id": "ch5",
+              "title": "八国联军侵华",
+              "summary": "义和团运动、《辛丑条约》与半殖民地半封建社会形成"
+            }
+          ]
+        },
+        {
+          "id": "junior-modern-reform",
+          "name": "近代化探索",
+          "period": "1860s-1910年代",
+          "description": "洋务运动、戊戌变法、辛亥革命、新文化运动（八年级上册第二、三单元）",
+          "figures": [
+            "曾国藩",
+            "李鸿章",
+            "康有为",
+            "梁启超",
+            "孙中山",
+            "陈独秀",
+            "胡适"
+          ],
+          "nameEn": "Modernization Exploration",
+          "periodEn": "1860s-1910s",
+          "descriptionEn": "The Self-Strengthening Movement, the Hundred Days' Reform, the Xinhai Revolution, and the New Culture Movement (Grade 8 Vol. 1, Units 2-3)",
+          "figuresEn": [
+            "Zeng Guofan",
+            "Li Hongzhang",
+            "Kang Youwei",
+            "Liang Qichao",
+            "Sun Yat-sen",
+            "Chen Duxiu",
+            "Hu Shi"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "洋务运动",
+              "summary": "自强求富、创办近代军事与民用工业"
+            },
+            {
+              "id": "ch2",
+              "title": "戊戌变法",
+              "summary": "公车上书、百日维新与变法失败"
+            },
+            {
+              "id": "ch3",
+              "title": "辛亥革命",
+              "summary": "武昌起义、中华民国成立与帝制终结"
+            },
+            {
+              "id": "ch4",
+              "title": "新文化运动",
+              "summary": "民主与科学、白话文运动与思想解放"
+            }
+          ]
+        },
+        {
+          "id": "junior-modern-liberation",
+          "name": "新民主主义革命",
+          "period": "1919-1949年",
+          "description": "五四运动、抗日战争、解放战争（八年级上册第四至六单元）",
+          "figures": [
+            "李大钊",
+            "毛泽东",
+            "周恩来",
+            "朱德",
+            "张学良"
+          ],
+          "nameEn": "New Democratic Revolution",
+          "periodEn": "1919-1949 CE",
+          "descriptionEn": "The May Fourth Movement, the War of Resistance Against Japanese Aggression, and the War of Liberation (Grade 8 Vol. 1, Units 4-6)",
+          "figuresEn": [
+            "Li Dazhao",
+            "Mao Zedong",
+            "Zhou Enlai",
+            "Zhu De",
+            "Zhang Xueliang"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "五四运动",
+              "summary": "五四运动爆发与中国新民主主义革命开端"
+            },
+            {
+              "id": "ch2",
+              "title": "中国共产党的诞生",
+              "summary": "中共一大召开与国共第一次合作"
+            },
+            {
+              "id": "ch3",
+              "title": "北伐战争",
+              "summary": "国民革命军北伐与四一二政变"
+            },
+            {
+              "id": "ch4",
+              "title": "红军长征",
+              "summary": "长征的艰难历程与遵义会议"
+            },
+            {
+              "id": "ch5",
+              "title": "九一八事变与局部抗战",
+              "summary": "日本侵华、东北沦陷与局部抗战"
+            },
+            {
+              "id": "ch6",
+              "title": "全民族抗战",
+              "summary": "七七事变、南京大屠杀与抗战胜利"
+            },
+            {
+              "id": "ch7",
+              "title": "人民解放战争",
+              "summary": "重庆谈判、三大战役与新中国成立"
+            }
+          ]
+        },
+        {
+          "id": "junior-prc",
+          "name": "新中国建设",
+          "period": "1949年至今",
+          "description": "新中国成立、社会主义建设、改革开放（八年级下册）",
+          "figures": [
+            "毛泽东",
+            "邓小平"
+          ],
+          "nameEn": "New China's Construction",
+          "periodEn": "1949 CE to present",
+          "descriptionEn": "Founding of New China, socialist construction, and reform and opening-up (Grade 8 Vol. 2)",
+          "figuresEn": [
+            "Mao Zedong",
+            "Deng Xiaoping"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "新中国成立",
+              "summary": "开国大典与中国人民站起来了"
+            },
+            {
+              "id": "ch2",
+              "title": "社会主义制度的建立",
+              "summary": "土地改革与三大改造"
+            },
+            {
+              "id": "ch3",
+              "title": "改革开放",
+              "summary": "十一届三中全会、经济特区与改革开放成就"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "senior",
+      "name": "高中",
+      "description": "高中统编版《中外历史纲要》（上下册），涵盖从中华文明起源到新时代的中国通史，以及世界文明发展史",
+      "eras": [
+        {
+          "id": "senior-civilization-origin",
+          "name": "中华文明起源与早期国家",
+          "period": "远古-前256年",
+          "description": "中华文明的起源、早期国家形态、夏商周政治制度、春秋战国变法（纲要上第一课）",
+          "figures": [
+            "黄帝",
+            "大禹",
+            "周武王",
+            "孔子",
+            "商鞅"
+          ],
+          "nameEn": "Origins of Chinese Civilization and Early States",
+          "periodEn": "Remote Antiquity - 256 BCE",
+          "descriptionEn": "Origins of Chinese civilization, early state formations, political systems of Xia, Shang, and Zhou, and reforms of the Spring and Autumn and Warring States periods (Outline Vol. 1, Lesson 1)",
+          "figuresEn": [
+            "Yellow Emperor",
+            "Yu the Great",
+            "King Wu of Zhou",
+            "Confucius",
+            "Shang Yang"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "中华文明的起源与早期国家",
+              "summary": "旧石器到新石器时代，早期国家诞生，夏商周政治制度"
+            },
+            {
+              "id": "ch2",
+              "title": "诸侯纷争与变法运动",
+              "summary": "春秋争霸、战国变法、百家争鸣与华夏认同"
+            }
+          ]
+        },
+        {
+          "id": "senior-qin-han",
+          "name": "秦汉统一多民族国家",
+          "period": "前221-220年",
+          "description": "秦统一多民族封建国家的建立与巩固、西汉东汉的政治经济（纲要上第三、四课）",
+          "figures": [
+            "秦始皇",
+            "汉武帝",
+            "张骞",
+            "司马迁"
+          ],
+          "nameEn": "Unified Multi-Ethnic State of Qin and Han",
+          "periodEn": "221 BCE - 220 CE",
+          "descriptionEn": "Establishment and consolidation of the unified multi-ethnic feudal state of Qin, and the politics and economy of Western and Eastern Han (Outline Vol. 1, Lessons 3-4)",
+          "figuresEn": [
+            "Qin Shi Huang",
+            "Emperor Wu of Han",
+            "Zhang Qian",
+            "Sima Qian"
+          ],
+          "chapters": [
+            {
+              "id": "ch3",
+              "title": "秦统一多民族封建国家的建立",
+              "summary": "秦朝专制主义中央集权制度与统一措施"
+            },
+            {
+              "id": "ch4",
+              "title": "西汉与东汉的巩固",
+              "summary": "大一统格局巩固，经学独尊，丝绸之路与中外交流"
+            }
+          ]
+        },
+        {
+          "id": "senior-three-six-dynasties-sui-tang",
+          "name": "三国至隋唐",
+          "period": "220-907年",
+          "description": "政权更迭与民族交融、隋唐盛世、制度创新与文化繁荣（纲要上第五至八课）",
+          "figures": [
+            "北魏孝文帝",
+            "隋文帝",
+            "唐太宗",
+            "武则天",
+            "李白",
+            "杜甫",
+            "白居易"
+          ],
+          "nameEn": "Three Kingdoms to Sui and Tang Dynasties",
+          "periodEn": "220-907 CE",
+          "descriptionEn": "Regime changes and ethnic integration, the Sui and Tang prosperity, institutional innovations, and cultural flourishing (Outline Vol. 1, Lessons 5-8)",
+          "figuresEn": [
+            "Emperor Xiaowen of Northern Wei",
+            "Emperor Wen of Sui",
+            "Emperor Taizong of Tang",
+            "Wu Zetian",
+            "Li Bai",
+            "Du Fu",
+            "Bai Juyi"
+          ],
+          "chapters": [
+            {
+              "id": "ch5",
+              "title": "三国两晋南北朝的政权更迭与民族交融",
+              "summary": "政权分立与民族大融合，江南开发"
+            },
+            {
+              "id": "ch6",
+              "title": "从隋唐盛世到五代十国",
+              "summary": "隋朝兴亡、贞观之治、开元盛世、安史之乱"
+            },
+            {
+              "id": "ch7",
+              "title": "隋唐制度的变化与创新",
+              "summary": "三省六部制、科举制、租庸调制到两税法"
+            },
+            {
+              "id": "ch8",
+              "title": "三国至隋唐的文化",
+              "summary": "儒释道合流、文学艺术鼎盛、科技成就与中外交流"
+            }
+          ]
+        },
+        {
+          "id": "senior-song-yuan",
+          "name": "辽宋夏金元",
+          "period": "960-1368年",
+          "description": "两宋政治军事、辽夏金元统治、多民族政权并立（纲要上第九至十一课）",
+          "figures": [
+            "王安石",
+            "岳飞",
+            "成吉思汗",
+            "忽必烈",
+            "马可波罗"
+          ],
+          "nameEn": "Liao, Song, Western Xia, Jin, and Yuan Dynasties",
+          "periodEn": "960-1368 CE",
+          "descriptionEn": "Politics and military of the Northern and Southern Song, rule of Liao, Western Xia, Jin, and Yuan, and multi-ethnic coexistence (Outline Vol. 1, Lessons 9-11)",
+          "figuresEn": [
+            "Wang Anshi",
+            "Yue Fei",
+            "Genghis Khan",
+            "Kublai Khan",
+            "Marco Polo"
+          ],
+          "chapters": [
+            {
+              "id": "ch9",
+              "title": "两宋的政治和军事",
+              "summary": "宋初中央集权强化、王安石变法与军事实力"
+            },
+            {
+              "id": "ch10",
+              "title": "辽夏金元的统治",
+              "summary": "多民族政权并立与蒙古崛起、元朝行省制度"
+            },
+            {
+              "id": "ch11",
+              "title": "辽宋夏金元的经济社会与文化",
+              "summary": "经济重心南移完成、市民文化、理学与词曲"
+            }
+          ]
+        },
+        {
+          "id": "senior-ming-qing-early",
+          "name": "明清中国版图奠定",
+          "period": "1368-1840年",
+          "description": "明朝建立到清中期的政治经济与文化（纲要上第十二至十四课）",
+          "figures": [
+            "朱元璋",
+            "王阳明",
+            "康熙",
+            "雍正",
+            "乾隆",
+            "曹雪芹"
+          ],
+          "nameEn": "Establishment of China's Territorial Boundaries in Ming and Qing",
+          "periodEn": "1368-1840 CE",
+          "descriptionEn": "Politics, economy, and culture from the founding of the Ming Dynasty to the mid-Qing period (Outline Vol. 1, Lessons 12-14)",
+          "figuresEn": [
+            "Zhu Yuanzhang",
+            "Wang Yangming",
+            "Emperor Kangxi",
+            "Emperor Yongzheng",
+            "Emperor Qianlong",
+            "Cao Xueqin"
+          ],
+          "chapters": [
+            {
+              "id": "ch12",
+              "title": "从明朝建立到清军入关",
+              "summary": "明初政治制度变革、郑和下西洋与明朝中后期社会"
+            },
+            {
+              "id": "ch13",
+              "title": "清朝前中期的鼎盛与危机",
+              "summary": "康乾盛世、统一多民族国家版图奠定与闭关锁国"
+            },
+            {
+              "id": "ch14",
+              "title": "明至清中叶的经济与文化",
+              "summary": "商品经济发展、阳明心学、明清小说与考据学"
+            }
+          ]
+        },
+        {
+          "id": "senior-late-qing",
+          "name": "晚清内忧外患",
+          "period": "1840-1912年",
+          "description": "两次鸦片战争、太平天国、洋务运动、戊戌变法、义和团（纲要上第十五至十七课）",
+          "figures": [
+            "林则徐",
+            "洪秀全",
+            "曾国藩",
+            "李鸿章",
+            "康有为",
+            "梁启超"
+          ],
+          "nameEn": "Internal Troubles and External Threats in the Late Qing",
+          "periodEn": "1840-1912 CE",
+          "descriptionEn": "Two Opium Wars, the Taiping Rebellion, the Self-Strengthening Movement, the Hundred Days' Reform, and the Boxer Rebellion (Outline Vol. 1, Lessons 15-17)",
+          "figuresEn": [
+            "Lin Zexu",
+            "Hong Xiuquan",
+            "Zeng Guofan",
+            "Li Hongzhang",
+            "Kang Youwei",
+            "Liang Qichao"
+          ],
+          "chapters": [
+            {
+              "id": "ch15",
+              "title": "两次鸦片战争",
+              "summary": "鸦片战争背景、过程与《南京条约》《天津条约》《北京条约》"
+            },
+            {
+              "id": "ch16",
+              "title": "国家出路的探索与列强侵略",
+              "summary": "太平天国运动、洋务运动与边疆危机"
+            },
+            {
+              "id": "ch17",
+              "title": "挽救民族危亡的斗争",
+              "summary": "甲午战争、戊戌变法、义和团运动与八国联军侵华"
+            }
+          ]
+        },
+        {
+          "id": "senior-revolution",
+          "name": "辛亥革命与民国",
+          "period": "1911-1949年",
+          "description": "辛亥革命、新文化运动、五四运动、中共成立、抗日战争、解放战争（纲要上第十八至二十三课）",
+          "figures": [
+            "孙中山",
+            "陈独秀",
+            "李大钊",
+            "毛泽东",
+            "周恩来",
+            "蒋介石"
+          ],
+          "nameEn": "Xinhai Revolution and the Republic of China",
+          "periodEn": "1911-1949 CE",
+          "descriptionEn": "The Xinhai Revolution, New Culture Movement, May Fourth Movement, founding of the CPC, War of Resistance Against Japan, and War of Liberation (Outline Vol. 1, Lessons 18-23)",
+          "figuresEn": [
+            "Sun Yat-sen",
+            "Chen Duxiu",
+            "Li Dazhao",
+            "Mao Zedong",
+            "Zhou Enlai",
+            "Chiang Kai-shek"
+          ],
+          "chapters": [
+            {
+              "id": "ch18",
+              "title": "辛亥革命",
+              "summary": "三民主义、武昌起义、中华民国成立与帝制终结"
+            },
+            {
+              "id": "ch19",
+              "title": "北洋军阀统治时期",
+              "summary": "军阀割据、新文化运动与马克思主义传播"
+            },
+            {
+              "id": "ch20",
+              "title": "五四运动与中国共产党的诞生",
+              "summary": "五四运动、中共一大与第一次国共合作"
+            },
+            {
+              "id": "ch21",
+              "title": "国共十年对峙与长征",
+              "summary": "南昌起义、井冈山道路、长征与遵义会议"
+            },
+            {
+              "id": "ch22",
+              "title": "全民族抗战",
+              "summary": "九一八事变、七七事变、正面战场与敌后战场、抗战胜利"
+            },
+            {
+              "id": "ch23",
+              "title": "人民解放战争",
+              "summary": "重庆谈判、全面内战、三大战役与新中国成立"
+            }
+          ]
+        },
+        {
+          "id": "senior-prc",
+          "name": "新中国成立至今",
+          "period": "1949年至今",
+          "description": "社会主义革命与建设、改革开放、中国特色社会主义新时代（纲要上第二十四至二十七课）",
+          "figures": [
+            "毛泽东",
+            "邓小平"
+          ],
+          "nameEn": "Founding of New China to Present",
+          "periodEn": "1949 CE to present",
+          "descriptionEn": "Socialist revolution and construction, reform and opening-up, and socialism with Chinese characteristics in the new era (Outline Vol. 1, Lessons 24-27)",
+          "figuresEn": [
+            "Mao Zedong",
+            "Deng Xiaoping"
+          ],
+          "chapters": [
+            {
+              "id": "ch24",
+              "title": "中华人民共和国成立和社会主义制度的确立",
+              "summary": "开国大典、抗美援朝与社会主义改造"
+            },
+            {
+              "id": "ch25",
+              "title": "社会主义建设在探索中曲折发展",
+              "summary": "全面建设社会主义的成就与曲折"
+            },
+            {
+              "id": "ch26",
+              "title": "改革开放与中国特色社会主义道路",
+              "summary": "十一届三中全会、改革开放历程与成就"
+            },
+            {
+              "id": "ch27",
+              "title": "新时代中国特色社会主义",
+              "summary": "党的十八大以来的历史性成就与中华民族伟大复兴"
+            }
+          ]
+        },
+        {
+          "id": "senior-ancient-world",
+          "name": "世界古代与中世纪文明",
+          "period": "远古-1500年",
+          "description": "古代文明起源、中古时期的世界（纲要下第一、二单元）",
+          "figures": [
+            "亚历山大",
+            "凯撒",
+            "查理曼",
+            "穆罕默德"
+          ],
+          "nameEn": "Ancient and Medieval World Civilizations",
+          "periodEn": "Remote Antiquity - 1500 CE",
+          "descriptionEn": "Origins of ancient civilizations and the medieval world (Outline Vol. 2, Units 1-2)",
+          "figuresEn": [
+            "Alexander the Great",
+            "Julius Caesar",
+            "Charlemagne",
+            "Muhammad"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "古代文明的产生与发展",
+              "summary": "两河流域、古埃及、古印度、古希腊文明"
+            },
+            {
+              "id": "ch2",
+              "title": "中古时期的欧洲",
+              "summary": "西欧封建制、拜占庭帝国与俄罗斯"
+            },
+            {
+              "id": "ch3",
+              "title": "中古时期的亚洲与非洲",
+              "summary": "阿拉伯帝国、奥斯曼帝国、日本与朝鲜"
+            }
+          ]
+        },
+        {
+          "id": "senior-modern-world",
+          "name": "世界近现代文明",
+          "period": "1500年至今",
+          "description": "从大航海时代到当代世界（纲要下第三至九单元）",
+          "figures": [
+            "哥伦布",
+            "牛顿",
+            "拿破仑",
+            "马克思",
+            "列宁",
+            "丘吉尔"
+          ],
+          "nameEn": "Modern and Contemporary World Civilization",
+          "periodEn": "1500 CE to present",
+          "descriptionEn": "From the Age of Exploration to the contemporary world (Outline Vol. 2, Units 3-9)",
+          "figuresEn": [
+            "Christopher Columbus",
+            "Isaac Newton",
+            "Napoleon Bonaparte",
+            "Karl Marx",
+            "Vladimir Lenin",
+            "Winston Churchill"
+          ],
+          "chapters": [
+            {
+              "id": "ch4",
+              "title": "走向整体的世界",
+              "summary": "新航路开辟、全球联系与殖民扩张"
+            },
+            {
+              "id": "ch5",
+              "title": "资产阶级革命与资本主义制度",
+              "summary": "英法美革命、资本主义制度确立"
+            },
+            {
+              "id": "ch6",
+              "title": "影响世界的工业革命",
+              "summary": "两次工业革命及其社会影响"
+            },
+            {
+              "id": "ch7",
+              "title": "马克思主义的诞生与传播",
+              "summary": "科学社会主义理论与巴黎公社"
+            },
+            {
+              "id": "ch8",
+              "title": "世界殖民体系与亚非拉独立运动",
+              "summary": "殖民体系形成与民族独立运动"
+            },
+            {
+              "id": "ch9",
+              "title": "两次世界大战与十月革命",
+              "summary": "一战、俄国十月革命、二战"
+            },
+            {
+              "id": "ch10",
+              "title": "20世纪下半期的世界",
+              "summary": "冷战、殖民体系瓦解与多极化趋势"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "university",
+      "name": "大学",
+      "description": "大学历史专业课程，涵盖中国古代史、中国近现代史、世界古代中世纪史、世界近现代史、史学理论与方法",
+      "eras": [
+        {
+          "id": "uni-ancient-china",
+          "name": "中国古代史",
+          "period": "远古-1840年",
+          "description": "先秦政治制度、秦汉至明清社会变迁、经济制度、思想文化史、史料学",
+          "figures": [
+            "孔子",
+            "秦始皇",
+            "汉武帝",
+            "唐太宗",
+            "王安石",
+            "朱元璋"
+          ],
+          "nameEn": "Ancient Chinese History",
+          "periodEn": "Remote Antiquity - 1840 CE",
+          "descriptionEn": "Pre-Qin political systems, social changes from Qin-Han to Ming-Qing, economic institutions, intellectual and cultural history, and historical source studies",
+          "figuresEn": [
+            "Confucius",
+            "Qin Shi Huang",
+            "Emperor Wu of Han",
+            "Emperor Taizong of Tang",
+            "Wang Anshi",
+            "Zhu Yuanzhang"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "先秦政治制度",
+              "summary": "分封制、宗法制、郡县制的演进与政治思想"
+            },
+            {
+              "id": "ch2",
+              "title": "秦汉社会结构",
+              "summary": "编户齐民、豪强地主、士族门阀的社会变迁"
+            },
+            {
+              "id": "ch3",
+              "title": "魏晋南北朝门阀政治",
+              "summary": "九品中正制、门阀士族与民族大融合"
+            },
+            {
+              "id": "ch4",
+              "title": "隋唐制度与经济",
+              "summary": "三省六部制、均田制、租庸调制到两税法"
+            },
+            {
+              "id": "ch5",
+              "title": "宋元社会经济转型",
+              "summary": "商业革命、市民阶层与海外贸易"
+            },
+            {
+              "id": "ch6",
+              "title": "明清专制与社会",
+              "summary": "皇权强化、白银货币化、资本主义萌芽争议"
+            }
+          ]
+        },
+        {
+          "id": "uni-modern-china",
+          "name": "中国近现代史",
+          "period": "1840年至今",
+          "description": "鸦片战争以来的政治变迁、现代化进程、革命运动、共和国史",
+          "figures": [
+            "魏源",
+            "孙中山",
+            "陈独秀",
+            "毛泽东",
+            "邓小平"
+          ],
+          "nameEn": "Modern and Contemporary Chinese History",
+          "periodEn": "1840 CE to present",
+          "descriptionEn": "Political changes since the Opium War, modernization process, revolutionary movements, and history of the Republic",
+          "figuresEn": [
+            "Wei Yuan",
+            "Sun Yat-sen",
+            "Chen Duxiu",
+            "Mao Zedong",
+            "Deng Xiaoping"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "晚清社会转型",
+              "summary": "从传统到近代的转型困境与自救运动"
+            },
+            {
+              "id": "ch2",
+              "title": "辛亥革命与政治实验",
+              "summary": "共和制建立、军阀政治与民族主义"
+            },
+            {
+              "id": "ch3",
+              "title": "新民主主义革命",
+              "summary": "国共关系、抗日战争、解放战争"
+            },
+            {
+              "id": "ch4",
+              "title": "社会主义建设探索",
+              "summary": "计划经济、大跃进、文革与改革开放"
+            }
+          ]
+        },
+        {
+          "id": "uni-ancient-world",
+          "name": "世界古代中世纪史",
+          "period": "远古-1500年",
+          "description": "古代文明起源、希腊罗马、中世纪欧洲、伊斯兰文明、东亚文明圈",
+          "figures": [
+            "亚历山大",
+            "凯撒",
+            "查理曼",
+            "成吉思汗"
+          ],
+          "nameEn": "Ancient and Medieval World History",
+          "periodEn": "Remote Antiquity - 1500 CE",
+          "descriptionEn": "Origins of ancient civilizations, Greece and Rome, medieval Europe, Islamic civilization, and the East Asian cultural sphere",
+          "figuresEn": [
+            "Alexander the Great",
+            "Julius Caesar",
+            "Charlemagne",
+            "Genghis Khan"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "古代两河流域与埃及",
+              "summary": "苏美尔、巴比伦、古埃及文明"
+            },
+            {
+              "id": "ch2",
+              "title": "古希腊罗马文明",
+              "summary": "雅典民主、罗马共和与帝国"
+            },
+            {
+              "id": "ch3",
+              "title": "中世纪欧洲",
+              "summary": "封建制度、基督教会、城市兴起与大学"
+            },
+            {
+              "id": "ch4",
+              "title": "伊斯兰文明与蒙古帝国",
+              "summary": "阿拉伯帝国扩张与蒙古征服"
+            }
+          ]
+        },
+        {
+          "id": "uni-modern-world",
+          "name": "世界近现代史",
+          "period": "1500年至今",
+          "description": "文艺复兴、大航海、工业革命、殖民主义、两次世界大战、冷战与全球化",
+          "figures": [
+            "哥伦布",
+            "拿破仑",
+            "马克思",
+            "列宁",
+            "丘吉尔"
+          ],
+          "nameEn": "Modern and Contemporary World History",
+          "periodEn": "1500 CE to present",
+          "descriptionEn": "The Renaissance, Age of Exploration, Industrial Revolution, colonialism, two World Wars, the Cold War, and globalization",
+          "figuresEn": [
+            "Christopher Columbus",
+            "Napoleon Bonaparte",
+            "Karl Marx",
+            "Vladimir Lenin",
+            "Winston Churchill"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "文艺复兴与大航海时代",
+              "summary": "人文主义兴起与世界市场雏形"
+            },
+            {
+              "id": "ch2",
+              "title": "启蒙运动与法国大革命",
+              "summary": "理性主义、革命浪潮与拿破仑帝国"
+            },
+            {
+              "id": "ch3",
+              "title": "工业革命与帝国主义",
+              "summary": "技术革命、资本扩张与殖民体系"
+            },
+            {
+              "id": "ch4",
+              "title": "两次世界大战",
+              "summary": "战争起源、过程与战后秩序"
+            },
+            {
+              "id": "ch5",
+              "title": "冷战与当代世界",
+              "summary": "美苏对抗、全球化与多极化趋势"
+            }
+          ]
+        },
+        {
+          "id": "uni-historiography",
+          "name": "史学理论与方法",
+          "period": "学术课程",
+          "description": "史学概论、史料学、历史地理学、考古学通论、史学写作",
+          "figures": [
+            "司马迁",
+            "刘知几",
+            "章学诚",
+            "梁启超",
+            "顾颉刚"
+          ],
+          "nameEn": "Historical Theory and Methodology",
+          "periodEn": "Academic Course",
+          "descriptionEn": "Introduction to historical science, historical source studies, historical geography, general archaeology, and historical writing",
+          "figuresEn": [
+            "Sima Qian",
+            "Liu Zhiji",
+            "Zhang Xuecheng",
+            "Liang Qichao",
+            "Gu Jiegang"
+          ],
+          "chapters": [
+            {
+              "id": "ch1",
+              "title": "史学概论",
+              "summary": "历史学的性质、功能与研究方法"
+            },
+            {
+              "id": "ch2",
+              "title": "中国史学传统",
+              "summary": "从《史记》到《资治通鉴》的史学传统"
+            },
+            {
+              "id": "ch3",
+              "title": "现代史学流派",
+              "summary": "年鉴学派、新史学、后现代史学"
+            },
+            {
+              "id": "ch4",
+              "title": "考古学通论",
+              "summary": "田野考古方法与重大发现"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "worldHistory": {
+    "stages": [
+      {
+        "id": "grade9",
+        "name": "九年级",
+        "description": "初中九年级世界历史，涵盖古代文明、资本主义兴起、工业革命、两次世界大战到当代世界",
+        "eras": [
+          {
+            "id": "w9-ancient-civilizations",
+            "name": "古代亚非文明",
+            "period": "远古-公元前后",
+            "description": "古埃及、古巴比伦、古印度、古中国的早期文明成就",
+            "figures": [
+              "图特摩斯三世",
+              "汉谟拉比",
+              "释迦牟尼",
+              "孔子"
+            ],
+            "nameEn": "Ancient Asian and African Civilizations",
+            "periodEn": "Remote Antiquity - 1st Century CE",
+            "descriptionEn": "Early civilizations of ancient Egypt, Babylonia, India, and China",
+            "figuresEn": [
+              "Thutmose III",
+              "Hammurabi",
+              "Siddhartha Gautama",
+              "Confucius"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "古埃及文明",
+                "summary": "尼罗河流域、金字塔与法老统治"
+              },
+              {
+                "id": "ch2",
+                "title": "古巴比伦文明",
+                "summary": "两河流域、《汉谟拉比法典》"
+              },
+              {
+                "id": "ch3",
+                "title": "古印度文明",
+                "summary": "种姓制度、佛教的创立"
+              }
+            ]
+          },
+          {
+            "id": "w9-ancient-europe",
+            "name": "古代欧洲文明",
+            "period": "前800年-476年",
+            "description": "古希腊城邦制度、民主政治、罗马共和国与帝国",
+            "figures": [
+              "伯里克利",
+              "亚历山大",
+              "凯撒",
+              "屋大维"
+            ],
+            "nameEn": "Ancient European Civilization",
+            "periodEn": "800 BCE - 476 CE",
+            "descriptionEn": "Ancient Greek city-state systems, democratic politics, and the Roman Republic and Empire",
+            "figuresEn": [
+              "Pericles",
+              "Alexander the Great",
+              "Julius Caesar",
+              "Augustus"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "古希腊城邦",
+                "summary": "雅典民主政治、斯巴达军事制度"
+              },
+              {
+                "id": "ch2",
+                "title": "亚历山大帝国",
+                "summary": "亚历山大东征与希腊化时代"
+              },
+              {
+                "id": "ch3",
+                "title": "罗马的兴衰",
+                "summary": "罗马共和国、帝国扩张与灭亡"
+              }
+            ]
+          },
+          {
+            "id": "w9-medieval",
+            "name": "封建时代的欧洲与亚洲",
+            "period": "476-1500年",
+            "description": "西欧封建制、拜占庭帝国、阿拉伯帝国、日本封建社会",
+            "figures": [
+              "查理曼",
+              "穆罕默德",
+              "源赖朝",
+              "孝德天皇"
+            ],
+            "nameEn": "Medieval Europe and Asia",
+            "periodEn": "476-1500 CE",
+            "descriptionEn": "Western European feudalism, the Byzantine Empire, the Arab Empire, and Japanese feudal society",
+            "figuresEn": [
+              "Charlemagne",
+              "Muhammad",
+              "Minamoto no Yoritomo",
+              "Emperor Kōtoku"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "西欧封建社会",
+                "summary": "封君封臣制、基督教会与庄园经济"
+              },
+              {
+                "id": "ch2",
+                "title": "拜占庭帝国",
+                "summary": "东罗马帝国、查士丁尼法典"
+              },
+              {
+                "id": "ch3",
+                "title": "伊斯兰文明",
+                "summary": "阿拉伯帝国扩张、伊斯兰教传播"
+              },
+              {
+                "id": "ch4",
+                "title": "东亚与南亚",
+                "summary": "日本大化改新、幕府统治"
+              }
+            ]
+          },
+          {
+            "id": "w9-renaissance-exploration",
+            "name": "步入近代",
+            "period": "14-16世纪",
+            "description": "文艺复兴、新航路开辟、殖民扩张与早期资本主义",
+            "figures": [
+              "但丁",
+              "达芬奇",
+              "哥伦布",
+              "麦哲伦"
+            ],
+            "nameEn": "Entering the Modern Age",
+            "periodEn": "14th-16th Century",
+            "descriptionEn": "The Renaissance, the opening of new sea routes, colonial expansion, and early capitalism",
+            "figuresEn": [
+              "Dante",
+              "Leonardo da Vinci",
+              "Christopher Columbus",
+              "Ferdinand Magellan"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "文艺复兴",
+                "summary": "人文主义思潮、文学艺术巨匠"
+              },
+              {
+                "id": "ch2",
+                "title": "新航路开辟",
+                "summary": "哥伦布发现新大陆、环球航行"
+              },
+              {
+                "id": "ch3",
+                "title": "早期殖民",
+                "summary": "葡萄牙西班牙殖民扩张与三角贸易"
+              }
+            ]
+          },
+          {
+            "id": "w9-revolution",
+            "name": "资本主义制度的确立",
+            "period": "17-18世纪",
+            "description": "英法美资产阶级革命与资本主义制度的建立",
+            "figures": [
+              "克伦威尔",
+              "华盛顿",
+              "拿破仑",
+              "罗伯斯庇尔"
+            ],
+            "nameEn": "Establishment of Capitalist Systems",
+            "periodEn": "17th-18th Century",
+            "descriptionEn": "Bourgeois revolutions in England, France, and America, and the establishment of capitalist systems",
+            "figuresEn": [
+              "Oliver Cromwell",
+              "George Washington",
+              "Napoleon Bonaparte",
+              "Maximilien Robespierre"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "英国资产阶级革命",
+                "summary": "议会斗争、光荣革命与君主立宪制"
+              },
+              {
+                "id": "ch2",
+                "title": "美国独立战争",
+                "summary": "波士顿倾茶、独立宣言与宪政"
+              },
+              {
+                "id": "ch3",
+                "title": "法国大革命",
+                "summary": "攻占巴士底狱、拿破仑帝国"
+              }
+            ]
+          },
+          {
+            "id": "w9-industrial-revolution",
+            "name": "工业革命与马克思主义",
+            "period": "18-19世纪",
+            "description": "第一次工业革命、工人运动、马克思主义诞生",
+            "figures": [
+              "瓦特",
+              "史蒂芬森",
+              "马克思",
+              "恩格斯"
+            ],
+            "nameEn": "Industrial Revolution and Marxism",
+            "periodEn": "18th-19th Century",
+            "descriptionEn": "The First Industrial Revolution, workers' movements, and the birth of Marxism",
+            "figuresEn": [
+              "James Watt",
+              "George Stephenson",
+              "Karl Marx",
+              "Friedrich Engels"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "第一次工业革命",
+                "summary": "蒸汽机、工厂制度与社会变革"
+              },
+              {
+                "id": "ch2",
+                "title": "工人运动",
+                "summary": "宪章运动、巴黎公社"
+              },
+              {
+                "id": "ch3",
+                "title": "马克思主义诞生",
+                "summary": "《共产党宣言》与国际工人运动"
+              }
+            ]
+          },
+          {
+            "id": "w9-imperialism",
+            "name": "垄断资本主义与帝国主义",
+            "period": "19世纪末-20世纪初",
+            "description": "第二次工业革命、帝国主义瓜分世界、亚非拉民族运动",
+            "figures": [
+              "爱迪生",
+              "俾斯麦",
+              "甘地",
+              "玻利瓦尔"
+            ],
+            "nameEn": "Monopoly Capitalism and Imperialism",
+            "periodEn": "Late 19th Century - Early 20th Century",
+            "descriptionEn": "The Second Industrial Revolution, imperialist division of the world, and national movements in Asia, Africa, and Latin America",
+            "figuresEn": [
+              "Thomas Edison",
+              "Otto von Bismarck",
+              "Mahatma Gandhi",
+              "Simón Bolívar"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "第二次工业革命",
+                "summary": "电力、内燃机、化学工业与垄断组织"
+              },
+              {
+                "id": "ch2",
+                "title": "帝国主义扩张",
+                "summary": "列强瓜分世界与殖民体系形成"
+              },
+              {
+                "id": "ch3",
+                "title": "亚非拉抗争",
+                "summary": "印度民族运动、拉丁美洲独立运动"
+              }
+            ]
+          },
+          {
+            "id": "w9-world-wars",
+            "name": "两次世界大战与冷战",
+            "period": "1914-1991年",
+            "description": "第一次世界大战、俄国革命、第二次世界大战、冷战格局",
+            "figures": [
+              "列宁",
+              "斯大林",
+              "罗斯福",
+              "丘吉尔"
+            ],
+            "nameEn": "World Wars and the Cold War",
+            "periodEn": "1914-1991 CE",
+            "descriptionEn": "World War I, the Russian Revolution, World War II, and the Cold War order",
+            "figuresEn": [
+              "Vladimir Lenin",
+              "Joseph Stalin",
+              "Franklin D. Roosevelt",
+              "Winston Churchill"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "第一次世界大战",
+                "summary": "萨拉热窝事件、凡尔赛-华盛顿体系"
+              },
+              {
+                "id": "ch2",
+                "title": "十月革命与苏联",
+                "summary": "列宁领导十月革命、苏联建设成就"
+              },
+              {
+                "id": "ch3",
+                "title": "第二次世界大战",
+                "summary": "法西斯侵略、反法西斯同盟、联合国"
+              },
+              {
+                "id": "ch4",
+                "title": "冷战",
+                "summary": "美苏对峙、北约华约、殖民体系瓦解"
+              }
+            ]
+          },
+          {
+            "id": "w9-contemporary",
+            "name": "当代世界",
+            "period": "1991年至今",
+            "description": "冷战结束后多极化趋势、经济全球化、科技革命",
+            "figures": [
+              "戈尔巴乔夫",
+              "克林顿"
+            ],
+            "nameEn": "Contemporary World",
+            "periodEn": "1991 CE to present",
+            "descriptionEn": "Multipolarization trends after the Cold War, economic globalization, and the technological revolution",
+            "figuresEn": [
+              "Mikhail Gorbachev",
+              "Bill Clinton"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "冷战后的世界格局",
+                "summary": "一超多强、多极化趋势发展"
+              },
+              {
+                "id": "ch2",
+                "title": "经济全球化",
+                "summary": "WTO、区域经济一体化"
+              },
+              {
+                "id": "ch3",
+                "title": "现代科技与时代挑战",
+                "summary": "互联网、人工智能与可持续发展"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "senior-world",
+        "name": "高中",
+        "description": "高中统编版《中外历史纲要（下）》，系统学习世界文明发展历程",
+        "eras": [
+          {
+            "id": "sw-ancient-civilizations",
+            "name": "古代文明的产生与发展",
+            "period": "远古-前500年",
+            "description": "人类文明的起源、古代两河流域、埃及、印度与早期国家（纲要下第一课）",
+            "figures": [
+              "苏美尔人",
+              "图特摩斯三世",
+              "阿育王"
+            ],
+            "nameEn": "Emergence and Development of Ancient Civilizations",
+            "periodEn": "Remote Antiquity - 500 BCE",
+            "descriptionEn": "Origins of human civilization, ancient Mesopotamia, Egypt, India, and early states (Outline Vol. 2, Lesson 1)",
+            "figuresEn": [
+              "Sumerians",
+              "Thutmose III",
+              "Ashoka"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "人类文明的起源",
+                "summary": "农业革命与早期文明的产生"
+              },
+              {
+                "id": "ch2",
+                "title": "古代两河流域与埃及",
+                "summary": "苏美尔城邦、古埃及王国与法老文明"
+              },
+              {
+                "id": "ch3",
+                "title": "古印度文明",
+                "summary": "哈拉帕文明、种姓制度的形成"
+              }
+            ]
+          },
+          {
+            "id": "sw-ancient-greece-rome",
+            "name": "古希腊罗马文明",
+            "period": "前800年-476年",
+            "description": "古希腊城邦与民主、罗马共和国与帝国的兴衰（纲要下第二课）",
+            "figures": [
+              "梭伦",
+              "伯里克利",
+              "凯撒",
+              "屋大维"
+            ],
+            "nameEn": "Ancient Greek and Roman Civilization",
+            "periodEn": "800 BCE - 476 CE",
+            "descriptionEn": "Ancient Greek city-states and democracy, and the rise and fall of the Roman Republic and Empire (Outline Vol. 2, Lesson 2)",
+            "figuresEn": [
+              "Solon",
+              "Pericles",
+              "Julius Caesar",
+              "Augustus"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "古希腊城邦制度",
+                "summary": "雅典民主政治的发展与局限"
+              },
+              {
+                "id": "ch2",
+                "title": "希腊古典文化",
+                "summary": "哲学、戏剧、科学与艺术成就"
+              },
+              {
+                "id": "ch3",
+                "title": "罗马共和国与帝国",
+                "summary": "罗马法的演进、从共和到帝国"
+              }
+            ]
+          },
+          {
+            "id": "sw-medieval-europe",
+            "name": "中古时期的欧洲",
+            "period": "476-1500年",
+            "description": "西欧封建制度、拜占庭帝国、俄罗斯（纲要下第三课）",
+            "figures": [
+              "查理曼",
+              "查士丁尼",
+              "伊凡四世"
+            ],
+            "nameEn": "Medieval Europe",
+            "periodEn": "476-1500 CE",
+            "descriptionEn": "Western European feudal system, the Byzantine Empire, and Russia (Outline Vol. 2, Lesson 3)",
+            "figuresEn": [
+              "Charlemagne",
+              "Justinian",
+              "Ivan the Terrible"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "西欧封建社会",
+                "summary": "封君封臣制、庄园经济与城市兴起"
+              },
+              {
+                "id": "ch2",
+                "title": "拜占庭帝国",
+                "summary": "东罗马帝国的兴衰与文化传承"
+              },
+              {
+                "id": "ch3",
+                "title": "俄罗斯早期历史",
+                "summary": "基辅罗斯、莫斯科公国与沙俄崛起"
+              }
+            ]
+          },
+          {
+            "id": "sw-medieval-asia-africa",
+            "name": "中古时期的亚洲与非洲",
+            "period": "7-15世纪",
+            "description": "阿拉伯帝国、奥斯曼帝国、日本、朝鲜、东南亚（纲要下第四课）",
+            "figures": [
+              "穆罕默德",
+              "源赖朝",
+              "李成桂"
+            ],
+            "nameEn": "Medieval Asia and Africa",
+            "periodEn": "7th-15th Century",
+            "descriptionEn": "The Arab Empire, Ottoman Empire, Japan, Korea, and Southeast Asia (Outline Vol. 2, Lesson 4)",
+            "figuresEn": [
+              "Muhammad",
+              "Minamoto no Yoritomo",
+              "Taejo of Joseon"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "阿拉伯帝国",
+                "summary": "伊斯兰教创立、帝国扩张与文化繁荣"
+              },
+              {
+                "id": "ch2",
+                "title": "东亚封建社会",
+                "summary": "日本大化改新、幕府制度、朝鲜统一"
+              },
+              {
+                "id": "ch3",
+                "title": "非洲与美洲",
+                "summary": "马里帝国、印加文明、阿兹特克文明"
+              }
+            ]
+          },
+          {
+            "id": "sw-exploration-reform",
+            "name": "新航路开辟与文艺复兴",
+            "period": "14-16世纪",
+            "description": "新航路开辟、全球联系初步建立、文艺复兴与宗教改革（纲要下第六课）",
+            "figures": [
+              "哥伦布",
+              "达芬奇",
+              "马丁·路德",
+              "麦哲伦"
+            ],
+            "nameEn": "Age of Exploration and the Renaissance",
+            "periodEn": "14th-16th Century",
+            "descriptionEn": "Opening of new sea routes, establishment of global connections, the Renaissance, and the Reformation (Outline Vol. 2, Lesson 6)",
+            "figuresEn": [
+              "Christopher Columbus",
+              "Leonardo da Vinci",
+              "Martin Luther",
+              "Ferdinand Magellan"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "新航路开辟",
+                "summary": "迪亚士、哥伦布、麦哲伦的航海壮举"
+              },
+              {
+                "id": "ch2",
+                "title": "全球联系的建立",
+                "summary": "世界市场雏形、人口迁移与物种交换"
+              },
+              {
+                "id": "ch3",
+                "title": "文艺复兴与宗教改革",
+                "summary": "人文主义、科学革命与宗教改革运动"
+              }
+            ]
+          },
+          {
+            "id": "sw-enlightenment-revolution",
+            "name": "启蒙运动与资产阶级革命",
+            "period": "17-18世纪",
+            "description": "启蒙运动、英美法资产阶级革命、资本主义制度确立（纲要下第七至九课）",
+            "figures": [
+              "洛克",
+              "孟德斯鸠",
+              "卢梭",
+              "华盛顿",
+              "拿破仑"
+            ],
+            "nameEn": "Enlightenment and Bourgeois Revolutions",
+            "periodEn": "17th-18th Century",
+            "descriptionEn": "The Enlightenment, bourgeois revolutions in England, America, and France, and the establishment of capitalist systems (Outline Vol. 2, Lessons 7-9)",
+            "figuresEn": [
+              "John Locke",
+              "Montesquieu",
+              "Jean-Jacques Rousseau",
+              "George Washington",
+              "Napoleon Bonaparte"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "启蒙运动",
+                "summary": "理性主义与近代民主思想的形成"
+              },
+              {
+                "id": "ch2",
+                "title": "英美革命",
+                "summary": "光荣革命、美国独立与联邦宪法"
+              },
+              {
+                "id": "ch3",
+                "title": "法国大革命",
+                "summary": "革命浪潮、拿破仑法典与欧洲格局"
+              }
+            ]
+          },
+          {
+            "id": "sw-industrial-revolution",
+            "name": "工业革命",
+            "period": "18世纪中-20世纪初",
+            "description": "两次工业革命、马克思主义、殖民体系与民族独立运动（纲要下第十至十二课）",
+            "figures": [
+              "瓦特",
+              "爱迪生",
+              "马克思",
+              "列宁",
+              "甘地"
+            ],
+            "nameEn": "Industrial Revolution",
+            "periodEn": "Mid-18th Century - Early 20th Century",
+            "descriptionEn": "Two Industrial Revolutions, Marxism, the colonial system, and national independence movements (Outline Vol. 2, Lessons 10-12)",
+            "figuresEn": [
+              "James Watt",
+              "Thomas Edison",
+              "Karl Marx",
+              "Vladimir Lenin",
+              "Mahatma Gandhi"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "第一次工业革命",
+                "summary": "蒸汽动力、工厂制度与阶级变化"
+              },
+              {
+                "id": "ch2",
+                "title": "马克思主义",
+                "summary": "《共产党宣言》、巴黎公社与第一国际"
+              },
+              {
+                "id": "ch3",
+                "title": "第二次工业革命",
+                "summary": "电气化、垄断资本与世界市场形成"
+              },
+              {
+                "id": "ch4",
+                "title": "殖民体系与民族运动",
+                "summary": "瓜分狂潮与亚非拉抗争"
+              }
+            ]
+          },
+          {
+            "id": "sw-world-wars",
+            "name": "世界大战与十月革命",
+            "period": "1914-1945年",
+            "description": "第一次世界大战、俄国十月革命、第二次世界大战（纲要下第十三至十五课）",
+            "figures": [
+              "列宁",
+              "斯大林",
+              "罗斯福",
+              "丘吉尔",
+              "戴高乐"
+            ],
+            "nameEn": "World Wars and the October Revolution",
+            "periodEn": "1914-1945 CE",
+            "descriptionEn": "World War I, the Russian October Revolution, and World War II (Outline Vol. 2, Lessons 13-15)",
+            "figuresEn": [
+              "Vladimir Lenin",
+              "Joseph Stalin",
+              "Franklin D. Roosevelt",
+              "Winston Churchill",
+              "Charles de Gaulle"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "第一次世界大战",
+                "summary": "战争起因、过程与凡尔赛-华盛顿体系"
+              },
+              {
+                "id": "ch2",
+                "title": "十月革命与苏联",
+                "summary": "布尔什维克革命、苏联模式与工业化"
+              },
+              {
+                "id": "ch3",
+                "title": "第二次世界大战",
+                "summary": "法西斯崛起、反法西斯战争与战后秩序"
+              }
+            ]
+          },
+          {
+            "id": "sw-cold-war",
+            "name": "20世纪下半叶的世界",
+            "period": "1945-1991年",
+            "description": "冷战格局、资本主义新发展、社会主义运动、多极化趋势（纲要下第十六至二十课）",
+            "figures": [
+              "杜鲁门",
+              "赫鲁晓夫",
+              "肯尼迪",
+              "戈尔巴乔夫"
+            ],
+            "nameEn": "The World in the Second Half of the 20th Century",
+            "periodEn": "1945-1991 CE",
+            "descriptionEn": "The Cold War order, new developments in capitalism, the socialist movement, and multipolarization trends (Outline Vol. 2, Lessons 16-20)",
+            "figuresEn": [
+              "Harry S. Truman",
+              "Nikita Khrushchev",
+              "John F. Kennedy",
+              "Mikhail Gorbachev"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "冷战与两极格局",
+                "summary": "铁幕、柏林墙、古巴导弹危机"
+              },
+              {
+                "id": "ch2",
+                "title": "资本主义新变化",
+                "summary": "国家干预、福利国家与欧共体"
+              },
+              {
+                "id": "ch3",
+                "title": "社会主义探索",
+                "summary": "苏联改革、东欧剧变与苏联解体"
+              },
+              {
+                "id": "ch4",
+                "title": "世界多极化趋势",
+                "summary": "不结盟运动、日本崛起、中国发展"
+              }
+            ]
+          },
+          {
+            "id": "sw-contemporary",
+            "name": "当代世界",
+            "period": "1991年至今",
+            "description": "冷战后国际格局、经济全球化、区域集团化、科技革命（纲要下第二十一课）",
+            "figures": [
+              "克林顿",
+              "默克尔",
+              "习近平"
+            ],
+            "nameEn": "Contemporary World",
+            "periodEn": "1991 CE to present",
+            "descriptionEn": "Post-Cold War international order, economic globalization, regional bloc formation, and the technological revolution (Outline Vol. 2, Lesson 21)",
+            "figuresEn": [
+              "Bill Clinton",
+              "Angela Merkel",
+              "Xi Jinping"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "冷战后世界格局",
+                "summary": "一超多强与多极化深入发展"
+              },
+              {
+                "id": "ch2",
+                "title": "经济全球化",
+                "summary": "WTO、跨国公司与区域经济"
+              },
+              {
+                "id": "ch3",
+                "title": "和平与发展",
+                "summary": "人类命运共同体与可持续发展"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "uni-world",
+        "name": "大学",
+        "description": "大学世界史专业课程，按国别深入学习各国历史发展脉络",
+        "eras": [
+          {
+            "id": "uw-usa",
+            "name": "美国史",
+            "period": "1776年至今",
+            "description": "独立建国、西进运动、内战、崛起为世界强国、冷战霸权",
+            "figures": [
+              "华盛顿",
+              "林肯",
+              "罗斯福",
+              "肯尼迪"
+            ],
+            "nameEn": "History of the United States",
+            "periodEn": "1776 CE to present",
+            "descriptionEn": "Independence and founding, westward expansion, the Civil War, rise to global power, and Cold War hegemony",
+            "figuresEn": [
+              "George Washington",
+              "Abraham Lincoln",
+              "Franklin D. Roosevelt",
+              "John F. Kennedy"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "殖民地时代",
+                "summary": "英国殖民、清教徒与独立运动"
+              },
+              {
+                "id": "ch2",
+                "title": "建国与西进",
+                "summary": "宪法制定、领土扩张与印第安人命运"
+              },
+              {
+                "id": "ch3",
+                "title": "南北战争",
+                "summary": "奴隶制争论、林肯与重建时代"
+              },
+              {
+                "id": "ch4",
+                "title": "进步时代与两次大战",
+                "summary": "工业化、大萧条与罗斯福新政"
+              },
+              {
+                "id": "ch5",
+                "title": "冷战与当代",
+                "summary": "超级大国地位、越战、911与新世纪"
+              }
+            ],
+            "country": "美国"
+          },
+          {
+            "id": "uw-germany",
+            "name": "德国史",
+            "period": "962年至今",
+            "description": "神圣罗马帝国、普鲁士崛起、两次世界大战、两德统一与欧盟",
+            "figures": [
+              "俾斯麦",
+              "希特勒",
+              "阿登纳",
+              "默克尔"
+            ],
+            "nameEn": "History of Germany",
+            "periodEn": "962 CE to present",
+            "descriptionEn": "The Holy Roman Empire, Prussia's rise, two World Wars, reunification of East and West Germany, and the European Union",
+            "figuresEn": [
+              "Otto von Bismarck",
+              "Adolf Hitler",
+              "Konrad Adenauer",
+              "Angela Merkel"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "神圣罗马帝国",
+                "summary": "德意志民族的早期政治格局"
+              },
+              {
+                "id": "ch2",
+                "title": "普鲁士崛起与统一",
+                "summary": "俾斯麦铁血政策与德意志帝国"
+              },
+              {
+                "id": "ch3",
+                "title": "魏玛共和国与纳粹",
+                "summary": "共和国困境、希特勒上台与大屠杀"
+              },
+              {
+                "id": "ch4",
+                "title": "两德分裂与统一",
+                "summary": "冷战分裂、柏林墙倒塌与重新统一"
+              }
+            ],
+            "country": "德国"
+          },
+          {
+            "id": "uw-russia",
+            "name": "俄罗斯史",
+            "period": "862年至今",
+            "description": "基辅罗斯、莫斯科公国、沙俄扩张、苏联兴衰与当代俄罗斯",
+            "figures": [
+              "彼得大帝",
+              "叶卡捷琳娜",
+              "列宁",
+              "斯大林",
+              "普京"
+            ],
+            "nameEn": "History of Russia",
+            "periodEn": "862 CE to present",
+            "descriptionEn": "Kievan Rus, the Principality of Moscow, Tsarist expansion, the rise and fall of the Soviet Union, and contemporary Russia",
+            "figuresEn": [
+              "Peter the Great",
+              "Catherine the Great",
+              "Vladimir Lenin",
+              "Joseph Stalin",
+              "Vladimir Putin"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "基辅罗斯与蒙古统治",
+                "summary": "早期东斯拉夫人与金帐汗国"
+              },
+              {
+                "id": "ch2",
+                "title": "沙俄崛起",
+                "summary": "彼得大帝改革、领土扩张与农奴制"
+              },
+              {
+                "id": "ch3",
+                "title": "帝国晚期与革命",
+                "summary": "1905革命、二月革命与十月革命"
+              },
+              {
+                "id": "ch4",
+                "title": "苏联时代",
+                "summary": "工业化、二战胜利、冷战与解体"
+              }
+            ],
+            "country": "俄罗斯"
+          },
+          {
+            "id": "uw-uk",
+            "name": "英国史",
+            "period": "1066年至今",
+            "description": "诺曼征服、大宪章、英帝国、工业革命、日不落帝国到现代英国",
+            "figures": [
+              "威廉一世",
+              "伊丽莎白一世",
+              "维多利亚",
+              "丘吉尔"
+            ],
+            "nameEn": "History of the United Kingdom",
+            "periodEn": "1066 CE to present",
+            "descriptionEn": "The Norman Conquest, Magna Carta, the British Empire, the Industrial Revolution, from the empire on which the sun never sets to modern Britain",
+            "figuresEn": [
+              "William the Conqueror",
+              "Elizabeth I",
+              "Queen Victoria",
+              "Winston Churchill"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "中世纪英国",
+                "summary": "诺曼征服、大宪章与议会起源"
+              },
+              {
+                "id": "ch2",
+                "title": "都铎王朝与斯图亚特",
+                "summary": "宗教改革、内战与光荣革命"
+              },
+              {
+                "id": "ch3",
+                "title": "帝国与工业革命",
+                "summary": "殖民扩张、蒸汽时代与维多利亚盛世"
+              },
+              {
+                "id": "ch4",
+                "title": "20世纪的英国",
+                "summary": "两次世界大战、殖民独立与脱欧"
+              }
+            ],
+            "country": "英国"
+          },
+          {
+            "id": "uw-france",
+            "name": "法国史",
+            "period": "486年至今",
+            "description": "法兰克王国、大革命、拿破仑、殖民帝国、欧盟核心",
+            "figures": [
+              "查理曼",
+              "路易十四",
+              "拿破仑",
+              "戴高乐"
+            ],
+            "nameEn": "History of France",
+            "periodEn": "486 CE to present",
+            "descriptionEn": "The Frankish Kingdom, the Revolution, Napoleon, the colonial empire, and a core member of the European Union",
+            "figuresEn": [
+              "Charlemagne",
+              "Louis XIV",
+              "Napoleon Bonaparte",
+              "Charles de Gaulle"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "法兰克王国与封建时代",
+                "summary": "克洛维、查理曼帝国与封建割据"
+              },
+              {
+                "id": "ch2",
+                "title": "绝对君主制",
+                "summary": "路易十四的太阳王时代与启蒙运动"
+              },
+              {
+                "id": "ch3",
+                "title": "大革命与拿破仑",
+                "summary": "攻占巴士底狱、恐怖统治与帝国兴衰"
+              },
+              {
+                "id": "ch4",
+                "title": "共和与帝国交替",
+                "summary": "第三共和国、两次世界大战与戴高乐"
+              }
+            ],
+            "country": "法国"
+          },
+          {
+            "id": "uw-japan",
+            "name": "日本史",
+            "period": "古坟时代至今",
+            "description": "大化改新、幕府时代、明治维新、军国主义、战后经济奇迹",
+            "figures": [
+              "圣德太子",
+              "源赖朝",
+              "明治天皇",
+              "东条英机"
+            ],
+            "nameEn": "History of Japan",
+            "periodEn": "Kofun Period to present",
+            "descriptionEn": "The Taika Reforms, the shogunate era, the Meiji Restoration, militarism, and the post-war economic miracle",
+            "figuresEn": [
+              "Prince Shōtoku",
+              "Minamoto no Yoritomo",
+              "Emperor Meiji",
+              "Hideki Tojo"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "古代日本",
+                "summary": "弥生文化、大化改新与律令制"
+              },
+              {
+                "id": "ch2",
+                "title": "幕府时代",
+                "summary": "镰仓、室町、江户幕府与锁国政策"
+              },
+              {
+                "id": "ch3",
+                "title": "明治维新",
+                "summary": "殖产兴业、富国强兵与脱亚入欧"
+              },
+              {
+                "id": "ch4",
+                "title": "军国主义与战后",
+                "summary": "侵略战争、战败投降与经济腾飞"
+              }
+            ],
+            "country": "日本"
+          },
+          {
+            "id": "uw-italy",
+            "name": "意大利史",
+            "period": "罗马共和国至今",
+            "description": "罗马帝国遗产、文艺复兴、城邦政治、统一运动、现代共和国",
+            "figures": [
+              "凯撒",
+              "达芬奇",
+              "加富尔",
+              "墨索里尼"
+            ],
+            "nameEn": "History of Italy",
+            "periodEn": "Roman Republic to present",
+            "descriptionEn": "The legacy of the Roman Empire, the Renaissance, city-state politics, the Risorgimento unification, and the modern republic",
+            "figuresEn": [
+              "Julius Caesar",
+              "Leonardo da Vinci",
+              "Camillo Benso di Cavour",
+              "Benito Mussolini"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "罗马遗产",
+                "summary": "罗马帝国对意大利的深远影响"
+              },
+              {
+                "id": "ch2",
+                "title": "文艺复兴",
+                "summary": "佛罗伦萨、威尼斯城邦与文化繁荣"
+              },
+              {
+                "id": "ch3",
+                "title": "统一运动",
+                "summary": "加富尔、加里波第与意大利王国建立"
+              },
+              {
+                "id": "ch4",
+                "title": "20世纪的意大利",
+                "summary": "法西斯主义、战后重建与欧盟成员"
+              }
+            ],
+            "country": "意大利"
+          },
+          {
+            "id": "uw-brazil",
+            "name": "巴西史",
+            "period": "1500年至今",
+            "description": "殖民时代、帝国独立、共和国、巴西现代化与拉美最大经济体",
+            "figures": [
+              "佩德罗一世",
+              "瓦加斯",
+              "卢拉"
+            ],
+            "nameEn": "History of Brazil",
+            "periodEn": "1500 CE to present",
+            "descriptionEn": "The colonial era, imperial independence, the republic, and Brazil's modernization as Latin America's largest economy",
+            "figuresEn": [
+              "Pedro I",
+              "Getúlio Vargas",
+              "Lula da Silva"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "殖民时代",
+                "summary": "葡萄牙殖民、甘蔗种植园与奴隶贸易"
+              },
+              {
+                "id": "ch2",
+                "title": "帝国独立",
+                "summary": "佩德罗一世独立、帝国时期与废奴"
+              },
+              {
+                "id": "ch3",
+                "title": "共和国时代",
+                "summary": "旧共和国、军政府与民主化"
+              },
+              {
+                "id": "ch4",
+                "title": "当代巴西",
+                "summary": "经济崛起、城市化与社会问题"
+              }
+            ],
+            "country": "巴西"
+          },
+          {
+            "id": "uw-egypt",
+            "name": "埃及史",
+            "period": "前3100年至今",
+            "description": "法老文明、希腊罗马统治、阿拉伯化、现代埃及",
+            "figures": [
+              "拉美西斯二世",
+              "图特摩斯三世",
+              "纳赛尔",
+              "萨达特"
+            ],
+            "nameEn": "History of Egypt",
+            "periodEn": "3100 BCE to present",
+            "descriptionEn": "Pharaonic civilization, Greco-Roman rule, Arabization, and modern Egypt",
+            "figuresEn": [
+              "Ramesses II",
+              "Thutmose III",
+              "Gamal Abdel Nasser",
+              "Anwar Sadat"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "法老文明",
+                "summary": "古王国、中王国与新王国的兴衰"
+              },
+              {
+                "id": "ch2",
+                "title": "外来统治",
+                "summary": "波斯、希腊、罗马与阿拉伯征服"
+              },
+              {
+                "id": "ch3",
+                "title": "近现代埃及",
+                "summary": "穆罕默德·阿里改革、纳赛尔与阿拉伯世界"
+              }
+            ],
+            "country": "埃及"
+          },
+          {
+            "id": "uw-india",
+            "name": "印度史",
+            "period": "前2500年至今",
+            "description": "印度河文明、孔雀帝国、莫卧儿帝国、殖民与独立",
+            "figures": [
+              "阿育王",
+              "阿克巴",
+              "甘地",
+              "尼赫鲁"
+            ],
+            "nameEn": "History of India",
+            "periodEn": "2500 BCE to present",
+            "descriptionEn": "Indus Valley Civilization, the Maurya Empire, the Mughal Empire, colonial rule, and independence",
+            "figuresEn": [
+              "Ashoka",
+              "Akbar",
+              "Mahatma Gandhi",
+              "Jawaharlal Nehru"
+            ],
+            "chapters": [
+              {
+                "id": "ch1",
+                "title": "古代印度",
+                "summary": "印度河文明、吠陀时代与孔雀帝国"
+              },
+              {
+                "id": "ch2",
+                "title": "莫卧儿帝国",
+                "summary": "伊斯兰统治、泰姬陵与文化融合"
+              },
+              {
+                "id": "ch3",
+                "title": "殖民与独立",
+                "summary": "东印度公司、甘地非暴力运动与分治"
+              }
+            ],
+            "country": "印度"
+          }
+        ]
+      }
+    ]
+  }
+}

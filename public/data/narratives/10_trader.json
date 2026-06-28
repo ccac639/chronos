@@ -1,0 +1,647 @@
+{
+  "eraId": "sw-medieval-asia-africa",
+  "eraName": "中古时期的亚洲与非洲",
+  "playerRole": "阿拉伯商人",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "沙漠商队",
+      "isKeyAct": true,
+      "sceneDescription": "你是一名阿拉伯商人，率领一支骆驼商队穿越撒哈拉沙漠。骆驼背上装满了香料和丝绸。",
+      "npcDialogues": [
+        {
+          "speaker": "向导阿克麦德",
+          "text": "前方的绿洲就是中途补给点。水壶要省着用。",
+          "avatar": "阿"
+        },
+        {
+          "speaker": "商人同伴萨尔斯坦",
+          "text": "这批香料是从印度运来的豆蔻和胡椒。",
+          "avatar": "萨"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "阿克麦德，我们可以在夜间赶路，白天在绿洲休息。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 88,
+          "triggeredEvent": "阿拉伯商人规划沙漠行程",
+          "historicalNote": "沙漠商队通常采用夜间行赶、白天休息的方式避免酷热。星象导航是重要技能。",
+          "consequence": "阿克麦德同意了这个安排。"
+        },
+        {
+          "id": "d2",
+          "text": "我们的骆驼需要补给水和饲料。可以在绿洲多停一天。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 85,
+          "triggeredEvent": "阿拉伯商人关注骆驼补给",
+          "historicalNote": "骆驼是沙漠贸易的核心。阿拉伯人对骆驼的照料非常重视。",
+          "consequence": "商队在绿洲多停了一天。"
+        },
+        {
+          "id": "d3",
+          "text": "萨尔斯坦，我们的货物价值很高，要特别注意沙漠中的强盗。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 84,
+          "triggeredEvent": "沙漠贸易的风险",
+          "historicalNote": "沙漠贸易充满风险，除了自然环境还有强盗和部落冲突。",
+          "consequence": "你加强了戒备。"
+        },
+        {
+          "id": "d4",
+          "text": "我常用星象来导航。北极星永远指向北方。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 86,
+          "triggeredEvent": "阿拉伯商人的星象导航",
+          "historicalNote": "星象导航是阿拉伯商人的重要技能。这种知识在欧洲很长时间不为人知。",
+          "consequence": "你的导航技能得到信任。"
+        },
+        {
+          "id": "d5",
+          "text": "在沙漠中行走，我感受到真主的伟大。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 78,
+          "triggeredEvent": "阿拉伯商人的宗教信仰",
+          "historicalNote": "伊斯兰教的信仰是商人的精神支撑。",
+          "consequence": "商队一起做了晨礼。"
+        },
+        {
+          "id": "d6",
+          "text": "当地平线上出现城市轮廓时，就知道即将到达目的地了。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 80,
+          "triggeredEvent": "沙漠中的旅程标志",
+          "historicalNote": "地平线上的城市轮廓是重要路标。",
+          "consequence": "商队加快了脚步。"
+        }
+      ]
+    },
+    {
+      "id": "act-2",
+      "title": "香料贸易",
+      "isKeyAct": false,
+      "sceneDescription": "商队到达了地中海港口。这是东西方贸易的交汇点。",
+      "npcDialogues": [
+        {
+          "speaker": "印度商人拉马",
+          "text": "你的豆蔻品质不错，但价格要再谈谈。",
+          "avatar": "拉"
+        },
+        {
+          "speaker": "地中海商人阿勒沙",
+          "text": "我有一批中国的丝绸和瓷器。",
+          "avatar": "阿"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "拉马，我的豆蔻是最好的品质，价格应该给两倍利润。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 85,
+          "triggeredEvent": "阿拉伯商人讨价还价",
+          "historicalNote": "商品的品质和稀缺性决定了价格。",
+          "consequence": "双方达成了交易。"
+        },
+        {
+          "id": "d2",
+          "text": "阿勒沙，中国丝绸在巴格达很受欢迎。我愿意用香料交换。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 82,
+          "triggeredEvent": "多边贸易",
+          "historicalNote": "阿拉伯商人是多边贸易的中介。",
+          "consequence": "你和阿勒沙达成了交易。"
+        },
+        {
+          "id": "d3",
+          "text": "地中海的物价比印度便宜得多。我要多采一些。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 80,
+          "triggeredEvent": "比较物价",
+          "historicalNote": "比较不同地区的物价是商人的核心能力。",
+          "consequence": "你采购了大批货物。"
+        },
+        {
+          "id": "d4",
+          "text": "在这里可以接触到世界各地的商品。贸易就是连接世界的桥梁。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 87,
+          "triggeredEvent": "贸易中心的多元文化",
+          "historicalNote": "地中海港口是多元文化交汇的地方。",
+          "consequence": "你感到贸易的魅力。"
+        },
+        {
+          "id": "d5",
+          "text": "这批红色染料是从也门运来的，在欧洲能卖出天价。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 83,
+          "triggeredEvent": "也门的染料贸易",
+          "historicalNote": "也门以红色染料和乳香闻名。",
+          "consequence": "你买下了这批染料。"
+        },
+        {
+          "id": "d6",
+          "text": "我要在这里建一个仓库，等合适时机再运走。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 81,
+          "triggeredEvent": "贸易策略",
+          "historicalNote": "阿拉伯商人善于把握时机。",
+          "consequence": "你开始布置仓库。"
+        }
+      ]
+    },
+    {
+      "id": "act-3",
+      "title": "巴格达德市场",
+      "isKeyAct": false,
+      "sceneDescription": "阿拉伯帝国首都巴格达德，是当时世界最繁华的城市之一。",
+      "npcDialogues": [
+        {
+          "speaker": "市场官员哈桑",
+          "text": "你的店铺需要缴纳营业税。",
+          "avatar": "哈"
+        },
+        {
+          "speaker": "顾客波斯",
+          "text": "你店里的东方美酒太好了！",
+          "avatar": "波"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "哈桑官员，我会按时缴税。市场秩序对商人都有好处。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 85,
+          "triggeredEvent": "遵守市场规则",
+          "historicalNote": "巴格达市场管理完善。",
+          "consequence": "你按时缴纳税款。"
+        },
+        {
+          "id": "d2",
+          "text": "波斯，我新到了一批中国的茶叶和瓷器。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 82,
+          "triggeredEvent": "推荐新商品",
+          "historicalNote": "阿拉伯商人的商品种类丰富。",
+          "consequence": "顾客很喜欢新货。"
+        },
+        {
+          "id": "d3",
+          "text": "巴格达的市场真繁华，从东方丝绸到西方珠宝，什么都有。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 86,
+          "triggeredEvent": "国际贸易中心",
+          "historicalNote": "巴格达是国际贸易重中心。",
+          "consequence": "你感到自豪。"
+        },
+        {
+          "id": "d4",
+          "text": "我店铺的工人很勤快，能帮我照看店铺和管理库存。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 80,
+          "triggeredEvent": "店铺管理",
+          "historicalNote": "阿拉伯商人擅长店铺管理。",
+          "consequence": "店铺经营得很好。"
+        },
+        {
+          "id": "d5",
+          "text": "我在巴格达开了一家客栈，接待外来商人。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 84,
+          "triggeredEvent": "好客之道",
+          "historicalNote": "阿拉伯商人以好客之道著称。",
+          "consequence": "客栈生意很好。"
+        },
+        {
+          "id": "d6",
+          "text": "市场上的测量工具很精确。阿拉伯人的科学水平真高。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 83,
+          "triggeredEvent": "科学成就",
+          "historicalNote": "阿拉伯世界在科学领域成就显著。",
+          "consequence": "你印象深刻。"
+        }
+      ]
+    },
+    {
+      "id": "act-4",
+      "title": "伊斯兰黄金时代",
+      "isKeyAct": true,
+      "sceneDescription": "阿拉伯世界正处于黄金时代。数学、天文学、医学和哲学繁荣兴盛。",
+      "npcDialogues": [
+        {
+          "speaker": "学者苏丹",
+          "text": "你带来的印度数学书籍非常宝贵。",
+          "avatar": "苏"
+        },
+        {
+          "speaker": "朋友阿勒沙",
+          "text": "你现在不仅是商人，还是知识的传播者。",
+          "avatar": "阿"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "苏丹，我还带来了一些印度的天文学和医学著作。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 90,
+          "triggeredEvent": "传播知识",
+          "historicalNote": "阿拉伯商人在贸易中传播知识。",
+          "consequence": "你在智慧之家捐了这些书。"
+        },
+        {
+          "id": "d2",
+          "text": "我见证了印度数学家教授使用新的数字体系。比罗马数字方便得多。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 88,
+          "triggeredEvent": "数学发展",
+          "historicalNote": "花拉宗的代数学引入了新的数字符号。",
+          "consequence": "你对代数学印象深刻。"
+        },
+        {
+          "id": "d3",
+          "text": "智慧之家是世界上最大的图书馆。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 86,
+          "triggeredEvent": "智慧之家",
+          "historicalNote": "智慧之家收藏大量古典著作翻译本。",
+          "consequence": "你充满敬意。"
+        },
+        {
+          "id": "d4",
+          "text": "传播知识和传播商品一样重要。知识是另一种形式的财富。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 91,
+          "triggeredEvent": "知识与贸易",
+          "historicalNote": "阿拉伯商人将知识视为宝贵财富。",
+          "consequence": "你对知识价值有新认识。"
+        },
+        {
+          "id": "d5",
+          "text": "我带回的书籍引起了学者们的广泛关注。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 84,
+          "triggeredEvent": "学术网络",
+          "historicalNote": "阿拉伯商人建立了广泛的学术网络。",
+          "consequence": "学者们都很感激你。"
+        },
+        {
+          "id": "d6",
+          "text": "苏丹，我希望能学习一些天文学知识。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 82,
+          "triggeredEvent": "商人学习",
+          "historicalNote": "阿拉伯商人积极学习。",
+          "consequence": "苏丹很乐意教你。"
+        }
+      ]
+    },
+    {
+      "id": "act-5",
+      "title": "印度洋贸易",
+      "isKeyAct": false,
+      "sceneDescription": "你的贸易帝国逐渐向东扩展，开始经营印度洋贸易。",
+      "npcDialogues": [
+        {
+          "speaker": "海员谢赫",
+          "text": "印度洋的季风很规律，我们可以利用季风。",
+          "avatar": "谢"
+        },
+        {
+          "speaker": "印度商人向阿",
+          "text": "印度棉布和香料在阿拉伯世界很受欢迎。",
+          "avatar": "向"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "这次运东方美酒、丝绸和香料，换取印度棉布和宝石。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 85,
+          "triggeredEvent": "印度洋贸易",
+          "historicalNote": "季风帮助商人连接了三大洲。",
+          "consequence": "交易非常成功。"
+        },
+        {
+          "id": "d2",
+          "text": "谢赫，季风航行风险很大，必须做好充分准备。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 82,
+          "triggeredEvent": "航海安全",
+          "historicalNote": "阿拉伯海员积累了丰富的航海经验。",
+          "consequence": "你做了充分准备。"
+        },
+        {
+          "id": "d3",
+          "text": "印度宝石在巴格达德能卖三倍价钱。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 84,
+          "triggeredEvent": "利润来源",
+          "historicalNote": "差价贸易是利润的主要来源。",
+          "consequence": "你开始算账。"
+        },
+        {
+          "id": "d4",
+          "text": "在印度洋上航行，能看到很多异国风情。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 83,
+          "triggeredEvent": "世界观",
+          "historicalNote": "阿拉伯商人的贸易拓展了世界视野。",
+          "consequence": "你感到世界广大。"
+        },
+        {
+          "id": "d5",
+          "text": "船只顺利返回巴格达德，这趟贸易就大赚了。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 81,
+          "triggeredEvent": "贸易计算",
+          "historicalNote": "阿拉伯商人精通贸易计算。",
+          "consequence": "你开始规划回程。"
+        },
+        {
+          "id": "d6",
+          "text": "我在印度见识了很多新商品和工艺，可以引进回去。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 86,
+          "triggeredEvent": "引进新商品",
+          "historicalNote": "阿拉伯商人不断引进新商品。",
+          "consequence": "你记录了很多新商品。"
+        }
+      ]
+    },
+    {
+      "id": "act-6",
+      "title": "传播伊斯兰",
+      "isKeyAct": false,
+      "sceneDescription": "你的商业旅程也是伊斯兰教传播的过程。",
+      "npcDialogues": [
+        {
+          "speaker": "伊斯兰学者",
+          "text": "传播伊斯兰不仅是传教，也是传播文明。",
+          "avatar": "伊"
+        },
+        {
+          "speaker": "印度商人向阿",
+          "text": "很多人因为商业而接受了伊斯兰。",
+          "avatar": "向"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "传播知识和信仰是我们商人的特权。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 90,
+          "triggeredEvent": "文化传播",
+          "historicalNote": "阿拉伯商人在商业往来中自然传播了伊斯兰文化。",
+          "consequence": "你对自己的角色感到自豪。"
+        },
+        {
+          "id": "d2",
+          "text": "我在开罗建了一座清真寺，也是当地人学习的地方。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 87,
+          "triggeredEvent": "建设清真寺",
+          "historicalNote": "清真寺是伊斯兰文明的重要标志。",
+          "consequence": "你的清真寺造福了当地。"
+        },
+        {
+          "id": "d3",
+          "text": "在东南亚，伊斯兰教通过商人和平传播。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 89,
+          "triggeredEvent": "和平传教",
+          "historicalNote": "东南亚伊斯兰教主要通过商人和平传播。",
+          "consequence": "你见证了和平传教的力量。"
+        },
+        {
+          "id": "d4",
+          "text": "伊斯兰教义中的公平交易原则指导着我的商业行为。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 88,
+          "triggeredEvent": "商业伦理",
+          "historicalNote": "伊斯兰教鼓励公平交易和诚实经商。",
+          "consequence": "你始终坚持商业伦理。"
+        },
+        {
+          "id": "d5",
+          "text": "我在每个经商的城市都建了学校和清真寺。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 85,
+          "triggeredEvent": "社会贡献",
+          "historicalNote": "阿拉伯商人在各地建设教育和宗教设施。",
+          "consequence": "你的社会贡献受到尊敬。"
+        },
+        {
+          "id": "d6",
+          "text": "贸易和信仰的结合让伊斯兰文明传播到了很远的地方。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 86,
+          "triggeredEvent": "文明的扩展",
+          "historicalNote": "伊斯兰文明的传播与商业活动密切相关。",
+          "consequence": "你深感文明的力量。"
+        }
+      ]
+    },
+    {
+      "id": "act-7",
+      "title": "宋中国贸易",
+      "isKeyAct": false,
+      "sceneDescription": "通过海上丝绸之路，你的商队到达了宋朝中国的泉州。",
+      "npcDialogues": [
+        {
+          "speaker": "中国官员赵公",
+          "text": "欢迎阿拉伯商人！",
+          "avatar": "贡"
+        },
+        {
+          "speaker": "海关官员",
+          "text": "你们的商船需要缴纳关税。",
+          "avatar": "海"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "赵公，我们带来了阿拉伯的香料和宝石，想换取中国美酒和瓷器。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 86,
+          "triggeredEvent": "与中国的贸易",
+          "historicalNote": "海上丝绸之路连接了两大文明。",
+          "consequence": "交易非常顺利。"
+        },
+        {
+          "id": "d2",
+          "text": "海关官员，我们愿缴纳所有税款。希望能给商船提快通关。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 85,
+          "triggeredEvent": "处理官府事务",
+          "historicalNote": "阿拉伯商人需要处理各国官府事务。",
+          "consequence": "你顺利完成了通关。"
+        },
+        {
+          "id": "d3",
+          "text": "泉州的港口规模令人惊叹。比巴格达德的港口还要大。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 88,
+          "triggeredEvent": "泉州港",
+          "historicalNote": "宋代泉州是世界最大的港口之一。",
+          "consequence": "你被泉州的规模震撼。"
+        },
+        {
+          "id": "d4",
+          "text": "中国的造船技术非常先进，比我们的船大得多。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 87,
+          "triggeredEvent": "中国造船技术",
+          "historicalNote": "宋代中国的造船技术领先世界。",
+          "consequence": "你对中国技术印象深刻。"
+        },
+        {
+          "id": "d5",
+          "text": "中国商人也很精明，做生意要特别小心。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 83,
+          "triggeredEvent": "与中国人做生意",
+          "historicalNote": "中国商人同样精明，交易需要技巧。",
+          "consequence": "你学到了新的商业策略。"
+        },
+        {
+          "id": "d6",
+          "text": "我在泉州建立了一个贸易站，以后可以常来。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 84,
+          "triggeredEvent": "建立贸易站",
+          "historicalNote": "阿拉伯商人在中国建立了永久性的贸易站。",
+          "consequence": "你的贸易站经营良好。"
+        }
+      ]
+    },
+    {
+      "id": "act-8",
+      "title": "丝绸之路遗产",
+      "isKeyAct": true,
+      "sceneDescription": "你已是年迈的商人，坐在巴格达德的家中，回顾往日的旅程。",
+      "npcDialogues": [
+        {
+          "speaker": "孙子阿克麦德",
+          "text": "爷爷，您的故事很精彩。我想记下来写成书。",
+          "avatar": "阿"
+        },
+        {
+          "speaker": "老伴萨尔斯坦",
+          "text": "我们一起走过沙漠、越过大海。",
+          "avatar": "萨"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "阿克麦德，商人的生活就是一次沙漠航行。每一次交易都是一个故事。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 92,
+          "triggeredEvent": "老商人回顾生涯",
+          "historicalNote": "阿拉伯商人的一生充满冒险和发现。",
+          "consequence": "孙子被你的故事吸引。"
+        },
+        {
+          "id": "d2",
+          "text": "我还记得在巴格达德的智慧之家听印度学者讨论。知识是最宝贵的商品。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 88,
+          "triggeredEvent": "知识的价值",
+          "historicalNote": "阿拉伯商人深刻认识到知识的价值。",
+          "consequence": "你对知识的价值感慨万千。"
+        },
+        {
+          "id": "d3",
+          "text": "丝绸之路连接了东西方，我们是这条路上的行者。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 90,
+          "triggeredEvent": "丝绸之路的意义",
+          "historicalNote": "丝绸之路是东西方文明交流的大动脉。",
+          "consequence": "你对丝绸之路的遗产感到自豪。"
+        },
+        {
+          "id": "d4",
+          "text": "我把一生的经商经验都教给了你。做生意最重要的是诚实和勇气。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 91,
+          "triggeredEvent": "传承经验",
+          "historicalNote": "阿拉伯商人重视商业经验的代际传承。",
+          "consequence": "孙子认真记下了每一条。"
+        },
+        {
+          "id": "d5",
+          "text": "我的孙辈们将继续这条贸易之路，连接更多的国家和文明。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 89,
+          "triggeredEvent": "展望未来",
+          "historicalNote": "阿拉伯商人的后代继续在全球贸易中发挥重要作用。",
+          "consequence": "你对未来充满信心。"
+        },
+        {
+          "id": "d6",
+          "text": "孩子，记住，商人不仅贩卖商品，更传播文明和友谊。",
+          "speaker": "我",
+          "avatar": "商",
+          "score": 95,
+          "triggeredEvent": "商人的使命",
+          "historicalNote": "阿拉伯商人的历史使命不仅是经济活动，更是文明交流的桥梁。",
+          "consequence": "孙子深深铭记。"
+        }
+      ]
+    }
+  ]
+}

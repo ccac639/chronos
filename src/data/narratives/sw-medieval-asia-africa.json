@@ -1,0 +1,654 @@
+{
+  "eraId": "sw-medieval-asia-africa",
+  "eraName": "中古时期的亚洲与非洲",
+  "playerRole": "历史观察者",
+  "acts": [
+    {
+      "id": "act1",
+      "title": "伊斯兰文明的兴起",
+      "isKeyAct": true,
+      "sceneDescription": "公元7世纪的阿拉伯半岛，麦加城外的希拉山洞中，穆罕默德正在沉思。公元610年，他宣称收到了真主安拉的启示，《古兰经》的经文开始降示。在麦地那，伊斯兰公社（乌玛）建立，穆斯林群体逐渐形成。20年后，阿拉伯军队已经征服了叙利亚、巴勒斯坦和埃及。在耶路撒冷的圣岩圆顶，一座壮丽的清真寺正在拔地而起。",
+      "npcDialogues": [
+        {
+          "speaker": "穆罕默德",
+          "text": "除真主外，别无神灵。我是真主的使者。世人啊，行善止恶，施舍济贫，这就是伊斯兰的道路。",
+          "avatar": "muhammad"
+        },
+        {
+          "speaker": "阿布·伯克尔",
+          "text": "先知归真后，穆斯林不能散！我要继承他的事业，将伊斯兰的真理传播到更远的远方。",
+          "avatar": "abu_bakr"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act1_opt1",
+          "text": "记录《古兰经》的编纂过程，理解伊斯兰信仰的核心",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 92,
+          "triggeredEvent": "quran_compilation",
+          "historicalNote": "《古兰经》是伊斯兰教根本经典，共114章。奥斯曼哈里发时期（653年）定本，统一经文，是阿拉伯文学和伊斯兰法的最高权威。",
+          "consequence": "你全程见证了《古兰经》的编纂和定本过程。这部经典不仅是宗教文本，更成为阿拉伯语文学巅峰和伊斯兰文明的基石。"
+        },
+        {
+          "id": "act1_opt2",
+          "text": "支持四大哈里发时期的扩张，了解早期伊斯兰政权",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 88,
+          "triggeredEvent": "rashidun_expansion",
+          "historicalNote": "四大哈里发时期（632-661年）伊斯兰迅速扩张，击败波斯萨珊帝国，占领叙利亚、埃及和北非，版图横跨欧亚非三大洲。",
+          "consequence": "你跟随着哈里发的军队，见证了伊斯兰文明如何从阿拉伯半岛走向世界。这种惊人的扩张速度在人类历史上极为罕见。"
+        },
+        {
+          "id": "act1_opt3",
+          "text": "研究伊斯兰五功，深入理解穆斯林的宗教实践",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 84,
+          "triggeredEvent": "five_pillars_study",
+          "historicalNote": "伊斯兰五功：念功（宣誓信仰）、礼功（每日五次礼拜）、斋功（斋月斋戒）、课功（慈善施舍）、朝功（麦加朝觐）。这是穆斯林生活的核心。",
+          "consequence": "你深入理解了伊斯兰信仰的实践体系。五功不仅是宗教义务，更是塑造穆斯林社群认同和社会团结的强大力量。"
+        },
+        {
+          "id": "act1_opt4",
+          "text": "考察麦地那宪章，研究伊斯兰早期的政治制度",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 79,
+          "triggeredEvent": "medina_charter",
+          "historicalNote": "麦地那宪章（约622年）是伊斯兰历史上第一部宪法性文件，确立了穆斯林公社的组织原则，保障各部落和宗教群体的权利。",
+          "consequence": "麦地那宪章所体现的宗教宽容和社会契约精神令你惊叹。这份文件比西方类似文献早了一千年，展现了伊斯兰文明的早期政治智慧。"
+        },
+        {
+          "id": "act1_opt5",
+          "text": "对比伊斯兰教与基督教、犹太教的异同",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 75,
+          "triggeredEvent": "abrahamic_comparison",
+          "historicalNote": "伊斯兰教、基督教、犹太教同属亚伯拉罕宗教体系，都信仰唯一真神。伊斯兰教尊耶稣为先知，但否认三位一体，这是三大一神教的核心分歧。",
+          "consequence": "你的比较研究揭示了三大一神教的深刻联系与分歧。理解这一点，对于理解后世文明冲突与对话至关重要。"
+        },
+        {
+          "id": "act1_opt6",
+          "text": "质疑伊斯兰扩张中的强制改宗行为",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 66,
+          "triggeredEvent": "criticize_forced_conversion",
+          "historicalNote": "早期伊斯兰扩张并未强制改宗，基督徒和犹太人在缴纳人头税后可得宽容。但后期某些统治者确实施加了宗教压力，情况复杂。",
+          "consequence": "你的质疑引发了讨论。历史事实是：伊斯兰扩张更多是政治-军事征服，而非强制宗教转换，被征服民族长期保持原有信仰。"
+        }
+      ],
+      "nextActId": "act2"
+    },
+    {
+      "id": "act2",
+      "title": "阿拉伯帝国的辉煌",
+      "isKeyAct": false,
+      "sceneDescription": "公元8-9世纪，阿拔斯王朝的巴格达成为世界上最大的城市之一。智慧宫里，翻译运动正如火如荼：希腊的哲学和科学著作被翻译成阿拉伯语，印度数字（后来被称为阿拉伯数字）传入伊斯兰世界。在科尔多瓦，伊斯兰西班牙的学术繁荣，穆斯林、基督徒和犹太学者共同研究。从中亚到北非，伊斯兰文明闪耀着智慧的光芒。",
+      "npcDialogues": [
+        {
+          "speaker": "哈伦·拉希德",
+          "text": "巴格达应该是世界的智识中心！我要建立智慧宫，让希腊、波斯、印度的智慧都在这里汇聚交融。",
+          "avatar": "harun_al_rashid"
+        },
+        {
+          "speaker": "花拉子米",
+          "text": "我正在写一部关于代数的书。数学不应该只是用来丈量土地，它应该成为一门独立的科学！",
+          "avatar": "al_khwarizmi"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act2_opt1",
+          "text": "参与翻译运动，将希腊哲学和科学著作译为阿拉伯语",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 93,
+          "triggeredEvent": "translation_movement",
+          "historicalNote": "伊斯兰翻译运动（8-10世纪）将希腊、波斯、印度典籍译为阿拉伯语，保存了古典文明成果，后来这些著作回传欧洲，触发了文艺复兴。",
+          "consequence": "你参与的翻译运动抢救并传承了无数古典著作。没有这项工作，亚里士多德、欧几里得、托勒密的许多著作可能早已失传。"
+        },
+        {
+          "id": "act2_opt2",
+          "text": "研究阿拉伯数学与天文学，了解代数学的诞生",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 89,
+          "triggeredEvent": "arabic_mathematics",
+          "historicalNote": "花拉子米（9世纪）著《代数学》，首次系统阐述一次方程解法，\"代数\"（Algebra）一词即源于此书。阿拉伯数字经此传入欧洲。",
+          "consequence": "你深入研习了代数学的原理。这门由阿拉伯学者系统化的数学分支，将成为现代科学最重要的工具之一。"
+        },
+        {
+          "id": "act2_opt3",
+          "text": "访问科尔多瓦，感受伊斯兰西班牙的学术黄金时代",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 85,
+          "triggeredEvent": "cordoba_golden_age",
+          "historicalNote": "伊斯兰西班牙（711-1492年）是三大一神教文化交融之地。科尔多瓦有70座图书馆，其学术水平超过同时期任何欧洲城市。",
+          "consequence": "科尔多瓦的学术繁荣让你震撼。在这里，穆斯林、基督徒和犹太学者共同研究哲学、医学和天文学，展现了跨文化对话的最高境界。"
+        },
+        {
+          "id": "act2_opt4",
+          "text": "研究伊斯兰医学，了解伊本·西那的医学巨著",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 81,
+          "triggeredEvent": "islamic_medicine",
+          "historicalNote": "伊本·西那（980-1037年）著《医典》，集伊斯兰医学之大成，在欧洲作为标准医学教材使用了500余年，是医学史上的里程碑。",
+          "consequence": "你研读了《医典》，这部著作的系统性、实验性和人文关怀让你叹服。伊斯兰医学在中世纪长期领先于世界。"
+        },
+        {
+          "id": "act2_opt5",
+          "text": "探索伊斯兰建筑艺术，研究圆顶与拱券的美学",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 76,
+          "triggeredEvent": "islamic_architecture",
+          "historicalNote": "伊斯兰建筑以穹顶、拱券、几何图案和阿拉伯书法装饰为特色。西班牙阿尔罕布拉宫、印度泰姬陵均为伊斯兰建筑杰作。",
+          "consequence": "你深入研究了伊斯兰建筑的几何美学。那些精美的马赛克图案和穹顶结构，体现了伊斯兰文明对数学之美和空间之妙的深刻理解。"
+        },
+        {
+          "id": "act2_opt6",
+          "text": "批评阿拔斯王朝的奢华，关注底层民众的生活",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 67,
+          "triggeredEvent": "criticize_luxury",
+          "historicalNote": "阿拔斯王朝后期政治腐败，社会贫富分化严重。王朝的奢华与民众贫困形成鲜明对比，最终导致了萨迈拉无政府状态和王朝衰落。",
+          "consequence": "你的批评切中时弊。阿拔斯王朝的奢华背后，是沉重的税收和底层民众的苦难。这种社会矛盾最终将削弱帝国的凝聚力。"
+        }
+      ],
+      "nextActId": "act3"
+    },
+    {
+      "id": "act3",
+      "title": "东亚文明圈的繁荣",
+      "isKeyAct": false,
+      "sceneDescription": "公元8-11世纪，唐宋时期的东亚是世界文明的璀璨明珠。在长安城，来自日本、新罗、天竺的商人和学者络绎不绝，鸿胪寺里各国使节等待觐见。在奈良，日本遣唐使将中国的文字、佛教和艺术带回日本。在开宝年间，宋朝的海上贸易繁荣，泉州和广州成为国际港口。活字印刷术的发明，让知识的传播进入了一个新纪元。",
+      "npcDialogues": [
+        {
+          "speaker": "唐玄宗",
+          "text": "开元盛世，万国来朝。长安城里有胡姬酒肆，有景教寺院，有祆祠。这就是大唐的气度——包容天下！",
+          "avatar": "tang_xuanzong"
+        },
+        {
+          "speaker": "空海",
+          "text": "我从日本来到大唐，为的是求取真言宗的奥秘。大唐的文化像海洋一样深邃，我要把这智慧带回家乡。",
+          "avatar": "kukai"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act3_opt1",
+          "text": "研究唐宋变革，理解中国历史上最繁荣的时期",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 91,
+          "triggeredEvent": "tang_song_transformation",
+          "historicalNote": "唐宋变革论认为：从唐到宋，中国从门阀贵族社会转变为平民社会，科举制普及，商业革命发生，城市发展，文化走向世俗化。",
+          "consequence": "你深刻理解了唐宋之际中国社会的伟大变革。这场变革使中国成为当时世界上商业最发达、文化最繁荣的文明。"
+        },
+        {
+          "id": "act3_opt2",
+          "text": "跟随遣唐使到日本，观察中华文化对日本的影响",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 87,
+          "triggeredEvent": "japan_tang_influence",
+          "historicalNote": "日本遣唐使（630-894年）共派出19次，将唐朝制度、文字、佛教、艺术全面引入日本，奠定了日本古代文明的基础。",
+          "consequence": "你亲眼见证了中华文明对日本的深刻影响：假名文字源于汉字，京都仿长安建造，佛教成为国教。这是东亚文明圈形成的核心动力。"
+        },
+        {
+          "id": "act3_opt3",
+          "text": "研究活字印刷术的发明，认识知识传播的革命",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 84,
+          "triggeredEvent": "movable_type",
+          "historicalNote": "毕昇于北宋庆历年间（1041-1048年）发明泥活字印刷术，是印刷史上里程碑。虽未广泛推广，但理念启发了后世金属活字的发展。",
+          "consequence": "你记录了毕昇发明活字印刷的全过程。这项发明虽然当时未大规模应用，但其理念将在数百年后彻底改变人类知识传播的方式。"
+        },
+        {
+          "id": "act3_opt4",
+          "text": "探索海上丝绸之路，了解宋朝的海洋贸易网络",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 80,
+          "triggeredEvent": "maritime_silk_road",
+          "historicalNote": "宋朝海上贸易极盛，泉州是世界最大港口之一。中国商船远至非洲东岸，输出的瓷器、丝绸和茶叶深刻影响了沿线各国。",
+          "consequence": "你随商船遍历南洋和印度洋，见证了宋朝海洋贸易的宏大图景。中国瓷器在非洲海岸被发现，证明了这条海上丝绸之路的遥远跨度。"
+        },
+        {
+          "id": "act3_opt5",
+          "text": "研究朱熹理学，理解新儒家的思想体系",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 77,
+          "triggeredEvent": "neo_confucianism",
+          "historicalNote": "朱熹（1130-1200年）集理学之大成，建立以「理」为核心的形而上学体系。理学成为元明清官方哲学，深刻塑造了中国人的世界观。",
+          "consequence": "你深入研习了朱熹的理学体系。这种融合了佛道智慧的新型儒家思想，将成为东亚文明圈共同的精神纽带，影响至今。"
+        },
+        {
+          "id": "act3_opt6",
+          "text": "专注于欣赏唐诗宋词，从文学角度感受时代精神",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 72,
+          "triggeredEvent": "tang_poetry_song_ci",
+          "historicalNote": "李白、杜甫代表唐诗巅峰，苏轼、李清照代表宋词高峰。唐宋文学不仅是中国文学瑰宝，也深刻影响了日本、朝鲜等地的汉文学创作。",
+          "consequence": "你沉浸在唐宋文学的辉煌之中。这些诗词不仅是文学杰作，更是那个开放、自信、富有创造力的时代精神的最生动写照。"
+        }
+      ],
+      "nextActId": "act4"
+    },
+    {
+      "id": "act4",
+      "title": "蒙古帝国的世界影响",
+      "isKeyAct": true,
+      "sceneDescription": "13世纪，成吉思汗的孙子拔都和旭烈兀已经将蒙古帝国的疆域扩展到极致。从东亚到东欧，从西伯利亚到印度河流域，庞大的游牧帝国连接了东西方。在哈拉和林，来自欧洲、中东、中国的使节和商人在此汇聚。马可·波罗即将踏上前往东方的旅程。",
+      "npcDialogues": [
+        {
+          "speaker": "忽必烈",
+          "text": "我祖父成吉思汗打下了天下，而我要治理它。我要建一座大都城，让全世界都知道蒙古帝国的威严与包容！",
+          "avatar": "kublai_khan"
+        },
+        {
+          "speaker": "马可·波罗",
+          "text": "东方有黄金，有香料，有世界上最富庶的帝国。我要把东方的奇迹告诉欧洲人，让他们知道世界比想象的要大得多！",
+          "avatar": "marco_polo"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act4_opt1",
+          "text": "研究蒙古征服的世界历史影响，理解游牧与农耕文明的碰撞",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 94,
+          "triggeredEvent": "mongol_world_impact",
+          "historicalNote": "蒙古帝国（1206-1368年）疆域达3300万平方公里，是连续疆域最大的帝国。蒙古征服促成东西方交流，但也造成巨大人口损失和文化破坏。",
+          "consequence": "你全面评估了蒙古帝国的历史影响：它既带来了毁灭，也打通了交流通道。黑死病沿蒙古商路传入欧洲，而中国的技术也经此传向西方。"
+        },
+        {
+          "id": "act4_opt2",
+          "text": "随马可·波罗东游，记录东西方文明的直接接触",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 90,
+          "triggeredEvent": "polos_travels",
+          "historicalNote": "马可·波罗（1254-1324年）沿丝绸之路到达元朝，其《马可·波罗游记》激发了欧洲人对东方的向往，间接推动了大航海时代的到来。",
+          "consequence": "你跟随马可·波罗穿越了整个欧亚大陆。他的游记虽然包含夸张，但第一次向欧洲人展示了东方的富庶和文明的多样性。"
+        },
+        {
+          "id": "act4_opt3",
+          "text": "研究元朝的中西技术交流，了解火药、指南针的西传",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 87,
+          "triggeredEvent": "tech_transfer_east_west",
+          "historicalNote": "蒙古帝国时代，中国的火药、指南针、印刷术经阿拉伯传入欧洲。这三大技术革命性地改变了欧洲历史进程，助推了其崛起。",
+          "consequence": "你追踪了这三大技术西传的路径。没有指南针就没有欧洲大航海，没有火药就没有民族国家取代封建骑士，没有印刷术就没有宗教改革。"
+        },
+        {
+          "id": "act4_opt4",
+          "text": "考察伊利汗国的天文学成就，认识波斯-中国科学交流",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 82,
+          "triggeredEvent": "ilkhanate_astronomy",
+          "historicalNote": "伊利汗国（1256-1335年）统治波斯，其马拉盖天文台汇集了中西学者。编制的《伊尔汗天文表》融合了中西天文学成果。",
+          "consequence": "你在马拉盖天文台看到了中西科学的完美融合。中国历法知识与希腊-阿拉伯天文学在此交汇，创造了当时世界上最精确的天文表。"
+        },
+        {
+          "id": "act4_opt5",
+          "text": "分析蒙古统治对俄罗斯历史的影响",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 78,
+          "triggeredEvent": "mongol_russia_impact",
+          "historicalNote": "蒙古统治俄罗斯（1240-1480年）被称为「鞑靼枷锁」。它强化了俄罗斯中央集权传统，切断了与西欧的联系，深刻影响了俄罗斯文明走向。",
+          "consequence": "你深入分析了蒙古统治对俄罗斯历史的深远影响。这种影响塑造了俄罗斯独特的政治文化：强国家传统、东方化倾向和与欧洲若即若离的关系。"
+        },
+        {
+          "id": "act4_opt6",
+          "text": "批评蒙古征服的残酷性，关注被征服民族的文化损失",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 69,
+          "triggeredEvent": "criticize_mongol_brutality",
+          "historicalNote": "蒙古征服造成巨大破坏：花剌子模的灌溉系统被毁，巴格达被屠城，中国北方人口锐减。但蒙古后来也致力于重建和治理。",
+          "consequence": "你的批评揭示了战争的另一面。蒙古征服的残酷性不容否认，但历史也证明，每一次大破坏之后，往往伴随着新的文化融合与创造。"
+        }
+      ],
+      "nextActId": "act5"
+    },
+    {
+      "id": "act5",
+      "title": "非洲古王国的辉煌",
+      "isKeyAct": false,
+      "sceneDescription": "公元11-15世纪，西非的马里帝国达到鼎盛。在廷巴克图的桑科雷大学，来自北非和南欧的学者在此研究伊斯兰法和数学。曼萨·穆萨国王前往麦加朝觐，他的驼队携带的黄金如此之多，以至于导致沿途黄金贬值。在东非海岸，斯瓦希里城邦繁荣发展，蒙巴萨和基卢瓦成为印度洋贸易的重要节点。",
+      "npcDialogues": [
+        {
+          "speaker": "曼萨·穆萨",
+          "text": "我拥有世界最多的黄金，但真正的财富是知识。廷巴克图的学者们，他们的智慧比我的金矿更珍贵！",
+          "avatar": "mansa_musa"
+        },
+        {
+          "speaker": "伊本·白图泰",
+          "text": "我走遍了整个伊斯兰世界，从摩洛哥到中国和印度。但马里帝国的富有和廷巴克图的学术，依然让我惊叹不已。",
+          "avatar": "ibn_battuta"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act5_opt1",
+          "text": "访问廷巴克图，研究西非伊斯兰学术中心的辉煌",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 92,
+          "triggeredEvent": "timbuktu_scholarship",
+          "historicalNote": "廷巴克图（今马里）是中世纪伊斯兰学术中心之一，桑科雷大学有约25000名学生。其图书馆收藏了大量珍贵伊斯兰手稿，部分保存至今。",
+          "consequence": "廷巴克图的学术辉煌让你大开眼界。这座沙漠中的学术之城证明了非洲学者对伊斯兰文明乃至世界文明的重大贡献。"
+        },
+        {
+          "id": "act5_opt2",
+          "text": "研究跨撒哈拉贸易，了解黄金、盐和知识的流通",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 88,
+          "triggeredEvent": "trans_saharan_trade",
+          "historicalNote": "跨撒哈拉贸易路线连接北非和西非，主要商品为黄金（西非）、盐（北非）和奴隶。这条贸易网促成了加纳、马里、桑海等西非帝国的兴起。",
+          "consequence": "你深入调研了跨撒哈拉商路。这条线路不仅是商品通道，更是伊斯兰文明向非洲内陆传播的主要途径，深刻改变了西非历史。"
+        },
+        {
+          "id": "act5_opt3",
+          "text": "探索斯瓦希里城邦，研究东非海岸的多元文化",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 84,
+          "triggeredEvent": "swahili_city_states",
+          "historicalNote": "斯瓦希里文明是非洲土著、阿拉伯、波斯和印度文化的融合体。蒙巴萨、基卢瓦等城邦是印度洋贸易枢纽，语言属班图语系但大量吸收阿拉伯语词汇。",
+          "consequence": "斯瓦希里城邦的文化融合让你着迷。这里的建筑、语言和宗教信仰展现了非洲文明吸收外来文化并创造独特混合文明的卓越能力。"
+        },
+        {
+          "id": "act5_opt4",
+          "text": "考察大津巴布韦遗址，了解南部非洲的石头建筑文明",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 80,
+          "triggeredEvent": "great_zimbabwe",
+          "historicalNote": "大津巴布韦（11-15世纪）是南部非洲古代文明中心，以精湛的石头建筑著称。其贸易网络远至印度洋，出口黄金和象牙。",
+          "consequence": "大津巴布韦的石头城墙让你震撼。这座被欧洲殖民者长期否认属于非洲人建造的遗址，最终被考古学证明是非洲文明的伟大创造。"
+        },
+        {
+          "id": "act5_opt5",
+          "text": "跟随伊本·白图泰的足迹，记录14世纪非洲的面貌",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 76,
+          "triggeredEvent": "ibn_battuta_africa",
+          "historicalNote": "伊本·白图泰（1304-1368年）是摩洛哥旅行家，游历了整个伊斯兰世界。他的游记详细记录了14世纪非洲、亚洲和欧洲的社会风貌。",
+          "consequence": "你跟随伊本·白图泰走过了北非、西非和东非。他的游记成为研究14世纪非洲历史最珍贵的 firsthand 资料，弥补了文字记录的不足。"
+        },
+        {
+          "id": "act5_opt6",
+          "text": "关注非洲奴隶贸易的早期形态，思考其历史后果",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 71,
+          "triggeredEvent": "early_slave_trade",
+          "historicalNote": "跨撒哈拉奴隶贸易始于8世纪，比大西洋奴隶贸易早数百年。阿拉伯奴隶贸易将数百万非洲人卖到中东和南亚，是非洲历史的重要创伤。",
+          "consequence": "你深入研究了早期奴隶贸易的历史。这段被长期忽视的历史，是理解非洲后世贫困和被殖民命运的重要背景，也是人类文明的重大悲剧。"
+        }
+      ],
+      "nextActId": "act6"
+    },
+    {
+      "id": "act6",
+      "title": "印度教与伊斯兰教的交汇",
+      "isKeyAct": false,
+      "sceneDescription": "12-16世纪，伊斯兰教力量不断进入印度次大陆。在德里，德里苏丹国的苏丹们正在建造壮丽的清真寺和陵墓。在南方，维贾耶纳加尔帝国坚守印度教传统，成为印度教文化的最后堡垒。在拉贾斯坦，印度教王公与穆斯林统治者时战时和。两种宗教和文化在印度次大陆上碰撞、冲突，也逐渐融合，形成了独特的印度伊斯兰文化。",
+      "npcDialogues": [
+        {
+          "speaker": "阿克巴大帝",
+          "text": "印度有印度教徒，有穆斯林，有锡克教徒，有耆那教徒。他们都是我的子民。我要创立「神圣信仰」，融合各宗教的真理！",
+          "avatar": "akbar"
+        },
+        {
+          "speaker": "秣菟罗学派学者",
+          "text": "伊斯兰教来了，但我们的神祇依然存在。毗湿奴和湿婆的信仰在民间愈发深厚。两种文明会在印度这片土地上相遇、对话。",
+          "avatar": "hindu_scholar"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act6_opt1",
+          "text": "支持阿克巴的宗教融合政策，研究「神圣信仰」的理想",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 91,
+          "triggeredEvent": "akbars_religious_policy",
+          "historicalNote": "阿克巴（1542-1605年）是莫卧儿帝国最伟大皇帝，推行宗教宽容政策，创立融合各教派精髓的「神圣信仰」（Din-i Ilahi），促进印度教-伊斯兰教融合。",
+          "consequence": "阿克巴的宗教融合政策在印度历史上堪称伟大创举。虽然「神圣信仰」未能持续，但其精神影响了印度文明的多元共存传统。"
+        },
+        {
+          "id": "act6_opt2",
+          "text": "研究印度伊斯兰建筑，认识泰姬陵的文化融合意义",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 87,
+          "triggeredEvent": "indo_islamic_architecture",
+          "historicalNote": "印度伊斯兰建筑融合波斯、伊斯兰和印度教元素。泰姬陵（1632-1653年建造）是其巅峰之作，被泰戈尔誉为「永恒面颊上的一滴眼泪」。",
+          "consequence": "你深入研究了印度伊斯兰建筑的美学融合。泰姬陵不仅是爱情纪念碑，更是印度文明吸收波斯-伊斯兰文化后创造的独一无二的艺术瑰宝。"
+        },
+        {
+          "id": "act6_opt3",
+          "text": "研究印度教虔信运动，理解底层民众的精神反抗",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 83,
+          "triggeredEvent": "bhakti_movement",
+          "historicalNote": "印度教虔信运动（Bhakti）强调个人与神的 direct love，反对种姓制度和繁琐仪式。这一运动在伊斯兰统治时期蓬勃发展，具有社会平等意义。",
+          "consequence": "虔信运动的平等主义精神让你感动。这场运动打破了婆罗门对宗教的垄断，使底层民众也能获得精神慰藉，是印度社会的重要进步。"
+        },
+        {
+          "id": "act6_opt4",
+          "text": "研究锡克教的产生，认识印度宗教创新的力量",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 79,
+          "triggeredEvent": "sikhism_origin",
+          "historicalNote": "锡克教（15世纪末创立）融合印度教虔信运动和伊斯兰教一神论，强调一神信仰、平等和社会正义。其金庙是印度最具特色的宗教建筑之一。",
+          "consequence": "锡克教的产生展现了印度文明的创新能力。在印度教和伊斯兰教的张力中，新的宗教形式诞生了，为印度文明的多样性增添了新的篇章。"
+        },
+        {
+          "id": "act6_opt5",
+          "text": "分析德里苏丹国与维贾耶纳加尔的对峙，理解南印度历史",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 75,
+          "triggeredEvent": "south_india_conflict",
+          "historicalNote": "维贾耶纳加尔帝国（1336-1646年）是南印度最后一个印度教帝国，与北方德里苏丹国对峙。其首都 Hampi 的废墟至今令人震撼。",
+          "consequence": "你深入研究了南印度的历史。维贾耶纳加尔帝国的兴衰，反映了印度教文明在面对伊斯兰扩张时的韧性，也揭示了印度文明的地域多样性。"
+        },
+        {
+          "id": "act6_opt6",
+          "text": "批评伊斯兰统治者的毁坏神庙行为，关注文明冲突的悲剧",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 67,
+          "triggeredEvent": "criticize_temple_destruction",
+          "historicalNote": "某些德里苏丹和莫卧儿皇帝确实摧毁了印度教神庙。但阿克巴等统治者则采取宽容政策。历史事实复杂，不能一概而论。",
+          "consequence": "你的批评指出了文明冲突中的真实悲剧。但历史也证明，更多的穆斯林统治者和印度教徒选择了共存而非对抗，文明对话始终是可能且必要的。"
+        }
+      ],
+      "nextActId": "act7"
+    },
+    {
+      "id": "act7",
+      "title": "丝绸之路与跨文明交流",
+      "isKeyAct": false,
+      "sceneDescription": "中古时期，丝绸之路不仅是贸易之路，更是文明交流之路。在撒马尔罕，来自中国的丝绸和纸张与来自波斯的地毯和玻璃器皿在此交换。在敦煌莫高窟，佛教艺术融合了希腊、印度和中原的风格。在君士坦丁堡，来自东方的香料和丝绸满足了贵族的奢侈需求。造纸术经撒马尔罕传入阿拉伯世界，再传入欧洲，彻底改变了知识传播的方式。",
+      "npcDialogues": [
+        {
+          "speaker": "撒马尔罕商人",
+          "text": "我见过长安的繁华，也见过巴格达的智慧宫。丝绸之路上的每一座城市都有它的故事。而我的故事，就是把这些故事连在一起！",
+          "avatar": "silk_road_merchant"
+        },
+        {
+          "speaker": "敦煌石窟画师",
+          "text": "我用中原的线条、印度的色彩和希腊的透视法来画佛像。这就是丝绸之路的奇迹——不同的文明在我的画笔下融为了一体！",
+          "avatar": "dunhuang_painter"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act7_opt1",
+          "text": "全程走完丝绸之路，记录沿途文明交流的细节",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 93,
+          "triggeredEvent": "silk_road_journey",
+          "historicalNote": "丝绸之路全长约7000公里，连接中国与地中海。它不仅传播商品，还传播宗教（佛教、伊斯兰教）、技术（造纸、火药）和艺术，是古代全球化的最重要通道。",
+          "consequence": "你走完了整条丝绸之路，从长安到君士坦丁堡。这条路上发生的文明交流规模之大、影响之深，在人类历史上几乎无与伦比。"
+        },
+        {
+          "id": "act7_opt2",
+          "text": "研究造纸术的西传，认识知识传播技术的革命",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 89,
+          "triggeredEvent": "papermaking_westward",
+          "historicalNote": "造纸术经撒马尔罕（751年怛罗斯战役后）传入阿拉伯世界，再经北非传入欧洲（12世纪）。纸张的普及彻底改变了知识传播成本，助推了欧洲文艺复兴。",
+          "consequence": "你追踪了造纸术西传的完整路径。没有纸张的普及，就没有欧洲知识的平民化，也就没有后来的宗教改革和科学革命。这是技术改变历史的最经典案例。"
+        },
+        {
+          "id": "act7_opt3",
+          "text": "研究佛教的东传与西传，理解宗教如何在丝绸之路上流动",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 85,
+          "triggeredEvent": "buddhist_silk_road",
+          "historicalNote": "佛教经丝绸之路传入中国（约1世纪），再传入朝鲜、日本和越南。同时，佛教也向西传入中亚和波斯。敦煌、龟兹等地石窟是佛教艺术东传的见证。",
+          "consequence": "你深入研究了佛教在丝绸之路上的传播路径。这种跨越文明的宗教传播，是古代世界最成功的文化输出案例之一，深刻重塑了东亚文明。"
+        },
+        {
+          "id": "act7_opt4",
+          "text": "考察撒马尔罕和布哈拉，研究中亚伊斯兰学术中心",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 81,
+          "triggeredEvent": "central_asia_scholarship",
+          "historicalNote": "撒马尔罕和布哈拉是中世纪中亚最重要的学术中心。布哈拉有超过300座清真寺和大量图书馆。这里诞生了花拉子米、比鲁尼等伟大科学家。",
+          "consequence": "中亚的学术辉煌让你重新认识了这片土地的历史地位。在被蒙古摧毁之前，这里是伊斯兰世界最耀眼的智慧之星。"
+        },
+        {
+          "id": "act7_opt5",
+          "text": "研究黑死病沿丝绸之路传播，认识疾病与世界历史的关系",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 76,
+          "triggeredEvent": "black_death_silk_road",
+          "historicalNote": "黑死病（1347-1351年）沿丝绸之路和蒙古商路传入欧洲，造成欧洲约1/3人口死亡。这是人类历史上最致命的瘟疫之一，深刻改变了欧洲社会结构。",
+          "consequence": "你研究了黑死病传播的路线。文明的交流通道也是疾病的传播通道，这提醒我们：全球化从来都是双刃剑，机遇与风险并存。"
+        },
+        {
+          "id": "act7_opt6",
+          "text": "专注于收集丝绸之路上的民间故事，编纂东方故事集",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 72,
+          "triggeredEvent": "silk_road_stories",
+          "historicalNote": "《一千零一夜》的故事来源于波斯、印度、阿拉伯和埃及等地，经丝绸之路传播融合。这些故事展现了中古时期各文明的想象力和文化交流。",
+          "consequence": "你收集的丝绸之路民间故事后来成为研究跨文明叙事传统的重要资料。这些故事证明了：在人类心灵深处，对美好、智慧和勇气的向往是共通的。"
+        }
+      ],
+      "nextActId": "act8"
+    },
+    {
+      "id": "act8",
+      "title": "中古亚洲与非洲的遗产",
+      "isKeyAct": true,
+      "sceneDescription": "15世纪末，中古时期即将落幕。在漫长的千年中，亚洲和非洲创造了辉煌的文明：伊斯兰世界保存并发展了古典智慧，中国引领了技术和制度创新，印度融合了多元宗教传统，非洲建立了繁荣的学术和贸易中心。你站在历史的分界点上，回望这片土地上发生的一切：智慧的传承、文明的碰撞、帝国的兴衰、信仰的力量。",
+      "npcDialogues": [
+        {
+          "speaker": "伊本·赫勒敦",
+          "text": "我写作《历史绪论》，是要找到文明兴衰的规律。部落团结产生力量，力量产生奢华，奢华产生衰败——这就是历史的循环。但人类的文明精神永不消亡。",
+          "avatar": "ibn_khaldun"
+        },
+        {
+          "speaker": "郑和",
+          "text": "我七下西洋，不是为了征服，而是为了交流。中国的宝船带去的是瓷器、丝绸和友谊。世界那么大，我们应该互相了解，而不是互相征服。",
+          "avatar": "zheng_he"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act8_opt1",
+          "text": "总结伊斯兰文明对世界历史的贡献，理解其历史地位",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 95,
+          "triggeredEvent": "islamic_civilization_legacy",
+          "historicalNote": "伊斯兰文明保存了古典希腊罗马学术，发展了数学、天文学、医学和哲学，搭建了东西方文明交流的桥梁。没有伊斯兰文明，欧洲文艺复兴几乎不可能发生。",
+          "consequence": "你深刻理解了伊斯兰文明作为古典文明传承者和东西方文明桥梁的历史地位。这种认识对于正确理解世界历史进程至关重要。"
+        },
+        {
+          "id": "act8_opt2",
+          "text": "分析中国在亚洲文明圈中的核心地位与历史影响",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 90,
+          "triggeredEvent": "china_civilization_impact",
+          "historicalNote": "中国在中古时期是东亚文明圈的核心，汉字、儒学、佛教和法律制度深刻影响了朝鲜、日本、越南。中国的技术发明（造纸、印刷、火药、指南针）改变了世界。",
+          "consequence": "你全面评估了中国在中古世界的历史地位。这个文明不仅创造了辉煌的本土成就，还通过文明圈辐射和技术传播，深刻参与了世界历史的塑造。"
+        },
+        {
+          "id": "act8_opt3",
+          "text": "研究非洲文明的成就，纠正对非洲历史的偏见",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 87,
+          "triggeredEvent": "african_civilization_correct",
+          "historicalNote": "中古非洲有发达的学术（廷巴克图）、贸易（跨撒哈拉商路）、建筑（大津巴布韦）和金属冶炼技术。欧洲殖民者长期否认非洲有文明，这是种族主义史学。",
+          "consequence": "你的研究有力纠正了对非洲历史的偏见。非洲不仅有文明，而且在许多领域取得了不亚于其他大陆的成就。这段历史值得被全人类认识和尊重。"
+        },
+        {
+          "id": "act8_opt4",
+          "text": "思考跨文明交流的规律，理解文明对话的永恒价值",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 84,
+          "triggeredEvent": "cross_civilization_dialogue",
+          "historicalNote": "丝绸之路、伊斯兰扩张、蒙古帝国都促进了跨文明交流。历史证明：封闭导致停滞，交流促进创新。文明对话是人类进步的重要动力。",
+          "consequence": "你总结出了跨文明交流的历史规律。在当今全球化时代，这一认识尤为重要：文明因交流而多彩，因互鉴而丰富，因封闭而衰落。"
+        },
+        {
+          "id": "act8_opt5",
+          "text": "评估蒙古帝国对世界历史的结构性影响",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 80,
+          "triggeredEvent": "mongol_structural_impact",
+          "historicalNote": "蒙古帝国打通了欧亚交流通道，促成了技术传播（火药、指南针、印刷术西传），但也造成人口锐减和文化破坏。其结构性影响至今仍在研究中。",
+          "consequence": "你对蒙古帝国的结构性影响做出了审慎评估。它既是破坏者，也是连接者。这种复杂性提醒我们：历史评价需要超越简单的善恶二元论。"
+        },
+        {
+          "id": "act8_opt6",
+          "text": "记录中古时期普通人的生活，留给后世一部社会史",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 73,
+          "triggeredEvent": "ordinary_people_history",
+          "historicalNote": "中古时期普通人的生活主要通过考古发现、法律文书和少量私人文献了解。农民、工匠、商人是文明的真正创造者，但他们的声音常被精英历史淹没。",
+          "consequence": "你撰写的《中古日常生活》聚焦于普通人的喜怒哀乐。这部社会史填补了精英历史之外的空白，让后人能够看到一个更完整、更有温度的中古世界。"
+        }
+      ]
+    }
+  ]
+}

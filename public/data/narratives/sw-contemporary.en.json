@@ -1,0 +1,57 @@
+{
+  "eraId": "sw-contemporary",
+  "eraName": "Contemporary World",
+  "playerRole": "Narrator",
+  "acts": [
+    {
+      "id": "act1",
+      "title": "The Global Age",
+      "isKeyAct": true,
+      "sceneDescription": "Since the Cold War's end in 1991, globalization has connected economies, cultures, and peoples worldwide. The internet revolution transformed communication and commerce. The United States emerged as the sole superpower, but China's rapid rise reshaped the global balance. New challenges include climate change, terrorism, and growing inequality.",
+      "npcDialogues": [
+        {
+          "speaker": "Historian",
+          "text": "The post-Cold War era began with American economic and military dominance. The Clinton presidency saw economic growth and the early internet boom. However, the 9/11 attacks launched the War on Terror, and the 2008 financial crisis revealed vulnerabilities in the global economic system.",
+          "avatar": "historian"
+        },
+        {
+          "speaker": "Archaeologist",
+          "text": "China's economic transformation since the 1980s has been unprecedented in scale and speed. Under Xi Jinping, China has pursued global initiatives like the Belt and Road. In Europe, Angela Merkel led through multiple crises. The digital revolution continues to reshape every aspect of human life worldwide.",
+          "avatar": "archaeologist"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act1_opt1",
+          "text": "(Narration) The end of the Cold War in 1991 ushered in an era of American-led globalization. President Bill Clinton presided over economic expansion and the dot-com boom, while the North American Free Trade Agreement (NAFTA) and the World Trade Organization (WTO) expanded international trade. The September 11 attacks in 2001 then launched a new era of global counterterrorism.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 94,
+          "triggeredEvent": "Introduction to post-Cold War globalization",
+          "historicalNote": "The 1990s saw unprecedented economic integration. The internet, commercialized after 1995, transformed global communication. The September 11 attacks (2001) killed nearly 3,000 people and triggered U.S.-led wars in Afghanistan and Iraq, fundamentally reshaping American foreign policy and global security strategies.",
+          "consequence": "Understanding the opportunities and challenges of the post-Cold War globalized world."
+        },
+        {
+          "id": "act1_opt2",
+          "text": "(Narration) China's rise has been the most significant geopolitical shift of the 21st century. Since market reforms began in 1978, China has become the world's second-largest economy. Under Xi Jinping, China has pursued the Belt and Road Initiative, expanded its technological capabilities, and increasingly challenged American global leadership across multiple domains.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 91,
+          "triggeredEvent": "Introduction to China's rise in the 21st century",
+          "historicalNote": "China's economic growth since 1978 has lifted hundreds of millions out of poverty, the largest poverty reduction in history. Under Xi Jinping (in power since 2012), China has pursued the Belt and Road Initiative to build infrastructure across Asia, Africa, and Europe, while advancing in AI, 5G, and space exploration.",
+          "consequence": "Understanding China's transformation from a developing country to a global superpower."
+        },
+        {
+          "id": "act1_opt3",
+          "text": "(Narration) The digital revolution has fundamentally transformed contemporary society. The internet connects billions of people, social media reshapes politics, and artificial intelligence promises further disruption. Meanwhile, climate change poses an existential threat, requiring unprecedented international cooperation to reduce emissions and transition to sustainable energy sources.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 88,
+          "triggeredEvent": "Introduction to contemporary challenges",
+          "historicalNote": "The World Wide Web was created in 1991, and by 2024 over 5 billion people are online. Social media platforms have transformed politics, commerce, and culture. Climate change, driven by greenhouse gas emissions since the Industrial Revolution, has become the defining challenge of the 21st century, requiring global cooperation.",
+          "consequence": "Understanding the technological revolution and environmental challenges of the contemporary world."
+        }
+      ]
+    }
+  ]
+}

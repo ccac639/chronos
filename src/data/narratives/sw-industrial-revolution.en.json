@@ -1,0 +1,57 @@
+{
+  "eraId": "sw-industrial-revolution",
+  "eraName": "Industrial Revolution",
+  "playerRole": "Narrator",
+  "acts": [
+    {
+      "id": "act1",
+      "title": "The Machine Age",
+      "isKeyAct": true,
+      "sceneDescription": "Beginning in mid-18th century Britain, the Industrial Revolution transformed economies from agrarian to industrial. Steam power, mechanized factories, and railroads revolutionized production and transportation. These changes created both immense wealth and severe social inequality, inspiring Karl Marx to critique capitalism and advocate for workers' rights.",
+      "npcDialogues": [
+        {
+          "speaker": "Historian",
+          "text": "James Watt's improved steam engine (1769) powered the Industrial Revolution. Factory production replaced handcrafting, and railways connected cities and markets. This economic transformation created a new urban working class and a wealthy industrial bourgeoisie that reshaped global power structures.",
+          "avatar": "historian"
+        },
+        {
+          "speaker": "Archaeologist",
+          "text": "Karl Marx analyzed the harsh conditions of industrial workers and published The Communist Manifesto in 1848. He argued that capitalism inherently exploited laborers, predicting that workers would eventually overthrow the system. His ideas inspired revolutions and social movements across the 20th century.",
+          "avatar": "archaeologist"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act1_opt1",
+          "text": "(Narration) The Industrial Revolution began in Britain in the mid-1700s with James Watt's steam engine, which powered textile mills and machinery. Thomas Edison later brought electricity to factories and homes. Mass production dramatically increased output but also created grueling conditions for factory workers, including long hours and low wages.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 94,
+          "triggeredEvent": "Introduction to industrial technology and its social impact",
+          "historicalNote": "James Watt (1736-1819) dramatically improved the steam engine's efficiency, making it practical for industry. Thomas Edison (1847-1931) developed the electric light bulb and power distribution systems. Their inventions transformed manufacturing, transportation, and daily life, but industrialization also caused severe urban poverty and pollution.",
+          "consequence": "Understanding the technological innovations and social costs of industrialization."
+        },
+        {
+          "id": "act1_opt2",
+          "text": "(Narration) Karl Marx and Friedrich Engels published The Communist Manifesto in 1848, arguing that capitalism exploited workers by extracting surplus value from their labor. Marx called on workers of the world to unite and overthrow the bourgeoisie. His analysis of class struggle became the theoretical foundation for socialist and communist movements worldwide.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 91,
+          "triggeredEvent": "Introduction to Marxism",
+          "historicalNote": "Karl Marx (1818-1883) developed the theory of historical materialism, arguing that economic forces drive historical change. His critique of capitalism influenced labor movements, the Russian Revolution, and socialist governments throughout the 20th century. Das Kapital (1867) remains one of the most influential works in social science.",
+          "consequence": "Understanding Marx's critique of capitalism and its historical influence."
+        },
+        {
+          "id": "act1_opt3",
+          "text": "(Narration) The Industrial Revolution's inequalities also sparked non-violent resistance. Mahatma Gandhi led India's independence movement against British colonial rule through nonviolent civil disobedience. His philosophy of Satyagraha (truth force) inspired civil rights movements worldwide, including Martin Luther King Jr.'s struggle for racial equality in America.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 88,
+          "triggeredEvent": "Introduction to anti-colonial movements",
+          "historicalNote": "Mahatma Gandhi (1869-1948) led India's independence movement using nonviolent resistance, including the famous Salt March (1930). His methods influenced movements for civil rights and decolonization across the world. India achieved independence from Britain in 1947, ending nearly 200 years of colonial rule.",
+          "consequence": "Understanding how industrial-era inequality fueled anti-colonial and civil rights movements."
+        }
+      ]
+    }
+  ]
+}

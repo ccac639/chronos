@@ -1,0 +1,57 @@
+{
+  "eraId": "sw-world-wars",
+  "eraName": "World Wars and the October Revolution",
+  "playerRole": "Narrator",
+  "acts": [
+    {
+      "id": "act1",
+      "title": "The Age of Total War",
+      "isKeyAct": true,
+      "sceneDescription": "Between 1914 and 1945, the world endured two devastating global conflicts. World War I shattered European empires and led to the Russian Revolution. World War II, fought against fascism and genocide, killed over 70 million people. Leaders like Churchill, Roosevelt, and Stalin shaped the wartime alliances that defeated Axis powers but set the stage for Cold War rivalry.",
+      "npcDialogues": [
+        {
+          "speaker": "Historian",
+          "text": "World War I (1914-1918) was triggered by the assassination of Archduke Franz Ferdinand but had deeper causes in imperial rivalries, alliances, and militarism. The war's devastation led to the collapse of four empires and the rise of new nations, while the Russian Revolution of 1917 created the world's first communist state.",
+          "avatar": "historian"
+        },
+        {
+          "speaker": "Archaeologist",
+          "text": "World War II (1939-1945) was the deadliest conflict in human history. The Allied powers, led by Roosevelt, Churchill, and Stalin, defeated Nazi Germany and Imperial Japan. The war revealed the horrors of the Holocaust and culminated in the atomic bombings of Hiroshima and Nagasaki.",
+          "avatar": "archaeologist"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act1_opt1",
+          "text": "(Narration) World War I erupted in 1914 after the assassination of Archduke Franz Ferdinand of Austria-Hungary. The conflict drew in all major European powers through a network of alliances. Trench warfare on the Western Front caused unprecedented casualties. The war ended in 1918, but its harsh peace terms fueled resentment that contributed to the rise of fascism.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 95,
+          "triggeredEvent": "Introduction to World War I",
+          "historicalNote": "World War I (1914-1918) killed approximately 20 million people. New weapons like machine guns, poison gas, and tanks made warfare more lethal than ever. The Treaty of Versailles (1919) imposed heavy reparations on Germany, creating economic hardship that Adolf Hitler exploited to rise to power.",
+          "consequence": "Understanding the causes and devastating impact of World War I."
+        },
+        {
+          "id": "act1_opt2",
+          "text": "(Narration) In 1917, amid the devastation of World War I, the Russian Revolution overthrew the Tsarist regime. Vladimir Lenin and the Bolsheviks seized power, establishing the Soviet Union as the world's first socialist state. Stalin later industrialized the country but ruled through terror, causing millions of deaths through forced collectivization and purges.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 92,
+          "triggeredEvent": "Introduction to the Russian Revolution",
+          "historicalNote": "The October Revolution (1917) led by Lenin established the Soviet Union. Joseph Stalin (ruled 1928-1953) transformed it into an industrial superpower through Five-Year Plans but caused immense suffering. His forced collectivization killed millions, and his Great Purge eliminated political opponents and military officers.",
+          "consequence": "Understanding the Russian Revolution's creation of the Soviet Union and Stalin's totalitarian rule."
+        },
+        {
+          "id": "act1_opt3",
+          "text": "(Narration) World War II began when Nazi Germany invaded Poland in 1939. Under Hitler's regime, the Holocaust systematically murdered six million Jews. The Allied powers, led by Roosevelt, Churchill, and Stalin, formed the Grand Alliance. After Germany's defeat, the atomic bombings of Hiroshima and Nagasaki forced Japan's surrender, ending the deadliest conflict in history.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 90,
+          "triggeredEvent": "Introduction to World War II",
+          "historicalNote": "World War II (1939-1945) killed an estimated 70-85 million people. The Holocaust murdered six million Jews and millions of others. The United States dropped atomic bombs on Hiroshima and Nagasaki in August 1945, the only nuclear weapons ever used in warfare, forcing Japan's unconditional surrender.",
+          "consequence": "Understanding the scale, atrocities, and outcome of World War II."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "eraId": "sw-cold-war",
+  "eraName": "The World in the Second Half of the 20th Century",
+  "playerRole": "Narrator",
+  "acts": [
+    {
+      "id": "act1",
+      "title": "The Bipolar World",
+      "isKeyAct": true,
+      "sceneDescription": "After World War II, the United States and the Soviet Union emerged as rival superpowers. The Cold War (1945-1991) divided the world into opposing blocs through NATO and the Warsaw Pact. This rivalry shaped global politics, triggered proxy wars, and drove the Space Race, while the threat of nuclear annihilation loomed over humanity.",
+      "npcDialogues": [
+        {
+          "speaker": "Historian",
+          "text": "The Cold War was a global struggle between American-led capitalism and Soviet-led communism. Truman's policy of containment, Churchill's 'Iron Curtain' speech, and the Berlin Blockade defined the early confrontation. Proxy wars in Korea and Vietnam became defining conflicts of the era.",
+          "avatar": "historian"
+        },
+        {
+          "speaker": "Archaeologist",
+          "text": "The Cold War also drove human achievement through competition. The Space Race saw the Soviets launch Sputnik in 1957 and Gagarin orbit Earth in 1961, while Kennedy pledged to put Americans on the Moon by 1969. Gorbachev's reforms ultimately led to the peaceful dissolution of the Soviet Union in 1991.",
+          "avatar": "archaeologist"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act1_opt1",
+          "text": "(Narration) After World War II, Europe was divided by an 'Iron Curtain' separating democratic Western Europe from communist Eastern Europe. The United States formed NATO (1949) to counter the Soviet-led Warsaw Pact (1955). This bipolar standoff defined international relations for over four decades, influencing politics on every continent.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 95,
+          "triggeredEvent": "Introduction to the Cold War division",
+          "historicalNote": "Winston Churchill popularized the term 'Iron Curtain' in a 1946 speech. NATO (North Atlantic Treaty Organization) was founded in 1949 as a collective defense alliance. The Warsaw Pact, formed in 1955, was the Soviet response. Both alliances maintained large military forces throughout the Cold War.",
+          "consequence": "Understanding the geopolitical division of the Cold War world."
+        },
+        {
+          "id": "act1_opt2",
+          "text": "(Narration) The Cold War nearly turned hot during the Cuban Missile Crisis of 1962, when the Soviet Union placed nuclear missiles in Cuba, just 90 miles from Florida. President Kennedy imposed a naval blockade, and after 13 tense days, the Soviets agreed to remove the missiles. This closest brush with nuclear war led to arms control efforts.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 92,
+          "triggeredEvent": "Introduction to the Cuban Missile Crisis",
+          "historicalNote": "The Cuban Missile Crisis (October 1962) brought the world closer to nuclear war than ever before. President Kennedy (1917-1963) negotiated the removal of Soviet missiles from Cuba in exchange for a secret agreement to remove U.S. missiles from Turkey. The crisis led to the first nuclear arms treaties.",
+          "consequence": "Understanding the Cuban Missile Crisis as the Cold War's most dangerous moment."
+        },
+        {
+          "id": "act1_opt3",
+          "text": "(Narration) The Space Race was a key Cold War competition. The Soviet Union launched the first satellite, Sputnik, in 1957, and sent the first human, Yuri Gagarin, into space in 1961. In response, President Kennedy committed America to landing on the Moon, achieved in 1969. The Cold War finally ended when Gorbachev's reforms led to the Soviet Union's peaceful dissolution in 1991.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 89,
+          "triggeredEvent": "Introduction to the Space Race and end of the Cold War",
+          "historicalNote": "The Space Race drove major technological advances. Apollo 11 landed on the Moon on July 20, 1969. Mikhail Gorbachev's policies of Glasnost (openness) and Perestroika (restructuring) unintentionally weakened Soviet control, leading to the fall of the Berlin Wall (1989) and the dissolution of the USSR in 1991.",
+          "consequence": "Understanding the Space Race and the peaceful end of the Cold War."
+        }
+      ]
+    }
+  ]
+}

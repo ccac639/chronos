@@ -1,0 +1,647 @@
+{
+  "eraId": "sw-medieval-asia-africa",
+  "eraName": "中古时期的亚洲与非洲",
+  "playerRole": "伊斯兰学者",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "研习古兰经",
+      "isKeyAct": true,
+      "sceneDescription": "你是一名年轻的伊斯兰学者，正在学习古兰经和各种知识。",
+      "npcDialogues": [
+        {
+          "speaker": "清真寺教长",
+          "text": "古兰经是知识的源头。用心学习。",
+          "avatar": "教"
+        },
+        {
+          "speaker": "父亲",
+          "text": "我们家世代出学者。你要继承这个传统。",
+          "avatar": "父"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "教长，我每天诵读古兰经，努力理解其中的含义。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 85,
+          "triggeredEvent": "古兰经的学习",
+          "historicalNote": "古兰经是伊斯兰教的根本经典。",
+          "consequence": "教长赞赏你的虔诚。"
+        },
+        {
+          "id": "d2",
+          "text": "父亲，我将来要成为像祖父一样伟大的学者。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 82,
+          "triggeredEvent": "学术传统的继承",
+          "historicalNote": "伊斯兰世界重视学术传统的继承。",
+          "consequence": "父亲很欣慰。"
+        },
+        {
+          "id": "d3",
+          "text": "除了古兰经，我还想学习数学和天文学。知识没有边界。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 88,
+          "triggeredEvent": "百科式学者",
+          "historicalNote": "伊斯兰学者通常精通多个学科。",
+          "consequence": "教长鼓励你博学。"
+        },
+        {
+          "id": "d4",
+          "text": "寻求知识是每个穆斯林的责任。我以此为信条。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 90,
+          "triggeredEvent": "伊斯兰教鼓励求知",
+          "historicalNote": "伊斯兰教鼓励求知促进了学术繁荣。",
+          "consequence": "你将求知作为一生的使命。"
+        },
+        {
+          "id": "d5",
+          "text": "我在清真寺图书馆发现了很多古代学者的手稿。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 84,
+          "triggeredEvent": "清真寺图书馆",
+          "historicalNote": "清真寺也是重要的学术中心。",
+          "consequence": "你如获至宝。"
+        },
+        {
+          "id": "d6",
+          "text": "父亲，我想去巴格达德的智慧之家学习。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "求学的愿望",
+          "historicalNote": "智慧之家是最著名的学术机构。",
+          "consequence": "父亲同意了。"
+        }
+      ]
+    },
+    {
+      "id": "act-2",
+      "title": "智慧之家",
+      "isKeyAct": false,
+      "sceneDescription": "你来到巴格达德的智慧之家，与各地学者交流。",
+      "npcDialogues": [
+        {
+          "speaker": "图书馆馆长",
+          "text": "欢迎来到智慧之家。藏书来自世界各地。",
+          "avatar": "馆"
+        },
+        {
+          "speaker": "波斯学者",
+          "text": "我正在研究代数学。",
+          "avatar": "花"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "馆长，这里的藏书量太惊人了。希腊哲学、印度数学应有尽有。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 88,
+          "triggeredEvent": "智慧之家的藏书",
+          "historicalNote": "智慧之家收藏了大量古典著作。",
+          "consequence": "你感到震撼。"
+        },
+        {
+          "id": "d2",
+          "text": "花拉密先生，您的代数研究非常有开创性。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "代数学",
+          "historicalNote": "花拉密是伊斯兰世界最伟大的数学家之一。",
+          "consequence": "他很乐意与你讨论。"
+        },
+        {
+          "id": "d3",
+          "text": "我参与了将希腊文献翻译成阿拉伯语的工作。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 90,
+          "triggeredEvent": "翻译运动",
+          "historicalNote": "翻译运动保存了大量古典知识。",
+          "consequence": "你的翻译工作受到赞赏。"
+        },
+        {
+          "id": "d4",
+          "text": "学者们来自不同民族，但都为知识而团结。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 87,
+          "triggeredEvent": "学术国际化",
+          "historicalNote": "智慧之家体现了学术国际化。",
+          "consequence": "你感到学术共同体的力量。"
+        },
+        {
+          "id": "d5",
+          "text": "我在这里学到了逻辑推理和实验验证的方法。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 85,
+          "triggeredEvent": "科学研究方法",
+          "historicalNote": "伊斯兰学者发展出了系统的实验方法。",
+          "consequence": "你的研究能力提升。"
+        },
+        {
+          "id": "d6",
+          "text": "智慧之家不仅保存知识，还在创造新知识。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 89,
+          "triggeredEvent": "知识创新",
+          "historicalNote": "伊斯兰学者在数学、天文学等领域做出原创贡献。",
+          "consequence": "你深受启发。"
+        }
+      ]
+    },
+    {
+      "id": "act-3",
+      "title": "翻译古希腊文献",
+      "isKeyAct": false,
+      "sceneDescription": "你参与大规模的古希腊文献翻译工作。",
+      "npcDialogues": [
+        {
+          "speaker": "翻译总监",
+          "text": "你翻译的亚里士多德著作质量很高。",
+          "avatar": "总"
+        },
+        {
+          "speaker": "叙利亚助手",
+          "text": "希腊语到阿拉伯语的翻译需要精确。",
+          "avatar": "叙"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "总监，我发现亚里士多德逻辑学和阿拉伯逻辑学相通之处。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 88,
+          "triggeredEvent": "希腊与阿拉伯知识的融合",
+          "historicalNote": "翻译运动促进了不同文明知识的融合。",
+          "consequence": "总监对你的发现很感兴趣。"
+        },
+        {
+          "id": "d2",
+          "text": "翻译不仅是语言转换，更是文化桥梁。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "翻译的文化意义",
+          "historicalNote": "翻译是文明交流的重要桥梁。",
+          "consequence": "你深刻理解了翻译的意义。"
+        },
+        {
+          "id": "d3",
+          "text": "托勒密的天文学著作非常复杂，需要反复研读。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 87,
+          "triggeredEvent": "天文学翻译",
+          "historicalNote": "托勒密著作翻译后伊斯兰学者在此基础上发展。",
+          "consequence": "你花了很多时间翻译。"
+        },
+        {
+          "id": "d4",
+          "text": "翻译中最大挑战是找到对应的阿拉伯语术语。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 84,
+          "triggeredEvent": "术语创造",
+          "historicalNote": "翻译过程中创造了很多新学术术语。",
+          "consequence": "你创造了一些新术语。"
+        },
+        {
+          "id": "d5",
+          "text": "翻译中我也学习了希腊人的思维方式。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 83,
+          "triggeredEvent": "思维方式的学习",
+          "historicalNote": "与希腊文献对话丰富了伊斯兰学术。",
+          "consequence": "你的研究方法更加严谨。"
+        },
+        {
+          "id": "d6",
+          "text": "每翻译完一本书，我都感到完成了真主的使命。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 85,
+          "triggeredEvent": "学者的使命感",
+          "historicalNote": "伊斯兰学者将保存知识视为宗教使命。",
+          "consequence": "你内心感到满足。"
+        }
+      ]
+    },
+    {
+      "id": "act-4",
+      "title": "代数学与天文学",
+      "isKeyAct": true,
+      "sceneDescription": "你在数学和天文学领域做出了重要贡献。",
+      "npcDialogues": [
+        {
+          "speaker": "天文学同事",
+          "text": "你的星表精确度很高，对航海和祈祷方向很有用。",
+          "avatar": "天"
+        },
+        {
+          "speaker": "学生",
+          "text": "老师，您的代数课程让我对数学有了全新理解。",
+          "avatar": "生"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "我的星表基于多年观测数据编制。天文观测需要耐心。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 90,
+          "triggeredEvent": "伊斯兰天文学成就",
+          "historicalNote": "伊斯兰天文学家编制了精确的星表。",
+          "consequence": "你的星表被广泛使用。"
+        },
+        {
+          "id": "d2",
+          "text": "代数学的核心是用符号表示未知数，然后通过方程求解。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 88,
+          "triggeredEvent": "代数学的核心",
+          "historicalNote": "代数学符号化思维是数学史上的重大突破。",
+          "consequence": "学生们深受启发。"
+        },
+        {
+          "id": "d3",
+          "text": "我开发了一种新的计算方法，比以前快得多。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "数学方法创新",
+          "historicalNote": "伊斯兰学者在计算方法上有很多创新。",
+          "consequence": "你的新方法得到认可。"
+        },
+        {
+          "id": "d4",
+          "text": "天文观测也是为了确定礼拜方向。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 85,
+          "triggeredEvent": "天文与宗教",
+          "historicalNote": "伊斯兰教要求面向麦加礼拜，需要天文知识。",
+          "consequence": "你的研究服务于宗教。"
+        },
+        {
+          "id": "d5",
+          "text": "我指导学生制作了星盘，这是最重要的天文仪器。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 84,
+          "triggeredEvent": "星盘制作",
+          "historicalNote": "星盘可以用于确定时间和方位。",
+          "consequence": "你的学生学会了制作星盘。"
+        },
+        {
+          "id": "d6",
+          "text": "数学和天文学是真主赐予人类的智慧之光。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 89,
+          "triggeredEvent": "科学信仰",
+          "historicalNote": "探索自然就是探索真主的创造。",
+          "consequence": "你的信仰与科学统一。"
+        }
+      ]
+    },
+    {
+      "id": "act-5",
+      "title": "传播知识",
+      "isKeyAct": false,
+      "sceneDescription": "你四处游历，在各地清真寺和学院讲学。",
+      "npcDialogues": [
+        {
+          "speaker": "开罗学者",
+          "text": "你的代数著作在开罗被广泛使用。",
+          "avatar": "开"
+        },
+        {
+          "speaker": "安达卢西亚客人",
+          "text": "请来科尔多瓦讲学吧。",
+          "avatar": "安"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "知识的传播不分国界。很高兴著作对大家有帮助。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 87,
+          "triggeredEvent": "知识的传播",
+          "historicalNote": "伊斯兰学者在各地讲学传播知识。",
+          "consequence": "你受到各地学者欢迎。"
+        },
+        {
+          "id": "d2",
+          "text": "在科尔多瓦，我看到了欧洲最宏大的图书馆。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "科尔多瓦的学术",
+          "historicalNote": "科尔多瓦是安达卢西亚的学术中心。",
+          "consequence": "你对安达卢西亚学术印象深刻。"
+        },
+        {
+          "id": "d3",
+          "text": "我将代数学方法教给了各地学者。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 84,
+          "triggeredEvent": "代数学的传播",
+          "historicalNote": "代数学通过伊斯兰学者传入欧洲。",
+          "consequence": "你的方法被广泛采用。"
+        },
+        {
+          "id": "d4",
+          "text": "旅行中见到了各种各样的天文仪器，每个地方都有自己的创新。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 83,
+          "triggeredEvent": "学术交流",
+          "historicalNote": "旅行促进了不同地区学者的交流。",
+          "consequence": "你记录了各地的创新。"
+        },
+        {
+          "id": "d5",
+          "text": "知识的传播比任何商品贸易都有价值。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 89,
+          "triggeredEvent": "知识高于财富",
+          "historicalNote": "伊斯兰学者将知识视为最高价值。",
+          "consequence": "你坚定了自己的信念。"
+        },
+        {
+          "id": "d6",
+          "text": "希望有一天整个世界都能共享这些知识。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 85,
+          "triggeredEvent": "知识的理想",
+          "historicalNote": "让知识造福全人类是学者的理想。",
+          "consequence": "你为此继续努力。"
+        }
+      ]
+    },
+    {
+      "id": "act-6",
+      "title": "保存知识",
+      "isKeyAct": false,
+      "sceneDescription": "你致力于保存和传承古代知识遗产。",
+      "npcDialogues": [
+        {
+          "speaker": "图书馆馆长",
+          "text": "必须确保珍贵手稿不会在战乱中散失。",
+          "avatar": "馆"
+        },
+        {
+          "speaker": "年轻助手",
+          "text": "有些手稿已经开始褪色了。",
+          "avatar": "助"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "馆长，我建议制作更多副本，分散保存在不同城市。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 88,
+          "triggeredEvent": "手稿副本制作",
+          "historicalNote": "制作副本是保存手稿的重要手段。",
+          "consequence": "馆长同意了这个方案。"
+        },
+        {
+          "id": "d2",
+          "text": "褪色的手稿需要重新抄写，这是我们的重要工作。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "手稿修复",
+          "historicalNote": "伊斯兰学者投入大量精力修复和抄写手稿。",
+          "consequence": "你开始修复褪色手稿。"
+        },
+        {
+          "id": "d3",
+          "text": "我在每本手稿上标注了来源和成书时间。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 84,
+          "triggeredEvent": "学术文献规范",
+          "historicalNote": "伊斯兰学者建立了严格的文献标注规范。",
+          "consequence": "你的标注方法被广泛采用。"
+        },
+        {
+          "id": "d4",
+          "text": "有些手稿是独一无二的孤本，必须特别小心保护。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 87,
+          "triggeredEvent": "孤本保护",
+          "historicalNote": "孤本手稿是最珍贵的文化遗产。",
+          "consequence": "你为孤本手稿做了特殊保护。"
+        },
+        {
+          "id": "d5",
+          "text": "我们在各城市清真寺建立了手稿交换网络。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 85,
+          "triggeredEvent": "手稿交换网络",
+          "historicalNote": "手稿交换网络促进了知识的传播和保存。",
+          "consequence": "你的网络运行良好。"
+        },
+        {
+          "id": "d6",
+          "text": "保存知识就是保存文明的记忆。这是我们学者的天职。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 90,
+          "triggeredEvent": "保存知识的天职",
+          "historicalNote": "伊斯兰学者将保存知识视为最重要的使命之一。",
+          "consequence": "你深感责任重大。"
+        }
+      ]
+    },
+    {
+      "id": "act-7",
+      "title": "游历求学",
+      "isKeyAct": false,
+      "sceneDescription": "你踏上了漫长的游历之旅，拜访各地学术中心。",
+      "npcDialogues": [
+        {
+          "speaker": "波斯同行",
+          "text": "从巴格达到撒马尔罕，到处都有优秀的学者。",
+          "avatar": "波"
+        },
+        {
+          "speaker": "印度数学家",
+          "text": "印度的数学体系比我们的先进多了。",
+          "avatar": "印"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "在撒马尔罕我遇到了很多杰出的天文学家。他们的观测技术很高超。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 87,
+          "triggeredEvent": "中亚的天文学",
+          "historicalNote": "中亚的天文学在伊斯兰世界占有重要地位。",
+          "consequence": "你学到了新的观测技术。"
+        },
+        {
+          "id": "d2",
+          "text": "印度数学家的数字体系非常有用。我打算将它引入我们的数学研究。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 89,
+          "triggeredEvent": "印度数学的引入",
+          "historicalNote": "阿拉伯数字实际上源于印度，由伊斯兰学者引入欧洲。",
+          "consequence": "你决定引入印度数字体系。"
+        },
+        {
+          "id": "d3",
+          "text": "旅途中我记录了各地的学术成果，准备回国后整理成书。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 85,
+          "triggeredEvent": "学术记录",
+          "historicalNote": "旅行学者广泛记录各地的学术成果，促进了知识交流。",
+          "consequence": "你积累了大量笔记。"
+        },
+        {
+          "id": "d4",
+          "text": "在印度我学到了很多医学知识。他们的草药疗法很独特。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 83,
+          "triggeredEvent": "医学交流",
+          "historicalNote": "伊斯兰学者与印度学者的医学交流促进了两方的医学发展。",
+          "consequence": "你记录了医学知识。"
+        },
+        {
+          "id": "d5",
+          "text": "各地的清真寺和学院都欢迎我去讲学。学者之间没有国界之分。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "学术无国界",
+          "historicalNote": "伊斯兰世界的学术交流超越了国界和民族。",
+          "consequence": "你深感学术共同体的温暖。"
+        },
+        {
+          "id": "d6",
+          "text": "这次游历让我开阔了眼界，也认识到了知识传播的重要性。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 88,
+          "triggeredEvent": "游历的收获",
+          "historicalNote": "游历是学者成长的重要方式，丰富了学识和视野。",
+          "consequence": "你带着丰富的收获踏上归途。"
+        }
+      ]
+    },
+    {
+      "id": "act-8",
+      "title": "伊斯兰黄金时代遗产",
+      "isKeyAct": true,
+      "sceneDescription": "你已是年迈的大学者。回顾一生，你思考伊斯兰黄金时代的遗产和意义。",
+      "npcDialogues": [
+        {
+          "speaker": "年轻弟子",
+          "text": "老师，您的著作影响了整个伊斯兰世界。",
+          "avatar": "弟"
+        },
+        {
+          "speaker": "来访欧洲学者",
+          "text": "您的著作通过西班牙传到了欧洲。我们正在翻译成拉丁语。",
+          "avatar": "欧"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "弟子，追求知识是我一生的使命。希望你们继续这条道路。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 92,
+          "triggeredEvent": "学者的使命",
+          "historicalNote": "追求知识是伊斯兰学者的终身使命。这一理念通过一代代学者传承。",
+          "consequence": "弟子郑重地答应了。"
+        },
+        {
+          "id": "d2",
+          "text": "欧洲学者，知识没有国界。很高兴我的著作在欧洲也被重视。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 90,
+          "triggeredEvent": "知识传入欧洲",
+          "historicalNote": "伊斯兰学者的著作通过西班牙和西西里传入欧洲，对欧洲学术复兴产生了重要影响。",
+          "consequence": "欧洲学者表示感激。"
+        },
+        {
+          "id": "d3",
+          "text": "伊斯兰黄金时代留给世界的不只是知识，还有求知的精神。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 94,
+          "triggeredEvent": "黄金时代的遗产",
+          "historicalNote": "伊斯兰黄金时代的遗产包括大量的科学知识、翻译文献和求知精神。",
+          "consequence": "你对黄金时代的遗产充满自豪。"
+        },
+        {
+          "id": "d4",
+          "text": "我在智慧之家度过了最好的年华。那里是知识的圣殿。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 88,
+          "triggeredEvent": "智慧之家的回忆",
+          "historicalNote": "智慧之家是伊斯兰学术的象征。",
+          "consequence": "你回忆起在智慧之家的日子。"
+        },
+        {
+          "id": "d5",
+          "text": "把知识比作光，黑暗中的人需要光来照亮前路。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 91,
+          "triggeredEvent": "知识如光",
+          "historicalNote": "伊斯兰文化将知识比作光，认为知识可以照亮人类的前路。",
+          "consequence": "你的比喻深深打动了听众。"
+        },
+        {
+          "id": "d6",
+          "text": "孩子，继续追求知识吧。这是我们对这个世界最好的贡献。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 95,
+          "triggeredEvent": "知识的永恒价值",
+          "historicalNote": "伊斯兰学者相信知识具有永恒的价值。这一信念激励着一代又一代的学者。",
+          "consequence": "弟子将你的话铭记于心。"
+        }
+      ]
+    }
+  ]
+}

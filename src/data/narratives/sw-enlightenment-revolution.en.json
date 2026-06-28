@@ -1,0 +1,57 @@
+{
+  "eraId": "sw-enlightenment-revolution",
+  "eraName": "Enlightenment and Bourgeois Revolutions",
+  "playerRole": "Narrator",
+  "acts": [
+    {
+      "id": "act1",
+      "title": "The Age of Reason",
+      "isKeyAct": true,
+      "sceneDescription": "In the 17th and 18th centuries, Enlightenment thinkers challenged absolute monarchy and religious authority with reason, science, and individual liberty. Their revolutionary ideas inspired the American and French Revolutions, which overthrew old orders and established new principles of popular sovereignty and constitutional government.",
+      "npcDialogues": [
+        {
+          "speaker": "Historian",
+          "text": "Philosophers like Locke, Montesquieu, and Rousseau developed ideas that fundamentally transformed political thought. Locke argued that governments derive their legitimacy from the consent of the governed, while Montesquieu proposed separation of powers to prevent tyranny.",
+          "avatar": "historian"
+        },
+        {
+          "speaker": "Archaeologist",
+          "text": "The American Revolution (1775-1783) created the first modern democratic republic. The French Revolution (1789) went further, abolishing feudal privileges and declaring universal rights of man. Napoleon then spread revolutionary reforms across Europe before his final defeat at Waterloo in 1815.",
+          "avatar": "archaeologist"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act1_opt1",
+          "text": "(Narration) John Locke, an English philosopher, argued in his Two Treatises of Government that all people possess natural rights to life, liberty, and property. He believed that legitimate governments must protect these rights and derive their authority from the consent of the governed. These ideas directly influenced the American Declaration of Independence.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 95,
+          "triggeredEvent": "Introduction to Enlightenment philosophy",
+          "historicalNote": "John Locke (1632-1704) is widely considered the father of classical liberalism. His theory of natural rights and social contract directly influenced Thomas Jefferson's drafting of the Declaration of Independence (1776) and the U.S. Constitution's system of limited government.",
+          "consequence": "Understanding the Enlightenment's core ideas about natural rights and government legitimacy."
+        },
+        {
+          "id": "act1_opt2",
+          "text": "(Narration) The American Revolution began in 1775 when thirteen British colonies in North America rebelled against taxation without representation. Led by George Washington, the colonists defeated Britain with French support. The resulting United States Constitution (1787) established the world's first federal democratic republic with checks and balances.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 92,
+          "triggeredEvent": "Introduction to the American Revolution",
+          "historicalNote": "The American Revolution (1775-1783) was the first successful colonial independence movement against a European power. The U.S. Constitution (1787), influenced by Montesquieu's separation of powers, created a federal system with executive, legislative, and judicial branches that remains in effect today.",
+          "consequence": "Understanding the American Revolution's creation of a democratic republic."
+        },
+        {
+          "id": "act1_opt3",
+          "text": "(Narration) The French Revolution erupted in 1789 when citizens stormed the Bastille. The revolutionaries abolished feudal privileges, declared the Rights of Man, and executed King Louis XVI. Napoleon Bonaparte seized power in 1799, conquering much of Europe and spreading revolutionary reforms before his final defeat at Waterloo in 1815.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 89,
+          "triggeredEvent": "Introduction to the French Revolution and Napoleon",
+          "historicalNote": "The French Revolution (1789-1799) abolished the monarchy and feudal system, establishing the principles of liberty, equality, and fraternity. Napoleon Bonaparte (1769-1821) rose to power during the revolution's aftermath, conquered much of Europe, and introduced the Napoleonic Code, which influenced civil law systems worldwide.",
+          "consequence": "Understanding the French Revolution's radical transformation of European society."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,647 @@
+{
+  "eraId": "sw-exploration-reform",
+  "eraName": "新航路开辟与文艺复兴",
+  "playerRole": "画坊学徒",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "进入佛罗伦萨画坊",
+      "isKeyAct": true,
+      "sceneDescription": "你进入一家佛罗伦萨画坊当学徒，开始学习绘画技术。",
+      "npcDialogues": [
+        {
+          "speaker": "画坊大师",
+          "text": "从研磨颜料开始学起。每一笔都从基本功开始。",
+          "avatar": "师"
+        },
+        {
+          "speaker": "资深学徒",
+          "text": "画坊生活很辛苦，但有天赋大师会器重你。",
+          "avatar": "资"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "大师，我从小就想成为画家。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 85,
+          "triggeredEvent": "文艺复兴画坊",
+          "historicalNote": "文艺复兴画坊是培养艺术家的摇篮。",
+          "consequence": "大师满意地点了点头。"
+        },
+        {
+          "id": "d2",
+          "text": "研磨颜料需要耐心。每一种颜色都要反复研磨。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 83,
+          "triggeredEvent": "颜料制作",
+          "historicalNote": "文艺复兴画家自己制作颜料。",
+          "consequence": "你开始学习制作颜料。"
+        },
+        {
+          "id": "d3",
+          "text": "大师的画为什么那么逼真？",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "绘画技巧",
+          "historicalNote": "透视法和明暗法使文艺复兴绘画更加逼真。",
+          "consequence": "学徒说秘诀在于观察。"
+        },
+        {
+          "id": "d4",
+          "text": "我在画布上练习画鸡蛋。大师说要画好几千个才能入门。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 82,
+          "triggeredEvent": "基础训练",
+          "historicalNote": "从简单对象反复练习是基本功训练的重要方法。",
+          "consequence": "你画了无数个鸡蛋。"
+        },
+        {
+          "id": "d5",
+          "text": "画坊里有从东方运来的珍贵颜料。贸易促进了艺术发展。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 84,
+          "triggeredEvent": "画材来源",
+          "historicalNote": "颜料来自世界各地。",
+          "consequence": "你对这些材料充满好奇。"
+        },
+        {
+          "id": "d6",
+          "text": "大师说我的素描有天赋，让我开始学习透视法。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 88,
+          "triggeredEvent": "透视法学习",
+          "historicalNote": "透视法是文艺复兴绘画的重要创新。",
+          "consequence": "你对透视法产生了浓厚兴趣。"
+        }
+      ]
+    },
+    {
+      "id": "act-2",
+      "title": "学习透视法",
+      "isKeyAct": false,
+      "sceneDescription": "大师开始教你透视法——让二维画面呈现三维效果的关键技术。",
+      "npcDialogues": [
+        {
+          "speaker": "画坊大师",
+          "text": "透视法的核心是近大远小。线条都汇聚到消失点。",
+          "avatar": "师"
+        },
+        {
+          "speaker": "建筑师朋友",
+          "text": "透视法在建筑设计中也很重要。",
+          "avatar": "建"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "大师，透视法画出来的建筑真有立体感！",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 87,
+          "triggeredEvent": "透视法效果",
+          "historicalNote": "线性透视法使绘画产生了前所未有的空间深度感。",
+          "consequence": "你对效果感到惊叹。"
+        },
+        {
+          "id": "d2",
+          "text": "布鲁内莱斯基发明的透视法太巧妙了。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 89,
+          "triggeredEvent": "透视法先驱",
+          "historicalNote": "布鲁内莱斯基是透视法的先驱之一。",
+          "consequence": "建筑师说这改变了艺术世界。"
+        },
+        {
+          "id": "d3",
+          "text": "我画了很多街道和建筑的透视，越来越熟练了。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 85,
+          "triggeredEvent": "透视法练习",
+          "historicalNote": "大量练习使画家掌握了透视法。",
+          "consequence": "你的透视画越来越精确。"
+        },
+        {
+          "id": "d4",
+          "text": "透视法不仅是技术，更是理解世界的方式。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "透视法哲学",
+          "historicalNote": "透视法体现了文艺复兴时期人们对世界的新理解。",
+          "consequence": "你从哲学角度思考透视法。"
+        },
+        {
+          "id": "d5",
+          "text": "透视法要和明暗法结合才能达到最佳效果。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 84,
+          "triggeredEvent": "透视与明暗",
+          "historicalNote": "透视法、明暗法和解剖学是三大支柱。",
+          "consequence": "你开始学习明暗法。"
+        },
+        {
+          "id": "d6",
+          "text": "我看世界的方式都不同了，到处都能看到透视的线条。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 83,
+          "triggeredEvent": "透视改变视角",
+          "historicalNote": "掌握透视法改变了画家的观察方式。",
+          "consequence": "你用新眼光看世界。"
+        }
+      ]
+    },
+    {
+      "id": "act-3",
+      "title": "美第奇家族赞助",
+      "isKeyAct": false,
+      "sceneDescription": "你的才华引起了美第奇家族的注意，他们开始赞助你的创作。",
+      "npcDialogues": [
+        {
+          "speaker": "美第奇代理人",
+          "text": "洛伦佐大人对你的画很感兴趣，愿意资助你。",
+          "avatar": "美"
+        },
+        {
+          "speaker": "画坊大师",
+          "text": "获得美第奇赞助是每个艺术家的梦想。",
+          "avatar": "师"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "感谢您的慷慨赞助，我会创作最好的作品。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 88,
+          "triggeredEvent": "美第奇赞助",
+          "historicalNote": "美第奇是文艺复兴最重要的艺术赞助者。",
+          "consequence": "你激动不已。"
+        },
+        {
+          "id": "d2",
+          "text": "有了赞助就能买更好的颜料和画布了。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 85,
+          "triggeredEvent": "赞助意义",
+          "historicalNote": "赞助使艺术家能全身心投入创作。",
+          "consequence": "你开始准备新作品。"
+        },
+        {
+          "id": "d3",
+          "text": "洛伦佐大人不仅赞助艺术，也鼓励学者和科学家。佛罗伦萨真是文化天堂。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 87,
+          "triggeredEvent": "美第奇文化政策",
+          "historicalNote": "美第奇推动了佛罗伦萨成为文艺复兴中心。",
+          "consequence": "你对美第奇充满敬意。"
+        },
+        {
+          "id": "d4",
+          "text": "我决定为美第奇家族画一幅肖像画。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 83,
+          "triggeredEvent": "肖像画",
+          "historicalNote": "肖像画是文艺复兴重要的绘画类型。",
+          "consequence": "你开始构思。"
+        },
+        {
+          "id": "d5",
+          "text": "赞助带来了自由但也有压力，作品必须让赞助人满意。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 82,
+          "triggeredEvent": "赞助双面性",
+          "historicalNote": "赞助关系既带来机会也限制了某些自由。",
+          "consequence": "你感受到压力。"
+        },
+        {
+          "id": "d6",
+          "text": "洛伦佐大人说最重要的是表现人性之美。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 90,
+          "triggeredEvent": "人文主义美学",
+          "historicalNote": "人文主义强调人的价值和尊严。",
+          "consequence": "你的创作理念得到了提升。"
+        }
+      ]
+    },
+    {
+      "id": "act-4",
+      "title": "遇见米开朗基罗",
+      "isKeyAct": true,
+      "sceneDescription": "你有幸遇到了正在创作大卫像的米开朗基罗。",
+      "npcDialogues": [
+        {
+          "speaker": "米开朗基罗",
+          "text": "雕塑是释放石头中隐藏的形象。我只是帮它获得自由。",
+          "avatar": "米"
+        },
+        {
+          "speaker": "画坊大师",
+          "text": "米开朗基罗是我见过最有才华的艺术家。",
+          "avatar": "师"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "米开朗基罗先生，您的《大卫》像是活的。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 92,
+          "triggeredEvent": "大卫像",
+          "historicalNote": "米开朗基罗的大卫像是文艺复兴雕塑的巅峰之作。",
+          "consequence": "你被深深震撼。"
+        },
+        {
+          "id": "d2",
+          "text": "您在雕刻时怎么知道石头里藏着什么形象？",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 88,
+          "triggeredEvent": "雕刻哲学",
+          "historicalNote": "米开朗基罗认为每块石头中都隐藏着一个形象。",
+          "consequence": "米开朗基罗笑了。"
+        },
+        {
+          "id": "d3",
+          "text": "和米开朗基罗交谈让我受益匪浅。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "天才启示",
+          "historicalNote": "文艺复兴大师之间的交流促进了艺术繁荣。",
+          "consequence": "你深受启发。"
+        },
+        {
+          "id": "d4",
+          "text": "我也想学习雕塑。绘画和雕塑能互相促进。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 84,
+          "triggeredEvent": "绘画与雕塑",
+          "historicalNote": "文艺复兴艺术家往往精通多种艺术形式。",
+          "consequence": "米开朗基罗也是杰出画家。"
+        },
+        {
+          "id": "d5",
+          "text": "米开朗基罗先生对艺术的追求让我敬佩。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 87,
+          "triggeredEvent": "艺术追求",
+          "historicalNote": "文艺复兴艺术家对完美的追求达到前所未有的高度。",
+          "consequence": "你被这种精神感染。"
+        },
+        {
+          "id": "d6",
+          "text": "大师说我们正处在一个艺术最辉煌的时代。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 89,
+          "triggeredEvent": "文艺复兴辉煌",
+          "historicalNote": "文艺复兴是欧洲艺术史上最辉煌的时期之一。",
+          "consequence": "你深感时代的伟大。"
+        }
+      ]
+    },
+    {
+      "id": "act-5",
+      "title": "宗教改革的影响",
+      "isKeyAct": false,
+      "sceneDescription": "宗教改革的风潮也影响了艺术界。教会委托的画作开始减少。",
+      "npcDialogues": [
+        {
+          "speaker": "画坊大师",
+          "text": "新教不赞成教堂华丽装饰。我们的教会订单减少了。",
+          "avatar": "师"
+        },
+        {
+          "speaker": "同行画家",
+          "text": "有些画家转向画肖像和风景画来维持生计。",
+          "avatar": "同"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "大师，宗教改革会影响我们的职业吗？",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 85,
+          "triggeredEvent": "宗教改革对艺术的影响",
+          "historicalNote": "宗教改革导致教会艺术需求减少。",
+          "consequence": "大师叹了口气。"
+        },
+        {
+          "id": "d2",
+          "text": "同行，我们得想办法开拓新市场。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 84,
+          "triggeredEvent": "艺术市场变化",
+          "historicalNote": "宗教改革迫使艺术家寻找新方向。",
+          "consequence": "你开始思考转型。"
+        },
+        {
+          "id": "d3",
+          "text": "我觉得艺术不会消失，只是会换一种形式。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "艺术形式转变",
+          "historicalNote": "宗教改革促进了世俗艺术的发展。",
+          "consequence": "你看到了新希望。"
+        },
+        {
+          "id": "d4",
+          "text": "北方画家开始画日常生活场景，这些画也很受欢迎。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 83,
+          "triggeredEvent": "北方文艺复兴",
+          "historicalNote": "北方文艺复兴注重日常生活细节描绘。",
+          "consequence": "你对北方画派产生了兴趣。"
+        },
+        {
+          "id": "d5",
+          "text": "我开始学习蚀刻版画技术，这样可以复制更多作品。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 82,
+          "triggeredEvent": "版画技术",
+          "historicalNote": "版画技术使艺术品能被更多人拥有。",
+          "consequence": "你开始学习新技法。"
+        },
+        {
+          "id": "d6",
+          "text": "不管宗教怎么变，人们对美的追求不会变。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 88,
+          "triggeredEvent": "美的永恒",
+          "historicalNote": "艺术超越宗教和政治变化。",
+          "consequence": "你坚持对美的追求。"
+        }
+      ]
+    },
+    {
+      "id": "act-6",
+      "title": "天主教会的回应",
+      "isKeyAct": false,
+      "sceneDescription": "天主教会通过反宗教改革重新重视艺术，委托大量宗教艺术品。",
+      "npcDialogues": [
+        {
+          "speaker": "教会代表",
+          "text": "教皇希望你能为梵蒂冈创作壁画。这是极大的荣誉。",
+          "avatar": "教"
+        },
+        {
+          "speaker": "画坊大师",
+          "text": "这是上帝的恩典。你一定要创作出最完美的作品。",
+          "avatar": "师"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "教会代表，我非常荣幸能为教皇服务。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 87,
+          "triggeredEvent": "教会艺术委托",
+          "historicalNote": "反宗教改革时期教会大量委托艺术创作。",
+          "consequence": "你感激地接受了委托。"
+        },
+        {
+          "id": "d2",
+          "text": "这次壁画的规模比以前任何作品都大。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "壁画创作",
+          "historicalNote": "文艺复兴时期的壁画是人类艺术史上的巨作。",
+          "consequence": "你开始准备草图。"
+        },
+        {
+          "id": "d3",
+          "text": "我决定将透视法和明暗法都运用在壁画中。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 88,
+          "triggeredEvent": "技术运用",
+          "historicalNote": "画家在大型壁画中充分运用了各种新技术。",
+          "consequence": "你的设计非常大胆。"
+        },
+        {
+          "id": "d4",
+          "text": "壁画创作需要好几年时间。但这是一生的机会。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 84,
+          "triggeredEvent": "大型艺术工程",
+          "historicalNote": "大型壁画耗费大量时间和精力。",
+          "consequence": "你做好了长期工作准备。"
+        },
+        {
+          "id": "d5",
+          "text": "教皇来视察时对我的草图赞不绝口。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 85,
+          "triggeredEvent": "教皇认可",
+          "historicalNote": "获得教皇认可是极大的荣誉。",
+          "consequence": "你信心倍增。"
+        },
+        {
+          "id": "d6",
+          "text": "我将以最好的状态完成这幅壁画。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 82,
+          "triggeredEvent": "艺术承诺",
+          "historicalNote": "艺术家对赞助人的承诺是职业信用的基础。",
+          "consequence": "你全身心投入创作。"
+        }
+      ]
+    },
+    {
+      "id": "act-7",
+      "title": "北方文艺复兴",
+      "isKeyAct": false,
+      "sceneDescription": "你前往北方旅行，接触了北方文艺复兴的艺术风格。",
+      "npcDialogues": [
+        {
+          "speaker": "尼德兰画家",
+          "text": "我们北方画家注重细节和写实。油画技法是我们的特色。",
+          "avatar": "尼"
+        },
+        {
+          "speaker": "商人收藏家",
+          "text": "我收藏了很多北方画家的作品。你想看看吗？",
+          "avatar": "商"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "尼德兰画家，你们的油画颜色真鲜艳。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 85,
+          "triggeredEvent": "油画技法",
+          "historicalNote": "尼德兰画家发展了油画技法，使色彩更加丰富。",
+          "consequence": "你对油画产生了兴趣。"
+        },
+        {
+          "id": "d2",
+          "text": "北方画家的风景画和静物画很有特色。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 84,
+          "triggeredEvent": "北方画派特色",
+          "historicalNote": "北方画派以风景画、静物画和风俗画著称。",
+          "consequence": "你受到了新的启发。"
+        },
+        {
+          "id": "d3",
+          "text": "商人收藏家，您的收藏真丰富。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 82,
+          "triggeredEvent": "艺术收藏",
+          "historicalNote": "文艺复兴时期艺术收藏成为富裕阶层的风尚。",
+          "consequence": "你欣赏了很多名画。"
+        },
+        {
+          "id": "d4",
+          "text": "北方文艺复兴和意大利文艺复兴各有所长。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 87,
+          "triggeredEvent": "两大文艺复兴传统",
+          "historicalNote": "意大利和北方文艺复兴共同构成了文艺复兴的全貌。",
+          "consequence": "你对两个传统都有了理解。"
+        },
+        {
+          "id": "d5",
+          "text": "我把北方的油画技法带回了佛罗伦萨。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "技法传播",
+          "historicalNote": "文艺复兴时期不同地区的艺术技法互相传播和融合。",
+          "consequence": "你的同伴对油画技法很感兴趣。"
+        },
+        {
+          "id": "d6",
+          "text": "两种传统的融合让我的作品更加丰富多彩。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 83,
+          "triggeredEvent": "艺术融合",
+          "historicalNote": "不同艺术传统的融合丰富了艺术表现力。",
+          "consequence": "你的创作风格更加多元。"
+        }
+      ]
+    },
+    {
+      "id": "act-8",
+      "title": "艺术的遗产",
+      "isKeyAct": true,
+      "sceneDescription": "你已是年迈的画家。回顾一生，你思考文艺复兴对人类的意义。",
+      "npcDialogues": [
+        {
+          "speaker": "年轻学徒",
+          "text": "老前辈，您的画作影响了整个欧洲。",
+          "avatar": "徒"
+        },
+        {
+          "speaker": "老朋友",
+          "text": "我们见证了艺术最辉煌的时代。",
+          "avatar": "老"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d1",
+          "text": "孩子，画画不只是技术，更是表达人类情感的方式。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 92,
+          "triggeredEvent": "艺术的意义",
+          "historicalNote": "文艺复兴艺术的核心是表现人性。",
+          "consequence": "年轻学徒深受启发。"
+        },
+        {
+          "id": "d2",
+          "text": "我的画记录了文艺复兴时期的人们和生活。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 90,
+          "triggeredEvent": "艺术记录时代",
+          "historicalNote": "文艺复兴绘画是了解当时社会的窗口。",
+          "consequence": "你的画作具有历史价值。"
+        },
+        {
+          "id": "d3",
+          "text": "透视法、明暗法、解剖学……我们那一代人创造了很多新技术。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 88,
+          "triggeredEvent": "技术遗产",
+          "historicalNote": "文艺复兴艺术技术的遗产至今仍在影响着艺术教育和创作。",
+          "consequence": "你为这些贡献自豪。"
+        },
+        {
+          "id": "d4",
+          "text": "美第奇家族的赞助让艺术得以繁荣。但艺术最终属于人民。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 86,
+          "triggeredEvent": "艺术与赞助",
+          "historicalNote": "赞助制度和艺术自由之间一直存在张力。",
+          "consequence": "你对此有了更深理解。"
+        },
+        {
+          "id": "d5",
+          "text": "老朋友，我们活在一个天才辈出的时代。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 89,
+          "triggeredEvent": "天才辈出的时代",
+          "historicalNote": "文艺复兴产生了达芬奇、米开朗基罗、拉斐尔等艺术巨匠。",
+          "consequence": "你对那个时代充满怀念。"
+        },
+        {
+          "id": "d6",
+          "text": "孩子，追求美是人类永恒的天性。永远不要放弃对美的追求。",
+          "speaker": "我",
+          "avatar": "学",
+          "score": 95,
+          "triggeredEvent": "美的永恒追求",
+          "historicalNote": "对美的追求是人类文明的重要驱动力。",
+          "consequence": "学徒将你的话铭记于心。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "eraId": "sw-ancient-greece-rome",
+  "eraName": "Ancient Greek and Roman Civilization",
+  "playerRole": "Narrator",
+  "acts": [
+    {
+      "id": "act1",
+      "title": "Foundations of the Western World",
+      "isKeyAct": true,
+      "sceneDescription": "From the 8th century BCE to the fall of Rome in 476 CE, Greece and Rome shaped the political and intellectual foundations of Western civilization. Athens pioneered democracy, while Rome evolved from a republic into a vast empire that dominated the Mediterranean world for centuries.",
+      "npcDialogues": [
+        {
+          "speaker": "Historian",
+          "text": "Ancient Greece introduced the concept of democracy under leaders like Solon and Pericles. Citizens debated laws in open assemblies, laying the philosophical and political groundwork for modern governance systems around the world.",
+          "avatar": "historian"
+        },
+        {
+          "speaker": "Archaeologist",
+          "text": "Rome built upon Greek foundations but excelled in engineering and law. The Roman road network, aqueducts, and the Justinian Code influenced European development for over a millennium, shaping both medieval and modern legal traditions.",
+          "avatar": "archaeologist"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act1_opt1",
+          "text": "(Narration) Ancient Athens, under the leadership of Pericles in the 5th century BCE, became the birthplace of democracy. Citizens participated directly in lawmaking through public assemblies and juries. This radical experiment in self-government influenced political thought for millennia to come.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 95,
+          "triggeredEvent": "Introduction to Athenian democracy",
+          "historicalNote": "Athenian democracy, established in the 5th century BCE under Pericles, allowed male citizens to vote on legislation and serve on juries directly. While it excluded women and enslaved people, it was the first known system of democratic governance in history.",
+          "consequence": "Understanding the origins and principles of Athenian democracy."
+        },
+        {
+          "id": "act1_opt2",
+          "text": "(Narration) The Roman Republic, founded in 509 BCE, was governed by elected senators and consuls. Julius Caesar's assassination in 44 BCE triggered civil wars that ended the Republic. His adopted heir Augustus became the first Roman Emperor, ushering in the Pax Romana.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 92,
+          "triggeredEvent": "Introduction to the Roman Republic and Empire",
+          "historicalNote": "The Roman Republic lasted nearly 500 years before transitioning into an empire under Augustus (27 BCE-14 CE). The Pax Romana, a period of relative peace lasting over 200 years, enabled trade, cultural exchange, and the spread of Roman law across three continents.",
+          "consequence": "Understanding the transition from Republic to Empire in Rome."
+        },
+        {
+          "id": "act1_opt3",
+          "text": "(Narration) Alexander the Great conquered a vast empire stretching from Greece to India in the 4th century BCE. His conquests spread Greek culture, art, and ideas across the known world, creating the Hellenistic civilization that blended Greek traditions with Persian, Egyptian, and Indian influences.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 87,
+          "triggeredEvent": "Introduction to the Hellenistic period",
+          "historicalNote": "Alexander the Great (356-323 BCE) of Macedon conquered the Persian Empire and reached as far as the Indus River. His empire fragmented after his death, but the resulting Hellenistic kingdoms spread Greek culture across the eastern Mediterranean and Asia for three centuries.",
+          "consequence": "Understanding the spread of Greek culture through Alexander's conquests."
+        }
+      ]
+    }
+  ]
+}

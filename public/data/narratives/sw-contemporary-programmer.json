@@ -1,0 +1,654 @@
+{
+  "eraId": "sw-contemporary",
+  "eraName": "当代世界",
+  "playerRole": "互联网程序员",
+  "acts": [
+    {
+      "id": "act-1",
+      "title": "初入硅谷",
+      "isKeyAct": true,
+      "sceneDescription": "2007年1月，旧金山湾区的一间合租公寓里堆满了比萨盒子和代码打印纸。你刚从清华大学计算机系硕士毕业，拿到了斯坦福大学的博士录取通知，但更让你心潮澎湃的是乔布斯刚刚发布的iPhone——一台能改变世界的设备就在你的掌心。你的室友Kevin正在车库调试一个基于Ruby on Rails的社交网站原型，窗外硅谷的夜空闪烁着科技巨头们的灯火。你打开了MacBook Pro，终端里是Ubuntu虚拟机的命令行提示符，等待你输入第一行改变命运的代码。",
+      "npcDialogues": [
+        {
+          "speaker": "室友Kevin",
+          "text": "iPhone SDK还没出呢，但我们已经可以开始做Web App了。你跟我一起干吧？",
+          "avatar": "K"
+        },
+        {
+          "speaker": "清华校友张学长",
+          "text": "别想创业了，Google刚给你发了SDE3的offer，年薪18万美元，多少人排队都拿不到。",
+          "avatar": "张"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-1-1",
+          "text": "花两周时间深入研究iPhone的WebKit内核和Mobile Safari的限制，搞清楚移动端Web开发的技术边界",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "你发现iPhone对AJAX和触摸事件的支持比预想的好得多，写了一份移动端开发技术评估报告分享到了Digg上",
+          "historicalNote": "2007年1月iPhone发布，最初没有原生SDK，开发者只能通过Safari做Web App。2008年3月苹果才发布iPhone SDK。这段\"Web App荒野时期\"催生了大量创新的移动Web技术方案。",
+          "consequence": "你的技术评估报告被硅谷多家创业公司引用，为你在移动开发领域建立了早期的技术影响力"
+        },
+        {
+          "id": "d-1-2",
+          "text": "当天就接受Kevin的邀请辞掉Google的offer，在车库开始全职开发移动社交产品",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "你们三个月做出了第一版产品，但因为缺乏资金无法购买服务器，产品在上线当天就崩溃了",
+          "historicalNote": "2007年是硅谷Web 2.0创业的黄金时代，Facebook刚开放平台，Twitter刚上线。但AWS云计算服务仍在早期，服务器成本对创业团队来说是巨大负担。",
+          "consequence": "你虽然赶上了移动Web的第一波浪潮，但资金短缺让产品无法支撑用户增长"
+        },
+        {
+          "id": "d-1-3",
+          "text": "先去Google报到工作一年积累工程经验和人脉，同时利用20%时间做移动端个人项目",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "你在Google的Android团队参与了早期系统开发，同时用业余时间做了一个iPhone RSS阅读器在App Store上架",
+          "historicalNote": "Google的20%时间政策鼓励员工用工作时间的五分之一做个人项目。Gmail、Google News等产品都由此诞生。2008年Android 1.0发布，Google开始了与苹果在移动领域的长期竞争。",
+          "consequence": "Google的工程训练让你的代码质量大幅提升，Android团队的内部资源为你的个人项目提供了独特优势"
+        },
+        {
+          "id": "d-1-4",
+          "text": "先在斯坦福读完博士再说，移动技术发展太快了，理论基础比赶风口更重要",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "你选择回到校园，但两年后移动互联网的爆发让你发现课堂上学的东西远远落后于业界实践",
+          "historicalNote": "2007至2009年间移动互联网发展速度惊人。从App Store上线到Facebook移动版的爆发，学术界的教学内容远远跟不上工业界的步伐。很多博士生在读期间就选择了休学创业。",
+          "consequence": "你获得了扎实的学术基础，但错失了移动互联网最早期的发展红利"
+        },
+        {
+          "id": "d-1-5",
+          "text": "带着你的移动Web技术方案去参加TechCrunch Disrupt创业大赛，向评委展示你的原型产品",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "你获得了一个展位，几位天使投资人在看完你的Demo后递来了名片",
+          "historicalNote": "2007年TechCrunch Disrupt大会是硅谷最知名的创业活动之一。当年的参展公司中诞生了多家独角兽企业。天使投资人如Ron Conway和Y Combinator在此发掘了大量早期项目。",
+          "consequence": "你在创业圈的曝光度大幅提升，获得了一笔小型天使投资"
+        },
+        {
+          "id": "d-1-6",
+          "text": "拒绝了Google的高薪offer和Kevin的创业邀请，坚持按照自己的节奏做一个独立开发者",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "你在App Store上独立发布的三款应用获得了不错评价，但收入仅够支付房租",
+          "historicalNote": "2008年App Store上线后，独立开发者成为一股新势力。像Instagram创始人Kevin Systrom和WhatsApp创始人Jan Koum都是从独立开发者起步的。但绝大多数独立开发者的收入难以维持生计。",
+          "consequence": "你保持了完全的创作自由，但经济压力成为持续创新的沉重负担"
+        }
+      ],
+      "nextActId": "act-2"
+    },
+    {
+      "id": "act-2",
+      "title": "开源运动",
+      "isKeyAct": false,
+      "sceneDescription": "2009年春天，Mountain View的一间公寓里彻夜灯火通明。你和三个来自不同国家的程序员围坐在一起，面前是四台笔记本电脑和一壶冷掉的咖啡。你们正在构建一个开源的前端JavaScript框架，旨在解决当时Web开发中DOM操作效率低下的痛点。GitHub刚刚上线一年，你们决定把项目托管在那里。 Kevin在频道里催你提交代码，一个来自巴西的贡献者已经提交了三个Pull Request。jQuery的成功让你们相信，一个好用的开源库可以改变整个行业。",
+      "npcDialogues": [
+        {
+          "speaker": "巴西贡献者Rafael",
+          "text": "I added support for event delegation in the core module. Check the pull request when you have time.",
+          "avatar": "R"
+        },
+        {
+          "speaker": "项目联合创始人小林",
+          "text": "我们的框架在Hacker News上被讨论了，但有人批评说跟jQuery太像了。我们需要一个独特的卖点。",
+          "avatar": "林"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-2-1",
+          "text": "仔细Review Rafael的Pull Request中的每一行代码，确保与项目的架构设计原则完全一致再Merge",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "你在Code Review中发现了一个潜在的内存泄漏bug，修复后项目性能提升了15%",
+          "historicalNote": "2009年前后开源项目的Code Review文化正在形成。GitHub的Pull Request功能极大地改变了开源协作模式。高质量的代码审查是Angular、React等成功开源项目的共同特征。",
+          "consequence": "严格的代码质量控制让项目在开发者社区中建立了技术严谨的口碑"
+        },
+        {
+          "id": "d-2-2",
+          "text": "接受所有贡献者的代码快速合并以扩大功能覆盖面，速度比质量更重要",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "项目功能快速膨胀，但大量质量参差不齐的代码导致严重的技术债务，半年后框架变得几乎无法维护",
+          "historicalNote": "许多早期开源项目因为缺乏质量控制而陷入技术债务困境。Node.js的早期版本就曾因架构问题引发社区分裂。质量控制与社区增长的平衡是开源项目管理的核心挑战。",
+          "consequence": "快速扩张虽然增加了Star数，但框架的可靠性在关键用户中受到质疑"
+        },
+        {
+          "id": "d-2-3",
+          "text": "和小林一起规划框架的差异化定位，用数据绑定和组件化的理念区别于jQuery的命令式操作",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "你们确定了MVVM架构方向，这个前瞻性的决定比React早了三年",
+          "historicalNote": "2009年Knockout.js率先引入了MVVM模式到前端开发。2010年Angular和Backbone.js的出现标志着前端框架从DOM操作库向应用框架的转型。数据绑定和组件化成为此后十年的主流。",
+          "consequence": "你们的差异化定位在Hacker News上获得了正面评价，项目Star数在一周内翻倍"
+        },
+        {
+          "id": "d-2-4",
+          "text": "只在周末维护开源项目，工作日继续在Google全职上班，不冒辞职的风险",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "项目因为维护不及时，贡献者逐渐流失到另一个更新更快的竞争框架上",
+          "historicalNote": "开源项目的维护者倦怠是一个普遍问题。据统计GitHub上超过90%的开源项目在一年后停止活跃维护。Node.js的创建者Ryan Dahl在2012年就曾因维护压力而退出。",
+          "consequence": "你的保守策略让生活稳定，但亲手创建的项目因缺乏维护而走向衰落"
+        },
+        {
+          "id": "d-2-5",
+          "text": "把框架拆分为核心模块和插件系统，让Rafael等外部贡献者可以通过插件机制扩展功能",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "插件系统上线后三个月内涌现了50多个社区插件，框架的生态系统开始形成",
+          "historicalNote": "插件化架构是开源项目成功的关键因素之一。jQuery的插件生态系统拥有数千个插件，WordPress的插件系统更是支撑了整个生态。模块化和可扩展性是框架长期发展的基础。",
+          "consequence": "插件系统激发了社区的创造力，框架从单一产品发展为平台型生态"
+        },
+        {
+          "id": "d-2-6",
+          "text": "坚持在MIT许可证下发布框架，即使小林建议换用更严格的GPL许可证",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "MIT许可证让企业用户可以无顾虑地采用你们的框架，Angular和Meteor后来都选择了同样的策略",
+          "historicalNote": "开源许可证的选择深刻影响项目的采用率。MIT和Apache许可证对企业友好，GPL许可证强制衍生作品开源。React最初采用的BSD+Patents许可证因社区反对而改回MIT。",
+          "consequence": "MIT许可证的商业友好性让多家企业选择了你们的框架作为生产环境技术栈"
+        }
+      ],
+      "nextActId": "act-3"
+    },
+    {
+      "id": "act-3",
+      "title": "框架崛起",
+      "isKeyAct": false,
+      "sceneDescription": "2012年，你站在旧金山Moscone Center的HTML5开发者大会讲台上。台下坐满了来自全世界的Web开发者，投影屏幕上显示着你们框架在GitHub上的Star数——从一年前的500暴增到了12000。小林在后台紧张地准备着Live Demo，Twitter的实时消息墙上有人在讨论你们和Angular的优劣。你的手机震动了一下——Facebook的一位工程经理发来邮件，说他们正在考虑在Instagram项目中采用你们的框架。与此同时，Google的Angular团队也发布了公告。",
+      "npcDialogues": [
+        {
+          "speaker": "小林",
+          "text": "Instagram的工程师说他们在图片滤镜的实时预览功能中用我们的框架比用原生Canvas API快三倍。",
+          "avatar": "林"
+        },
+        {
+          "speaker": "Google Angular团队负责人",
+          "text": "我们注意到你们的数据绑定实现很有意思。有兴趣来Google聊聊技术合作吗？",
+          "avatar": "G"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-3-1",
+          "text": "深入分析Instagram团队的性能测试报告，找出框架在图片处理场景中的性能瓶颈并针对性优化",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "你的虚拟DOM补丁算法让Instagram的滤镜预览性能又提升了40%，Facebook随后决定在全公司推广你们框架",
+          "historicalNote": "2012年前后前端框架的性能优化竞争白热化。虚拟DOM概念由React在2013年正式提出，但类似的技术探索在此之前已经在多个框架中出现。Facebook的采用对任何前端框架都是巨大的背书。",
+          "consequence": "Instagram的采用案例成为你们最好的广告，框架的GitHub Star数在一个月内又翻了一番"
+        },
+        {
+          "id": "d-3-2",
+          "text": "立刻接受Facebook的offer成为他们的前端架构师，全职优化框架以适配Facebook的技术需求",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "你全职加入Facebook后框架的发展方向越来越偏向Facebook的内部需求，社区开始抱怨被忽视",
+          "historicalNote": "当开源框架的核心维护者被大公司雇佣后，框架发展方向经常被公司需求绑架。这种情况在React（Facebook）、Angular（Google）和Vue（Evan You独立）中都有不同程度的体现。",
+          "consequence": "你获得了Facebook的资源支持，但社区信任度因为框架方向的偏差而下降"
+        },
+        {
+          "id": "d-3-3",
+          "text": "和小林一起制定一个公开的框架路线图，平衡Facebook的需求和开源社区的意见",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "公开路线图在GitHub上获得了大量好评，社区贡献者感觉自己的声音被听到了",
+          "historicalNote": "开源项目的透明化治理在2012年前后逐渐成为最佳实践。React和Angular后来都采用了RFC（Request for Comments）机制让社区参与决策。透明的路线图管理增强了社区信任。",
+          "consequence": "透明的决策机制让社区凝聚力大幅增强，框架进入快速发展期"
+        },
+        {
+          "id": "d-3-4",
+          "text": "暂停所有新功能开发，只做Bug修复和性能优化，确保框架的稳定性达到企业级标准",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "框架确实变得更稳定了，但社区热度迅速下降——Angular 2.0和即将发布的React吸引了大量关注",
+          "historicalNote": "2013年React发布后前端框架竞争格局剧变。Angular 1.x因技术债务问题决定重写为Angular 2，导致社区分裂。保守策略在快速变化的技术领域往往意味着被淘汰。",
+          "consequence": "框架的稳定性赢得了企业用户的好评，但在技术舆论场上已经落后于React和Angular"
+        },
+        {
+          "id": "d-3-5",
+          "text": "在讲台上现场演示框架的实时协作编辑功能——三个人同时编辑同一个文档，同步零延迟",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "Live Demo震撼全场，这段演示视频在YouTube上获得了50万次播放，框架一夜之间成为行业热点",
+          "historicalNote": "2012年的开发者大会现场演示是框架推广的经典手段。Google I/O上Angular的演示和React Conf上Jen Simmons的演示都曾产生巨大影响。好的Demo胜过千行文档。",
+          "consequence": "现场演示让框架获得了超出预期的关注度，大量开发者从Angular转向了你们的框架"
+        },
+        {
+          "id": "d-3-6",
+          "text": "坚持框架必须保持轻量级设计，即使Facebook要求加入大量企业级功能模块",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "你的拒绝让Facebook最终选择了同时采用React和你们的框架，而不是统一技术栈",
+          "historicalNote": "前端框架的轻量级与功能丰富之争一直存在。Vue.js因轻量级设计赢得了大量中小项目，React因灵活性成为大厂首选。框架的定位选择直接影响其用户群体。",
+          "consequence": "你的坚持保持了框架的独特定位，但也因此失去了一些大客户"
+        }
+      ],
+      "nextActId": "act-4"
+    },
+    {
+      "id": "act-4",
+      "title": "技术变革",
+      "isKeyAct": true,
+      "sceneDescription": "2015年，React Native的发布震惊了整个前端社区。用JavaScript写原生移动应用——这个概念让无数开发者兴奋不已。你的框架虽然仍然在Web领域保持着领先地位，但React的势能正在从Web蔓延到移动端。你的邮箱里每天都有创业公司发来的面试邀请，Google的Fuchsia团队也通过LinkedIn联系了你。与此同时，Node.js社区爆发了一场关于io.js分叉的大论战，整个JavaScript生态面临分裂的风险。你坐在Facebook Menlo Park总部的工位上，看着电脑屏幕上React Native的Hello World在iPhone模拟器里流畅运行。",
+      "npcDialogues": [
+        {
+          "speaker": "React团队创始人Jordan Walke",
+          "text": "React Native的核心思想是Learn once, write anywhere。你们有兴趣合作吗？",
+          "avatar": "J"
+        },
+        {
+          "speaker": "框架社区核心贡献者田中",
+          "text": "日本社区在问我们什么时候支持React Native。如果我们不行动，他们会用脚投票。",
+          "avatar": "田"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-4-1",
+          "text": "深入研究React Native的架构设计，分析它的Bridge机制与你们框架的虚拟DOM实现能否找到技术融合点",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "你写了一篇深度技术对比文章发表在Medium上，被Jordan Walke亲自点赞并转发",
+          "historicalNote": "2015年3月Facebook发布React Native。其Bridge机制允许JavaScript线程与原生线程通信，是跨平台移动开发的重要创新。同年Google发布了Flutter的前身Sky。跨平台技术竞争就此拉开序幕。",
+          "consequence": "你的技术分析在社区中建立了权威地位，两个团队之间的技术对话因此启动"
+        },
+        {
+          "id": "d-4-2",
+          "text": "直接把你们框架的核心引擎移植到React Native上，做一个你们框架的React Native渲染层",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "移植花了三个月但效果不理想——Bridge层的性能开销让你们框架的实时更新优势丧失殆尽",
+          "historicalNote": "将Web框架移植到React Native上的尝试屡见不鲜，但大多数因架构不兼容而失败。React Native的Bridge通信模型与Web DOM模型存在根本差异。",
+          "consequence": "移植尝试虽然失败，但你们对React Native的理解因此深入了许多"
+        },
+        {
+          "id": "d-4-3",
+          "text": "与Jordan Walke和React团队坐下来讨论，探索两个框架在编译器层面的技术合作可能性",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "双方同意在Babel编译器插件层面进行合作，共享一些AST转换工具",
+          "historicalNote": "2015年前后JavaScript工具链的标准化正在形成。Babel作为JavaScript编译器成为了生态核心。ECMAScript 2015标准的发布推动了整个工具链的升级。跨框架的技术合作在此时期并不常见。",
+          "consequence": "与React团队的技术合作提升了你们框架的工程基础设施，也增进了两个社区之间的了解"
+        },
+        {
+          "id": "d-4-4",
+          "text": "专注于Web领域不做React Native适配，让社区自己开发第三方适配方案",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "社区的第三方React Native适配方案质量参差不齐，用户因此对框架的跨平台能力产生怀疑",
+          "historicalNote": "2015年跨平台移动开发需求爆发，不支持移动端的Web框架逐渐被边缘化。Backbone.js、Ember.js等曾经流行的框架都因未能适应移动转型而衰落。",
+          "consequence": "专注Web的策略让框架的Web性能保持领先，但在移动浪潮中被逐渐边缘化"
+        },
+        {
+          "id": "d-4-5",
+          "text": "发布一个独立的跨平台渲染引擎，同时支持浏览器DOM、React Native和未来的WebAssembly渲染后端",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "这个渲染引擎在WebAssembly社区引发了巨大关注，Mozilla的工程师主动联系你们探讨合作",
+          "historicalNote": "WebAssembly在2015年由W3C正式立项，2017年所有主流浏览器都实现了初步支持。将前端框架与WebAssembly结合是一个极具前瞻性的技术方向。Mozilla的Rust+WebAssembly技术栈在此期间快速发展。",
+          "consequence": "跨平台渲染引擎让你们的技术视野超越了React和Angular，建立了独特的差异化优势"
+        },
+        {
+          "id": "d-4-6",
+          "text": "坚持你们框架的纯JavaScript定位，不盲目追逐React Native和WebAssembly等新技术的热度",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "你们的核心用户群体稳定在传统Web开发领域，但新项目的采用率持续下滑",
+          "historicalNote": "2015年JavaScript生态的碎片化趋势日益明显。选择坚守单一技术栈还是拥抱多元化是每个框架维护者都面临的抉择。Vue.js通过渐进式设计的理念在这两者之间找到了平衡。",
+          "consequence": "你保持了框架的纯粹性和稳定性，但也因此错过了跨平台技术浪潮的增长红利"
+        }
+      ],
+      "nextActId": "act-5"
+    },
+    {
+      "id": "act-5",
+      "title": "开源治理",
+      "isKeyAct": false,
+      "sceneDescription": "2016年，一个意料之外的事件震动了整个JavaScript社区——npm上的一个名为left-pad的11行代码包被作者删除，导致数千个项目构建失败。你的框架也受到了影响，虽然不严重但敲响了警钟。与此同时，GitHub被微软收购的消息在Hacker News上引发了热烈讨论。更让你头疼的是，框架的Issue列表已经积压了800多个未关闭的Bug，而活跃的核心贡献者只有不到10人。小林已经离开去了Stripe，田中在考虑退出。你在咖啡厅约了两位新的核心维护者见面。",
+      "npcDialogues": [
+        {
+          "speaker": "新维护者Sophie",
+          "text": "我在Stripe用你们的框架重构了支付页面的前端，发现了12个核心Bug。你们真的需要建立CI/CD流程了。",
+          "avatar": "S"
+        },
+        {
+          "speaker": "npm创始人Isaac",
+          "text": "left-pad事件后我们修改了npm的 unpublish 政策。你们框架的依赖管理策略需要更新了。",
+          "avatar": "I"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-5-1",
+          "text": "系统梳理框架的全部依赖树，建立自动化依赖安全扫描，防止left-pad类事件重演",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "你引入了Dependabot和Snyk安全扫描，清理了14个有安全漏洞的依赖包",
+          "historicalNote": "2016年left-pad事件是npm生态的重大转折点，促使npm修改了unpublish政策。此后依赖安全成为前端工程化的核心议题。2018年GitHub收购Dependabot进一步推动了依赖安全自动化。",
+          "consequence": "系统的依赖管理让框架的安全性大幅提升，企业用户的信心也因此增强"
+        },
+        {
+          "id": "d-5-2",
+          "text": "立即在npm上fork left-pad并发布到你们自己的scope下，确保团队项目的构建不会中断",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "紧急修复虽然解决了眼前问题，但没有从根本上改善框架的依赖管理策略",
+          "historicalNote": "left-pad事件后大量公司采取了类似的应急措施，包括在内部npm registry中缓存所有依赖。但这些临时方案增加了维护成本。",
+          "consequence": "应急修复保住了短期稳定，但你的拖延让团队错过了建立长期依赖策略的窗口"
+        },
+        {
+          "id": "d-5-3",
+          "text": "和Sophie一起建立Travis CI持续集成流程，自动化跑测试、Lint和性能基准，确保每次提交的质量",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "CI流程上线后，Pull Request的合并质量显著提升，Issue积压从800降到300",
+          "historicalNote": "2016年前后CI/CD在前端开源项目中快速普及。Travis CI、CircleCI和后来的GitHub Actions成为标配。自动化测试和代码质量检查成为现代前端项目的必要基础设施。",
+          "consequence": "工程化基础设施的建立让开源项目的维护效率大幅提升"
+        },
+        {
+          "id": "d-5-4",
+          "text": "暂时冻结新Issue的提交，集中精力先解决积压的800个Bug",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "Bug数量减少了但社区感到被忽视，一些核心贡献者因此退出",
+          "historicalNote": "开源项目冻结Issue的做法在社区中历来争议很大。Angular在1.x到2.x的迁移中冻结了大量Issue，导致社区分裂为AngularJS和Angular两个阵营。",
+          "consequence": "Bug积压虽然缓解了，但社区的参与热情受到了严重打击"
+        },
+        {
+          "id": "d-5-5",
+          "text": "建立框架的治理委员会，设立核心技术组、文档组、社区组和安全组，引入规范化的开源治理结构",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "治理委员会的成立让框架从个人项目升级为社区共治项目，Linux基金会对此表示了关注",
+          "historicalNote": "2016年前后开源项目的公司化治理趋势明显。Angular移入Google内部的Angular团队，Vue设立了独立的核心团队，React建立了Facebook开源顾问委员会。规范化的治理结构是项目长期健康的基础。",
+          "consequence": "治理结构的升级让框架获得了企业级信任，多家财富500强公司将其纳入了技术栈"
+        },
+        {
+          "id": "d-5-6",
+          "text": "坚持框架必须保持完全独立的治理结构，即使微软收购GitHub让一些开源项目倾向于投靠大公司",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "独立治理虽然让框架保持了中立性，但也意味着失去了大公司的资源支持和推广渠道",
+          "historicalNote": "2018年微软以75亿美元收购GitHub后，开源项目的治理模式面临新的选择。投靠大公司获得资源还是保持独立维持公信力，这是每个大型开源项目都要面对的难题。",
+          "consequence": "你维护了框架的独立性和公信力，但资源短缺成为长期发展的瓶颈"
+        }
+      ],
+      "nextActId": "act-6"
+    },
+    {
+      "id": "act-6",
+      "title": "社区分裂",
+      "isKeyAct": false,
+      "sceneDescription": "2017年，一场围绕框架API设计的争论在社区中爆发。Sophie提出要重写框架的核心API，引入函数式编程范式，但田中和一部分日本社区开发者强烈反对，认为这会破坏向后兼容性。GitHub的Issue区变成了战场，最热的一条讨论有800多条评论。Twitter上甚至出现了退框架的运动标签。你作为项目的创始人被迫表态，但你内心也很矛盾——Sophie的技术方案确实更先进，但田中的担忧也不无道理。当年Angular 1到Angular 2的大分裂就是一个惨痛教训。",
+      "npcDialogues": [
+        {
+          "speaker": "Sophie",
+          "text": "函数式Hooks模式比class组件简洁三倍，TypeScript的类型推断也更准确。不改就是等死。",
+          "avatar": "S"
+        },
+        {
+          "speaker": "田中",
+          "text": "日本社区有三万开发者在用class组件写生产代码。Breaking change会让我们失去他们的信任。",
+          "avatar": "田"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-6-1",
+          "text": "深入对比Sophie和田中两方提案的技术利弊，用真实的生产环境数据来做决策依据",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "你分析了GitHub上500个真实项目的迁移成本，发现90%的class组件可以用自动化工具迁移到Hooks",
+          "historicalNote": "2017至2019年React Hooks的引入引发了类似的争论。React团队最终选择了渐进式迁移策略，同时保留两种模式。自动化迁移工具（如react-codemod）大大降低了迁移成本。",
+          "consequence": "数据驱动的决策让双方都感到被尊重，也为框架的版本迁移提供了科学依据"
+        },
+        {
+          "id": "d-6-2",
+          "text": "直接拍板采用Sophie的函数式方案，发布3.0大版本含Breaking Change",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "3.0发布后田中宣布退出核心团队，日本社区 fork 了框架的2.x版本独立维护",
+          "historicalNote": "Angular 1到Angular 2的迁移是最著名的前端框架Breaking Change事件，导致了社区的大规模分裂。Ember.js则因坚持向后兼容而逐渐失去市场份额。Breaking Change的决策是框架维护者最艰难的抉择之一。",
+          "consequence": "技术进步的代价是社区的分裂，框架失去了日本社区这个重要支持力量"
+        },
+        {
+          "id": "d-6-3",
+          "text": "召开一次框架核心团队与社区代表的线上会议，让双方在一个正式场合充分阐述各自立场",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "会议持续了四个小时，最终达成了渐进式迁移的共识——新旧API共存两个大版本周期",
+          "historicalNote": "前端框架的版本迁移策略在2017年后日趋成熟。React的Concurrent Mode、Vue 3的Composition API都采用了渐进式迁移策略。RFC流程和迁移指南成为标准实践。",
+          "consequence": "妥协方案虽然不够完美，但成功避免了社区的大规模分裂"
+        },
+        {
+          "id": "d-6-4",
+          "text": "不在争论中表态，保持沉默让社区自己通过技术辩论达成共识",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "你的沉默被解读为软弱，社区争论持续了三个月仍未有结果，框架发展完全停滞",
+          "historicalNote": "开源项目创始人在社区分裂时的态度至关重要。Linus Torvalds在Linux内核争论中的果断表态维护了项目的方向。缺乏领导的社区容易陷入无休止的争论。",
+          "consequence": "你的回避态度让社区感到缺乏方向感，项目的发展在这三个月中几乎完全停滞"
+        },
+        {
+          "id": "d-6-5",
+          "text": "写一篇详细的RFC文档，完整描述函数式API的设计动机、迁移方案和兼容性保证，让技术讨论基于文档而非情绪",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "RFC文档在社区中获得了广泛认可，GitHub Issue区的争吵大幅减少，讨论回到了技术层面",
+          "historicalNote": "RFC（Request for Comments）制度在2017年后成为大型开源项目的标准决策机制。Rust语言的RFC流程被多个开源社区借鉴。基于文档的技术讨论比社交媒体上的情绪宣泄有效得多。",
+          "consequence": "RFC制度让框架的技术决策更加透明和理性，社区文化也因此改善"
+        },
+        {
+          "id": "d-6-6",
+          "text": "坚守向后兼容的承诺，即使这意味着要牺牲一些技术先进性，也不能重蹈Angular的大分裂覆辙",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "你的承诺稳定了社区，但Sophie对此非常失望，她离开了核心团队加入了React团队",
+          "historicalNote": "向后兼容与技术进步的矛盾是每个框架维护者面临的永恒困境。jQuery、Bootstrap等框架因坚持兼容性而获得了超长生命周期，但也因此被批评为技术保守。",
+          "consequence": "你维护了社区的稳定，但失去了Sophie这样的顶尖工程师"
+        }
+      ],
+      "nextActId": "act-7"
+    },
+    {
+      "id": "act-7",
+      "title": "AI浪潮",
+      "isKeyAct": false,
+      "sceneDescription": "2023年初，ChatGPT的爆发让整个科技行业为之震动。你的框架虽然在Web开发领域仍然有稳定的用户群，但GitHub Copilot和AI代码助手正在重新定义程序员的日常工作。你的朋友圈被AI相关的内容刷屏，有人担心程序员要失业了，有人说AI是解放创造力的工具。你在Google I/O上看到了Google展示的AI辅助编程工具，在微软Build上看到了GitHub Copilot X的演示。框架的GitHub Star增长曲线已经趋平，而一个名为\"用GPT写前端\"的GitHub仓库一周内就获得了5000个Star。",
+      "npcDialogues": [
+        {
+          "speaker": "Copilot产品负责人",
+          "text": "我们的数据显示，Copilot用户的前端代码产出效率提升了55%。你们框架有考虑过AI原生的开发体验吗？",
+          "avatar": "C"
+        },
+        {
+          "speaker": "框架社区版主小李",
+          "text": "有人在群里问：如果AI能自动生成前端代码，我们还需要学框架吗？",
+          "avatar": "李"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-7-1",
+          "text": "研究Copilot在你们框架代码库上的表现数据，找出AI助手最容易出错和最有价值的场景",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "你发现Copilot在模板代码生成上表现出色，但在复杂的响应式数据流设计上经常出错，这为框架的AI优化指明了方向",
+          "historicalNote": "2023年GitHub Copilot的用户已超过100万。研究表明AI代码助手在模板化代码生成上表现优秀，但在架构设计和复杂逻辑实现上仍需人工把关。",
+          "consequence": "你为框架制定了AI时代的差异化价值策略——专注于AI难以处理的复杂交互和状态管理"
+        },
+        {
+          "id": "d-7-2",
+          "text": "立刻在框架中集成OpenAI API，做一个AI辅助的组件生成器作为框架的核心功能",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "AI组件生成器在初期引发了很多兴趣，但生成的代码质量不稳定，企业用户担心安全风险",
+          "historicalNote": "2023年Vercel推出的v0.dev和大量AI代码生成工具证明了市场对AI辅助开发的需求，但AI生成代码的安全性、可维护性和知识产权问题仍是重大争议。",
+          "consequence": "AI集成的尝试虽然吸引了眼球，但质量和安全问题让企业客户持观望态度"
+        },
+        {
+          "id": "d-7-3",
+          "text": "联系Copilot团队建立技术合作，让AI助手更好地理解你们框架的API和设计模式",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "Copilot团队在你们的框架代码上做了专门的模型微调，AI生成你们框架代码的准确率提升了30%",
+          "historicalNote": "2023年GitHub Copilot开始对特定框架进行专项优化。框架与AI工具的深度适配成为新一轮竞争的关键。React、Vue等主流框架都在积极与AI工具链整合。",
+          "consequence": "与AI工具的深度适配让你们框架在AI时代的开发者体验保持了竞争力"
+        },
+        {
+          "id": "d-7-4",
+          "text": "暂时不碰AI，专注于把框架本身做好，AI只是工具，好的框架不会被AI取代",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "框架的核心功能确实在不断改进，但新项目的采用率持续下降——年轻开发者更倾向于选择与AI工具整合更好的框架",
+          "historicalNote": "2023年新开发者更倾向于选择有AI生态支持的技术栈。v0.dev的React支持、Bolt.new的全栈AI开发等工具让React等主流框架的门槛大幅降低。",
+          "consequence": "你的保守策略让框架的核心质量保持高水准，但在AI时代失去了新一代开发者的关注"
+        },
+        {
+          "id": "d-7-5",
+          "text": "开发一个基于大语言模型的智能调试工具，能自动分析框架的错误堆栈并给出修复建议",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "智能调试工具在框架社区中引发巨大反响，平均调试时间从两小时缩短到了二十分钟",
+          "historicalNote": "2023年AI驱动的开发工具正在重塑软件工程。从错误诊断到性能优化，AI辅助调试成为提高开发者生产力的关键。Sentry、Datadog等工具都在集成AI能力。",
+          "consequence": "AI调试工具为框架建立了独特的技术壁垒，这是AI生成代码无法替代的开发体验优势"
+        },
+        {
+          "id": "d-7-6",
+          "text": "坚持框架的核心理念不变——让开发者掌控代码，AI只是助手不能替代程序员的判断",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "你在一篇博客文章中阐述了AI时代程序员不可替代的价值，获得了大量开发者的共鸣",
+          "historicalNote": "2023年关于AI是否会取代程序员的讨论持续升温。多数专家认为AI将改变而非消灭编程工作，人类在架构设计、创造性解决问题和伦理判断方面的能力仍然不可替代。",
+          "consequence": "你的立场赢得了开发者的尊重，为框架社区注入了信心"
+        }
+      ],
+      "nextActId": "act-8"
+    },
+    {
+      "id": "act-8",
+      "title": "技术传承",
+      "isKeyAct": true,
+      "sceneDescription": "2024年，你的框架已经在GitHub上积累了超过8万个Star，被全球数十万开发者使用。你站在JSConf Asia新加坡的讲台上，看着台下那些和十年前的你一样充满热情的年轻面孔。Sophie已经成了React团队的技术负责人，田中在日本运营着框架的社区版主网络，小林在Stripe当上了工程副总裁。Rafael在巴西用你们框架做了一个帮助残疾人使用互联网的项目，获得了联合国教科文组织的表彰。你的手机屏幕上显示着一条消息——Kevin在卖掉了他的创业公司后发来的：\"还记得那个车库吗？",
+      "npcDialogues": [
+        {
+          "speaker": "Kevin",
+          "text": "兄弟，你的框架从那个车库到现在影响了几十万程序员。当年那个iPhone Web App的梦想真的实现了。",
+          "avatar": "K"
+        },
+        {
+          "speaker": "框架新任核心维护者小陈",
+          "text": "前辈，我们在WebAssembly渲染后端取得了突破。第一次性能对比测试显示比原生DOM快4倍。",
+          "avatar": "陈"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "d-8-1",
+          "text": "在JSConf上做一个从2007到2024的框架技术演进主题演讲，把 seventeen 年的经验系统地传授给下一代",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 90,
+          "triggeredEvent": "你的演讲《从车库到全球：一个开源框架的十七年》在YouTube上获得了200万播放，成为前端开发者的必看内容",
+          "historicalNote": "2024年JavaScript生态已经从jQuery时代演进到AI辅助开发时代。前端框架从DOM操作库发展为全栈应用框架。从Web到移动端到桌面端，前端技术栈的扩张速度前所未有。",
+          "consequence": "你的经验传承帮助了无数前端开发者理解技术演进的脉络"
+        },
+        {
+          "id": "d-8-2",
+          "text": "全力投入框架的WebAssembly渲染后端开发，赌一把这是下一个十年的技术方向",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 60,
+          "triggeredEvent": "WebAssembly后端开发远比预期复杂，性能优化遇到了浏览器兼容性的巨大挑战",
+          "historicalNote": "2024年WebAssembly虽然在性能关键场景表现出色，但在DOM操作层面仍受限于浏览器API的限制。WebAssembly与JavaScript的互操作性是前端技术的持续挑战。",
+          "consequence": "WebAssembly方向虽然前景光明，但短期内的技术障碍让投入产出不成比例"
+        },
+        {
+          "id": "d-8-3",
+          "text": "联系Sophie和田中以及全球各地的社区版主，组建一个框架的全球顾问委员会指导未来方向",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 75,
+          "triggeredEvent": "来自12个国家的20名技术领袖组成了顾问委员会，为框架制定了2025至2028年的技术路线图",
+          "historicalNote": "2024年大型开源项目的全球化治理已成常态。Vue.js的国际化核心团队、React的Meta顾问委员会和Svelte的SvelteKit团队都是成功案例。全球化的技术视野是框架长期发展的关键。",
+          "consequence": "顾问委员会的成立标志着框架从个人项目真正成长为全球社区共治的基础设施项目"
+        },
+        {
+          "id": "d-8-4",
+          "text": "逐步把框架的日常维护移交给小陈等年轻一代维护者，自己退居幕后做顾问",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 55,
+          "triggeredEvent": "交接顺利完成，但社区中有人怀念你活跃时期的方向感，小陈在处理争议决策时显得经验不足",
+          "historicalNote": "开源项目创始人的传承是一个经典难题。Linus Torvalds至今仍管理Linux内核，而Node.js的Ryan Dahl在退出后创立了Deno。传承的质量直接影响项目的长期命运。",
+          "consequence": "你获得了个人生活的空间，但框架在新领导团队下面临着方向感的挑战"
+        },
+        {
+          "id": "d-8-5",
+          "text": "投资一批基于你们框架生态的初创公司，用你的技术和行业资源帮助它们成长",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 85,
+          "triggeredEvent": "你投资的三家公司中有一家做出了革命性的低代码平台，基于你们框架构建的应用已服务超过100家企业",
+          "historicalNote": "2024年低代码和无代码平台蓬勃发展。基于成熟前端框架构建的低代码方案因其灵活性和可扩展性而受到企业青睐。开源框架生态的商业化探索进入深水区。",
+          "consequence": "你的投资布局让框架生态的商业价值得到了释放，也从资本层面反哺了开源社区"
+        },
+        {
+          "id": "d-8-6",
+          "text": "坚守开源精神，即使收到多家大公司的收购邀约也坚持框架永远保持开源免费",
+          "speaker": "你",
+          "avatar": "你",
+          "score": 70,
+          "triggeredEvent": "你拒绝了三家公司的收购offer，这个决定在Hacker News上获得了数千个赞",
+          "historicalNote": "开源项目的商业化与理念坚守之间的张力始终存在。MySQL被Oracle收购后社区分裂出MariaDB就是一个教训。创始人的开源信念是项目长期独立性的关键保障。",
+          "consequence": "你的坚守让框架保持了独立性和开放性，成为开源精神的一面旗帜"
+        }
+      ]
+    }
+  ]
+}

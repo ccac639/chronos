@@ -1,0 +1,633 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   Chronos — 古画质感 + 现代风格
+   Global Styles & Brand Tokens
+   ============================================ */
+
+/* --- Google Fonts Import --- */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=Ma+Shan+Zheng&display=swap');
+
+/* --- CSS Custom Properties (Brand Tokens) --- */
+:root {
+  /* Core brand — 古画矿物色系 */
+  --azurite: #2e86c1;
+  --azurite-deep: #1a5276;
+  --azurite-light: #5dade2;
+  --azurite-pale: #d6eaf8;
+
+  --malachite: #27ae60;
+  --malachite-light: #52d681;
+  --malachite-pale: #d5f5e3;
+
+  --vermillion: #e74c3c;
+  --vermillion-deep: #a93226;
+  --vermillion-light: #ec7063;
+  --vermillion-pale: #fadbd8;
+
+  --gamboge: #f1c40f;
+  --gamboge-deep: #d4ac0d;
+  --gamboge-light: #f4d03f;
+  --gamboge-pale: #fef9e7;
+
+  --ochre: #a04000;
+  --ochre-light: #ca6f1e;
+  --ochre-pale: #f0d9c0;
+
+  --indigo-ancient: #6c3483;
+
+  /* Ink tones — 现代化深色 */
+  --ink-deepest: #0d0f14;
+  --ink-dark: #161b22;
+  --ink-medium: #30363d;
+  --ink-light: #8b949e;
+  --ink-faint: #c9d1d9;
+
+  /* Xuan paper — 宣纸 */
+  --xuan: #f8f5ef;
+  --xuan-dark: #efe9df;
+  --xuan-light: #fcfbf8;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* Typography */
+  --font-serif: 'Noto Serif SC', 'Source Han Serif SC', SimSun, serif;
+  --font-sans: 'Noto Sans SC', 'Source Han Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  --font-brush: 'Ma Shan Zheng', 'ZCOOL KuaiLe', cursive;
+
+  /* Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Shadows — 柔和现代感 */
+  --shadow-sm: 0 1px 3px rgba(13, 15, 20, 0.06), 0 1px 2px rgba(13, 15, 20, 0.04);
+  --shadow-md: 0 4px 12px rgba(13, 15, 20, 0.08), 0 2px 4px rgba(13, 15, 20, 0.04);
+  --shadow-lg: 0 8px 24px rgba(13, 15, 20, 0.12), 0 4px 8px rgba(13, 15, 20, 0.06);
+  --shadow-xl: 0 16px 48px rgba(13, 15, 20, 0.16), 0 8px 16px rgba(13, 15, 20, 0.08);
+  --shadow-glow-azurite: 0 0 20px rgba(46, 134, 193, 0.15);
+  --shadow-glow-vermillion: 0 0 20px rgba(231, 76, 60, 0.15);
+  --shadow-glow-gamboge: 0 0 20px rgba(241, 196, 15, 0.15);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* --- Base Reset & Defaults --- */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background: var(--xuan);
+    color: var(--ink-dark);
+    font-family: var(--font-sans);
+    line-height: 1.625;
+    overflow-x: hidden;
+  }
+
+  /* Scrollbar — 古画风格 */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--xuan-dark);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--ochre-light);
+    border-radius: var(--radius-full);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--ochre);
+  }
+
+  /* Selection */
+  ::selection {
+    background: rgba(46, 134, 193, 0.2);
+    color: var(--ink-deepest);
+  }
+}
+
+/* --- Component Utilities --- */
+@layer components {
+  /* 石青渐变文字 */
+  .text-azurite-gradient {
+    background: linear-gradient(135deg, var(--azurite-deep), var(--azurite));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* 藤黄流光文字 */
+  .text-gold-shimmer {
+    background: linear-gradient(90deg, var(--gamboge-deep), var(--gamboge-light), var(--gamboge-deep));
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shimmer 3s linear infinite;
+  }
+
+  /* 朱砂下划线 */
+  .accent-underline {
+    position: relative;
+    display: inline;
+  }
+
+  .accent-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--vermillion);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--transition-base);
+  }
+
+  .accent-underline:hover::after {
+    transform: scaleX(1);
+  }
+
+  /* 宣纸卡片 */
+  .card-xuan {
+    background: var(--xuan);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--xuan-dark);
+    transition: all var(--transition-base);
+  }
+
+  .card-xuan:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+  }
+
+  /* 墨色卡片 */
+  .card-ink {
+    background: var(--ink-dark);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    color: var(--ink-faint);
+  }
+
+  /* 时代时间线节点 */
+  .timeline-dot {
+    @apply w-3 h-3 rounded-full border-2;
+    background: var(--vermillion);
+    border-color: var(--xuan);
+    box-shadow: var(--shadow-glow-vermillion);
+  }
+
+  .timeline-line {
+    @apply w-0.5;
+    background: linear-gradient(to bottom, var(--vermillion), var(--gamboge));
+  }
+
+  /* 印章效果 */
+  .seal-stamp {
+    @apply inline-flex items-center justify-center px-3 py-1 text-sm font-semibold;
+    border: 2px solid var(--vermillion);
+    color: var(--vermillion);
+    border-radius: 2px;
+    position: relative;
+    transform: rotate(-3deg);
+    transition: transform var(--transition-spring);
+  }
+
+  .seal-stamp:hover {
+    transform: rotate(0deg) scale(1.05);
+  }
+
+  .seal-stamp::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    border: 1px solid var(--vermillion);
+    border-radius: 1px;
+    opacity: 0.5;
+  }
+
+  /* 沉浸阅读正文 */
+  .prose-chronos {
+    font-family: var(--font-serif);
+    color: var(--ink-medium);
+    line-height: 2;
+    text-indent: 2em;
+  }
+
+  .prose-chronos p {
+    margin-bottom: 1rem;
+  }
+
+  /* 时代导航卡片 */
+  .nav-era-card {
+    @apply relative overflow-hidden rounded-xl p-6;
+    background: var(--xuan);
+    border: 1px solid var(--xuan-dark);
+    transition: all var(--transition-base);
+  }
+
+  .nav-era-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg), var(--shadow-glow-azurite);
+    border-color: var(--azurite);
+  }
+
+  /* 进度条 — 朱砂渐变 */
+  .progress-ink {
+    @apply h-1.5 rounded-full overflow-hidden;
+    background: var(--xuan-dark);
+  }
+
+  .progress-ink-fill {
+    @apply h-full rounded-full;
+    background: linear-gradient(90deg, var(--azurite), var(--vermillion));
+    transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* ── 交互增强类 ── */
+
+  /* 按压回弹效果 */
+  .tap-bounce {
+    transition: transform var(--transition-spring);
+  }
+
+  .tap-bounce:active {
+    transform: scale(0.96);
+  }
+
+  /* 涟漪效果容器 */
+  .ripple-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ripple-container .ripple-circle {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(46, 134, 193, 0.15);
+    animation: ripple 0.6s ease-out forwards;
+    pointer-events: none;
+  }
+
+  /* 卡片悬浮抬升 */
+  .card-lift {
+    transition: all var(--transition-base);
+  }
+
+  .card-lift:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-xl);
+  }
+
+  /* 淡入上移 */
+  .animate-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .animate-reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* 标签切换动画 */
+  .tab-indicator {
+    transition: all var(--transition-spring);
+  }
+
+  /* 骨架屏 */
+  .skeleton {
+    background: linear-gradient(90deg, var(--xuan-dark) 25%, var(--xuan) 50%, var(--xuan-dark) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s linear infinite;
+    border-radius: var(--radius-md);
+  }
+}
+
+/* --- Animations --- */
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes breathe {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+@keyframes brushReveal {
+  0% { clip-path: inset(0 100% 0 0); opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { clip-path: inset(0 0 0 0); opacity: 1; }
+}
+
+@keyframes mountainFade {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes inkDrop {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+    border-radius: 50%;
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    border-radius: inherit;
+  }
+}
+
+@keyframes waterRipple {
+  0% { transform: scale(0.8); opacity: 0.6; }
+  100% { transform: scale(2); opacity: 0; }
+}
+
+@keyframes sealStamp {
+  0% { transform: rotate(-3deg) scale(1.2); opacity: 0; }
+  60% { transform: rotate(1deg) scale(0.95); opacity: 1; }
+  100% { transform: rotate(-3deg) scale(1); opacity: 1; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes fadeInDown {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInLeft {
+  0% { opacity: 0; transform: translateX(-30px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInUp {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+  0% { opacity: 0; transform: translateX(30px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scaleInBounce {
+  0% { opacity: 0; transform: scale(0.8); }
+  60% { transform: scale(1.05); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes rotateIn {
+  0% { opacity: 0; transform: rotate(-10deg) scale(0.9); }
+  100% { opacity: 1; transform: rotate(0) scale(1); }
+}
+
+/* Utility animation classes */
+.animate-breathe {
+  animation: breathe 2s ease-in-out infinite;
+}
+
+.animate-brush-reveal {
+  animation: brushReveal 1s ease-out forwards;
+}
+
+.animate-mountain-fade {
+  animation: mountainFade 1s ease-out forwards;
+}
+
+.animate-ink-drop {
+  animation: inkDrop 0.6s ease-out forwards;
+}
+
+.animate-seal-stamp {
+  animation: sealStamp 0.5s ease-out forwards;
+}
+
+.animate-fade-in-down {
+  animation: fadeInDown 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-slide-in-up {
+  animation: slideInUp 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-scale-in-bounce {
+  animation: scaleInBounce 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-rotate-in {
+  animation: rotateIn 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+/* 水墨纹理背景 */
+.bg-ink-wash {
+  overflow: hidden;
+}
+
+.bg-ink-wash::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 20% 20%, rgba(46, 134, 193, 0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 30%, rgba(39, 174, 96, 0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 80%, rgba(241, 196, 15, 0.04) 0%, transparent 50%),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 60px,
+      rgba(160, 64, 0, 0.015) 60px,
+      rgba(160, 64, 0, 0.015) 61px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 60px,
+      rgba(160, 64, 0, 0.015) 60px,
+      rgba(160, 64, 0, 0.015) 61px
+    );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* 古画山水背景 */
+.bg-mountain-painting {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-mountain-painting::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    /* 远山 */
+    radial-gradient(ellipse 120% 30% at 30% 90%, rgba(46, 134, 193, 0.08) 0%, transparent 70%),
+    radial-gradient(ellipse 80% 25% at 70% 85%, rgba(39, 174, 96, 0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 100% 20% at 50% 95%, rgba(108, 52, 131, 0.05) 0%, transparent 70%),
+    /* 云雾 */
+    radial-gradient(ellipse 200% 15% at 50% 70%, rgba(248, 245, 239, 0.4) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Staggered animation delays */
+.stagger-1 { animation-delay: 0.08s; }
+.stagger-2 { animation-delay: 0.16s; }
+.stagger-3 { animation-delay: 0.24s; }
+.stagger-4 { animation-delay: 0.32s; }
+.stagger-5 { animation-delay: 0.4s; }
+.stagger-6 { animation-delay: 0.48s; }
+
+/* --- Scrollbar hide utility --- */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* --- Responsive Typography --- */
+@layer utilities {
+  @media (max-width: 640px) {
+    .text-responsive-hero {
+      font-size: 1.875rem;
+      line-height: 1.2;
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .text-responsive-hero {
+      font-size: 2.5rem;
+      line-height: 1.2;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .text-responsive-hero {
+      font-size: 3rem;
+      line-height: 1.15;
+    }
+  }
+}
+
+/* --- Modern interaction hover states --- */
+@layer utilities {
+  /* 3D perspective tilt container */
+  .perspective-tilt {
+    perspective: 800px;
+  }
+
+  .perspective-tilt > * {
+    transition: transform var(--transition-base);
+  }
+
+  /* Glow on hover */
+  .hover-glow-azurite {
+    transition: box-shadow var(--transition-base);
+  }
+
+  .hover-glow-azurite:hover {
+    box-shadow: var(--shadow-glow-azurite);
+  }
+
+  .hover-glow-vermillion {
+    transition: box-shadow var(--transition-base);
+  }
+
+  .hover-glow-vermillion:hover {
+    box-shadow: var(--shadow-glow-vermillion);
+  }
+
+  /* Magnetic hover effect via CSS */
+  .magnetic-hover {
+    transition: transform var(--transition-spring);
+  }
+
+  .magnetic-hover:hover {
+    transform: translateY(-2px) scale(1.02);
+  }
+
+  .magnetic-hover:active {
+    transform: scale(0.97);
+  }
+}
+
+/* ============================================
+   Responsive Design System
+   ============================================ */
+
+/* --- Desktop preview mode --- */
+@media (min-width: 1024px) {
+  html {
+    background: var(--ink-900, #0d0f14);
+  }
+
+  body {
+    max-width: 480px;
+    margin: 0 auto;
+    min-height: 100vh;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+}

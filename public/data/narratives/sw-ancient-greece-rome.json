@@ -1,0 +1,654 @@
+{
+  "eraId": "sw-ancient-greece-rome",
+  "eraName": "古希腊罗马文明",
+  "playerRole": "历史观察者",
+  "acts": [
+    {
+      "id": "act1",
+      "title": "城邦兴起",
+      "isKeyAct": true,
+      "sceneDescription": "公元前8世纪，希腊半岛山岭纵横，海岸线曲折。在雅典的卫城之上，你俯瞰着这座正在崛起的城邦。远处，梭伦正在广场上宣读他新颁布的法律，公民们聚集聆听。年轻的克利斯提尼在一旁观察，眼中闪烁着改革的光芒。集市上，陶匠、雕塑家和哲学家们热烈讨论着城邦的未来。",
+      "npcDialogues": [
+        {
+          "speaker": "梭伦",
+          "text": "我制定法律，不分贵贱，一视同仁。废除债务奴隶制，让每一个雅典公民都获得自由！",
+          "avatar": "solon"
+        },
+        {
+          "speaker": "克利斯提尼",
+          "text": "城邦的权力不应只属于贵族。我要让所有部落的人都参与政事，真正的民主即将诞生。",
+          "avatar": "cleisthenes"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act1_opt1",
+          "text": "支持梭伦改革，废除债务奴隶制，保障公民权利",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 92,
+          "triggeredEvent": "solon_reform_success",
+          "historicalNote": "梭伦改革（公元前594年）废除债务奴隶制，按财产划分公民等级，为雅典民主政治奠定基础，是古代世界重要的制度创新。",
+          "consequence": "梭伦的改革获得广泛支持，雅典公民权利得到保障，为后续民主发展铺平道路。"
+        },
+        {
+          "id": "act1_opt2",
+          "text": "推动克利斯提尼改革，建立陶片放逐法制度",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 88,
+          "triggeredEvent": "cleisthenes_reform",
+          "historicalNote": "克利斯提尼改革（公元前508年）创立五百人会议和陶片放逐法，彻底打破贵族专制，雅典民主制度正式确立。",
+          "consequence": "陶片放逐法设立，公民可以投票驱逐危害城邦的人，雅典民主制度日益完善。"
+        },
+        {
+          "id": "act1_opt3",
+          "text": "研究城邦政治制度，比较雅典与斯巴达的不同道路",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 80,
+          "triggeredEvent": "compare_city_states",
+          "historicalNote": "梭伦改革是雅典民主政治的奠基之举。他废除债务奴隶制，按财产将公民分为四等，设立四百人会议和陪审法庭。这些改革削弱了贵族特权，为后来克里斯提尼和伯里克利的民主改革铺平了道路。",
+          "consequence": "你深入研究了希腊城邦的政治多样性，理解了地理环境如何塑造不同文明的发展道路。"
+        },
+        {
+          "id": "act1_opt4",
+          "text": "参与奥林匹克运动会，感受希腊人的共同文化认同",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 75,
+          "triggeredEvent": "olympics_participate",
+          "historicalNote": "古代奥运会始于公元前776年，每四年举办一次，期间各城邦停战。奥运会强化了希腊人的文化认同感和泛希腊意识。",
+          "consequence": "在奥林匹亚的赛场上，你感受到希腊人超越城邦界限的共同文化纽带，这种认同延续了千年。"
+        },
+        {
+          "id": "act1_opt5",
+          "text": "学习希腊字母和荷马史诗，传承文化经典",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 70,
+          "triggeredEvent": "homer_study",
+          "historicalNote": "希腊字母源于腓尼基字母，荷马史诗《伊利亚特》和《奥德赛》成书于公元前8世纪，是西方文学两大史诗源头。",
+          "consequence": "你抄录了荷马史诗的篇章，这些伟大的文学作品将在未来数千年中滋养整个西方文明。"
+        },
+        {
+          "id": "act1_opt6",
+          "text": "专注于商业贸易，忽略政治制度改革",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 62,
+          "triggeredEvent": "trade_only",
+          "historicalNote": "公元前508年克里斯提尼改革，确立雅典民主制。他创立十部落制，设立五百人会议，实施陶片放逐法。这标志着雅典从贵族政治向民主政治的根本转变，为古典民主奠定了基础。",
+          "consequence": "雅典的商业虽然繁荣，但贵族专权引发的社会矛盾逐渐积累，改革已不可避免。"
+        }
+      ],
+      "nextActId": "act2"
+    },
+    {
+      "id": "act2",
+      "title": "希波战争",
+      "isKeyAct": false,
+      "sceneDescription": "公元前490年，波斯帝国的庞大舰队驶向马拉松平原。雅典城内外一片紧张气氛。米太亚德将军正在动员公民士兵，他们大部分是农民和工匠，却要对抗当时世界上最强大的帝国。在公民大会上，地米斯托克利主张加强海军，与波斯人决战于海上。",
+      "npcDialogues": [
+        {
+          "speaker": "米太亚德",
+          "text": "波斯人虽多，但他们是奴隶，为恐惧而战。我们是自由人，为祖国而战！",
+          "avatar": "miltiades"
+        },
+        {
+          "speaker": "地米斯托克利",
+          "text": "雅典的未来在海上。如果我们建造强大的舰队，就能在爱琴海击败波斯人！",
+          "avatar": "themistocles"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act2_opt1",
+          "text": "参加马拉松战役，与米太亚德并肩作战击败波斯",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 93,
+          "triggeredEvent": "marathon_victory",
+          "historicalNote": "马拉松战役（公元前490年）雅典以约1万兵力击败约2.5万波斯军，开创了以少胜多的经典战例，马拉松长跑即源于此。",
+          "consequence": "雅典军在马拉松大败波斯，消息传回雅典，一名士兵跑完全程报捷后力竭而亡，后世马拉松赛跑由此而来。"
+        },
+        {
+          "id": "act2_opt2",
+          "text": "支持地米斯托克利建造舰队，为萨拉米斯海战做准备",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 90,
+          "triggeredEvent": "salamis_preparation",
+          "historicalNote": "萨拉米斯海战（公元前480年）雅典海军以少胜多，击毁波斯舰船约200艘，确立了希腊在战争中的优势地位。",
+          "consequence": "雅典倾尽全力建造三列桨战舰，这支舰队将在萨拉米斯海峡给予波斯海军致命一击。"
+        },
+        {
+          "id": "act2_opt3",
+          "text": "联合斯巴达等希腊城邦，组建希腊联军共同抗敌",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 85,
+          "triggeredEvent": "greek_alliance",
+          "historicalNote": "希波战争中希腊城邦组成同盟，斯巴达指挥陆军，雅典指挥海军。温泉关战役斯巴达国王列奥尼达率300勇士英勇牺牲。",
+          "consequence": "希腊各城邦放下分歧，组成反波斯同盟。斯巴达在温泉关的英勇抵抗为联军赢得了宝贵时间。"
+        },
+        {
+          "id": "act2_opt4",
+          "text": "记录希罗多德撰写《历史》，保存战争记忆",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 78,
+          "triggeredEvent": "herodotus_history",
+          "historicalNote": "希罗多德（约公元前484-425年）著《历史》，记录希波战争始末，被西塞罗誉为「史学之父」，开创了西方史学传统。",
+          "consequence": "希罗多德开始撰写他的巨著，将这场文明与野蛮的较量永久载入史册，成为西方史学的开端。"
+        },
+        {
+          "id": "act2_opt5",
+          "text": "守中立，与波斯人保持贸易关系以保全自身",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 65,
+          "triggeredEvent": "neutral_trade",
+          "historicalNote": "亚历山大帝国是历史上第一个横跨欧亚非三大洲的帝国。他推广希腊文化，建立数十座亚历山大城，促进东西方文明交流。希腊化时代从此开启，希腊文化远播至印度河流域。",
+          "consequence": "你的中立立场在战后遭到其他希腊城邦的谴责，雅典领导的提洛同盟将你排除在外。"
+        },
+        {
+          "id": "act2_opt6",
+          "text": "主张向波斯投降，认为抵抗毫无胜算",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 60,
+          "triggeredEvent": "surrender_persia",
+          "historicalNote": "亚历山大在巴比伦突然病逝，年仅33岁。他的帝国被部将分割为多个希腊化王国，包括托勒密埃及、塞琉古王国和马其顿王国。尽管帝国分裂，希腊化文化仍持续影响后世数百年。",
+          "consequence": "投降派的主张遭到多数公民的反对，雅典人的抵抗意志反而因此更加坚定。你的声音被淹没在爱国热情中。"
+        }
+      ],
+      "nextActId": "act3"
+    },
+    {
+      "id": "act3",
+      "title": "伯里克利时代",
+      "isKeyAct": false,
+      "sceneDescription": "希波战争胜利后，雅典进入黄金时代。伯里克利在公民大会上慷慨演说，阐述他的宏伟计划：用提洛同盟的财富重建被波斯摧毁的雅典卫城，建造帕特农神庙，让雅典成为「全希腊的学校」。剧作家埃斯库罗斯的新戏正在狄俄尼索斯剧场排演，哲学家阿那克萨哥拉在广场讲授自然奥秘。",
+      "npcDialogues": [
+        {
+          "speaker": "伯里克利",
+          "text": "我们的城邦不仅在战争中勇敢，在和平中也要让全世界赞叹。我要让雅典卫城的光芒照耀整个地中海！",
+          "avatar": "pericles"
+        },
+        {
+          "speaker": "埃斯库罗斯",
+          "text": "我用悲剧展现人类的命运与神的意志。《被缚的普罗米修斯》即将上演，雅典人会从中思考正义与反抗。",
+          "avatar": "aeschylus"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act3_opt1",
+          "text": "支持伯里克利 rebuilding 卫城，建造帕特农神庙",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 91,
+          "triggeredEvent": "parthenon_construction",
+          "historicalNote": "斯多葛派由芝诺于公元前3世纪在雅典创立。核心思想：顺应自然理性生活，人应超越喜怒哀乐，追求内心平静。代表人物有塞内卡、爱比克泰德、马可·奥勒留。影响深远，基督教伦理也受其熏陶。",
+          "consequence": "帕特农神庙拔地而起，其完美比例和精美浮雕令全希腊赞叹，雅典卫城成为西方建筑史上的永恒典范。"
+        },
+        {
+          "id": "act3_opt2",
+          "text": "参与公民大会，实践的直接民主制度",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 87,
+          "triggeredEvent": "participate_ecclesia",
+          "historicalNote": "雅典直接民主中，公民大会（Ecclesia）每月召开3-4次，法定人数6000人，投票决定战争、法律等重大事务。",
+          "consequence": "你亲身体验了人类历史上最早的 direct democracy 实践，每一位公民的声音都能影响城邦的命运。"
+        },
+        {
+          "id": "act3_opt3",
+          "text": "聆听苏格拉底的对话，探索真理与美德",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 84,
+          "triggeredEvent": "socrates_dialogue",
+          "historicalNote": "苏格拉底（公元前469-399年）通过诘问法引导人们思考，被尊为西方哲学奠基人。他自称「雅典的牛虻」，最终被民主投票判处死刑。",
+          "consequence": "苏格拉底的诘问让你开始反思「什么是正义」「什么是美德」。他的思想将深刻影响柏拉图和整个西方哲学传统。"
+        },
+        {
+          "id": "act3_opt4",
+          "text": "观看悲剧节戏剧表演，感受希腊文学的辉煌",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 79,
+          "triggeredEvent": "dionysia_festival",
+          "historicalNote": "苏格拉底、柏拉图、亚里士多德并称希腊三哲。苏格拉底开创问答法；柏拉图创立阿卡德米学园，著《理想国》；亚里士多德创立吕克昂学园，研究涵盖逻辑学、物理学、生物学、伦理学、政治学，奠定西方哲学根基。",
+          "consequence": "在戏剧节的观众席上，你被希腊悲剧的深刻主题所震撼：命运、自由、正义——这些永恒命题穿越千年仍叩击人心。"
+        },
+        {
+          "id": "act3_opt5",
+          "text": "研究希波克拉底医学，建立科学的疾病观念",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 73,
+          "triggeredEvent": "hippocratic_medicine",
+          "historicalNote": "希波克拉底（约公元前460-370年）创立希腊医学体系，强调观察与理性，其《希波克拉底誓言》至今仍是医学伦理基石。",
+          "consequence": "你学习了希波克拉底医学学派的方法，摒弃了疾病源于神罚的旧观念，医学开始走上科学之路。"
+        },
+        {
+          "id": "act3_opt6",
+          "text": "批评伯里克利滥用同盟资金，主张将财富返还各城邦",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 66,
+          "triggeredEvent": "criticize_pericles",
+          "historicalNote": "伯里克利将提洛同盟金库从提洛岛迁至雅典，用同盟资金建设雅典。这引起斯巴达等城邦不满，为伯罗奔尼撒战争埋下伏笔。",
+          "consequence": "你的批评在公民大会引发争议。虽然有人认为你目光长远，但多数雅典人仍沉浸在帝国辉煌的迷梦中。"
+        }
+      ],
+      "nextActId": "act4"
+    },
+    {
+      "id": "act4",
+      "title": "亚历山大帝国",
+      "isKeyAct": true,
+      "sceneDescription": "公元前334年，马其顿国王亚历山大在格拉尼库斯河畔击败波斯军队，开启了传奇的东征之路。在巴比伦的宫殿里，亚历山大身着波斯服装，接受埃及法老的称号，同时祭拜希腊神灵。他怀揣着将希腊文明传播到已知世界尽头的宏大理想，建立起一个横跨欧亚非的庞大帝国。学者们跟随军队，记录下沿途的奇闻异见。",
+      "npcDialogues": [
+        {
+          "speaker": "亚历山大",
+          "text": "我不是来征服的，我是来将希腊文明的光芒带到每一片土地。东方与西方，将在我的帝国中融为一体！",
+          "avatar": "alexander"
+        },
+        {
+          "speaker": "亚里士多德",
+          "text": "我的学生啊，记住用理性统治。希腊文化是最高贵的，但也要尊重被征服民族的智慧。我派去的学者会记录一切。",
+          "avatar": "aristotle"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act4_opt1",
+          "text": "支持亚历山大东征，推动希腊化文明的传播",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 94,
+          "triggeredEvent": "hellenistic_spread",
+          "historicalNote": "亚历山大东征（公元前334-323年）将希腊文化推广至埃及、波斯、印度河流域，开启希腊化时代，促进东西方文化大交融。",
+          "consequence": "亚历山大的远征造就了人类历史上第一个跨文化大融合时代。希腊化文明在埃及的亚历山大城达到顶峰，那里建有世界第一大图书馆。"
+        },
+        {
+          "id": "act4_opt2",
+          "text": "在亚历山大城建立图书馆，收集全世界的典籍",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 89,
+          "triggeredEvent": "alexandria_library",
+          "historicalNote": "亚历山大图书馆建于公元前3世纪，藏书最多时达70万卷，是古代世界最大知识中心，汇集了希腊、埃及、波斯、印度等地典籍。",
+          "consequence": "亚历山大图书馆成为古代世界的知识圣地，学者们在此研究数学、天文学、医学和文学，人类文明在此交汇绽放。"
+        },
+        {
+          "id": "act4_opt3",
+          "text": "研究欧几里得几何学，奠定科学数学基础",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 86,
+          "triggeredEvent": "euclidean_geometry",
+          "historicalNote": "欧几里得（约公元前325-265年）著《几何原本》，建立公理化数学体系，其逻辑方法影响后世科学研究两千年之久。",
+          "consequence": "你深入研读了《几何原本》，其严密的逻辑推导让你叹服。这部著作将成为西方科学思想的基石，流传至今。"
+        },
+        {
+          "id": "act4_opt4",
+          "text": "跟随远征军，记录沿途的地理与民族风俗",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 80,
+          "triggeredEvent": "record_expedition",
+          "historicalNote": "亚历山大东征途中带有学者和工程师，记录沿途地理、动植物和民族习俗。这些记录后来成为斯特拉波等地理学家的重要资料。",
+          "consequence": "你撰写的远征记详细描述了巴克特里亚、印度等地的风土人情，为后世了解古代中亚和南亚提供了珍贵资料。"
+        },
+        {
+          "id": "act4_opt5",
+          "text": "主张希腊人与东方人通婚，促进民族融合",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 76,
+          "triggeredEvent": "multicultural_marriage",
+          "historicalNote": "公元前324年亚历山大在苏萨举行万人集体婚礼，鼓励马其顿将士与波斯贵族女子通婚，推动希腊化时代的民族融合。",
+          "consequence": "你的主张得到了亚历山大的赞赏。苏萨婚礼后，希腊化世界出现了全新的多元文化精英阶层。"
+        },
+        {
+          "id": "act4_opt6",
+          "text": "质疑亚历山大自封为神的行为，坚守希腊理性传统",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 68,
+          "triggeredEvent": "criticize_divinity",
+          "historicalNote": "亚历山大晚期要求希腊城邦尊他为神，这违背了希腊理性传统。亚里士多德私下对此表示担忧，认为这会助长专制。",
+          "consequence": "你的直言引起了争议。亚历山大的一些追随者认为你冒犯了国王，但真正的哲学家都理解你的立场。"
+        }
+      ],
+      "nextActId": "act5"
+    },
+    {
+      "id": "act5",
+      "title": "罗马共和国兴起",
+      "isKeyAct": false,
+      "sceneDescription": "公元前3世纪，罗马共和国的鹰旗在意大利半岛上空飘扬。在元老院里，老加图正激烈主张摧毁迦太基，结束这个商业对手的威胁。在军营中，西庇阿·阿非利加努斯正在训练军团，准备横渡地中海。罗马的法律传统也在发展中，《十二铜表法》刻在青铜板上，公开展示于广场，让所有人都能知晓法律。",
+      "npcDialogues": [
+        {
+          "speaker": "老加图",
+          "text": "迦太基必须被摧毁！只要这个商业帝国还存在，罗马就永远不得安宁。我每次演讲，无论什么主题，都要加上这句话！",
+          "avatar": "cato"
+        },
+        {
+          "speaker": "西庇阿",
+          "text": "罗马军团的力量不在于人数，而在于纪律和组织。我要让罗马的敌人知道，我们的剑有多么锋利！",
+          "avatar": "scipio"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act5_opt1",
+          "text": "参加布匿战争，协助西庇阿在扎马击败汉尼拔",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 92,
+          "triggeredEvent": "zama_victory",
+          "historicalNote": "扎马战役（公元前202年）西庇阿击败汉尼拔，第二次布匿战争结束。罗马从此称霸西地中海，迦太基失去独立地位。",
+          "consequence": "罗马在扎马的决定性胜利终结了迦太基的威胁。西庇阿获得「阿非利加努斯」的尊号，罗马开始走向帝国之路。"
+        },
+        {
+          "id": "act5_opt2",
+          "text": "研究罗马法，深入理解《十二铜表法》的意义",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 88,
+          "triggeredEvent": "twelve_tables_study",
+          "historicalNote": "《十二铜表法》（公元前451-450年）是罗马第一部成文法，限制贵族任意解释法律，是罗马法发展的起点，影响后世西方法律体系。",
+          "consequence": "你深入研究了这部划时代的法律文献。它确立了「法律公开」和「法律面前平等」的原则，成为西方法律传统的重要源头。"
+        },
+        {
+          "id": "act5_opt3",
+          "text": "支持格拉古兄弟改革，解决土地兼并问题",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 83,
+          "triggeredEvent": "gracchi_reform",
+          "historicalNote": "格拉古兄弟（公元前2世纪）提出土地改革法案，限制贵族占地，分给贫民。改革引发激烈冲突，两兄弟先后被元老院贵族杀害。",
+          "consequence": "格拉古兄弟的改革虽然失败，但揭开了罗马共和国内部矛盾的序幕。土地问题将成为困扰罗马数十年的核心议题。"
+        },
+        {
+          "id": "act5_opt4",
+          "text": "记录布匿战争史，撰写波利比乌斯式的通史著作",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 77,
+          "triggeredEvent": "punic_wars_history",
+          "historicalNote": "波利比乌斯（约公元前200-118年）著《通史》，分析罗马崛起为世界霸主的原因，提出「混合政体」理论，是古代重要史学著作。",
+          "consequence": "你的史书详细记录了布匿战争的每一个关键战役，尤其分析了罗马制度优势如何使其在逆境中最终获胜。"
+        },
+        {
+          "id": "act5_opt5",
+          "text": "学习罗马军事工程，研究军团的组织与战术",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 74,
+          "triggeredEvent": "roman_military_engineering",
+          "historicalNote": "罗马军团以工程能力著称，能快速修桥、筑路、建营。这种能力使罗马在战争中具备极强机动性和后勤保障能力。",
+          "consequence": "你掌握了罗马军团的工程技术秘诀。这些技能不仅用于战争，更为罗马道路系统和城市规划奠定了基础。"
+        },
+        {
+          "id": "act5_opt6",
+          "text": "与迦太基商人贸易，从商业角度看布匿战争",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 63,
+          "triggeredEvent": "carthage_trade",
+          "historicalNote": "迦太基是古代地中海最强商业帝国，控制西地中海贸易网。布匿战争本质是罗马与迦太基争夺地中海霸权的商业-军事冲突。",
+          "consequence": "通过贸易你了解到迦太基的商业网络之广。但罗马的军事实力最终战胜了商业财富，这也揭示了古代世界的一条规律。"
+        }
+      ],
+      "nextActId": "act6"
+    },
+    {
+      "id": "act6",
+      "title": "共和国的危机",
+      "isKeyAct": false,
+      "sceneDescription": "公元前1世纪，罗马共和国深陷危机。在元老院，西塞罗正在揭露喀提林阴谋，捍卫共和国的法治传统。在高卢，尤利乌斯·凯撒刚刚跨过卢比孔河，率军返回意大利，内战爆发。庞培逃离罗马，罗马世界分裂为凯撒派与庞培派。在东方，克拉苏在帕提亚战死，三头同盟瓦解。罗马的共和制度正面临前所未有的挑战。",
+      "npcDialogues": [
+        {
+          "speaker": "西塞罗",
+          "text": "共和国的法统不能破坏！喀提林想要用武力夺权，我以西塞罗之名，誓死捍卫元老院的权威和罗马的法律！",
+          "avatar": "cicero"
+        },
+        {
+          "speaker": "尤利乌斯·凯撒",
+          "text": "渡过了卢比孔河，就没有回头路了。共和国已经腐朽，它需要一个新的秩序，哪怕这需要血流成河。",
+          "avatar": "caesar"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act6_opt1",
+          "text": "支持凯撒改革，结束共和国的混乱，建立新秩序",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 90,
+          "triggeredEvent": "caesar_reform",
+          "historicalNote": "凯撒在内战胜利后进行一系列改革：扩大元老院、授予行省居民公民权、改革历法（儒略历）、建立殖民地安置老兵。",
+          "consequence": "凯撒的改革措施稳定了罗马的局势，儒略历的颁布更是为人类时间计量做出了永恒贡献。但他的专政也埋下了被刺杀的种子。"
+        },
+        {
+          "id": "act6_opt2",
+          "text": "站在西塞罗一边，捍卫共和国法治传统",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 85,
+          "triggeredEvent": "defend_republic",
+          "historicalNote": "西塞罗（公元前106-43年）是罗马共和国末期最重要的政治家和思想家，其著作《论共和国》《论法律》系统阐述罗马政治哲学。",
+          "consequence": "你协助西塞罗揭露了喀提林阴谋，保卫了共和国的安全。但历史的大潮已经不可逆转，共和国的黄昏正在降临。"
+        },
+        {
+          "id": "act6_opt3",
+          "text": "研究斯多葛哲学，在动荡时代寻找内心安宁",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 80,
+          "triggeredEvent": "stoic_philosophy",
+          "historicalNote": "斯多葛哲学产生于希腊化时代，强调理性、责任和顺应自然。在西塞罗时代，斯多葛思想深刻影响罗马精英阶层的价值观。",
+          "consequence": "斯多葛哲学给你在乱世中带来了内心的平静。这种强调理性和道德责任的哲学，将在罗马帝国时代继续发挥深远影响。"
+        },
+        {
+          "id": "act6_opt4",
+          "text": "记录庞培与凯撒的内战，客观分析双方得失",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 76,
+          "triggeredEvent": "civil_war_record",
+          "historicalNote": "罗马内战（公元前49-45年）凯撒击败庞培，凯撒成为终身独裁官。内战削弱了共和国制度，为帝国建立铺平了道路。",
+          "consequence": "你的内战记录客观公正，既肯定了凯撒的军事天才，也指出了共和派理想的可贵。这部史书后来成为研究这段历史的重要文献。"
+        },
+        {
+          "id": "act6_opt5",
+          "text": "在东方行省生活，观察罗马扩张对当地文化的影响",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 72,
+          "triggeredEvent": "eastern_provinces",
+          "historicalNote": "罗马征服希腊、小亚细亚和埃及后，罗马文化深受希腊化文化影响，史称「希腊化俘虏了胜利的罗马」，出现文化融合。",
+          "consequence": "你观察到罗马在军事上征服了希腊，却在文化上被希腊征服。这种文化的双向交流塑造了独特的罗马-希腊化文明。"
+        },
+        {
+          "id": "act6_opt6",
+          "text": "逃离意大利，在内战中保持中立以求自保",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 64,
+          "triggeredEvent": "remain_neutral",
+          "historicalNote": "奥古斯都创立的元首制，表面保留共和制，实为独裁。他改革行省、整顿军制、修建道路、大兴土木，成就罗马和平。但元首制缺乏明确继承规则，导致后来近卫军干政、王朝混乱，为3世纪危机埋下伏笔。",
+          "consequence": "你的中立选择在战后让你付出了代价。无论是凯撒派还是庞培派，都对骑墙派缺乏信任。乱世之中，立场至关重要。"
+        }
+      ],
+      "nextActId": "act7"
+    },
+    {
+      "id": "act7",
+      "title": "奥古斯都时代",
+      "isKeyAct": false,
+      "sceneDescription": "公元前27年，屋大维被元老院尊为「奥古斯都」，罗马共和国正式终结，帝国时代开启。在罗马广场，奥古斯都正在主持神庙的修缮仪式，他宣称「我接受了一座砖造的罗马，却留下一座大理石的城市」。诗人维吉尔正在创作《埃涅阿斯纪》，为罗马帝国寻找神话起源。整个地中海世界进入了难得的和平时期——「罗马和平」。",
+      "npcDialogues": [
+        {
+          "speaker": "奥古斯都",
+          "text": "我恢复了共和国的外衣，但掌握了真正的权力。神庙重修了，法律重整了，边防巩固了。这就是我送给罗马的礼物——和平与秩序。",
+          "avatar": "augustus"
+        },
+        {
+          "speaker": "维吉尔",
+          "text": "《埃涅阿斯纪》即将完成，我要让罗马人知道，他们的命运从特洛伊英雄埃涅阿斯逃亡开始，就注定要统治世界！",
+          "avatar": "virgil"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act7_opt1",
+          "text": "支持奥古斯都的政治改革，巩固帝国统治基础",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 91,
+          "triggeredEvent": "augustus_reform",
+          "historicalNote": "奥古斯都创立元首制，保留共和形式但集中实权。他改革行省管理、建立常备军、整肃社会风气，开创了200年的「罗马和平」。",
+          "consequence": "奥古斯都的政治制度设计精妙绝伦，既满足了罗马人对共和传统的留恋，又实现了有效的中央集权。罗马帝国由此稳固建立。"
+        },
+        {
+          "id": "act7_opt2",
+          "text": "研究罗马法体系化，推动万民法的形成",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 87,
+          "triggeredEvent": "jus_gentium",
+          "historicalNote": "万民法（Jus Gentium）适用于罗马人与外邦人之间，强调自然理性。奥古斯都时期罗马法体系化加速，为查士丁尼法典奠定基础。",
+          "consequence": "你参与了罗马法的整理和体系化工作。这些法律原则将在未来一千多年中成为欧洲法律文明的核心基石。"
+        },
+        {
+          "id": "act7_opt3",
+          "text": "阅读维吉尔和贺拉斯的诗歌，感受奥古斯都文化的辉煌",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 82,
+          "triggeredEvent": "augustan_poetry",
+          "historicalNote": "奥古斯都时代是罗马文学黄金时代，维吉尔《埃涅阿斯纪》、贺拉斯《颂歌》、李维《罗马建城以来史》均为不朽名著。",
+          "consequence": "你沉浸在奥古斯都时代文学的辉煌之中。这些作品不仅是文学瑰宝，更是塑造罗马人历史记忆和身份认同的重要力量。"
+        },
+        {
+          "id": "act7_opt4",
+          "text": "巡视帝国边境，了解罗马防线与边疆政策",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 78,
+          "triggeredEvent": "frontier_inspection",
+          "historicalNote": "奥古斯都确立帝国自然边界政策：莱茵河、多瑙河、幼发拉底河。帝国扩张停止，转向巩固已有疆域，建立相对稳定的边防体系。",
+          "consequence": "你巡视了帝国的边疆防线，了解到奥古斯都的边疆政策如何为帝国带来长期的稳定。但日耳曼部落的威胁始终存在。"
+        },
+        {
+          "id": "act7_opt5",
+          "text": "研究奥古斯都的家庭政策，分析帝国继承问题",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 73,
+          "triggeredEvent": "family_laws",
+          "historicalNote": "奥古斯都颁布《尤利乌斯法》鼓励结婚和生育，处罚独身者。但他的家庭政策未能解决继承人问题，为后来王朝动荡埋下伏笔。",
+          "consequence": "你深入研究了奥古斯都的家庭立法。这些法律反映了他对传统道德的强调，但继承人问题将成为朱里亚·克劳狄王朝的顽疾。"
+        },
+        {
+          "id": "act7_opt6",
+          "text": "批评奥古斯都的专制倾向，怀念共和国的自由",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 65,
+          "triggeredEvent": "criticize_autocracy",
+          "historicalNote": "奥古斯都虽然保留共和外衣，但实际建立了君主制。部分共和派人士始终怀念共和国的自由，但这股力量在帝制确立后逐渐消亡。",
+          "consequence": "你的批评在私下流传，但不敢公开表达。奥古斯都的统治艺术高超，他用仁慈的外表掩盖了专制的实质，赢得了大多数人的拥护。"
+        }
+      ],
+      "nextActId": "act8"
+    },
+    {
+      "id": "act8",
+      "title": "帝国的遗产",
+      "isKeyAct": true,
+      "sceneDescription": "公元2世纪，罗马帝国达到鼎盛。在哈德良皇帝的别墅里，建筑师们正在设计万神殿的穹顶——这将成为古代世界最伟大的建筑奇迹之一。在帝国的东部，希腊语继续作为通用语言，罗马法与希腊哲学交融发展。你站在时空的制高点，俯瞰着这座横跨三大洲的庞大帝国，思考着它的成就与隐忧：辉煌的城市文明、精密的法律体系、广布的道",
+      "npcDialogues": [
+        {
+          "speaker": "哈德良",
+          "text": "我游遍了帝国的每一个角落。不列颠的城墙、埃及的神庙、希腊的学校——这些都是罗马文明的见证。但帝国太大了，大到难以永远维持。",
+          "avatar": "hadrian"
+        },
+        {
+          "speaker": "马可·奥勒留",
+          "text": "我是皇帝，也是哲学家。在我统治的岁月里，瘟疫和战争不断。但我坚信，人应该顺应理性，履行责任。这是斯多葛的智慧，也是帝国最后的支柱。",
+          "avatar": "marcus_aurelius"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act8_opt1",
+          "text": "总结罗马法遗产，理解其对西方法律文明的永恒贡献",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 95,
+          "triggeredEvent": "roman_law_legacy",
+          "historicalNote": "罗马法是古代世界最完备的法律体系，查士丁尼《国法大全》集其大成。大陆法系（民法系）直接源于罗马法，影响至今。",
+          "consequence": "你深刻理解了罗马法作为西方文明支柱的地位。从《拿破仑法典》到现代民法典，罗马法的精神在两千年后依然充满活力。"
+        },
+        {
+          "id": "act8_opt2",
+          "text": "研究罗马道路与工程技术，认识帝国的物质基础",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 90,
+          "triggeredEvent": "roman_engineering",
+          "historicalNote": "罗马道路总长超过40万公里，连接帝国各个角落。罗马工程包括引水渠、下水道、公共浴场等，展现了古代世界最高超的技术水平。",
+          "consequence": "你调研了罗马道路系统的精密设计。这些道路不仅是军事通道，更是文化传播的动脉，将罗马文明输送到帝国最遥远的边疆。"
+        },
+        {
+          "id": "act8_opt3",
+          "text": "分析希腊罗马文化的融合，理解古典文明的形成",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 87,
+          "triggeredEvent": "greco_roman_fusion",
+          "historicalNote": "希腊化文化与罗马文化深度融合，形成「希腊-罗马文明」，即西方古典文明的核心。这一文明通过文艺复兴重新塑造了现代西方。",
+          "consequence": "你认识到希腊罗马文明的融合是西方文明起源的关键时刻。没有这种融合，就没有后来的欧洲文明，也没有现代世界的文化根基。"
+        },
+        {
+          "id": "act8_opt4",
+          "text": "思考基督教的兴起，预见它如何改变帝国与整个世界",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 84,
+          "triggeredEvent": "christianity_rise",
+          "historicalNote": "基督教产生于1世纪巴勒斯坦，4世纪成为罗马帝国国教。它吸收了希腊哲学和罗马组织能力，发展为世界性宗教，深刻重塑了西方文明。",
+          "consequence": "你预见到基督教将对罗马帝国和整个世界产生深远影响。这种从帝国边缘兴起的信仰，终将成为连接古典与中世纪文明的桥梁。"
+        },
+        {
+          "id": "act8_opt5",
+          "text": "评估蛮族压力与帝国衰退的迹象，探讨历史周期律",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 79,
+          "triggeredEvent": "barbarian_pressure",
+          "historicalNote": "3世纪危机后罗马帝国由盛转衰。蛮族入侵、经济恶化、政治动荡交织。395年帝国分裂，476年西罗马灭亡，东罗马延续至1453年。",
+          "consequence": "你分析了罗马帝国衰亡的多重原因：过度扩张、蛮族压力、经济停滞、文化僵化。这给所有后来的大帝国提供了深刻的历史教训。"
+        },
+        {
+          "id": "act8_opt6",
+          "text": "专注于记录帝国的日常生活，留给后世一幅生动的社会画卷",
+          "speaker": "历史观察者",
+          "avatar": "observer",
+          "score": 72,
+          "triggeredEvent": "daily_life_record",
+          "historicalNote": "庞贝古城的考古发现生动展现了罗马日常生活。从公寓到别墅、从面包坊到公共浴场，罗马社会各阶层的生活面貌得以重现。",
+          "consequence": "你撰写的《帝国日常》详细记录了罗马人的衣食住行、娱乐信仰和社会习俗。这部作品将成为后人了解古罗马社会最生动的文献。"
+        }
+      ]
+    }
+  ]
+}

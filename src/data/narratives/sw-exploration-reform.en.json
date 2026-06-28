@@ -1,0 +1,57 @@
+{
+  "eraId": "sw-exploration-reform",
+  "eraName": "Age of Exploration and the Renaissance",
+  "playerRole": "Narrator",
+  "acts": [
+    {
+      "id": "act1",
+      "title": "A New World of Ideas",
+      "isKeyAct": true,
+      "sceneDescription": "Between the 14th and 16th centuries, Europe experienced a profound transformation. The Renaissance revived classical learning and artistic achievement. Portuguese and Spanish explorers opened new maritime routes to Asia and the Americas. Martin Luther's Reformation challenged the Catholic Church's monopoly on faith.",
+      "npcDialogues": [
+        {
+          "speaker": "Historian",
+          "text": "The Renaissance, beginning in Italy in the 14th century, marked a rebirth of classical Greek and Roman culture. Leonardo da Vinci and Michelangelo exemplified the era's ideal of the universal genius, producing masterworks in art, science, and engineering.",
+          "avatar": "historian"
+        },
+        {
+          "speaker": "Archaeologist",
+          "text": "Columbus's voyages connected the Old and New Worlds in 1492, initiating the Columbian Exchange of crops, animals, and diseases. Magellan's expedition later circumnavigated the globe (1519-1522), proving the Earth's vastness and reshaping global trade forever.",
+          "avatar": "archaeologist"
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "act1_opt1",
+          "text": "(Narration) The Renaissance began in Italian city-states like Florence, Venice, and Genoa in the 14th century. Wealthy merchant families like the Medici patronized artists and scholars. Leonardo da Vinci painted the Mona Lisa and designed flying machines, while Michelangelo sculpted David and painted the Sistine Chapel ceiling.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 94,
+          "triggeredEvent": "Introduction to the Renaissance",
+          "historicalNote": "The Renaissance (14th-16th century) emphasized humanism, individual achievement, and the revival of classical learning. Leonardo da Vinci (1452-1519) exemplified the Renaissance ideal as both artist and scientist. His notebooks contain designs for machines centuries ahead of their time.",
+          "consequence": "Understanding the Renaissance's revival of classical culture and humanist values."
+        },
+        {
+          "id": "act1_opt2",
+          "text": "(Narration) In 1492, Christopher Columbus, sailing under the Spanish flag, crossed the Atlantic and reached the Americas. His voyages opened permanent contact between Europe and the New World, initiating the Columbian Exchange. Ferdinand Magellan's expedition (1519-1522) became the first to circumnavigate the globe, confirming the Earth's round shape.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 91,
+          "triggeredEvent": "Introduction to the Age of Exploration",
+          "historicalNote": "Columbus's four voyages (1492-1504) initiated sustained European contact with the Americas. The Columbian Exchange transferred crops like potatoes and maize to Europe and wheat and horses to America. Magellan's crew completed the first circumnavigation, proving the vastness of the Pacific Ocean.",
+          "consequence": "Understanding how maritime exploration connected the globe and reshaped world trade."
+        },
+        {
+          "id": "act1_opt3",
+          "text": "(Narration) In 1517, Martin Luther nailed his Ninety-Five Theses to a church door in Wittenberg, criticizing the Catholic Church's sale of indulgences. His challenge sparked the Protestant Reformation, which split Christianity into Catholic and Protestant branches and transformed European politics, society, and culture for centuries.",
+          "speaker": "narrator",
+          "avatar": "narrator",
+          "score": 89,
+          "triggeredEvent": "Introduction to the Reformation",
+          "historicalNote": "Martin Luther (1483-1546) challenged papal authority by arguing that salvation came through faith alone. The printing press, invented by Gutenberg, spread his ideas rapidly across Europe. The Reformation led to wars of religion, the Counter-Reformation, and the eventual rise of religious tolerance.",
+          "consequence": "Understanding how Luther's challenge reshaped the religious and political landscape of Europe."
+        }
+      ]
+    }
+  ]
+}
