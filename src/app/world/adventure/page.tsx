@@ -1,7 +1,7 @@
 'use client';
 
 import { useSearchParams, useRouter } from 'next/navigation';
-import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo, Suspense } from 'react';
 import { sampleWorlds } from '@/data/sample-worlds';
 import type { ParallelWorld, WorldChapter } from '@/data/world-data';
 
@@ -656,7 +656,7 @@ function useCountUp(target: number, duration: number = 1500) {
 /* ══════════════════════════════════════════════════════════
    主页面组件
    ══════════════════════════════════════════════════════════ */
-export default function AdventurePage() {
+function AdventureContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const worldId = searchParams.get('world') || '';
@@ -1549,4 +1549,16 @@ export default function AdventurePage() {
   }
 
   return null;
+}
+
+export default function AdventurePage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center" style={{ background: 'var(--ink-deepest, #0d1117)' }}>
+        <p className="text-sm font-serif" style={{ color: 'var(--ink-light)' }}>加载中...</p>
+      </div>
+    }>
+      <AdventureContent />
+    </Suspense>
+  );
 }
