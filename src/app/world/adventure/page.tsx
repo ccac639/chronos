@@ -1248,7 +1248,7 @@ export default function AdventurePage() {
   /* ── 章节结束 ── */
   if (phase === 'ACT_END') {
     const act = acts[currentActIdx];
-    const nextAct = acts[currentActIdx + 1];
+    const upcomingAct = acts[currentActIdx + 1];
     return (
       <div className="fixed inset-0 flex flex-col items-center justify-center"
         style={{ background: 'var(--ink-deepest)', color: 'var(--xuan)' }}
@@ -1286,11 +1286,11 @@ export default function AdventurePage() {
             ))}
           </div>
 
-          {nextAct && (
+          {upcomingAct && (
             <div className="mt-6">
               <div className="text-xs opacity-30 mb-1">下一幕</div>
               <div className="text-sm font-semibold" style={{ fontFamily: 'var(--font-serif)', color: 'var(--azurite-light)' }}>
-                {nextAct.title} · {nextAct.year}
+                {upcomingAct.title} · {upcomingAct.year}
               </div>
             </div>
           )}
