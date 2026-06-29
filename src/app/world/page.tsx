@@ -35,20 +35,15 @@ export default function WorldPage() {
     });
   };
 
-  /* yearLabel: 0 = 原始, each step = 100 years
-     0 → "原始纪元"
-     1 → "公元前3000年"
+  /* yearLabel: 0 = 远古时代, each step = 100 years
+     0 → "远古时代"
+     1 → "100年"
      ...
-     30 → "公元元年"
-     31 → "公元100年"
-     ...
+     60 → "6000年"
   */
   const yearLabel = (val: number) => {
-    if (val === 0) return '原始纪元';
-    const bc = 3000 - val * 100;
-    if (bc > 0) return `公元前${bc}年`;
-    const ad = -bc;
-    return `公元${ad === 0 ? '元年' : `${ad}年`}`;
+    if (val === 0) return '远古时代';
+    return `${val * 100}年`;
   };
 
   const viewWorld = (id: string) => {
@@ -59,8 +54,8 @@ export default function WorldPage() {
     router.push(`/world/adventure?world=${id}`);
   };
 
-  /* Total range: 60 steps × 100 years = 6000 years span
-     0 = 原始纪元, 30 = 公元元年, 60 = 公元3000年 */
+  /* Total range: 60 steps × 100 years
+     0 = 远古时代, 60 = 6000年 */
   const TOTAL_STEPS = 60;
   const sliderPercent = (startYear / TOTAL_STEPS) * 100;
 
@@ -133,7 +128,7 @@ export default function WorldPage() {
           <div>
             <div className="flex items-center justify-between mb-2">
               <label className="text-sm font-medium" style={{ color: 'var(--ink-dark)' }}>起始年代</label>
-              <span className="text-xs font-medium px-2 py-0.5 rounded-full" style={{ background: 'var(--azurite-pale)', color: 'var(--azurite-deep)' }}>
+              <span className="text-xs font-medium px-2 py-0.5 rounded-full" style={{ background: 'var(--vermillion-pale)', color: 'var(--vermillion)' }}>
                 {yearLabel(startYear)}
               </span>
             </div>
@@ -153,8 +148,8 @@ export default function WorldPage() {
               }}
             />
             <div className="flex justify-between mt-1">
-              <span className="text-[10px]" style={{ color: 'var(--ink-light)' }}>原始纪元</span>
-              <span className="text-[10px]" style={{ color: 'var(--ink-light)' }}>公元3000年</span>
+              <span className="text-[10px]" style={{ color: 'var(--vermillion)' }}>远古时代</span>
+              <span className="text-[10px]" style={{ color: 'var(--ink-light)' }}>6000年</span>
             </div>
           </div>
 
