@@ -254,10 +254,10 @@ body{background:var(--ink-deepest);color:var(--ink-dark);font-family:var(--font-
       <div style="margin-bottom:20px">
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
           <label style="font-size:.875rem;font-weight:500;color:var(--ink-dark)">起始年代</label>
-          <span id="year-label" style="font-size:.75rem;font-weight:500;padding:2px 8px;border-radius:9999px;background:var(--azurite-pale);color:var(--azurite-deep)">原始纪元</span>
+          <span id="year-label" style="font-size:.75rem;font-weight:500;padding:2px 8px;border-radius:9999px;background:var(--vermillion-pale);color:var(--vermillion)">远古时代</span>
         </div>
         <input type="range" min="0" max="60" value="30" id="year-slider" style="width:100%;height:6px;border-radius:9999px;-webkit-appearance:none;appearance:none;cursor:pointer;background:linear-gradient(to right,var(--azurite) 50%,var(--xuan-dark) 50%)" oninput="updateYear(this)">
-        <div style="display:flex;justify-content:space-between;margin-top:4px"><span style="font-size:10px;color:var(--ink-light)">原始纪元</span><span style="font-size:10px;color:var(--ink-light)">公元3000年</span></div>
+        <div style="display:flex;justify-content:space-between;margin-top:4px"><span style="font-size:10px;color:var(--vermillion)">远古时代</span><span style="font-size:10px;color:var(--ink-light)">3000年</span></div>
       </div>
       <div style="margin-bottom:20px">
         <label style="display:block;font-size:.875rem;font-weight:500;margin-bottom:8px;color:var(--ink-dark)">文明类型</label>
@@ -30167,8 +30167,8 @@ function updateYearSlider() {
   const pct = v / 60 * 100;
   document.getElementById('year-slider').style.background = `linear-gradient(to right,var(--azurite) ${pct}%,var(--xuan-dark) ${pct}%)`;
   let label;
-  if (v === 0) label = '原始纪元';
-  else { const bc = 3000 - v * 100; label = bc > 0 ? `公元前${bc}年` : `公元${-bc === 0 ? '元年' : -bc + '年'}`; }
+  if (v === 0) label = '远古时代';
+  else label = v * 100 + '年';
   document.getElementById('year-label').textContent = label;
 }
 function updateYear(el) { updateYearSlider(); }
