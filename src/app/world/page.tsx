@@ -17,6 +17,7 @@ export default function WorldPage() {
   const [startYear, setStartYear] = useState<number>(0);
   const [civilizations, setCivilizations] = useState<string[]>(['农耕']);
   const [aiSeed, setAiSeed] = useState('');
+  const [showAiNotice, setShowAiNotice] = useState(false);
 
   const REAL_TAGS = ['农耕', '游牧', '商业', '航海'] as const;
   const FANTASY_TAGS = ['仙侠玄幻', '蒸汽朋克', '洪荒神话'] as const;
@@ -95,6 +96,27 @@ export default function WorldPage() {
           </div>
         </div>
       </section>
+
+      {/* ===== AI Notice ===== */}
+      {showAiNotice && (
+        <section className="px-4 mx-auto mt-3 animate-fade-in">
+          <div className="flex items-center gap-2 px-3 py-2.5 rounded-lg text-xs font-serif" style={{
+            background: 'var(--vermillion-pale)',
+            border: '1px solid rgba(192, 57, 43, 0.25)',
+            color: 'var(--vermillion)',
+          }}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 flex-shrink-0">
+              <circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" />
+            </svg>
+            <span>世界生成功能需要 AI 接口支持，敬请期待</span>
+            <button onClick={() => setShowAiNotice(false)} className="ml-auto opacity-60 hover:opacity-100 flex-shrink-0" style={{ color: 'var(--vermillion)' }}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5">
+                <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+          </div>
+        </section>
+      )}
 
       {/* ===== Configuration Form ===== */}
       <section className="px-4 mx-auto">
@@ -215,7 +237,9 @@ export default function WorldPage() {
           </div>
 
           {/* CTA Button */}
-          <button className="w-full py-3.5 rounded-lg font-serif font-bold text-base tap-bounce magnetic-hover" style={{
+          <button
+            onClick={() => setShowAiNotice(true)}
+            className="w-full py-3.5 rounded-lg font-serif font-bold text-base tap-bounce magnetic-hover" style={{
             background: 'linear-gradient(135deg, var(--azurite), var(--azurite-light))',
             color: '#fff',
             boxShadow: '0 4px 20px rgba(46, 134, 193, 0.35)',
